@@ -1,0 +1,18 @@
+# Translation tool and editor backups
+*.bak
+*~
+*.tmp
+*.swp
+*.orig
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Game logs and cache
+*.log
+Cache/
+Temp/
