@@ -1,0 +1,52 @@
+hero_story_highwayman_chapter_title_0=Freedom
+hero_story_highwayman_chapter_title_1=Laying Low
+hero_story_highwayman_chapter_title_2=One Last Job
+hero_story_highwayman_chapter_title_3=Highway Robbery
+hero_story_highwayman_chapter_title_4=Shackled
+herostory_hwy_combat_1=Highwayman
+herostory_hwy_combat_2=Highwayman
+skill_name_hwy_combat_2_pistol_shot=Aimed Blast
+skill_name_hwy_combat_2_retreat_into_bushes=Into The Bushes
+skill_name_hwy_combat_2_duelist_advance_story=Duelist's Advance
+skill_name_hwy_combat_2_wicked_slice_story=Wicked Slice
+skill_name_hwy_combat_1_kneestrike=Knee Strike
+skill_name_hwy_combat_1_lungepunch=Lunging Cuff
+skill_name_hwy_combat_1_rockthrow=Stone Missile
+herostory_hwy_combat_2_guard=Treasury Guard
+herostory_hwy_ch_4_guard_corpse=Corpse
+herostory_hwy_combat_1_guard=Gaoler
+herostory_hwy_combat_1_rubble1=Rubble
+herostory_hwy_combat_2_bush1=Bush
+herostory_hwy_combat_2_bush2=Bush
+herostory_hwy_combat_2_bush3=Bush
+herostory_hwy_combat_2_coach=Stagecoach
+herostory_hwy_combat_1_rubble2=Rubble
+herostory_hwy_combat_1_guard_corpse=Corpse
+herostory_hwy_combat_2_guard_corpse=Corpse
+skill_name_hwy_combat_1_guard_blow_horn=Sound The Alarm!
+skill_name_hwy_combat_1_guard_strike=Punitive Blow
+skill_name_hwy_combat_1_guard_take_deep_breath=Inhale
+skill_name_hwy_combat_2_coach_spawn_guard=Reinforcements
+skill_name_hwy_combat_2_coach_spawn_guard_forced=Reinforcements
+skill_name_hwy_combat_2_coach_buff_guards_attack=Strike Now!
+skill_name_hwy_combat_2_coach_buff_guards_defense=Protect Yourself!
+skill_name_hwy_combat_2_guard_sword_stab=Desperate Slash
+skill_name_hwy_combat_2_guard_find_stealth_hwy=Come Out And Die!
+battle_goal_highwayman_chapter_1=Defeat The Guards to Escape
+battle_goal_highwayman_chapter_4=Rob The Coach
+
+## BARKS
+bark_herostory_hwy_1_combat_start=This is my chance - I've got to get out!
+#
+bark_herostory_hwy_1_warning=That horn will bring trouble...
+bark_herostory_hwy_1_warning=Can't let him call for help...
+#
+bark_herostory_hwy_1_alarm=I've got to hurry - before they are reinforced!
+bark_herostory_hwy_1_alarm=I've got to get away!
+#
+bark_herostory_hwy_1_kill_guard=Take that, filthy blackguard!
+bark_herostory_hwy_1_kill_guard=Get out of my way!
+bark_herostory_hwy_1_kill_guard=And stay down!
+#
+bark_herostory_hwm_4_combat_start=Quick job, in and out.
+bark_herostory_hwm_4_reinforcements=They just keep coming!

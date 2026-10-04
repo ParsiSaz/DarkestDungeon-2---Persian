@@ -1,0 +1,364 @@
+altar_main_title=Altar of Hope
+altar_upgrade_stagecoach=Journey
+altar_upgrade_resources=Resourcefulness
+altar_upgrade_prestige=Renown
+altar_upgrade_pets=Companionship
+altar_upgrade_infernal_flame=The Infernal Flame
+altar_upgrade_memory=Memory
+altar_of_hope_on_embark_fail_label=You must spend all your candles before leaving the Altar of Hope.\n\nIf you don't have enough for a full upgrade, you can still spend towards the next upgrade by clicking on the track.
+item_added_collection_label=Item Returned to the World
+hero_runaway_locked=Unlock at the Altar of Hope
+hero_occultist_locked=Unlock at the Altar of Hope
+hero_leper_locked=Unlock at the Altar of Hope
+hero_jester_locked=Unlock at the Altar of Hope
+hero_hellion_locked=Unlock at the Altar of Hope
+hero_vestal_locked=Unlock at the Altar of Hope
+hero_flagellant_locked=Unlock at the Altar of Hope
+item_altar_frame_text=Item Returned to The World
+item_name_candles=Candle of Hope
+item_name_candles+plural=Candles of Hope
+item_type_currency_profile=Altar Currency
+item_type_memory=Memory
+item_name_memory_01=A Rare Treat
+item_name_memory_02=Harmless Mischief
+item_name_memory_03=A Lesson Learned
+item_name_memory_04=A Promise Kept
+item_name_memory_05=A Favorite Toy
+item_name_memory_06=A Walk in the Woods
+item_name_memory_07=Mother's Comfort
+item_name_memory_08=A Warm Fire
+item_name_memory_09=A Spring Rain
+item_name_memory_10=A Long Recovery
+item_name_memory_11=A Second Chance
+item_name_memory_12=A Tough Choice
+item_name_memory_13=The First Kiss
+item_name_memory_14=A Hot Bath
+item_name_memory_15=A Summer's Day
+item_name_memory_16=A Token of Friendship
+item_name_memory_17=A Hard Day's Work
+item_name_memory_18=Fresh Bread
+item_name_memory_19=A Lucky Break
+item_name_memory_20=Father's Praise
+altar_region_coast_name=The Intrepid Coast
+altar_region_forest_name=The Timeless Wood
+altar_region_city_name=The Living City
+altar_region_farm_name=The Working Fields
+altar_region_mountain_name=The Mountain
+collection_altar_label=The Recollection
+unlock_stagecoach_2_override=<color=#{buff}>+1</color> Stagecoach item slot
+unlock_stagecoach_3_override=<color=#{buff}>Increased chance</color> that <color=#{buff}>Candles</color> appear at map locations
+unlock_stagecoach_4_override=<color=#{buff}>+1</color> Stagecoach <color=#{path_verbose}>wheel</color> points
+unlock_stagecoach_5_override=<color=#{buff}>+1</color> Stagecoach <color=#{path_verbose}>armor</color> points
+unlock_stagecoach_7_override=<color=#{buff}>Increased loot</color> from running over road debris
+unlock_stagecoach_8_override=<color=#{buff}>+1</color> Stagecoach item slot
+unlock_stagecoach_9_override=<color=#{buff}>Increased chance</color> that <color=#{buff}>Candles</color> appear at map locations
+unlock_stagecoach_11_override=<color=#{buff}>Increased loot</color> from running over road debris
+unlock_stagecoach_12_override=<color=#{buff}>+1</color> Stagecoach item slot
+unlock_resources_1_override=Arriving at <color=#{path_verbose}>Valley Inn</color>:\n <color=#{buff}>+12 relics</color>, <color=#{buff}>+15 baubles</color>
+unlock_resources_4_override=Arriving at <color=#{path_verbose}>Hoarder</color>:\n <color=#{buff}>+12 relics</color>
+unlock_resources_5_override=Arriving at <color=#{path_verbose}>Academic's Cache</color>:\n free random <color=#{buff}>item</color>
+unlock_resources_6_override=Arriving at <color=#{path_verbose}>Valley Inn</color>:\n <color=#{buff}>+12 relics</color>, <color=#{buff}>+20 baubles</color>
+unlock_resources_7_override=Arriving at <color=#{path_verbose}>Hospital</color>:\n heroes <color=#{buff}>+10%</color> HP, <color=#{buff}>-1</color> stress
+unlock_resources_8_override=Arriving at <color=#{path_verbose}>Inn</color>:\n free random <color=#{buff}>Inn item</color>
+unlock_resources_11_override=Arriving at <color=#{path_verbose}>Academic's Study</color>:\n free random <color=#{buff}>combat item</color>
+unlock_resources_12_override=Arriving at <color=#{path_verbose}>Oasis</color>:\n free <color=#{buff}>Mineral-Rich Spring Water</color>
+unlock_resources_13_override=Arriving at <color=#{path_verbose}>Watchtower</color>:\n all heroes <color=#{buff}>+1</color> SPD until next Inn
+unlock_pet_1_override=unlocks <color=#{buff}>Pet</color> slot on Stagecoach.\n<color=#{path_verbose}>Orphan Wolf Cub</color> can now be found
+unlock_prestige_1_override=unlocks <color=#{buff}>Filthy</color> Stagecoach skin
+unlock_prestige_2_override=unlocks <color=#{buff}>Stressed</color> Stagecoach skin
+unlock_prestige_3_override=unlocks <color=#{buff}>Striped</color> Stagecoach skin
+unlock_prestige_4_override=unlocks <color=#{buff}>Checkered</color> Stagecoach skin
+unlock_prestige_5_override=unlocks <color=#{buff}>Bloodied</color> Stagecoach skin
+unlock_prestige_6_override=unlocks <color=#{buff}>Deadly</color> Stagecoach skin
+unlock_prestige_7_override=unlocks <color=#{buff}>Flaming</color> Stagecoach skin
+unlock_prestige_8_override=unlocks <color=#{buff}>Overgrown</color> Stagecoach skin
+unlock_prestige_9_override=unlocks <color=#{buff}>Submerged</color> Stagecoach skin
+unlock_prestige_10_override=unlocks <color=#{buff}>Ironclad</color> Stagecoach skin
+unlock_hellion_1_override=unlocks <color=#{buff}>Hellion</color>\n<color=#{path_verbose}>+ Front Rank\n+ High Dmg\n+ Bleed\n+ Bloodlust</color>
+unlock_leper_1_override=unlocks <color=#{buff}>Leper</color>\n<color=#{path_verbose}>+ Front Rank\n+ High Dmg\n+ Self-Sufficient\n+ Durable</color>
+unlock_jester_1_override=unlocks <color=#{buff}>Jester</color>\n<color=#{path_verbose}>+ Any Rank\n+ Bleed\n+ Stress Heal\n+ Support</color>
+unlock_occultist_1_override=unlocks <color=#{buff}>Occultist</color>\n<color=#{path_verbose}>+ Back Rank\n+ Ranged Dmg\n+ Healer\n+ Offensive Support</color>
+unlock_runaway_1_override=unlocks <color=#{buff}>Runaway</color>\n<color=#{path_verbose}>+ Front Rank\n+ Burn\n+ Stealth\n+ Support</color>
+unlock_vestal_1_override=unlocks <color=#{buff}>Vestal</color>\n<color=#{path_verbose}>+ Back Rank\n+ Ranged Dmg\n+ Healer\n+ Defensive Support</color>
+unlock_flagellant_1_override=unlocks <color=#{buff}>Flagellant</color>\n<color=#{path_verbose}>+ Front Rank\n+ Blight\n+ Durable\n+ Sacrificial Support</color>
+unlock_bounty_hunter_1_override=<color=#{buff}>Bounty Hunter</color> can sometimes be hired\n at the Inn
+unlock_memory_1_override=More <color=#{buff}>memories</color> are available to choose from when illuminating onto heroes
+unlock_memory_2_override=Recalling <color=#{buff}>memories</color> costs 20% fewer <color=#{buff}>Candles</color>
+unlock_memory_3_override=More <color=#{buff}>memories</color> are available to choose from when illuminating onto heroes
+unlock_memory_4_override=Recalling <color=#{buff}>memories</color> costs 20% fewer <color=#{buff}>Candles</color>
+unlock_memory_5_override=More <color=#{buff}>memories</color> are available to choose from when illuminating onto heroes
+unlock_memory_6_override=Recalling <color=#{buff}>memories</color> costs 20% fewer <color=#{buff}>Candles</color>
+unlock_memory_7_override=More <color=#{buff}>memories</color> are available to choose from when illuminating onto heroes
+unlock_infernal_flame_1_override=<color=#{debuff}>The Despairing Flare</color> can now be found at the <color=#{notable}>Valley Inn</color>. It mounts on the Stagecoach.
+unlock_infernal_flame_2_override=<color=#{debuff}>The Corpse Light</color> can now be found at the <color=#{notable}>Valley Inn</color>. It mounts on the Stagecoach.
+unlock_infernal_flame_3_override=<color=#{debuff}>The Doom Candle</color> can now be found at the <color=#{notable}>Valley Inn</color>. It mounts on the Stagecoach.
+unlock_infernal_flame_4_override=<color=#{debuff}>The Hateful Pyre</color> can now be found at the <color=#{notable}>Valley Inn</color>. It mounts on the Stagecoach.
+unlock_infernal_flame_5_override=<color=#{debuff}>The Stygian Blaze</color> can now be found at the <color=#{notable}>Valley Inn</color>. It mounts on the Stagecoach.
+unlock_actor_path_description=Unlocks {0} Hero Path
+altar_exit_candles_maxed_label=Excess <color=#{buff}>Candles</color> have been deposited into the <color=#{item_effectline}>Pool of Reflection</color>.
+altar_item_unlock_progress={0}/{1}
+altar_item_unlock_total_progress=Recollection: {0}/{1}
+hero_name_hire_bounty_hunter=Bourassa
+hero_name_hire_bounty_hunter=Castle
+hero_name_hire_bounty_hunter=Freitas
+hero_name_hire_bounty_hunter=Lupton
+hero_name_hire_bounty_hunter=Fox
+hero_name_hire_bounty_hunter=Mapara
+hero_name_hire_bounty_hunter=Ryder
+hero_name_hire_bounty_hunter=Francis
+hero_name_hire_bounty_hunter=Lang
+hero_name_hire_bounty_hunter=Fritz
+hero_name_hire_bounty_hunter=Lindvay
+hero_name_hire_bounty_hunter=Duong
+hero_name_hire_bounty_hunter=Yich
+hero_name_hire_bounty_hunter=Fritzke
+hero_name_hire_bounty_hunter=Gordon
+hero_name_hire_bounty_hunter=Sigman
+hero_name_hire_bounty_hunter=Mack
+hero_name_hire_bounty_hunter=Esau
+hero_name_hire_bounty_hunter=Pal
+hero_name_hire_bounty_hunter=Miron
+hero_name_hire_bounty_hunter=Ferenc
+hero_name_hire_bounty_hunter=Henley
+hero_name_hire_bounty_hunter=Kohlweg
+hero_name_hire_bounty_hunter=Towle
+hero_name_hire_bounty_hunter=Fortier
+hero_name_hire_bounty_hunter=Tardif
+hero_name_hire_bounty_hunter=Hutchings
+hero_name_hire_bounty_hunter=Pontellini
+candle_overflow_title=Pool of Reflection
+candle_overflow_tooltip_desc=Click to convert excess candles to your total score
+altar_memory_run_locked_tooltip=This hero must survive the expedition to get another memory.
+altar_select_memory_label=Select Memory
+unlock_man_at_arms_13_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Improvised Strategy</color>
+unlock_highwayman_13_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Morbid Joke</color>
+unlock_grave_robber_13_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>The Very Best</color>
+unlock_plague_doctor_13_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Experimental Remedy</color>
+unlock_hellion_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>War Paint</color>
+unlock_jester_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Oddly-Tuned Lute</color>
+unlock_leper_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Precious Collection</color>
+unlock_occultist_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Guided Meditation</color>
+unlock_runaway_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Tar-Filled Colambre</color>
+unlock_vestal_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Holy Hymnal</color>
+unlock_flagellant_14_override=Sometimes when arriving at the <color=#{path_verbose}>Inn</color>, will find <color=#{buff}>Pain Box</color>
+memoried_hero_icon=<sprite name={q}icon_progression_memories{q} color=#{stat_buff}>
+unlock_trinket_txt=<color=#{path_verbose}>{0}</color> can be found
+candles_required_tooltip={0}<sprite name={q}icon_candle_glyph{q}> more to upgrade
+upgrade_track_stagecoach_1_title=Packing
+upgrade_track_stagecoach_2_title=Capability
+upgrade_track_stagecoach_3_title=Charity
+upgrade_track_stagecoach_4_title=Trueing
+upgrade_track_stagecoach_5_title=Reinforcing
+upgrade_track_stagecoach_6_title=Packing
+upgrade_track_stagecoach_7_title=Scavenging
+upgrade_track_stagecoach_8_title=Capability
+upgrade_track_stagecoach_9_title=Charity
+upgrade_track_stagecoach_10_title=Packing
+upgrade_track_stagecoach_11_title=Scavenging
+upgrade_track_stagecoach_12_title=Capability
+upgrade_track_stagecoach_13_title=Packing
+upgrade_track_memory_1_title=Evocation
+upgrade_track_memory_2_title=Reflection
+upgrade_track_memory_3_title=Evocation
+upgrade_track_memory_4_title=Reflection
+upgrade_track_memory_5_title=Evocation
+upgrade_track_memory_6_title=Reflection
+upgrade_track_memory_7_title=Evocation
+upgrade_track_resources_1_title=Wealth
+upgrade_track_resources_2_title=Foresight
+upgrade_track_resources_3_title=Reconstruction
+upgrade_track_resources_4_title=Bartering
+upgrade_track_resources_5_title=Honorarium
+upgrade_track_resources_6_title=Wealth
+upgrade_track_resources_7_title=Sanctuary
+upgrade_track_resources_8_title=Respite
+upgrade_track_resources_9_title=Foresight
+upgrade_track_resources_10_title=Reconstruction
+upgrade_track_resources_11_title=Curiosity
+upgrade_track_resources_12_title=Refreshment
+upgrade_track_resources_13_title=Invigoration
+upgrade_track_prestige_1_title=Prestige
+upgrade_track_prestige_2_title=Prestige
+upgrade_track_prestige_3_title=Prestige
+upgrade_track_prestige_4_title=Prestige
+upgrade_track_prestige_5_title=Prestige
+upgrade_track_prestige_6_title=Prestige
+upgrade_track_prestige_7_title=Prestige
+upgrade_track_prestige_8_title=Prestige
+upgrade_track_prestige_9_title=Prestige
+upgrade_track_prestige_10_title=Prestige
+upgrade_track_man_at_arms_1_title=Resolution
+upgrade_track_man_at_arms_2_title=Trinket
+upgrade_track_man_at_arms_3_title=Path
+upgrade_track_man_at_arms_4_title=Unshakeability
+upgrade_track_man_at_arms_5_title=Trinket
+upgrade_track_man_at_arms_6_title=Path
+upgrade_track_man_at_arms_7_title=Resolution
+upgrade_track_man_at_arms_8_title=Health
+upgrade_track_man_at_arms_9_title=Trinket
+upgrade_track_man_at_arms_10_title=Path
+upgrade_track_man_at_arms_11_title=Unshakeability
+upgrade_track_man_at_arms_12_title=Resolution
+upgrade_track_man_at_arms_13_title=Trademark Item
+upgrade_track_highwayman_1_title=Resolution
+upgrade_track_highwayman_2_title=Trinket
+upgrade_track_highwayman_3_title=Path
+upgrade_track_highwayman_4_title=Unshakeability
+upgrade_track_highwayman_5_title=Trinket
+upgrade_track_highwayman_6_title=Path
+upgrade_track_highwayman_7_title=Resolution
+upgrade_track_highwayman_8_title=Toughness
+upgrade_track_highwayman_9_title=Trinket
+upgrade_track_highwayman_10_title=Path
+upgrade_track_highwayman_11_title=Cleanliness
+upgrade_track_highwayman_12_title=Resolution
+upgrade_track_highwayman_13_title=Trademark Item
+upgrade_track_grave_robber_1_title=Resolution
+upgrade_track_grave_robber_2_title=Trinket
+upgrade_track_grave_robber_3_title=Path
+upgrade_track_grave_robber_4_title=Haste
+upgrade_track_grave_robber_5_title=Trinket
+upgrade_track_grave_robber_6_title=Path
+upgrade_track_grave_robber_7_title=Resolution
+upgrade_track_grave_robber_8_title=Circulation
+upgrade_track_grave_robber_9_title=Trinket
+upgrade_track_grave_robber_10_title=Path
+upgrade_track_grave_robber_11_title=Haste
+upgrade_track_grave_robber_12_title=Resolution
+upgrade_track_grave_robber_13_title=Trademark Item
+upgrade_track_plague_doctor_1_title=Resolution
+upgrade_track_plague_doctor_2_title=Trinket
+upgrade_track_plague_doctor_3_title=Path
+upgrade_track_plague_doctor_4_title=Cleanliness
+upgrade_track_plague_doctor_5_title=Trinket
+upgrade_track_plague_doctor_6_title=Path
+upgrade_track_plague_doctor_7_title=Resolution
+upgrade_track_plague_doctor_8_title=Circulation
+upgrade_track_plague_doctor_9_title=Trinket
+upgrade_track_plague_doctor_10_title=Path
+upgrade_track_plague_doctor_11_title=Sturdiness
+upgrade_track_plague_doctor_12_title=Resolution
+upgrade_track_plague_doctor_13_title=Trademark Item
+upgrade_track_hellion_1_title=Presence
+upgrade_track_hellion_2_title=Resolution
+upgrade_track_hellion_3_title=Trinket
+upgrade_track_hellion_4_title=Path
+upgrade_track_hellion_5_title=Resolution
+upgrade_track_hellion_6_title=Trinket
+upgrade_track_hellion_7_title=Path
+upgrade_track_hellion_8_title=Health
+upgrade_track_hellion_9_title=Resolution
+upgrade_track_hellion_10_title=Trinket
+upgrade_track_hellion_11_title=Path
+upgrade_track_hellion_12_title=Cleanliness
+upgrade_track_hellion_13_title=Resolution
+upgrade_track_hellion_14_title=Trademark Item
+upgrade_track_leper_1_title=Presence
+upgrade_track_leper_2_title=Resolution
+upgrade_track_leper_3_title=Trinket
+upgrade_track_leper_4_title=Path
+upgrade_track_leper_5_title=Health
+upgrade_track_leper_6_title=Trinket
+upgrade_track_leper_7_title=Path
+upgrade_track_leper_8_title=Resolution
+upgrade_track_leper_9_title=Foundation
+upgrade_track_leper_10_title=Trinket
+upgrade_track_leper_11_title=Path
+upgrade_track_leper_12_title=Health
+upgrade_track_leper_13_title=Resolution
+upgrade_track_leper_14_title=Trademark Item
+upgrade_track_jester_1_title=Presence
+upgrade_track_jester_2_title=Resolution
+upgrade_track_jester_3_title=Trinket
+upgrade_track_jester_4_title=Path
+upgrade_track_jester_5_title=Haste
+upgrade_track_jester_6_title=Trinket
+upgrade_track_jester_7_title=Path
+upgrade_track_jester_8_title=Resolution
+upgrade_track_jester_9_title=Persistence
+upgrade_track_jester_10_title=Trinket
+upgrade_track_jester_11_title=Path
+upgrade_track_jester_12_title=Sturdiness
+upgrade_track_jester_13_title=Resolution
+upgrade_track_jester_14_title=Trademark Item
+upgrade_track_occultist_1_title=Presence
+upgrade_track_occultist_2_title=Resolution
+upgrade_track_occultist_3_title=Trinket
+upgrade_track_occultist_4_title=Path
+upgrade_track_occultist_5_title=Persistence
+upgrade_track_occultist_6_title=Trinket
+upgrade_track_occultist_7_title=Path
+upgrade_track_occultist_8_title=Resolution
+upgrade_track_occultist_9_title=Cleanliness
+upgrade_track_occultist_10_title=Trinket
+upgrade_track_occultist_11_title=Path
+upgrade_track_occultist_12_title=Sturdiness
+upgrade_track_occultist_13_title=Resolution
+upgrade_track_occultist_14_title=Trademark Item
+upgrade_track_runaway_1_title=Presence
+upgrade_track_runaway_2_title=Resolution
+upgrade_track_runaway_3_title=Trinket
+upgrade_track_runaway_4_title=Path
+upgrade_track_runaway_5_title=Sturdiness
+upgrade_track_runaway_6_title=Trinket
+upgrade_track_runaway_7_title=Path
+upgrade_track_runaway_8_title=Resolution
+upgrade_track_runaway_9_title=Haste
+upgrade_track_runaway_10_title=Trinket
+upgrade_track_runaway_11_title=Path
+upgrade_track_runaway_12_title=Sturdiness
+upgrade_track_runaway_13_title=Resolution
+upgrade_track_runaway_14_title=Trademark Item
+upgrade_track_vestal_1_title=Presence
+upgrade_track_vestal_2_title=Resolution
+upgrade_track_vestal_3_title=Trinket
+upgrade_track_vestal_4_title=Path
+upgrade_track_vestal_5_title=Unshakeability
+upgrade_track_vestal_6_title=Trinket
+upgrade_track_vestal_7_title=Path
+upgrade_track_vestal_8_title=Resolution
+upgrade_track_vestal_9_title=Foundation
+upgrade_track_vestal_10_title=Trinket
+upgrade_track_vestal_11_title=Path
+upgrade_track_vestal_12_title=Persistence
+upgrade_track_vestal_13_title=Resolution
+upgrade_track_vestal_14_title=Trademark Item
+upgrade_track_flagellant_1_title=Presence
+upgrade_track_flagellant_2_title=Resolution
+upgrade_track_flagellant_3_title=Trinket
+upgrade_track_flagellant_4_title=Path
+upgrade_track_flagellant_5_title=Resolution
+upgrade_track_flagellant_6_title=Trinket
+upgrade_track_flagellant_7_title=Path
+upgrade_track_flagellant_8_title=Resolution
+upgrade_track_flagellant_9_title=Resolution
+upgrade_track_flagellant_10_title=Trinket
+upgrade_track_flagellant_11_title=Path
+upgrade_track_flagellant_12_title=Resolution
+upgrade_track_flagellant_13_title=Resolution
+upgrade_track_flagellant_14_title=Trademark Item
+upgrade_track_bounty_hunter_1_title=The Hero We Need
+upgrade_track_bounty_hunter_2_title=New Skill
+upgrade_track_bounty_hunter_3_title=New Trinket
+upgrade_track_bounty_hunter_4_title=New Skill
+upgrade_track_bounty_hunter_5_title=New Skill
+upgrade_track_bounty_hunter_6_title=New Trinket
+upgrade_track_bounty_hunter_7_title=New Skill
+upgrade_track_bounty_hunter_8_title=New Skill
+upgrade_track_bounty_hunter_9_title=New Trinket
+upgrade_track_bounty_hunter_10_title=New Skill
+upgrade_track_infernal_flame_1_title=The Despairing Flare
+upgrade_track_infernal_flame_2_title=The Corpse Light
+upgrade_track_infernal_flame_3_title=The Doom Candle
+upgrade_track_infernal_flame_4_title=The Hateful Pyre
+upgrade_track_infernal_flame_5_title=The Stygian Blaze
+upgrade_track_pet_1_title=Orphan Wolf Cub
+upgrade_track_pet_2_title=Pygmy Pliskin
+upgrade_track_pet_3_title=Unnatural Owlet
+upgrade_track_pet_4_title=Reanimated Rabbit
+upgrade_track_pet_5_title=Mucilaginous Slime
+upgrade_track_pet_6_title=Shrieker Chick
+upgrade_track_pet_7_title=Larval Carrion Eater
+upgrade_track_pet_8_title=Hatchling Crocodilian
+upgrade_track_pet_9_title=Crimson Tick
+upgrade_track_pet_10_title=Shambler's Spawn

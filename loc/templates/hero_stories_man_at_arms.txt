@@ -1,0 +1,51 @@
+hero_story_man_at_arms_chapter_title_0=A Premature Promotion
+hero_story_man_at_arms_chapter_title_1=A Leader of Men
+hero_story_man_at_arms_chapter_title_2=One Eye Open
+hero_story_man_at_arms_chapter_title_3=Ghosts of the Past
+hero_story_man_at_arms_chapter_title_4=In the Trenches
+##MAA 1 ACTORS
+herostory_maa_combat_1=Man-at-Arms
+herostory_maa_combat_1_soldier_enemy=Enemy Soldier
+herostory_maa_combat_1_soldier_friendly=Comrade-in-Arms
+##MAA 1 SKILLS
+skill_name_maa_combat_1_attack=Attack!
+skill_name_maa_combat_1_retreat=Strategic Retreat
+skill_name_maa_combat_1_inspire=Inspire
+skill_name_maa_combat_1_idontknow=I Don't Know!
+skill_name_maa_combat_1_soldier_friendly_confusion=Conflicting Orders
+skill_name_maa_combat_1_soldier_friendly_charge=Every Man For Himself
+skill_name_maa_combat_1_soldier_friendly_shakeitoff=Shake It Off
+skill_name_maa_combat_1_soldier_friendly_prepare=Prepare To Attack
+skill_name_maa_combat_1_soldier_enemy_slash=Thrust
+skill_name_maa_combat_1_soldier_enemy_defend=Defend
+##MAA 2 ACTORS
+herostory_maa_combat_2=Man-at-Arms
+herostory_maa_combat_2_ghost=Fallen Comrade
+herostory_maa_combat_2_ghost_remains=Fallen's Remains
+herostory_maa_combat_2_ghost_tombstone=Grave
+##MAA 2 SKILLS
+skill_name_maa_combat_2_ghost_slash=Slash
+skill_name_maa_combat_2_ghost_wail=Wail
+skill_name_maa_combat_2_ghost_anger=Anger of the Fallen
+skill_name_maa_combat_2_shovelful_of_dirt=Rest In Peace
+skill_name_maa_combat_2_honor_the_dead=Honor the Dead
+skill_name_maa_combat_2_pour_one=Pour One Out
+##MAA 1 BARKS
+bark_herostory_maa_1_round_1=Onward to glory!
+bark_herostory_maa_1_round_2=A-a setback - hold the line!
+bark_herostory_maa_1_round_3=Advance?!  Flank?!
+bark_herostory_maa_1_round_4=W-what do I do?!
+bark_herostory_maa_combat_1_attack=About face..No, forward! FORWARD!
+bark_herostory_maa_combat_1_attack=Ready swords and uh...shields!
+bark_herostory_maa_combat_1_attack=Didn't I already order you to attack?
+bark_herostory_maa_combat_1_idontknow=Why are you asking ME?!
+bark_herostory_maa_combat_1_idontknow=Just where did my formations manual go?
+bark_herostory_maa_combat_1_idontknow=Better to wait for the general's orders...
+bark_herostory_maa_combat_1_inspire=Some have written death is just a new beginning!
+bark_herostory_maa_combat_1_inspire=One less leg means one less shoe to buy!
+bark_herostory_maa_combat_1_inspire=I vow to bury you all with dignity!
+bark_herostory_maa_combat_1_retreat=Flank..no RUN - er RETREAT!
+bark_herostory_maa_combat_1_retreat=Hold the line ..or should we regroup?
+bark_herostory_maa_combat_1_retreat=Routed?! This is your fault!
+battle_goal_man_at_arms_chapter_2=Onward To Glory!
+battle_goal_man_at_arms_chapter_4=Honour The Fallen

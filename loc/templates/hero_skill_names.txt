@@ -1,0 +1,387 @@
+﻿upgrade_skill_divider=<color=#{stun}>--------------------------------------</color>
+skill_name_hwm_wicked_slice=Wicked Slice
+skill_name_hwm_wicked_slice_u=Wicked Slice<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_pistol_shot=Pistol Shot
+skill_name_hwm_pistol_shot_u=Pistol Shot<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_double_cross=Double Cross
+skill_name_hwm_double_cross_u=Double Cross<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_double_tap=Double Tap
+skill_name_hwm_double_tap_u=Double Tap<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_duelists_advance=Duelist's Advance
+skill_name_hwm_duelists_advance_u=Duelist's Advance<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_grapeshot_blast=Grapeshot Blast
+skill_name_hwm_grapeshot_blast_u=Grapeshot Blast<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_highway_robbery=Highway Robbery
+skill_name_hwm_highway_robbery_u=Highway Robbery<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_open_vein=Open Vein
+skill_name_hwm_open_vein_u=Open Vein<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_point_blank_shot=Point Blank Shot
+skill_name_hwm_point_blank_shot_u=Point Blank Shot<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_riposte=Riposte
+skill_name_hwm_sword_breaker=Sword Breaker
+skill_name_hwm_take_aim=Take Aim
+skill_name_hwm_take_aim_u=Take Aim<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hwm_tracking_shot=Tracking Shot
+skill_name_hwm_tracking_shot_u=Tracking Shot<sprite name={q}icon_upgraded_skill{q}>
+
+## FLAGELLANT
+#
+skill_name_flg_punish=Punish
+skill_name_flg_punish_u=Punish<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_rain_of_sorrows=Acid Rain
+skill_name_flg_rain_of_sorrows_u=Acid Rain<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_exsanguinate=Sepsis
+skill_name_flg_exsanguinate_u=Sepsis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_reclaim=Undying
+skill_name_flg_reclaim_u=Undying<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_redeem=Deathless
+skill_name_flg_redeem_u=Deathless<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_endure=Endure
+skill_name_flg_endure_u=Endure<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_suffer=Suffer
+skill_name_flg_suffer_u=Suffer<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_more_more=More! MORE!
+skill_name_flg_more_more_u=More! MORE!<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_fester=Fester
+skill_name_flg_fester_u=Fester<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_necrosis=Necrosis
+skill_name_flg_necrosis_u=Necrosis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_lash_gift=Lash's Gift
+skill_name_flg_lash_gift_u=Lash's Gift<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_move=Move
+
+# FLAGELLANT - MANIAC
+skill_name_flg_punish_p1=Punish
+skill_name_flg_punish_p1_u=Punish<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_acid_rain_p1=Acid Rain
+skill_name_flg_acid_rain_p1_u=Acid Rain<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_sepsis_p1=Sepsis
+skill_name_flg_sepsis_p1_u=Sepsis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_lash_gift_p1=Lash's Gift
+skill_name_flg_lash_gift_p1_u=Lash's Gift<sprite name={q}icon_upgraded_skill{q}>
+
+# FLAGELLANT - EXANIMATE
+skill_name_flg_punish_p2=Punish
+skill_name_flg_punish_p2_u=Punish<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_acid_rain_p2=Acid Rain
+skill_name_flg_acid_rain_p2_u=Acid Rain<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_sepsis_p2=Sepsis
+skill_name_flg_sepsis_p2_u=Sepsis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_lash_gift_p2=Lash's Gift
+skill_name_flg_lash_gift_p2_u=Lash's Gift<sprite name={q}icon_upgraded_skill{q}>
+
+# FLAGELLANT - SCOURGE
+skill_name_flg_sepsis_p3=Sepsis
+skill_name_flg_sepsis_p3_u=Sepsis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_deathless_p3=Deathless
+skill_name_flg_deathless_p3_u=Deathless<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_suffer_p3=Suffer
+skill_name_flg_suffer_p3_u=Suffer<sprite name={q}icon_upgraded_skill{q}>
+skill_name_flg_lash_gift_p3=Lash's Gift
+skill_name_flg_lash_gift_p3_u=Lash's Gift<sprite name={q}icon_upgraded_skill{q}>
+
+## GRAVE ROBBER
+#
+skill_name_gr_artemisia=Absinthe
+skill_name_gr_artemisia_u=Absinthe<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_dead_of_night=Dead of Night
+skill_name_gr_dead_of_night_u=Dead of Night<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_flashing_daggers=Flashing Daggers
+skill_name_gr_flashing_daggers_u=Flashing Daggers<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_glint_in_the_dark=Glint in the Dark
+skill_name_gr_glint_in_the_dark_u=Glint in the Dark<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_lunge=Lunge
+skill_name_gr_lunge_u=Lunge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_pick_to_the_face=Pick to the Face
+skill_name_gr_pick_to_the_face_u=Pick to the Face<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_pirouette=Pirouette
+skill_name_gr_pirouette_u=Pirouette<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_poison_dart=Poison Dart
+skill_name_gr_poison_dart_u=Poison Dart<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_repartee=Repartee
+skill_name_gr_repartee_u=Repartee<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_shadow_fade=Shadow Fade
+skill_name_gr_shadow_fade_u=Shadow Fade<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_thrown_dagger=Thrown Dagger
+skill_name_gr_thrown_dagger_u=Thrown Dagger<sprite name={q}icon_upgraded_skill{q}>
+#
+## GRAVE ROBBER - DEADEYE
+#
+skill_name_gr_pick_to_the_face_p1=Pick to the Face
+skill_name_gr_pick_to_the_face_p1_u=Pick to the Face<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_lunge_p1=Lunge
+skill_name_gr_lunge_p1_u=Lunge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_thrown_dagger_p1=Thrown Dagger
+skill_name_gr_thrown_dagger_p1_u=Thrown Dagger<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_flashing_daggers_p1=Flashing Daggers
+skill_name_gr_flashing_daggers_p1_u=Flashing Daggers<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_poison_dart_p1=Poison Dart
+skill_name_gr_poison_dart_p1_u=Poison Dart<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_glint_in_the_dark_p1=Glint in the Dark
+skill_name_gr_glint_in_the_dark_p1_u=Glint in the Dark<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_pirouette_p1=Pirouette
+skill_name_gr_pirouette_p1_u=Pirouette<sprite name={q}icon_upgraded_skill{q}>
+
+## GRAVE ROBBER - NIGHTSWORN
+#
+skill_name_gr_lunge_p2=Lunge
+skill_name_gr_lunge_p2_u=Lunge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_pirouette_p2=Pirouette
+skill_name_gr_pirouette_p2_u=Pirouette<sprite name={q}icon_upgraded_skill{q}>
+
+## GRAVE ROBBER - VENOMDROP
+#
+skill_name_gr_lunge_p3=Lunge
+skill_name_gr_lunge_p3_u=Lunge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_flashing_daggers_p3=Flashing Daggers
+skill_name_gr_flashing_daggers_p3_u=Flashing Daggers<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_shadow_fade_p3=Shadow Fade
+skill_name_gr_shadow_fade_p3_u=Shadow Fade<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_thrown_dagger_p3=Thrown Dagger
+skill_name_gr_thrown_dagger_p3_u=Thrown Dagger<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_poison_dart_p3=Poison Dart
+skill_name_gr_poison_dart_p3_u=Poison Dart<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_pirouette_p3=Pirouette
+skill_name_gr_pirouette_p3_u=Pirouette<sprite name={q}icon_upgraded_skill{q}>
+skill_name_gr_glint_in_the_dark_p3=Glint in the Dark
+skill_name_gr_glint_in_the_dark_p3_u=Glint in the Dark<sprite name={q}icon_upgraded_skill{q}>
+
+## MAN-AT_ARMS
+#
+skill_name_maa_bellow=Bellow
+skill_name_maa_bellow_u=Bellow<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_bolster=Bolster
+skill_name_maa_bolster_u=Bolster<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_command=Command
+skill_name_maa_command_u=Command<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_courageous_abandon=Courageous Abandon
+skill_name_maa_courageous_abandon_u=Courageous Abandon<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_crush=Crush
+skill_name_maa_crush_u=Crush<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_defender=Defender
+skill_name_maa_defender_u=Defender<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_hold_the_line=Hold the Line
+skill_name_maa_hold_the_line_u=Hold the Line<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_rampart=Rampart
+skill_name_maa_rampart_u=Rampart<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_retribution=Retribution
+skill_name_maa_retribution_u=Retribution<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_riposte=Riposte
+skill_name_maa_stand_fast=Stand Fast
+skill_name_maa_stand_fast_u=Stand Fast<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_strategic_withdrawal=Strategic Withdrawal
+skill_name_maa_strategic_withdrawal_u=Strategic Withdrawal<sprite name={q}icon_upgraded_skill{q}>
+
+## PLAGUE DOCTOR
+#
+skill_name_pd_battlefield_medicine=Battlefield Medicine
+skill_name_pd_battlefield_medicine_u=Battlefield Medicine<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_blinding_gas=Blinding Gas
+skill_name_pd_blinding_gas_u=Blinding Gas<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_cause_of_death=Cause of Death
+skill_name_pd_cause_of_death_u=Cause of Death<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_disorienting_blast=Disorienting Blast
+skill_name_pd_disorienting_blast_u=Disorienting Blast<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_emboldening_vapours=Emboldening Vapours
+skill_name_pd_emboldening_vapours_u=Emboldening Vapours<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_incision=Incision
+skill_name_pd_incision_u=Incision<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_indiscriminate_science=Indiscriminate Science
+skill_name_pd_indiscriminate_science_u=Indiscriminate Science<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_lunar_caustic=Lunar Caustic
+skill_name_pd_magnesium_rain=Magnesium Rain
+skill_name_pd_magnesium_rain_u=Magnesium Rain<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_noxious_blast=Noxious Blast
+skill_name_pd_noxious_blast_u=Noxious Blast<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_ounce_of_prevention=Ounce of Prevention
+skill_name_pd_ounce_of_prevention_u=Ounce of Prevention<sprite name={q}icon_upgraded_skill{q}>
+skill_name_pd_plague_grenade=Plague Grenade
+skill_name_pd_plague_grenade_u=Plague Grenade<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_sacrificial_stab=Sacrificial Stab
+skill_name_occ_sacrificial_stab_u=Sacrificial Stab<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_abyssal_artillery=Abyssal Artillery
+skill_name_occ_abyssal_artillery_u=Abyssal Artillery<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_weakening_curse=Weakening Curse
+skill_name_occ_weakening_curse_u=Weakening Curse<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_wyrd_reconstruction=Wyrd Reconstruction
+skill_name_occ_wyrd_reconstruction_u=Wyrd Reconstruction<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_vulnerability_hex=Vulnerability Hex
+skill_name_occ_vulnerability_hex_u=Vulnerability Hex<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_daemons_pull=Daemon's Pull
+skill_name_occ_daemons_pull_u=Daemon's Pull<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_binding_shadows=Binding Shadows
+skill_name_occ_binding_shadows_u=Binding Shadows<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_anamnesis=Anamnesis
+skill_name_occ_anamnesis_u=Anamnesis<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_withering_malediction=Malediction
+skill_name_occ_withering_malediction_u=Malediction<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_the_burning_stars=The Burning Stars
+skill_name_occ_the_burning_stars_u=The Burning Stars<sprite name={q}icon_upgraded_skill{q}>
+skill_name_occ_chaotic_offering=Chaotic Offering
+skill_name_occ_chaotic_offering_u=Chaotic Offering<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_razors_wit=Razor's Wit
+skill_name_jes_razors_wit_u=Razor's Wit<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_fade_to_black=Fade to Black
+skill_name_jes_fade_to_black_u=Fade to Black<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_harvest=Harvest
+skill_name_jes_harvest_u=Harvest<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_slice_off=Slice Off
+skill_name_jes_slice_off_u=Slice Off<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_finale=Finale
+skill_name_jes_finale_u=Finale<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_solo=Solo
+skill_name_jes_solo_u=Solo<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_battle_ballad=Battle Ballad
+skill_name_jes_battle_ballad_u=Battle Ballad<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_play_me_out=Play Out
+skill_name_jes_play_me_out_u=Play Out<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_inspiring_tune=Inspiring Tune
+skill_name_jes_inspiring_tune_u=Inspiring Tune<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_the_last_laugh=Encore
+skill_name_jes_the_last_laugh_u=Encore<sprite name={q}icon_upgraded_skill{q}>
+skill_name_jes_echoing_march=Echoing March
+skill_name_jes_echoing_march_u=Echoing March<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_chop=Chop
+skill_name_lep_chop_u=Chop<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_hew=Hew
+skill_name_lep_hew_u=Hew<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_purge=Purge
+skill_name_lep_purge_u=Purge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_revenge=Revenge
+skill_name_lep_revenge_u=Revenge<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_withstand=Withstand
+skill_name_lep_withstand_u=Withstand<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_solemnity=Solemnity
+skill_name_lep_solemnity_u=Solemnity<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_intimidate=Intimidate
+skill_name_lep_intimidate_u=Intimidate<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_ruin=Ruin
+skill_name_lep_ruin_u=Ruin<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_reflection=Reflection
+skill_name_lep_reflection_u=Reflection<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_break=Break
+skill_name_lep_break_u=Break<sprite name={q}icon_upgraded_skill{q}>
+skill_name_lep_stagger=Bash
+skill_name_lep_stagger_u=Bash<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_wicked_hack=Wicked Hack
+skill_name_hel_wicked_hack_u=Wicked Hack<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_iron_swan=Iron Swan
+skill_name_hel_iron_swan_u=Iron Swan<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_barbaric_yawp=Barbaric YAWP!
+skill_name_hel_barbaric_yawp_u=Barbaric YAWP!<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_if_it_bleeds=If It Bleeds
+skill_name_hel_if_it_bleeds_u=If It Bleeds<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_breakthrough=Breakthrough
+skill_name_hel_breakthrough_u=Breakthrough<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_adrenaline_rush=Adrenaline Rush
+skill_name_hel_adrenaline_rush_u=Adrenaline Rush<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_bleed_out=Bleed Out
+skill_name_hel_bleed_out_u=Bleed Out<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_toe_to_toe=Toe to Toe
+skill_name_hel_toe_to_toe_u=Toe to Toe<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_bloodlust=Bloodlust
+skill_name_hel_bloodlust_u=Bloodlust<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_howling_end=Howling End
+skill_name_hel_howling_end_u=Howling End<sprite name={q}icon_upgraded_skill{q}>
+skill_name_hel_raucous_revelry=Raucous Revelry
+skill_name_hel_raucous_revelry_u=Raucous Revelry<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_searing_strike=Searing Strike
+skill_name_run_searing_strike_u=Searing Strike<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_ransack=Ransack
+skill_name_run_ransack_u=Ransack<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_firefly=Firefly
+skill_name_run_firefly_u=Firefly<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_dragonfly=Dragonfly
+skill_name_run_dragonfly_u=Dragonfly<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_smokescreen=Smokescreen
+skill_name_run_smokescreen_u=Smokescreen<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_cauterize=Cauterize
+skill_name_run_cauterize_u=Cauterize<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_run_and_hide=Run and Hide
+skill_name_run_run_and_hide_u=Run and Hide<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_controlled_burn=Controlled Burn
+skill_name_run_controlled_burn_u=Controlled Burn<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_backdraft=Backdraft
+skill_name_run_backdraft_u=Backdraft<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_firestarter=Firestarter
+skill_name_run_firestarter_u=Firestarter<sprite name={q}icon_upgraded_skill{q}>
+skill_name_run_hearthlight=Hearthlight
+skill_name_run_hearthlight_u=Hearthlight<sprite name={q}icon_upgraded_skill{q}>
+skill_name_maa_move=<color=#{move}>Move</color>
+skill_name_gr_move=<color=#{move}>Move</color>
+skill_name_pd_move=<color=#{move}>Move</color>
+skill_name_hwm_move=<color=#{move}>Move</color>
+skill_name_occ_move=<color=#{move}>Move</color>
+skill_name_jes_move=<color=#{move}>Move</color>
+skill_name_lep_move=<color=#{move}>Move</color>
+skill_name_hel_move=<color=#{move}>Move</color>
+skill_name_run_move=<color=#{move}>Move</color>
+skill_name_pyro_bomb=Fire Bomb
+skill_name_medic_salve=Healing Salve
+#
+## BOUNTY HUNTER
+#
+skill_name_bh_bodyguard=Bodyguard<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_caltrops=Caltrops<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_collect_bounty=Collect Bounty<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_come_hither=Come Hither<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_finish_him=Finish Him<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_flashbang=Flashbang<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_hurlbat=Hurlbat<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_mark_for_death=Mark for Death<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_no_escape=No Escape<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_staredown=Staredown<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_uppercut=Uppercut<sprite name={q}icon_upgraded_skill{q}>
+skill_name_bh_move=<color=#{move}>Move</color>
+#
+## VESTAL
+#
+skill_name_ves_mace_bash=Mace Bash
+skill_name_ves_mace_bash_u=Mace Bash<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_hand_of_light=Hand of Light
+skill_name_ves_hand_of_light_u=Hand of Light<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_illumination=Illumination
+skill_name_ves_illumination_u=Illumination<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_judgement=Judgement
+skill_name_ves_judgement_u=Judgement<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_ministrations=Ministrations
+skill_name_ves_ministrations_u=Ministrations<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_divine_grace=Divine Grace
+skill_name_ves_divine_grace_u=Divine Grace<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_divine_comfort=Divine Comfort
+skill_name_ves_divine_comfort_u=Divine Comfort<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_blessing_of_fortitude=Consecration of Fortitude
+skill_name_ves_blessing_of_fortitude_u=Consecration of Fortitude<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_blessing_of_light=Consecration of Light
+skill_name_ves_blessing_of_light_u=Consecration of Light<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_mantra=Mantra
+skill_name_ves_mantra_u=Mantra<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_sanctuary=Sanctuary
+skill_name_ves_sanctuary_u=Sanctuary<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_move=Move
+#
+## VESTAL - CHAPLAIN
+skill_name_ves_hand_of_light_p1=Hand of Light
+skill_name_ves_hand_of_light_p1_u=Hand of Light<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_mantra_p1=Mantra
+skill_name_ves_mantra_p1_u=Mantra<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_sanctuary_p1=Sanctuary
+skill_name_ves_sanctuary_p1_u=Sanctuary<sprite name={q}icon_upgraded_skill{q}>
+#
+## VESTAL - SERAPH
+skill_name_ves_blessing_of_fortitude_p2=Consecration of Fortitude
+skill_name_ves_blessing_of_fortitude_p2_u=Consecration of Fortitude<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_blessing_of_light_p2=Consecration of Light
+skill_name_ves_blessing_of_light_p2_u=Consecration of Light<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_mantra_p2=Mantra
+skill_name_ves_mantra_p2_u=Mantra<sprite name={q}icon_upgraded_skill{q}>
+#
+## VESTAL - CONFESSOR
+skill_name_ves_hand_of_light_p3=Hand of Light
+skill_name_ves_hand_of_light_p3_u=Hand of Light<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_illumination_p3=Illumination
+skill_name_ves_illumination_p3_u=Illumination<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_judgement_p3=Judgement
+skill_name_ves_judgement_p3_u=Judgement<sprite name={q}icon_upgraded_skill{q}>
+skill_name_ves_mantra_p3=Mantra
+skill_name_ves_mantra_p3_u=Mantra<sprite name={q}icon_upgraded_skill{q}>

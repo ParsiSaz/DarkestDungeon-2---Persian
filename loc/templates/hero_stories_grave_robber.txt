@@ -1,0 +1,76 @@
+hero_story_grave_robber_chapter_title_0=Luxury's Lap
+hero_story_grave_robber_chapter_title_1=Night Cap
+hero_story_grave_robber_chapter_title_2=Embarrassment of Riches
+hero_story_grave_robber_chapter_title_3=Filthy Rich
+hero_story_grave_robber_chapter_title_4=The Afterparty
+
+##GR 1 ACTORS
+herostory_gr_combat_1=Grave Robber
+herostory_gr_combat_1_husband=Enraged Husband
+herostory_gr_combat_1_liquor_cabinet=Liquor Cabinet
+herostory_gr_combat_1_prop_1=Coat Rack
+herostory_gr_combat_1_prop_2=Dressing Screen
+herostory_gr_combat_1_prop_3=Vase
+
+##GR 1 SKILLS
+skill_name_gr_combat_1_placate=Placate
+skill_name_gr_combat_1_make_scarce=Fade Back
+skill_name_gr_combat_1_poison_drink=Poison His Drink
+skill_name_gr_combat_1_deep_breaths=Take A Breath
+skill_name_gr_combat_1_husband_bombast=Slurred Bombast
+skill_name_gr_combat_1_husband_tantrum=Threatening Tantrum
+skill_name_gr_combat_1_husband_riposte=How Dare You?!
+skill_name_gr_combat_1_husband_stupor=Slumped Stupor
+skill_name_gr_combat_1_husband_drink=In One Gulp
+skill_name_gr_combat_1_husband_where_are_you=Where Are You?!
+
+## GR 1 BARKS
+bark_herostory_gr_1_stupor=Now's my chance!
+bark_herostory_gr_1_deep_breaths=I must be calm, patient. 
+bark_herostory_gr_1_deep_breaths=He will soon tire...
+bark_herostory_gr_1_deep_breaths=Enjoy your outburst, <i>darling</i>. It will be your last.
+bark_herostory_gr_1_bombast=Oh poor dear, what vexes you so?
+bark_herostory_gr_1_bombast=Yes, yes, of course, darling.
+
+##GR 2 ACTORS
+herostory_gr_combat_2=Grave Robber
+herostory_gr_combat_2_guard=Vault Watchman
+herostory_gr_combat_2_coffin_trapped=Coffin
+herostory_gr_combat_2_coffin_treasure=Coffin
+herostory_gr_combat_2_coffin_guard=Coffin
+herostory_gr_combat_2_coffin_husband=Husband's Coffin
+herostory_gr_combat_2_prop=Column
+
+##GR 2 SKILLS
+skill_name_gr_combat_2_pick_to_the_face=Pick To The Face
+skill_name_gr_combat_2_pry_open=Open Coffin
+skill_name_gr_combat_2_deep_breaths=Take A Moment
+skill_name_gr_combat_2_sneak=Prowl
+skill_name_gr_combat_2_risky_move=Bold Advance
+skill_name_gr_combat_2_guard_guard_coffins=Rest In Peace
+skill_name_gr_combat_2_guard_search=Is someone there?
+skill_name_gr_combat_2_guard_attack=Who Goes There!?
+skill_name_gr_combat_2_guard_nothing_found=Must Be Rats
+skill_name_gr_combat_2_coffin_trapped_riposte=A Hidden Blade
+battle_goal_grave_robber_chapter_2=Enough Is Enough!
+battle_goal_grave_robber_chapter_4=Loot Your Husband's Tomb
+bark_gr_open_treasure_coffin_bark=Buried himself with my estate, he did.
+bark_gr_open_treasure_coffin_bark=Took this to the grave to spite me, eh?
+bark_gr_open_treasure_coffin_bark=This suits my complexion better, ya?
+bark_gr_open_treasure_coffin_bark=You won't rat on me, will you now?
+bark_gr_open_trapped_coffin_bark=Painful trick, that!
+bark_gr_open_trapped_coffin_bark=I should know better..!
+bark_gr_open_trapped_coffin_bark=Careless!
+bark_gr_open_husband_coffin_bark=And there you are! With all that you owe me...
+bark_gr_open_guard_coffin_bark=Just dust and bones...
+bark_gr_open_guard_coffin_bark=A rat, how cute.
+bark_gr_open_guard_coffin_bark=Empty. Just my luck.
+bark_gr_open_guard_coffin_bark=Naught but moonlight and shadow.
+bark_gr_open_guard_coffin_bark=Where does one bury a pig?
+bark_gr_open_guard_coffin_bark=Just where is the rest of his estate?
+tag_not_gr_guard=Not Guard
+tag_gr_guard=Guard
+tag_coffin=Coffin
+
+## GR 2 BARKS
+bark_herostory_gr_2_combat_start=I will take what you owe me, bastard.

@@ -1,0 +1,32 @@
+﻿actor_verbose_description_man_at_arms=“A resolute defender, tempered by the merciless blows of\ninnumerable assaults.”
+actor_descriptors_man_at_arms=+ Front Rank\n+ Guard\n+ Durable\n+ Riposte
+
+actor_verbose_description_highwayman=“Violently versatile, ruthlessly pragmatic.”
+actor_descriptors_highwayman=+ Any Rank\n+ High Dmg\n+ Versatile\n+ Riposte
+
+actor_verbose_description_hellion=“The spilling of blood - an offering to\nthe Gods!”
+actor_descriptors_hellion=+ Front Rank\n+ High Dmg\n+ Bleed\n+ Bloodlust
+
+actor_verbose_description_grave_robber=“Agile, graceful, and singularly surreptitious.”
+actor_descriptors_grave_robber=+ Any Rank\n+ Stealth\n+ Dodge\n+ High CRIT
+
+actor_verbose_description_plague_doctor=“What is a physician if not a student\nof decay?”
+actor_descriptors_plague_doctor=+ Back Rank\n+ Blight\n+ Blinds\n+ Healer
+
+actor_verbose_description_occultist=“Witness the infernal and blasphemous power of the void!”
+actor_descriptors_occultist=+ Back Rank\n+ Ranged Dmg\n+ Healer\n+ Offensive Support
+
+actor_verbose_description_leper=“When pain is accepted, strength flows in abundance.”
+actor_descriptors_leper=+ Front Rank\n+ High Dmg\n+ Self-Sufficient\n+ Durable
+
+actor_verbose_description_jester=“Unchained melodies, played feverishly with lute and blade.”
+actor_descriptors_jester=+ Any Rank\n+ Bleed\n+ Stress Heal\n+ Support
+
+actor_verbose_description_runaway=“Fire and smoke - destruction and concealment. ”
+actor_descriptors_runaway=+ Front Rank\n+ Burn\n+ Stealth\n+ Support
+
+actor_verbose_description_vestal=“Faith is a fire that kindles the penitent heart!”
+actor_descriptors_vestal=+ Back Rank\n+ Ranged Dmg\n+ Healer\n+ Defensive Support
+
+actor_verbose_description_flagellant=“An undying appetite for pain and punishment.”
+actor_descriptors_flagellant=+ Front Rank\n+ Blight\n+ Durable\n+ Sacrificial Support

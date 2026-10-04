@@ -1,0 +1,312 @@
+﻿hero_path_name_wanderer=Wanderer
+hero_path_name_wanderer+male=Wanderer
+hero_path_name_wanderer+female=Wanderer
+hero_path_flavour_wanderer=\n"To seek is to find."\n
+#
+hero_path_name_reserve=Wanderer
+hero_path_name_reserve+male=Wanderer
+hero_path_name_reserve+female=Wanderer
+hero_path_flavour_reserve=\n"To seek is to find."\n
+#
+#Unique Vestal Wanderer
+hero_path_name_ves_wanderer=Wanderer
+hero_path_name_ves_wanderer+male=Wanderer
+hero_path_name_ves_wanderer+female=Wanderer
+hero_path_flavour_ves_wanderer=\n"To seek is to find."\n
+#
+# Unique Vestal Reserve
+hero_path_name_ves_reserve=Wanderer
+hero_path_name_ves_reserve+male=Wanderer
+hero_path_name_ves_reserve+female=Wanderer
+hero_path_flavour_ves_reserve=\n"To seek is to find."\n
+#
+#THIS PATH IS CUT
+hero_path_name_apprentice=Apprentice
+hero_path_name_apprentice+male=Apprentice
+hero_path_name_apprentice+female=Apprentice
+hero_path_flavour_apprentice=\n"I search for purpose in the withering dark."\n
+hero_path_skill_upgrade_format={0} mastered
+#
+#THIS PATH IS CUT
+hero_path_name_master=Master
+hero_path_name_master+male=Master
+hero_path_name_master+female=Master
+hero_path_flavour_master=\n"Mastery is life's great journey."\n
+hero_path_master_tooltip_override=All Skills Mastered
+#
+##BOUNTY HUNTER
+#PROFESSIONAL
+hero_path_name_bh_professional=Professional
+hero_path_flavour_bh_professional=\n"On time, on budget."
+
+# FLAGELLANT - MANIAC
+hero_path_name_flg_maniac=Maniac
+hero_path_name_flg_maniac+male=Maniac
+hero_path_name_flg_maniac+female=Maniac
+hero_path_flavour_flg_maniac=\n"Sacrifice and sensation to the last!"\n
+
+# FLAGELLANT - EXANIMATE
+hero_path_name_flg_exanimate=Exanimate
+hero_path_name_flg_exanimate+male=Exanimate
+hero_path_name_flg_exanimate+female=Exanimate
+hero_path_flavour_flg_exanimate=\n"Let me but sample the bitter taste of death!"\n
+
+# FLAGELLANT - SCOURGE
+hero_path_name_flg_scourge=Scourge
+hero_path_name_flg_scourge+male=Scourge
+hero_path_name_flg_scourge+female=Scourge
+hero_path_flavour_flg_scourge=\n"I am purged of beauty, empty of all but blight!"\n
+
+##GRAVE ROBBER PATHS
+#DEADEYE
+hero_path_name_grv_deadeye=Deadeye
+hero_path_name_grv_deadeye+male=Deadeye
+hero_path_name_grv_deadeye+female=Deadeye
+hero_path_flavour_grv_deadeye=\n"I always was rather good at darts, wasn't I?"\n
+#NIGHTSWORN
+hero_path_name_grv_nightsworn=Nightsworn
+hero_path_name_grv_nightsworn+male=Nightsworn
+hero_path_name_grv_nightsworn+female=Nightsworn
+hero_path_flavour_grv_nightsworn=\n"The shadows - my favourite cloak."\n
+#VENOMDROP
+hero_path_name_grv_venomdrop=Venomdrop
+hero_path_name_grv_venomdrop+male=Venomdrop
+hero_path_name_grv_venomdrop+female=Venomdrop
+hero_path_flavour_grv_venomdrop=\n"I'll double the dose, just to be sure."\n
+#
+##HIGHWAYMAN PATHS
+#SHARPSHOT
+hero_path_name_hwy_sharpshot=Sharpshot
+hero_path_flavour_hwy_sharpshot=\n"I never miss."\n
+#ROGUE
+hero_path_name_hwy_rogue=Rogue
+hero_path_name_hwy_rogue+male=Rogue
+hero_path_name_hwy_rogue+female=Rogue
+hero_path_flavour_hwy_rogue=\n"Up close and personal - that's how the job gets done."\n
+#YELLOWHAND
+hero_path_name_hwy_yellowhand=Yellowhand
+hero_path_flavour_hwy_yellowhand=\n"Let's go another round, then."\n
+#
+##MAN-AT-ARMS
+#BULWARK
+hero_path_name_maa_bulwark=Bulwark
+hero_path_name_maa_bulwark+male=Bulwark
+hero_path_name_maa_bulwark+female=Bulwark
+hero_path_flavour_maa_bulwark=\n"Stand fast behind me!"\n
+#SERGEANT
+hero_path_name_maa_sergeant=Sergeant
+hero_path_name_maa_sergeant+male=Sergeant
+hero_path_name_maa_sergeant+female=Sergeant
+hero_path_flavour_maa_sergeant=\n"Listen up you lot!"\n
+#VANGUARD
+hero_path_name_maa_vanguard=Vanguard
+hero_path_name_maa_vanguard+male=Vanguard
+hero_path_name_maa_vanguard+female=Vanguard
+hero_path_flavour_maa_vanguard=\n"Look death in the eye."\n
+#
+##OCCULTIST
+#WARLOCK
+hero_path_name_occ_warlock=Warlock
+hero_path_name_occ_warlock+male=Warlock
+hero_path_name_occ_warlock+female=Warlock
+hero_path_flavour_occ_warlock=\n"Those beyond the veil hear my calls <b>and obey!</b>"\n
+#RITUALIST
+hero_path_name_occ_ritualist=Ritualist
+hero_path_name_occ_ritualist+male=Ritualist
+hero_path_name_occ_ritualist+female=Ritualist
+hero_path_flavour_occ_ritualist=\n"A curse upon my enemies, and a curse upon myself."\n
+#ASPIRANT
+hero_path_name_occ_aspirant=Aspirant
+hero_path_flavour_occ_aspirant=\n"I drift in the starless skies of the void."\n
+#
+##PLAGUE DOCTOR
+#ALCHEMIST
+hero_path_name_plg_alchemist=Alchemist
+hero_path_name_plg_alchemist+male=Alchemist
+hero_path_name_plg_alchemist+female=Alchemist
+hero_path_flavour_plg_alchemist=\n"A fascinating reaction..."\n
+#SURGEON
+hero_path_name_plg_surgeon=Surgeon
+hero_path_name_plg_surgeon+male=Surgeon
+hero_path_name_plg_surgeon+female=Surgeon
+hero_path_flavour_plg_surgeon=\n"Suture or sever? Both have their uses..."\n
+#PHYSICIAN
+hero_path_name_plg_physician=Physician
+hero_path_name_plg_physician+male=Physician
+hero_path_name_plg_physician+female=Physician
+hero_path_flavour_plg_physician=\n"Let me prescribe a more ...holistic regimen."\n
+#
+##HELLION
+#RAVAGER
+hero_path_name_hel_ravager=Ravager
+hero_path_name_hel_ravager+male=Ravager
+hero_path_name_hel_ravager+female=Ravager
+hero_path_flavour_hel_ravager=\n"I am no coward - come make your end!"\n
+#BERSERKER
+hero_path_name_hel_berserker=Berserker
+hero_path_name_hel_berserker+male=Berserker
+hero_path_name_hel_berserker+female=Berserker
+hero_path_flavour_hel_berserker=\n"Let it bleed! AKYLORAAHHH!"\n
+#CARCASS
+hero_path_name_hel_carcass=Carcass
+hero_path_flavour_hel_carcass=\n"Again! I can take it!"\n
+#
+##LEPER
+#TEMPEST
+hero_path_name_lep_tempest=Tempest
+hero_path_name_lep_tempest+male=Tempest
+hero_path_name_lep_tempest+female=Tempest
+hero_path_flavour_lep_tempest=\n"The winter storm knows only rage."\n
+#POET
+hero_path_name_lep_poet=Poet
+hero_path_name_lep_poet+male=Poet
+hero_path_name_lep_poet+female=Poet
+hero_path_flavour_lep_poet=\n"Petals must fall."\n
+#MONARCH
+hero_path_name_lep_monarch=Monarch
+hero_path_flavour_lep_monarch=\n"To rule, one must learn to serve."\n
+#
+##RUNAWAY
+#SURVIVOR
+hero_path_name_run_survivor=Survivor
+hero_path_name_run_survivor+male=Survivor
+hero_path_name_run_survivor+female=Survivor
+hero_path_flavour_run_survivor=\n"Patch up. Stay sharp. Keep moving."\n
+#ARSONIST
+hero_path_name_run_arsonist=Arsonist
+hero_path_name_run_arsonist+male=Arsonist
+hero_path_name_run_arsonist+female=Arsonist
+hero_path_flavour_run_arsonist=\n"Everything burns."\n
+#ORPHAN
+hero_path_name_run_orphan=Orphan
+hero_path_flavour_run_orphan=\n"I have nothing, and so I have everything."\n
+#
+##JESTER
+#VIRTUOSO
+hero_path_name_jes_virtuoso=Virtuoso
+hero_path_name_jes_virtuoso+male=Virtuoso
+hero_path_name_jes_virtuoso+female=Virtuoso
+hero_path_flavour_jes_virtuoso=\n"Play the hits, keep the crowd happy."\n
+#SOLOIST
+hero_path_name_jes_soloist=Soloist
+hero_path_name_jes_soloist+male=Soloist
+hero_path_name_jes_soloist+female=Soloist
+hero_path_flavour_jes_soloist=\n"This'll be a cutting performance..."\n
+#INTERMEZZO
+hero_path_name_jes_intermezzo=Intermezzo
+hero_path_flavour_jes_intermezzo=\n"Let's keep this melody moving..."\n
+#
+# VESTAL - CHAPLAIN
+hero_path_name_ves_chaplain=Chaplain
+hero_path_name_ves_chaplain+male=Chaplain
+hero_path_name_ves_chaplain+female=Chaplain
+hero_path_flavour_ves_chaplain=\n"Faith is my shield; piety, my armor!"\n
+
+# VESTAL - CONFESSOR
+hero_path_name_ves_confessor=Confessor
+hero_path_name_ves_confessor+male=Confessor
+hero_path_name_ves_confessor+female=Confessor
+hero_path_flavour_ves_confessor=\n"Submit and be purified!"\n
+
+# VESTAL - SERAPH
+hero_path_name_ves_seraph=Seraph
+hero_path_name_ves_seraph+male=Seraph
+hero_path_name_ves_seraph+female=Seraph
+hero_path_flavour_ves_seraph=\n"Witness ye the holy radiance of the Light!"\n
+#
+#
+## special skill tag wordings ##
+##GRAVE ROBBER
+skill_tag_assassin=Lunge and Pirouette
+skill_tag_venomdrop=Flashing Daggers\n
+skill_tag_venomdrop_u=Flashing Daggers<sprite name={q}icon_upgraded_skill{q}>\n
+skill_tag_venomdrop_move=Movement
+skill_tag_gr_flashing_daggers=Flashing Daggers
+skill_tag_gr_poison_dart=Poison Dart
+skill_tag_gr_pick_to_the_face=Pick to the Face
+#
+##HIGHWAYMAN
+skill_tag_sharpshot=Grapeshot Blast
+skill_tag_rogue=Point Blank Shot
+skill_tag_yellowhand_steal=Highway Robbery
+skill_tag_yellowhand=Double Cross
+skill_tag_hwm_highway_robbery=Highway Robbery
+skill_tag_hwm_duelists_advance=Duelist's Advance
+skill_tag_hwm_open_vein=Open Vein
+#
+##MAN-AT-ARMS
+skill_tag_vanguard=Crush
+skill_tag_sergeant=Bolster
+skill_tag_bulwark=Shield Attack
+skill_tag_bulwark_down=Crush & Riposte
+skill_tag_bulwark_taunt=Stand Fast
+skill_tag_maa_bellow=Bellow
+skill_tag_maa_courageous_abandon=Courageous Abandon
+skill_tag_maa_command=Command
+#
+##OCCULTIST
+skill_tag_ritualistheal=Healing
+skill_tag_ritualistcurse=Cursing
+skill_tag_aspirant_anamnesis=Anamnesis
+skill_tag_aspirant_curse=Cursing
+skill_tag_occ_daemons_pull=Daemon's Pull
+skill_tag_occ_binding_shadows=Binding Shadows
+#
+##HELLION
+skill_tag_berserker=Bleed-causing
+skill_tag_carcass_taunt=Barbaric YAWP
+skill_tag_carcass_break=Wicked Hack
+skill_tag_hel_if_it_bleeds=If It Bleeds
+skill_tag_hel_barbaric_yawp=Barbaric Yawp
+skill_tag_hel_breakthrough=Breakthrough
+#
+##LEPER
+skill_tag_tempest=Chop
+skill_tag_poet=Self-healing
+skill_tag_monarch=Chop
+skill_tag_monarch_vuln=Purge & Intimidate
+skill_tag_lep_break=Break
+skill_tag_lep_intimidate=Intimidate
+#
+##RUNAWAY
+skill_tag_survivor=Healing
+skill_tag_arsonist=Burn-causing
+skill_tag_orphan=Firestarter
+skill_tag_run_hearthlight=Hearthlight
+skill_tag_run_backdraft=Backdraft
+#
+##JESTER
+skill_tag_soloist=Bleed-causing
+skill_tag_jes_solo=Solo
+skill_tag_jes_play_me_out=Play Out
+skill_tag_jes_slice_off=Slice Off
+skill_tag_intermezzo_res=Inspiring Tune
+skill_tag_intermezzo=Song
+skill_tag_intermezzo_repeat=Echoing March
+skill_tag_intermezzo_ballad=Battle Ballad & Play Out
+#
+##PLAGUE DOCTOR
+skill_tag_alchemist=Blight-causing
+skill_tag_surgeon=Healing
+skill_tag_pd_disorienting_blast=Disorienting Blast
+skill_tag_pd_ounce_of_prevention=Ounce of Prevention
+skill_tag_pd_emboldening_vapours=Emboldening Vapours
+skill_tag_pd_battlefield_medicine=Battlefield Medicine
+skill_tag_pd_incision=Incision
+skill_tag_physician_blight=Blight
+skill_tag_physician_bleed=Bleed
+skill_tag_physician_blast=Disorienting Blast
+skill_tag_physician_stress=Ounce of Prevention
+skill_tag_physician_heal=Healing
+skill_tag_physician_vapours=Emboldening Vapours
+#
+##BOUNTY HUNTER
+skill_tag_bh_caltrops=Caltrops
+skill_tag_bh_flashbang=Flashbang
+skill_tag_bh_hurlbat=Hurlbat
+#
+##VESTAL
+skill_tag_ves_illumination=Illumination
+skill_tag_ves_hand_of_light=Hand of Light
+skill_tag_blessing=Consecration
+#

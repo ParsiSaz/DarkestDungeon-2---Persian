@@ -1,0 +1,50 @@
+﻿affinity_leaning_level_minimum=<color=#{negative_quirk_dark}>Zero Affinity</color>
+affinity_leaning_level_very_unfriendly=<color=#{negative_quirk_dark}>Very Unfriendly</color>
+affinity_leaning_level_unfriendly=<color=#{negative_quirk_dark}>Unfriendly</color>
+affinity_leaning_level_neutral=Neutral
+affinity_leaning_level_friendly=<color=#{positive_quirk}>Friendly</color>
+affinity_leaning_level_very_friendly=<color=#{positive_quirk}>Very Friendly</color>
+affinity_leaning_level_maximum=<color=#{positive_quirk}>Max Affinity</color>
+envious=Envious
+hateful=Hateful
+resentful=Resentful
+suspicious=Suspicious
+tumultuous=Tumultuous
+amorous=Amorous
+hopeful=Hopeful
+inseparable=Inseparable
+respectful=Respectful
+overstress_meltdown=Meltdown
+overstress_resolute=Resolute
+overstress_toxic=Toxic
+overstress_herostory_toxic=Toxic
+affinity_actor_tooltip_envious=<color=#{path_verbose}><i>{0} envies {1} and not in a healthy way.</i></color>
+affinity_actor_tooltip_hateful=<color=#{path_verbose}><i>{0} despises {1} and wishes harm to befall them.</i></color>
+affinity_actor_tooltip_resentful=<color=#{path_verbose}><i>{0} resents {1} and feels they lack worth.</i></color>
+affinity_actor_tooltip_suspicious=<color=#{path_verbose}><i>{0} does not trust {1} and suspects they are secretly working against the party.</i></color>
+affinity_actor_tooltip_tumultuous=Tumultuous {0} {1}
+affinity_actor_tooltip_amorous=<color=#{path_verbose}><i>{0} feels great love for {1}.</i></color>
+affinity_actor_tooltip_hopeful=<color=#{path_verbose}><i>{0} trusts in {1} and believes that together they can conquer any foe.</i></color>
+affinity_actor_tooltip_respectful=<color=#{path_verbose}><i>{0} respects {1} and is deeply confident that they will carry their weight.</i></color>
+affinity_actor_tooltip_leaning_level_minimum=<color=#{harmful}>Minimum:</color> Extremely likely to form a negative relationship.
+affinity_actor_tooltip_leaning_level_very_unfriendly=<color=#{harmful}>Very Unfriendly:</color> Likely to form a negative relationship.
+affinity_actor_tooltip_leaning_level_unfriendly=<color=#{harmful}>Unfriendly:</color> Possible to form a negative relationship.
+affinity_actor_tooltip_leaning_level_neutral=<color=#{neutral}>Neutral:</color> Unlikely to form a relationship.
+affinity_actor_tooltip_leaning_level_friendly=<color=#{notable}>Friendly:</color> Possible to form a positive relationship.
+affinity_actor_tooltip_leaning_level_very_friendly=<color=#{notable}>Very Friendly:</color> Likely to form a positive relationship.
+affinity_actor_tooltip_leaning_level_maximum=<color=#{notable}>Maximum:</color> Extremely likely to form a positive relationship.
+relationship_chance_tooltip_sum_positive=<font={q}NDDunkelD-Bold SDF{q}><color=#{positive_quirk}>Positive Relationship ({0}%)</color></font>
+relationship_chance_tooltip_sum_negative=<font={q}NDDunkelD-Bold SDF{q}><color=#{negative_quirk}>Negative Relationship ({0}%)</color></font>
+relationship_chance_tooltip_value_base=<color=#{item_discardline}>{0}% Base</color>
+relationship_chance_tooltip_value_buff_inn=<color=#{item_discardline}>{0}% Inn Buffs</color>
+relationship_chance_tooltip_value_other_actor_buff_inn=<color=#{item_discardline}>{0}% Inn Buffs ({1})</color>
+relationship_chance_tooltip_value_other_actor_sourcetype_quirk=<color=#{item_discardline}>{0}% Quirks ({1})</color>
+relationship_chance_tooltip_value_other_actor_sourcetype_stage_coach_general=<color=#{item_discardline}>{0}% Stagecoach ({1})</color>
+relationship_chance_tooltip_value_other_actor_sourcetype_stage_coach_trophy=<color=#{item_discardline}>{0}% Trophy ({1})</color>
+relationship_chance_tooltip_value_other_actor_sourcetype_stage_coach_pet=<color=#{item_discardline}>{0}% Pet ({1})</color>
+relationship_chance_tooltip_value_other_actor_sourcetype_stage_coach_flame=<color=#{item_discardline}>{0}% Flame ({1})</color>
+relationship_chance_tooltip_value_sourcetype_quirk=<color=#{item_discardline}>{0}% Quirks</color>
+relationship_chance_tooltip_value_sourcetype_stage_coach_general=<color=#{item_discardline}>{0}% Stagecoach</color>
+relationship_chance_tooltip_value_sourcetype_stage_coach_trophy=<color=#{item_discardline}>{0}% Trophy</color>
+relationship_chance_tooltip_value_sourcetype_stage_coach_pet=<color=#{item_discardline}>{0}% Pet</color>
+relationship_chance_tooltip_value_sourcetype_stage_coach_flame=<color=#{item_discardline}>{0}% Flame</color>

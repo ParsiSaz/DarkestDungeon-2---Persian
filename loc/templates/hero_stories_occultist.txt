@@ -1,0 +1,44 @@
+hero_story_occultist_chapter_title_0=The Ritual
+hero_story_occultist_chapter_title_1=A Door in the Desert
+hero_story_occultist_chapter_title_2=Some Parts Must Die
+hero_story_occultist_chapter_title_3=The Guest
+hero_story_occultist_chapter_title_4=An Eternal Flame
+#OCC 1 
+herostory_occ_combat_1=Occultist
+herostory_occ_combat_1_shade=Virtue
+#OCC 2
+herostory_occ_combat_2=Occultist
+herostory_occ_combat_2_shambler=Dimensional Shambler
+herostory_occ_combat_2_seance_table=The Séance
+#OCC 1 SKILLS
+skill_name_occ_combat_1_repress=Repress
+skill_name_occ_combat_1_ignore=Ignore
+skill_name_occ_combat_1_purge=Purge
+skill_name_occ_combat_1_forget=Forget
+skill_name_occ_combat_1_deny=Deny
+skill_name_occ_combat_1_shade_appeal_conscience=Appeal To Conscience
+skill_name_occ_combat_1_shade_appeal_reason=Appeal To Reason
+skill_name_occ_combat_1_shade_appeal_selfless=Appeal To Selflessness
+skill_name_occ_combat_1_shade_appeal_compassion=Appeal To Compassion
+bark_herostory_occ_1_turn_start=Power requires sacrifice.
+bark_herostory_occ_1_turn_start=I must make space within myself...
+bark_herostory_occ_1_turn_start=I have no use for you!
+bark_herostory_occ_1_turn_start=I will purge these vestigial emotions...
+#OCC 2 SKILLS
+skill_name_occ_combat_2_boundary=Shifting Boundary
+skill_name_occ_combat_2_inner_strength=Channel Strength
+skill_name_occ_combat_2_mind_over_matter=Mind Over Matter
+skill_name_occ_combat_2_weakening_curse=Weakening Curse
+skill_name_occ_combat_2_the_burning_stars=The Searing Stars
+skill_name_occ_combat_2_shambler_make_way=Make Way
+skill_name_occ_combat_2_shambler_prepare_the_host=Prepare The Host
+skill_name_occ_combat_2_shambler_inhabit=Inhabit
+skill_name_occ_combat_2_shambler_consume=Consume
+battle_goal_occultist_chapter_3=Slay Your Virtues
+battle_goal_occultist_chapter_4=Preserve The Séance
+bark_herostory_occ_2_combat_start=Brace yourselves - I've crossed the threshold!
+bark_herostory_occ_2_channel_strength=I need your strength, friends!
+bark_herostory_occ_2_mind_over_matter=Apologies, my vitality is lacking...
+bark_herostory_occ_2_burning_stars=The power of the void is <i>mine!</i>
+bark_herostory_occ_2_prepare_the_host=It's attempting to breach our dimension!
+bark_herostory_occ_2_boundary=I am your shield.

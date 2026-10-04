@@ -1,0 +1,47 @@
+hero_story_runaway_chapter_title_0=The Pigs of St. Martha's
+hero_story_runaway_chapter_title_1=Beloved
+hero_story_runaway_chapter_title_2=Drawn to the Flame
+hero_story_runaway_chapter_title_3=Burnt Offering
+hero_story_runaway_chapter_title_4=Ashes
+##RUNAWAY 1 ACTORS
+herostory_run_combat_1=Runaway
+herostory_run_combat_1_nun=Prioress
+herostory_run_combat_1_pillar_1=Statuary
+herostory_run_combat_1_pillar_2=Statuary
+herostory_run_combat_1_pillar_3=Statuary
+##RUNAWAY 2 ACTORS
+herostory_run_combat_2=Runaway
+herostory_run_combat_2_scrap_pile=Pile Of Scrap
+herostory_run_combat_2_stove=Stove
+herostory_run_combat_2_chair=Chair
+#RUNAWAY 1 SKILLS
+bark_herostory_run_1_combat_start=Keep quiet.  Get the keys.  <i>Get out.</i>
+skill_name_run_combat_1_hide=Hide
+skill_name_run_combat_1_pick_pocket=Pick Pocket
+skill_name_run_combat_1_tiptoe=Tiptoe
+skill_name_run_combat_1_nun_search=Show Yourself
+skill_name_run_combat_1_nun_brand=Impudent Child
+skill_name_run_combat_1_nun_nothing_found=Come Out Or Else
+skill_name_pass_runaway=Pass
+#RUNAWAY 2 SKILLS
+skill_name_run_combat_2_spark=Spark Flint
+skill_name_run_combat_2_fuel=Feed The Flame
+skill_name_run_combat_2_smother=Smother The Fire
+skill_name_run_combat_2_scrap_pile_licking_flames=Licking Flames
+skill_name_run_combat_2_scrap_pile_riposte=Careless Burn
+skill_name_run_combat_2_chair_licking_flames=Licking Flames
+skill_name_run_combat_2_chair_riposte=Careless Burn
+skill_name_run_combat_2_stove_licking_flames=Licking Flames
+skill_name_run_combat_2_stove_riposte=Careless Burn
+battle_goal_runaway_chapter_1=Steal The 2 Keys And Escape
+battle_goal_runaway_chapter_4=Play With Fire
+bark_herostory_run_2_combat_start=An ember jumped from the stove!
+bark_herostory_run_2_smother=Hm.  Disappointing.
+bark_herostory_run_2_smother=Sigh
+bark_herostory_run_2_smother=Ah well...
+bark_herostory_run_2_spark=Ooo it dances!
+bark_herostory_run_2_spark=What delight!
+bark_herostory_run_2_spark=Wonderful!
+bark_herostory_run_2_fuel=It's...so beautiful...
+bark_herostory_run_2_fuel=The shapes...the colors...
+bark_herostory_run_2_fuel=It dances...captivating...

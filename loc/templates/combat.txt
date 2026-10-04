@@ -1,0 +1,801 @@
+﻿affinity_change_total=${current} / ${max}
+affinity_change_crit=CRIT
+attack_stats_hit_chance=HIT
+attack_stats_damage=DMG
+attack_stats_crit_chance=CRIT
+bark_test_before_skill_attack_crit_grave_robber=Get'em!
+battle_number_start_label=Battle {0}!
+battle_advance_dungeon_confirmation_title=LAIR
+battle_advance_guardian_confirmation_title=OBLIVION'S RAMPART
+battle_advance_dungeon_confirmation_desc=Proceed to the next battle?
+battle_advance_guardian_confirmation_desc=New Description
+battle_advance_confirmation_label=Advance
+battle_advance_decline_label=Escape!
+buff_tooltip_deaths_door=Death's Door
+buff_deaths_door=<color=#{deathdoor}>Death's Door</color>
+buff_tooltip_deaths_door_recovery=Death's Door Recovery
+buff_deaths_door_description=The next blow could be fatal!
+buff_tooltip_starving=Starving
+combat_round_title=Round
+combat_round_end_tooltip_label={0} rd remaining
+combat_round_end_tooltip_label+plural={0} rds remaining 
+combat_round_end_tooltip_label+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+combat_round_end_tooltip_label+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+combat_round_end_tooltip_label+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+combat_round_end_tooltip_label+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+combat_item_display_quantity=Quantity: {0}
+dungeon_loot_claimed_rewards_label=Looted
+dungeon_loot_upcoming_rewards_label=Next Rewards
+duration_display_type_battle=1 Battle
+duration_display_type_battle+plural={0} Battles
+duration_display_type_battle+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+duration_display_type_battle+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+duration_display_type_battle+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+duration_display_type_battle+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+duration_display_type_turn=1 Turn
+duration_display_type_turn+plural={0} Turns
+duration_display_type_turn+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+duration_display_type_turn+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+duration_display_type_turn+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+duration_display_type_turn+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20 
+duration_display_type_inn=1 Inn
+duration_display_type_inn+plural={0} Inns
+duration_display_type_inn+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+duration_display_type_inn+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+duration_display_type_inn+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+duration_display_type_inn+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+enemy_stats_hp={0}/{1}
+duration_display_type_inn_item_label=<color=#{debuff}>Expires if not mounted: {0}</color>
+duration_display_type_embark=This Inn
+enemy_stats_hp={0}/{1}
+effect_skill_run_searing_strike_u_target_neighbor_random_override_EXAMPLE_1=<sprite name={q}token_combo{q}><sprite name={q}icon_burn{q}>: Chance To Spread <sprite name={q}icon_burn{q}>
+effect_skill_runaway_combo_fire_spread_override_EXAMPLE_2=Chance to Spread
+effect_skill_condition_runaway_combo_fire_spread_target_is_combo_primed_override_EXAMPLE_2=If OVERRIDE <sprite name={q}token_combo{q}>: {0}
+effect_condition_target_neighbor_front_has_burn_dot_override_EXAMPLE_3=<color=#{notable}>Requires <sprite name={q}icon_burn{q}> on unit in front of target</color>
+effect_tooltip_add_turn=Extra Action
+effect_tooltip_buff=<color=#{buff}>{0}</color>
+effect_tooltip_buff_remove_all_tags=Removes {0}
+effect_tooltip_chance_per_round=({0}%)
+effect_tooltip_pct=({0}%)
+effect_tooltip_change_class_actor_id=Change Class to {0}
+effect_tooltip_summon_class_actor_id=Summon {0}
+effect_tooltip_actor_type_performer=Self
+effect_tooltip_actor_type_target=Target
+effect_tooltip_actor_type_both=Both
+effect_tooltip_actor_type_party=Party
+effect_tooltip_actor_type_target_neighbor_front=Enemy in Front:
+effect_tooltip_affinity_leaning_change=Affinity Leaning Change {0}
+effect_tooltip_skill_effect_performer_after_target=<color=#{notable}>Self:</color>
+effect_tooltip_skill_effect_performer_from_target=<color=#{notable}>Self:</color>
+effect_tooltip_skill_effect_performer_team=<color=#{notable}>Allies:</color>
+effect_tooltip_skill_effect_on_kill_as_performer_to_performer=<color=#{notable}>Gain On Killing Blow:</color>
+effect_tooltip_skill_effect_target_neighbor_random=<color=#{debuff}>Random Adjacent Enemy:</color>
+effect_tooltip_skill_effect_performer_neighbor_random=Random Adjacent Ally:
+effect_tooltip_skill_effect_combat_health_damage_friendly_team=To Allies When Damaged:
+effect_tooltip_skill_effect_combat_health_damage_enemy_team=To Enemies When Damaged:
+effect_tooltip_skill_effect_combat_health_heal_friendly_team=To Allies When Healed:
+effect_tooltip_skill_effect_combat_health_heal_enemy_team=To Enemies When Healed:
+effect_tooltip_skill_effect_combat_stress_damage_friendly_team=To Allies When Stressed:
+effect_tooltip_skill_effect_combat_stress_damage_enemy_team=To Enemies When Stressed:
+effect_tooltip_skill_effect_combat_stress_heal_friendly_team=To Allies When Stress Healed:
+effect_tooltip_skill_effect_combat_stress_heal_enemy_team=To Enemies When Stress Healed:
+effect_tooltip_skill_effect_move_enemy=Gain When Moved By Enemy:
+effect_tooltip_skill_effect_move_friendly=Gain When Moved By Ally Skill:
+effect_tooltip_skill_effect_turn_start_friendly_team=Each Ally On Turn Start:
+effect_tooltip_skill_effect_turn_start_enemy_team=To Enemies On Turn Start:
+effect_tooltip_skill_effect_turn_end_friendly_team=Each Ally On Turn End:
+effect_tooltip_skill_effect_turn_end_enemy_team=To Enemies On Turn End:
+effect_tooltip_skill_effect_combat_health_heal=When Healed:
+effect_tooltip_skill_effect_combat_stress_heal=When Stress Healed:
+effect_tooltip_skill_effect_rest_item=On Inn item use:
+effect_tooltip_condition_item_tag=If {0} Item: {1}
+effect_tooltip_condition_always=If always {0}
+effect_tooltip_condition_biome=In {0}: {1}
+effect_tooltip_condition_buff_tag_amount=If {0} {1}{2}: {3}
+effect_tooltip_condition_run_value=If {0} {1}{2}: {3}
+effect_tooltip_condition_run_value_percent=If {0} {1}{2}%: {3}
+effect_tooltip_condition_dot_tag_amount=If {0} {1}{2}: {3}
+effect_tooltip_condition_dot_tag_amount_nonzero=If {0}: {1}
+effect_tooltip_condition_dot_tag_amount_nonzero_target=If {0} {1}: {2}
+effect_tooltip_condition_dot_tag_amount_zero=If no {0}: {1}
+effect_tooltip_condition_health_percent=If HP {0}{1}%: {2}
+effect_tooltip_condition_health_percent_party=Party HP {0}{1}%: {2}
+effect_tooltip_condition_item_amount=If <color=#{notable}>{0}</color> in inventory {1}{2}: {3}
+effect_tooltip_condition_rank=If Rank {0}{1}: {2}
+effect_tooltip_condition_rank_inverse=If Not Rank {0}{1}: {2}
+effect_tooltip_condition_status={1} while on {0}
+effect_tooltip_condition_stress=Stress {0} {1}: {2}
+effect_tooltip_condition_stress_multiple={0} per Stress
+effect_tooltip_condition_stress_percent=Stress {0} {1}%: {2}
+effect_tooltip_condition_stress_percent_multiple={0} per Each % of Stress
+effect_tooltip_condition_tag={0}: {1}
+effect_tooltip_condition_token_amount={0} {1}{2}: {3}
+effect_tooltip_condition_token_amount_nonzero=If {0}: {1}
+effect_tooltip_condition_token_amount_zero=If no {0}: {1}
+effect_tooltip_condition_trinket_equipped=If {0} is equipped: {1}
+effect_tooltip_condition_combat_item_equipped=If {0} is equipped: {1}
+effect_tooltip_condition_skill={0} Skill: {1}
+effect_tooltip_condition_skill_tag={0} Skills: {1}
+effect_tooltip_condition_token_tag_amount_nonzero=If has {0}: {1}
+effect_tooltip_condition_class=<color=#{path_verbose}>{0}</color>
+effect_tooltip_condition_killed_class=If Killed {0}{1}{2}: {3}
+effect_tooltip_condition_round=On Round {0}{1}: {2}
+effect_tooltip_condition_round_multiple={0} per Round
+effect_tooltip_condition_party_class=<color=#{path_verbose}>{0}</color>
+effect_tooltip_cooldown=Cooldown: {0}
+effect_tooltip_crit_chance=CRIT: {0},{1}%
+effect_tooltip_crit_chance+en=CRIT: {0}.{1}%
+effect_tooltip_crit_chance_non_decimal=CRIT: {0}%
+effect_tooltip_dot_add_amount={0}
+effect_tooltip_dot_apply_all_effect_multiplier=x{0}
+effect_tooltip_dot_apply_all_tags=Apply {0}
+effect_tooltip_dot_remove_all_tags=Remove {0}
+effect_tooltip_dot_remove_amount=Remove {0}
+effect_tooltip_dot_remove_all_types=Remove {0}
+effect_tooltip_health_damage_amount={0} DMG
+effect_tooltip_health_damage_percent={0}% DMG
+effect_tooltip_health_heal_amount=<color=#{heal}>Heal {0}</color>
+effect_tooltip_health_heal_amount_range=<color=#{heal}>Heal {0}-{1}</color>
+effect_tooltip_health_heal_percent=<color=#{heal}>Heal {0}%</color>
+effect_tooltip_health_heal_percent_range=<color=#{heal}>Heal {0}-{1}%</color>
+effect_tooltip_health_heal_up_to_percent=<color=#{heal}>Heal to {0}%</color>
+effect_tooltip_ignore_token=Ignores
+effect_tooltip_loot_id_LOOTIDHERE=Example String for Loot IDs
+effect_tooltip_is_kill=<color=#{red}>Instant Kill</color>
+effect_tooltip_move=<color=#{move}>Move {0}</color>
+effect_tooltip_move_backward=<color=#{move}>Back</color> {0}
+effect_tooltip_move_backward_range=<color=#{move}>Back</color> {0} to {1}
+effect_tooltip_move_forward=<color=#{move}>Forward</color> {0}
+effect_tooltip_move_forward_range=<color=#{move}>Forward</color> {0} to {1}
+effect_tooltip_target_forward=<color=#{move}>Pull</color> {0}
+effect_tooltip_target_backward=<color=#{move}>Knockback</color> {0}
+effect_tooltip_performer_buff=<color=#{buff}>{0}</color>
+effect_tooltip_position=Rank: {0}
+effect_tooltip_quirk={0}
+effect_tooltip_add_quirk=Add {0}
+effect_tooltip_remove_quirk=Remove {0}
+effect_tooltip_shuffle=<color=#{move}>Shuffle</color>
+effect_tooltip_skill_condition_always=Requires always
+effect_tooltip_skill_condition_biome=<color=#{notable}>Requires {0} Complete</color>
+effect_tooltip_skill_condition_buff_tag_amount=<color=#{notable}>Requires {0} {1} {2}{3}</color>
+effect_tooltip_skill_condition_run_value=<color=#{notable}>Requires campaign {0} {1}{2}</color>
+effect_tooltip_skill_condition_run_value=<color=#{notable}>Requires campaign {0} {1}{2}</color>
+effect_tooltip_skill_condition_dot_tag_amount=<color=#{notable}>Requires {0} {1} {2}{3}</color>
+effect_tooltip_skill_condition_dot_tag_amount_nonzero=<color=#{notable}>Requires {0} {1}</color>
+effect_tooltip_skill_condition_dot_tag_amount_zero=<color=#{notable}>Requires {0} no {1}</color>
+effect_tooltip_skill_condition_health_percent=<color=#{notable}>Requires {0} HP {1}{2}%</color>
+effect_tooltip_skill_condition_item_amount=<color=#{notable}>Requires {0} {1}{2}</color>
+effect_tooltip_skill_condition_rank=<color=#{notable}>Requires {0} Rank {1}{2}</color>
+effect_tooltip_skill_condition_stress_percent=<color=#{notable}>Requires {0} Stress {1}{2}%</color>
+effect_tooltip_skill_condition_status=<color=#{notable}>Requires {0} Status</color>
+effect_tooltip_skill_condition_tag=<color=#{notable}>Requires {0} {1}</color>
+effect_tooltip_skill_condition_token_amount=Requires <color=#{notable}>{0} {1} {2}{3}</color>
+effect_tooltip_skill_condition_token_amount_nonzero=<color=#{notable}>Requires {0} {1}</color>
+effect_tooltip_skill_condition_token_amount_zero=<color=#{notable}>Requires {0} no {1}</color>
+effect_tooltip_skill_condition_token_tag_amount_nonzero=<color=#{notable}>Requires {0} has {1}</color>
+effect_tooltip_skill_effect_combat_start=Combat Start:
+effect_tooltip_skill_effect_death=On Death:
+effect_tooltip_skill_effect_deaths_door_enter=On Entering <color=#{deathdoor}>Death's Door</color>:
+effect_tooltip_skill_effect_deaths_door_exit=On Leaving <color=#{deathdoor}>Death's Door</color>:
+effect_tooltip_skill_effect_friendly_death=Ally Death:
+effect_tooltip_skill_effect_performer=<color=#{notable}>Self:</color>
+effect_tooltip_skill_effect_performer_on_crit_single=<color=#{notable}>Self On CRIT:</color>
+effect_tooltip_skill_effect_performer_per_target=<color=#{notable}>Self:</color>
+effect_tooltip_skill_effect_round_start=Round Start:
+effect_tooltip_skill_effect_round_end=Round End:
+effect_tooltip_skill_effect_spawn=On Spawn:
+effect_tooltip_skill_effect_stress_damage=When Stressed:
+effect_tooltip_skill_effect_target=Target:
+effect_tooltip_skill_effect_target_team=Target Team:
+#PERFORMER TO PERFORMER
+effect_tooltip_skill_effect_on_hit_as_performer_to_performer=Gain On Hit:
+effect_tooltip_skill_effect_on_miss_as_performer_to_performer=Gain On Miss:
+effect_tooltip_skill_effect_on_attack_as_performer_to_performer=Gain On Attack:
+effect_tooltip_skill_effect_on_crit_as_performer_to_performer=Gain On CRIT:
+#PERFORMER TO TARGET
+effect_tooltip_skill_effect_on_hit_as_performer_to_target=Apply On Hit:
+effect_tooltip_skill_effect_on_miss_as_performer_to_target=Apply On Miss:
+effect_tooltip_skill_effect_on_attack_as_performer_to_target=Apply On Attack:
+effect_tooltip_skill_effect_on_crit_as_performer_to_target=Apply On CRIT:
+#TARGET TO TARGET
+effect_tooltip_skill_effect_on_hit_as_target_to_target=Gain When Hit:
+effect_tooltip_skill_effect_on_miss_as_target_to_target=Gain When Missed:
+effect_tooltip_skill_effect_on_attack_as_target_to_target=Gain When Attacked:
+effect_tooltip_skill_effect_on_crit_as_target_to_target=Gain When CRIT:
+#TARGET TO PERFORMER
+effect_tooltip_skill_effect_on_hit_as_target_to_performer=Apply to Attacker When Hit:
+effect_tooltip_skill_effect_on_miss_as_target_to_performer=Apply to Attacker When Missed:
+effect_tooltip_skill_effect_on_attack_as_target_to_performer=Apply to Attacker:
+effect_tooltip_skill_effect_on_crit_as_target_to_performer=Apply to Attacker When CRIT:
+effect_tooltip_skill_effect_others=Others:
+effect_tooltip_skill_effect_combat_health_damage=When Damaged:
+effect_tooltip_skill_effect_turn_start=Turn Start:
+effect_tooltip_skill_effect_move=When Moving:
+effect_tooltip_skill_effect_enter_biome=On Entering Region:
+effect_tooltip_stress_damage=<color=#{debuff}>+{0}</color> <sprite name={q}token_stress{q}>
+effect_tooltip_stress_heal=<color=#{notable}>-{0}</color> <sprite name={q}token_stress{q}>
+effect_tooltip_torch_change=Flame {0}
+effect_tooltip_target=Target: {0}
+effect_tooltip_target_buff=<color=#{buff}>{0}</color>
+effect_tooltip_token_add_amount={0}
+effect_tooltip_token_add_tag=Add {0} {1} Token
+effect_tooltip_token_add_tag+plural=Add {0} {1} Tokens
+effect_tooltip_token_add_tag+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+effect_tooltip_token_add_tag+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_add_tag+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_add_tag+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_convert_amount=Convert {0} to {1}
+effect_tooltip_dot_to_token_convert_amount=Convert {0} to {1}
+effect_tooltip_token_remove_amount=Remove {0}
+effect_tooltip_token_remove_tag=Remove {0} {1} Token
+effect_tooltip_token_remove_tag+plural=Remove {0} {1} Tokens
+effect_tooltip_token_remove_tag+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+effect_tooltip_token_remove_tag+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_remove_tag+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_remove_tag+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_steal_all_tag=Steal All {0} Tokens
+effect_tooltip_token_steal_tag=Steal {0} Token
+effect_tooltip_token_steal_tag+plural=Steal {0} {1} Tokens
+effect_tooltip_token_steal_tag+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+effect_tooltip_token_steal_tag+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_steal_tag+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_steal_tag+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_steal_tags_range=Steal {0}-{1} {2} Tokens
+effect_tooltip_token_copy_all_tag=Copy All {0} Tokens
+effect_tooltip_token_copy_tag=Copy {0} Token
+effect_tooltip_token_copy_tag+plural=Copy {0} {1} Tokens
+effect_tooltip_token_copy_tag+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+effect_tooltip_token_copy_tag+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_copy_tag+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_copy_tag+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+effect_tooltip_token_copy_tags_range=Copy {0}-{1} {2} Tokens
+effect_tooltip_skill_effect_combat_stress_damage=When Stress Damaged:
+effect_tooltip_skill_effect_friendly_team=<color=#{notable}>Allies:</color>
+effect_tooltip_skill_effect_friendly_team_member_random=<color=#{notable}>Random Ally:</color>
+effect_tooltip_skill_effect_turn_start_friendly_team_random=Random Party Member on Turn Start:
+effect_tooltip_skill_effect_turn_start_enemy_team_random=Random Enemy on Turn Start:
+effect_tooltip_skill_effect_enemy_team=Enemies:
+effect_tooltip_skill_effect_enemy_team_member_random=Random Enemy:
+effect_tooltip_skill_effect_performer_team_others=<color=#{notable}>Allies:</color>
+effect_tooltip_skill_effect_performer_team_others_member_random=<color=#{notable}>Random Ally:</color>
+effect_tooltip_skill_effect_target_team_others=Target's Allies:
+effect_tooltip_skill_effect_target_team_others_member_random=Target's Team Member at Random:
+effect_tooltip_skill_effect_turn_end=Turn End:
+effect_tooltip_dot_steal_tag=Steal {0}
+effect_tooltip_dot_steal_tags=Steal x{0}-{1} {2}
+effect_tooltip_skill_limit=Uses: {0}
+effect_condition_or_seperator=\nOr\n
+effect_condition_and_seperator=\nAnd\n
+effect_clear_skill_cooldowns=Clear Skill Cooldowns
+invalid_skill_reason_invalid_launch=Out of Position
+invalid_skill_reason_invalid_condition=Condition Blocked
+invalid_skill_reason_invalid_skill_block=Skill Blocked
+invalid_skill_reason_invalid_cooldown=On Cooldown
+invalid_skill_reason_invalid_limit=Use Limit Exceeded
+invalid_skill_reason_invalid_cost=Invalid Cost
+invalid_skill_reason_invalid_forced=Forced Invalid
+invalid_skill_reason_invalid_target=Invalid Targets
+invalid_skill_reason_invalid_pass=Passed
+skill_tooltip_damage=DMG: 
+skill_tooltip_damage_range={0}-{1}
+skill_tooltip_additional_damage_performer=Performer {0}
+skill_tooltip_additional_damage_performer_neighbor_front={0}
+skill_tooltip_additional_damage_performer_neighbor_back={0}
+skill_tooltip_additional_damage_target=Target {0}
+skill_tooltip_additional_damage_target_neighbor_front={0}
+skill_tooltip_additional_damage_target_neighbor_back={0}
+additional_damage_value_tooltip_dot_tag_total_health_damage_over_time= <color=#{notable}>Variable</color>
+status_bar_health=<color=#{health}>HP {0}/{1}</color>
+status_bar_stress=<color=#{stress}>Stress {0}/{1}</color>
+token_amount_format_singular={0}
+token_amount_format_plural={0}x{1}
+token_amount_format_range={0}x{1}-{2}
+token_tooltip_format={0}{1}: {2}
+torch_level_tag_hero=Hero
+tag_hero=Hero
+torch_level_tag_monster=Enemy
+torch_state_name_100=Bright Light
+torch_state_name_75=Dim Light
+torch_state_name_50=Shadowy
+torch_state_name_25=Darkness
+torch_state_name_0=Black as Pitch
+token_add_tag_random_1=Random
+token_add_tag_positive=<color=#{buff}>Positive</color>
+token_add_tag_negative=<color=#{debuff}>Negative</color>
+token_add_tag_pos_trinket_token=<color=#{buff}>Positive</color>
+token_add_tag_neg_trinket_token=<color=#{debuff}>Negative</color>
+dot_name_bleed=Bleed
+dot_bleed=<sprite name={q}icon_bleed{q}>
+dot_bleed_amount=<color=#{bleed}><sprite name={q}icon_bleed{q}> {0}</color>
+dot_name_blight=Blight
+dot_blight=<sprite name={q}icon_blight{q}>
+dot_blight_amount=<color=#{blight}><sprite name={q}icon_blight{q}> {0}</color>
+dot_name_burn=Burn
+dot_burn=<sprite name={q}icon_burn{q}>
+dot_burn_amount=<color=#{burn}><sprite name={q}icon_burn{q}> {0}</color>
+dot_name_horror=Horror
+dot_horror=<sprite name={q}token_horror{q}>
+dot_horror_amount=<sprite name={q}token_horror{q}> {0}
+dot_horror_amount_effect=<sprite name={q}token_stress{q}> {0}
+dot_name_taproot_strangle=Strangle
+dot_taproot_strangle=<sprite name={q}token_strangle{q}>
+dot_taproot_strangle_amount=<color=#{strangle}>Strangle {0}</color>
+actor_stat_type_health_max=Max <sprite name={q}icon_health_v2{q}>
+actor_stat_type_health_damage=DMG
+actor_stat_type_speed=<sprite name={q}icon_speed{q}>
+actor_stat_type_crit_chance=CRIT
+actor_stat_type_resistance_stress=<sprite name={q}token_stress{q}> RES
+actor_stat_type_resistance_stun=<color=#{neutral}><sprite name={q}icon_stun{q}> RES</color>
+actor_stat_type_resistance_move=<color=#{neutral}><sprite name={q}icon_move{q}> RES</color>
+actor_stat_type_resistance_blight=<color=#{neutral}><sprite name={q}icon_blight{q}> RES</color>
+actor_stat_type_resistance_bleed=<color=#{neutral}><sprite name={q}icon_bleed{q}> RES</color>
+actor_stat_type_resistance_burn=<color=#{neutral}><sprite name={q}icon_burn{q}> RES</color>
+actor_stat_type_resistance_debuff=<color=#{neutral}><sprite name={q}icon_debuff{q}> RES</color>
+actor_stat_type_resistance_ignore_blight=<color=#{neutral}><sprite name={q}icon_blight{q}> RES Piercing</color>
+actor_stat_type_resistance_ignore_bleed=<color=#{neutral}><sprite name={q}icon_bleed{q}> RES Piercing</color>
+actor_stat_type_resistance_ignore_burn=<color=#{neutral}><sprite name={q}icon_burn{q}> RES Piercing</color>
+actor_stat_type_resistance_death=<color=#{neutral}><sprite name={q}icon_death_outline{q}> RES</color>
+actor_stat_type_resistance_disease=<color=#{neutral}><sprite name={q}icon_disease{q}> RES</color>
+actor_stat_type_health_damage_received_percent=DMG Taken
+actor_stat_type_health_damage_dealt_percent=DMG
+actor_stat_type_health_heal_dealt_percent=Healing Given
+actor_stat_type_health_heal_dealt_percent_dot=Healing-Over-Time Given
+actor_stat_type_health_heal_received_percent_skill=Healing Received from Skills
+actor_stat_type_health_heal_received_percent_food=Passive Healing Rate
+actor_stat_type_health_heal_percent_between_nodes=Traveling Heal
+actor_stat_type_scout_node_chance=Location Scouting
+actor_stat_type_scout_route_chance=Route Scouting
+actor_stat_type_scout_node_chance_Hospital=Field Hospitals Location Scouting
+actor_stat_type_scout_node_chance_StoryHero=Shrines of Reflection Location Scouting
+actor_stat_type_scout_node_chance_Dungeon=Lairs Location Scouting
+actor_stat_type_scout_node_chance_Cache=Academic's Caches Location Scouting
+actor_stat_type_scout_node_chance_Store=Hoarder Location Scouting
+actor_stat_type_scout_node_chance_StoryAssist=Assistance Encounters Location Scouting
+actor_stat_type_scout_node_chance_StoryResist=Resistance Encounters Location Scouting
+actor_stat_type_scout_node_chance_StoryCosmic=Academic's Studies Location Scouting
+actor_stat_type_scout_node_chance_StoryCultist=Cultist Encounters Location Scouting
+actor_stat_type_scout_node_chance_CultistTerritory=Cultist Encounters Location Scouting
+actor_stat_type_scout_node_chance_CreatureDen=Creature Den Location Scouting
+actor_stat_type_scout_node_chance_GauntChirurgeon=Chirurgeon's Table Location Scouting
+actor_stat_type_scout_node_chance_Oasis=Oasis Location Scouting
+actor_stat_type_food_eat=Food Consumed
+actor_stat_type_resistance_stun_icon=<sprite name={q}icon_stun{q}>
+actor_stat_type_resistance_move_icon=<sprite name={q}icon_move{q}>
+actor_stat_type_resistance_blight_icon=<sprite name={q}icon_blight{q}>
+actor_stat_type_resistance_bleed_icon=<sprite name={q}icon_bleed{q}>
+actor_stat_type_resistance_burn_icon=<sprite name={q}icon_burn{q}>
+actor_stat_type_resistance_debuff_icon=<sprite name={q}icon_debuff{q}>
+actor_stat_type_resistance_disease_icon=<sprite name={q}icon_disease{q}>
+actor_stat_type_store_cost_buy_multiplier_Trinket=Trinket Prices
+actor_stat_type_store_cost_sell_multiplier_Trinket=[DISABLED FEATURE REMOVE ME]
+actor_stat_type_store_cost_buy_multiplier_SC_Upgrade=Stagecoach Item Prices
+actor_stat_type_store_cost_sell_multiplier_SC_Upgrade=[DISABLED FEATURE REMOVE ME]
+actor_stat_type_store_cost_buy_multiplier_Consumable=Consumable Item Prices
+actor_stat_type_store_cost_sell_multiplier_Consumable=[DISABLED FEATURE REMOVE ME]
+actor_stat_type_affinity_tick_trigger_positive_chance_multiplier=<color=#{notable}>Positive</color> Banter
+actor_stat_type_affinity_tick_trigger_negative_chance_multiplier=<color=#{harmful}>Negative</color> Banter
+actor_stat_type_torch_drain_between_nodes=Flame Drain
+actor_stat_type_torch_remove_percent_driving=Traveling Flame Drain
+actor_stat_type_battle_modifier_chance=Enemy Advantage Chance
+actor_stat_type_health_heal_received_percent=Healing Received
+actor_stat_type_formatted_affinity_relationship_tag_chance_modifier_positive={0} Positive Relationship Chance
+actor_stat_type_formatted_affinity_relationship_tag_chance_modifier_negative={0} Negative Relationship Chance
+actor_stat_type_formatted_speed_number_of_turns=Extra Turn
+affinity_tick_relationship_enter_label=The relationship is tested..
+affinity_tick_relationship_exit_label=The relationship is lost..
+resist_label=<color=#{neutral}>RES</color>
+resist_formatted_label={0} <color=#{neutral}>RES</color>
+skill_effect_type_ko=KO
+skill_effect_type_death=Death
+skill_effect_type_combat_start=Combat Start
+skill_effect_type_round_start=Round Start
+skill_effect_type_round_end=Round End
+skill_effect_type_turn_start=Turn Start
+skill_effect_type_health_damage= When Damaged
+skill_effect_type_stress_damage=When Stressed
+skill_effect_type_deaths_door_enter=Death's Door
+skill_effect_type_deaths_door_exit=Death's Door Recovery
+skill_effect_type_on_hit_as_performer_to_target=Apply On Hit
+skill_effect_type_on_hit_as_target_to_target=Gain On Hit
+skill_effect_type_on_attack_as_target_to_target=Gain on Attack
+skill_effect_type_target_on_attack=Apply On Attack
+skill_effect_type_on_miss_as_target_to_target=Gain On Miss
+skill_effect_type_on_miss_as_performer_to_target=Apply On Miss
+skill_effect_type_move=On Move
+pop_text_resist_bleed=<color=#{bleed}>RESIST!</color>
+pop_text_resist_blight=<color=#{blight}>RESIST!</color>
+pop_text_resist_burn=<color=#{burn}>RESIST!</color>
+pop_text_resist_move=<color=#{move}>RESIST!</color>
+source_torch=The Flame
+source_stage_coach_armor=Armor
+source_stage_coach_wheels=Wheels
+source_story=Encounter
+source_meltdown=Meltdown
+pop_text_speed=Speed!
+skill_name_move=<color=#{move}>Move</color>
+skill_name_pass_stress=Pass <sprite name={q}token_stress{q}>
+skill_name_pass_heal=Pass <sprite name={q}icon_healthup{q}><sprite name={q}token_stress{q}>
+skill_name_repair=Repair
+pass_turn=Pass
+status_deaths_door=<color=#{deathdoor}>Death's Door</color>
+dot_name_hot=<color=#{heal}>Heal Per Turn</color>
+dot_hot=<sprite name={q}icon_healthup{q}>
+dot_hot_amount=<color=#{heal}><sprite name={q}icon_healthup{q}> {0}</color>
+monster_tag_seperator= / 
+tag_corpse=Corpse
+tag_grave=Grave
+tag_not_corpse=Not Corpse
+tag_melee=Melee
+tag_ranged=Ranged
+tag_gaunt=Gaunt
+tag_swine=Swine
+tag_cosmic=Cosmic
+tag_gentry=Plague Eater
+tag_fanatic=Fanatic
+tag_cultist=Cultist
+tag_pillager=Pillager
+tag_animal=Creature
+tag_cadaver=Cadaver
+tag_random_1=Random
+tag_coastal=Fisherfolk
+tag_ghost=Vengeful Spirit
+dot_dot=<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+dot_dmgdot=<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+turn_order_next_actor=Active
+resistance_stun_short=STN
+resistance_blight_short=BLGT
+resistance_bleed_short=BLD
+resistance_disease_short=DIS
+resistance_deaths_door_short=DTH
+resistance_move_short=MOV
+resistance_debuff_short=DBFF
+resistance_burn_short=BURN
+resistance_stun=STUN RESIST
+resistance_blight=BLIGHT RESIST
+resistance_bleed=BLEED RESIST
+resistance_disease=DISEASE RESIST
+resistance_deaths_door=DEATHBLOW RESIST
+resistance_move=MOVE RESIST
+resistance_debuff=DEBUFF RESIST
+resistance_burn=BURN RESIST
+run_value_torch=Flame
+run_value_stage_coach_armor=Coach Armor
+run_value_stage_coach_wheels=Coach Wheels
+debuffs_label=Debuffs
+buffs_label=Buffs
+retreat_tooltip_label=Retreat: 
+pop_text_retreat_success=<color=#{notable}>Retreated!</color>
+pop_text_retreat_fail=<color=#{harmful}>Retreat Failed!</color>
+pop_text_quirk_added={0}
+skill_tag_heal=Heal
+skill_tag_melee=Melee
+skill_tag_ranged=Ranged
+skill_tag_riposte=Riposte
+battle_modifier_tooltip_title_gargantuan_monsters=Sturdy Enemies:
+battle_modifier_tooltip_title_frenzied_monsters=Frenzied Enemies:
+battle_modifier_tooltip_title_elite_monsters=Elite Enemies:
+battle_modifier_tooltip_title_hale_monsters=Hale Enemies:
+battle_modifier_tooltip_title_hastened_monsters=Hastened Enemies:
+battle_modifier_tooltip_title_unyielding_monsters=Unyielding Enemies:
+battle_modifier_tooltip_title_impervious_monsters=Impervious Enemies:
+battle_modifier_tooltip_title_infectious_monsters=Infectious Enemies:
+battle_modifier_tooltip_title_ambush_monsters=Enemy Ambush!
+battle_modifier_tooltip_title_final_showdown=Face Your Failure!
+token_positive=<color=#{buff}>Positive</color> Token
+token_negative=<color=#{debuff}>Negative</color> Token
+dot_winded=<color=#{debuff}>Winded Debuffs</color>
+battle_modifier_title_gargantuan_monsters=Sturdy Enemies
+battle_modifier_title_frenzied_monsters=Frenzied Enemies
+battle_modifier_title_elite_monsters=Elite Enemies
+battle_modifier_title_hale_monsters=Hale Enemies
+battle_modifier_title_hastened_monsters=Hastened Enemies
+battle_modifier_title_unyielding_monsters=Unyielding Enemies
+battle_modifier_title_impervious_monsters=Impervious Enemies
+battle_modifier_title_infectious_monsters=Infectious Enemies
+battle_modifier_title_ambush_monsters=Enemy Ambush!
+battle_modifier_title_final_showdown=Face Your Failure!
+battle_modifier_title_urgent_repairs=Urgent Repairs!
+battle_modifier_tooltip_title_urgent_repairs=Urgent Repairs
+battle_modifier_title_urgent_repairs_wheels=Urgent Repairs!
+battle_modifier_tooltip_title_urgent_repairs_wheels=Urgent Repairs
+lost_battalion_boss_taproot_status_bar_tooltip_label=Invulnerable
+glossary_stealth_label=Stealth
+glossary_enemy_type_label=Unique
+glossary_special_label=Special
+glossary_other_label=Other
+final_round_label=Final Round!
+actor_stat_type_resistance_ignore_death={0}<color=#{neutral}><sprite name={q}icon_death_outline{q}> RES Piercing</color>
+boss_defeated_prompt_brain=Shackles Destroyed!
+boss_defeated_prompt_lungs=Resentment Purged!
+boss_defeated_prompt_eyes=Obsession Purged!
+boss_defeated_prompt_arms=Ambition Purged!
+boss_defeated_prompt_body=Confession Complete!
+token_vestal_blessing=<color=#{buff}>Consecration</color>
+token_tag_vestal_blessing=<color=#{buff}>Consecration</color>
+token_tag_combo=<sprite name={q}token_combo{q}>
+token_tag_positive=<color=#{buff}>Positive</color>
+token_tag_negative=<color=#{debuff}>Negative</color>
+token_tag_pos_copy_steal=<color=#{buff}>Positive</color>
+token_tag_neg_trinket_token=<color=#{debuff}>Negative</color>
+token_tag_pos_trinket_token=<color=#{buff}>Positive</color>
+token_tag_negative+plural=<color=#{debuff}>Negative</color>
+token_tag_random=Random
+combat_alt_view_statuses_label=Statuses
+combat_alt_view_skills_label=Skills
+combat_alt_view_hidden_skill_title=???
+combat_alt_view_hidden_skill_desc=???
+combo_append_pop_text_label=<color=#{combo_token}>Combo!</color>
+##DOT MODIFIERS
+actor_stat_type_dot_effect_value_dealt_change_bleed=<sprite name={q}icon_bleed{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_dealt_change_blight=<sprite name={q}icon_blight{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_dealt_change_burn=<sprite name={q}icon_burn{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_dealt_multiplier_bleed=<sprite name={q}icon_bleed{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_dealt_multiplier_blight=<sprite name={q}icon_blight{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_dealt_multiplier_burn=<sprite name={q}icon_burn{q}><color=#{buff}>Dealt</color>
+actor_stat_type_dot_effect_value_received_change_bleed=<sprite name={q}icon_bleed{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_effect_value_received_change_blight=<sprite name={q}icon_blight{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_effect_value_received_change_burn=<sprite name={q}icon_burn{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_effect_value_received_multiplier_bleed=<sprite name={q}icon_bleed{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_effect_value_received_multiplier_blight=<sprite name={q}icon_blight{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_effect_value_received_multiplier_burn=<sprite name={q}icon_burn{q}><color=#{debuff}>Received</color>
+actor_stat_type_dot_extra_duration_dealt_bleed=<sprite name={q}icon_bleed{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_dot_extra_duration_dealt_blight=<sprite name={q}icon_blight{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_dot_extra_duration_dealt_burn=<sprite name={q}icon_burn{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_dot_extra_duration_received_bleed=<sprite name={q}icon_bleed{q}><color=#{debuff}>Duration Received</color>
+actor_stat_type_dot_extra_duration_received_blight=<sprite name={q}icon_blight{q}><color=#{debuff}>Duration Received</color>
+actor_stat_type_dot_extra_duration_received_burn=<sprite name={q}icon_burn{q}><color=#{debuff}>Duration Received</color>
+buff_blessing_description=This enemy is blessed by {0}
+duration_dealt_label={0} Duration Dealt
+chance_label={0} Chance
+blessed_tooltip_brain_flavour=<i>Shackled to oblivion...</i>
+blessed_tooltip_lungs_flavour=<i>The hot breath of seething fury...</i>
+blessed_tooltip_eyes_flavour=<i>Unwavering focus; a terrible attention...</i>
+blessed_tooltip_arms_flavour=<i>Unrestrained ambition; the prelude to downfall</i>
+blessed_tooltip_final_flavour=<i>The greatest of tests, failure itself.</i>
+actor_stat_type_formatted_health_max={0} Max <sprite name={q}icon_health_v2{q}>
+actor_stat_type_formatted_health_damage={0} DMG
+actor_stat_type_formatted_speed={0} <sprite name={q}icon_speed{q}>
+actor_stat_type_formatted_crit_chance={0} CRIT
+actor_stat_type_formatted_resistance_stress={0} <sprite name={q}token_stress{q}> RES
+actor_stat_type_formatted_resistance_stun={0} <color=#{neutral}><sprite name={q}icon_stun{q}> RES</color>
+actor_stat_type_formatted_resistance_move={0} <color=#{neutral}><sprite name={q}icon_move{q}> RES</color>
+actor_stat_type_formatted_resistance_blight={0} <color=#{neutral}><sprite name={q}icon_blight{q}> RES</color>
+actor_stat_type_formatted_resistance_bleed={0} <color=#{neutral}><sprite name={q}icon_bleed{q}> RES</color>
+actor_stat_type_formatted_resistance_burn={0} <color=#{neutral}><sprite name={q}icon_burn{q}> RES</color>
+actor_stat_type_formatted_resistance_debuff={0} <color=#{neutral}><sprite name={q}icon_debuff{q}> RES</color>
+actor_stat_type_formatted_resistance_ignore_stun={0} <color=#{neutral}><sprite name={q}icon_stun{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_ignore_blight={0} <color=#{neutral}><sprite name={q}icon_blight{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_ignore_bleed={0} <color=#{neutral}><sprite name={q}icon_bleed{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_ignore_burn={0} <color=#{neutral}><sprite name={q}icon_burn{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_ignore_debuff={0} <color=#{neutral}><sprite name={q}icon_debuff{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_death={0} <color=#{neutral}><sprite name={q}icon_death_outline{q}> RES</color>
+actor_stat_type_formatted_resistance_disease={0} <color=#{neutral}><sprite name={q}icon_disease{q}> RES</color>
+actor_stat_type_formatted_resistance_doom={0} Loathing RES
+actor_stat_type_formatted_health_damage_received_percent={0} DMG Taken
+actor_stat_type_formatted_health_damage_dealt_percent={0} DMG
+actor_stat_type_formatted_health_heal_dealt_percent={0} Healing Given
+actor_stat_type_formatted_health_heal_dealt_percent_dot={0} Healing-Over-Time Given
+actor_stat_type_formatted_health_heal_received_percent_skill={0} Healing Received from Skills
+actor_stat_type_formatted_health_heal_received_percent_food={0} Passive Healing Rate
+actor_stat_type_formatted_health_heal_percent_between_nodes={0} Traveling Heal
+actor_stat_type_formatted_scout_node_chance=<color=#{notable}>{0}</color> Location Scouting
+actor_stat_type_formatted_scout_route_chance=<color=#{notable}>{0}</color> Route Scouting
+actor_stat_type_formatted_scout_node_chance_Hospital=<color=#{notable}>{0}</color> Field Hospitals Location Scouting
+actor_stat_type_formatted_scout_node_chance_StoryHero=<color=#{notable}>{0}</color> Shrines of Reflection Location Scouting
+actor_stat_type_formatted_scout_node_chance_Dungeon=<color=#{notable}>{0}</color> Lairs Location Scouting
+actor_stat_type_formatted_scout_node_chance_Cache=<color=#{notable}>{0}</color> Academic's Caches Location Scouting
+actor_stat_type_formatted_scout_node_chance_Store=<color=#{notable}>{0}</color> Hoarder Location Scouting
+actor_stat_type_formatted_scout_node_chance_StoryAssist=<color=#{notable}>{0}</color> Assistance Encounters Location Scouting
+actor_stat_type_formatted_scout_node_chance_StoryResist=<color=#{notable}>{0}</color> Resistance Encounters Location Scouting
+actor_stat_type_formatted_scout_node_chance_StoryCosmic=<color=#{notable}>{0}</color> Academic's Studies Location Scouting
+actor_stat_type_formatted_scout_node_chance_StoryCultist=<color=#{notable}>{0}</color> Cultist Encounters Location Scouting
+actor_stat_type_formatted_scout_node_chance_CultistTerritory=<color=#{notable}>{0}</color> Cultist Encounters Location Scouting
+actor_stat_type_formatted_scout_node_chance_CreatureDen=<color=#{notable}>{0}</color> Creature Den Location Scouting
+actor_stat_type_formatted_scout_node_chance_GauntChirurgeon=<color=#{notable}>{0}</color> Chirurgeon's Table Location Scouting
+actor_stat_type_formatted_scout_node_chance_Oasis=<color=#{notable}>{0}</color> Oasis Location Scouting
+actor_stat_type_formatted_scout_route_chance_safe=<color=#{notable}>{0}</color> Safe Route Scouting
+actor_stat_type_formatted_scout_route_chance_oblivion_tear=<color=#{notable}>{0}</color> Oblivion Tear Route Scouting
+actor_stat_type_formatted_scout_route_chance_rough_patch=<color=#{notable}>{0}</color> Rough Patch Route Scouting
+actor_stat_type_formatted_scout_route_chance_hazard=<color=#{notable}>{0}</color> Hazardous Route Scouting
+actor_stat_type_formatted_scout_route_chance_combat=<color=#{notable}>{0}</color> Combat Route Scouting
+actor_stat_type_formatted_food_eat={0} Food Consumed
+actor_stat_type_formatted_resistance_stun_icon={0} <sprite name={q}icon_stun{q}>
+actor_stat_type_formatted_resistance_move_icon={0} <sprite name={q}icon_move{q}>
+actor_stat_type_formatted_resistance_blight_icon={0} <sprite name={q}icon_blight{q}>
+actor_stat_type_formatted_resistance_bleed_icon={0} <sprite name={q}icon_bleed{q}>
+actor_stat_type_formatted_resistance_burn_icon={0} <sprite name={q}icon_burn{q}>
+actor_stat_type_formatted_resistance_debuff_icon={0} <sprite name={q}icon_debuff{q}>
+actor_stat_type_formatted_resistance_disease_icon={0} <sprite name={q}icon_disease{q}>
+actor_stat_type_formatted_resistance_ignore_death={0}<color=#{neutral}><sprite name={q}icon_death_outline{q}> RES Piercing</color>
+actor_stat_type_formatted_resistance_ignore_move={0}<color=#{neutral}><sprite name={q}icon_move{q}> RES Piercing</color>
+actor_stat_type_formatted_store_cost_buy_multiplier_trinket=<color=#{notable}>{0}</color> Trinket Prices
+actor_stat_type_formatted_store_cost_buy_multiplier_stage_coach_upgrade=<color=#{notable}>{0}</color> Stagecoach Item Prices
+actor_stat_type_formatted_store_cost_buy_multiplier_rest=<color=#{notable}>{0}</color> Inn Item Prices
+actor_stat_type_formatted_store_cost_buy_multiplier_combat=<color=#{notable}>{0}</color> Combat Item Prices
+actor_stat_type_formatted_affinity_tick_trigger_positive_chance_multiplier={0} <color=#{notable}>Positive</color> Banter
+actor_stat_type_formatted_affinity_tick_trigger_negative_chance_multiplier={0} <color=#{harmful}>Negative</color> Banter
+actor_stat_type_formatted_torch_drain_between_nodes=<color=#{notable}>{0}</color> Flame Drain
+actor_stat_type_formatted_torch_remove_percent_driving=<color=#{notable}>{0}</color> Traveling Flame Drain
+actor_stat_type_formatted_torch_max_value={0} Max Flame
+actor_stat_type_formatted_battle_modifier_chance={0} Enemy Advantage Chance (Battle Start)
+actor_stat_type_formatted_health_heal_received_percent={0} Healing Received
+actor_stat_type_formatted_dot_effect_value_dealt_change_bleed={0} <sprite name={q}icon_bleed{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_change_blight={0} <sprite name={q}icon_blight{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_change_burn={0} <sprite name={q}icon_burn{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_change_hot={0} <sprite name={q}icon_healthup{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_multiplier_bleed={0} <sprite name={q}icon_bleed{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_multiplier_blight={0} <sprite name={q}icon_blight{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_multiplier_burn={0} <sprite name={q}icon_burn{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_dealt_multiplier_hot={0} <sprite name={q}icon_healthup{q}><color=#{buff}>Dealt</color>
+actor_stat_type_formatted_dot_effect_value_received_change_bleed={0} <sprite name={q}icon_bleed{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_effect_value_received_change_blight={0} <sprite name={q}icon_blight{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_effect_value_received_change_burn={0} <sprite name={q}icon_burn{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_effect_value_received_multiplier_bleed={0} <sprite name={q}icon_bleed{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_effect_value_received_multiplier_blight={0} <sprite name={q}icon_blight{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_effect_value_received_multiplier_burn={0} <sprite name={q}icon_burn{q}><color=#{debuff}>Received</color>
+actor_stat_type_formatted_dot_extra_duration_dealt_bleed={0} <sprite name={q}icon_bleed{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_formatted_dot_extra_duration_dealt_blight={0} <sprite name={q}icon_blight{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_formatted_dot_extra_duration_dealt_burn={0} <sprite name={q}icon_burn{q}><color=#{buff}>Duration Dealt</color>
+actor_stat_type_formatted_dot_extra_duration_received_bleed={0} <sprite name={q}icon_bleed{q}><color=#{debuff}>Duration Received</color>
+actor_stat_type_formatted_dot_extra_duration_received_blight={0} <sprite name={q}icon_blight{q}><color=#{debuff}>Duration Received</color>
+actor_stat_type_formatted_dot_extra_duration_received_burn={0} <sprite name={q}icon_burn{q}><color=#{debuff}>Duration Received</color>
+actor_stat_type_formatted_map_generation_nodes_per_row_min={0} Path Choices
+actor_stat_type_formatted_map_generation_nodes_per_row_max={0} Path Choices
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_Store={0} Hoarders
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_Hospital={0} Field Hospitals
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_Cache={0} Academic's Caches
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_StoryResist={0} Resistance Encounters
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_StoryAssist={0} Assistance Encounters
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_StoryCosmic={0} Academic's Studies
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_StoryCultist={0} Cultist Encounters
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_CreatureDen={0} Creature Dens
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_GauntChirurgeon={0} Chirurgeon's Tables
+actor_stat_type_formatted_map_generation_node_spawn_multiplier_Oasis={0} Oases
+actor_stat_type_formatted_map_generation_route_chance_multiplier_hazard={0} Hazardous Routes
+actor_stat_type_formatted_map_generation_route_chance_multiplier_oblivion_tear={0} Oblivion Tears
+actor_stat_type_formatted_map_generation_route_chance_multiplier_rough_patch={0} Rough Patch Routes
+actor_stat_type_formatted_map_generation_route_chance_multiplier_safe={0} Safe Routes
+actor_stat_type_formatted_remove_percent_driving={0} Traveling <color=#{notable}>Flame</color> Drain
+actor_stat_type_formatted_player_inventory_max_slots=<color=#{notable}>{0}</color> Inventory slots
+actor_stat_type_formatted_loot_qty_RELICS_QTY={0} quantity of looted RELICS
+actor_stat_type_formatted_loot_qty_FOOD_QTY={0} quantity of looted FOOD
+actor_stat_type_formatted_loot_qty_PRODUCTION_CHC={0} quantity of produced items from Stagecoach items
+actor_stat_type_formatted_loot_qty_MEDICINE_CHEST_QTY={0} quantity of produced items from <color=#{notable}>Chirurgeon's Mixing Kit</color>
+actor_stat_type_formatted_loot_qty_COMPRESS_KIT_QTY={0} quantity of produced items from <color=#{notable}>Mortar and Pestle</color>
+actor_stat_type_formatted_loot_qty_BOTTLE_CASE_QTY={0} quantity of produced items from <color=#{notable}>Alembic and Retort</color>
+actor_stat_type_formatted_loot_qty_BAUBLES_QTY={0} quantity of looted BAUBLES
+actor_stat_type_formatted_loot_qty_HOARDERS_MAP_QTY=Double the <color=#{notable}>trinket selection</color> at the Hoarder
+actor_stat_type_formatted_loot_qty_CHIRURGEONS_MAP_QTY=Double the <color=#{notable}>item selection</color> at the Field Hospital
+
+actor_stat_type_formatted_loot_chance_SC_UPGRADE_CHC=Increased chance of looting <color=#{notable}>Stagecoach items</color>
+actor_stat_type_formatted_loot_chance_TRINKET_CHC=Increased chance of looting <color=#{notable}>Trinkets</color>
+actor_stat_type_formatted_loot_chance_PRODUCTION_CHC=Increased chance of producing items from Stagecoach items
+actor_stat_type_formatted_loot_chance_ROAD_DEBRIS_CHC=Increased chance of looting <color=#{notable}>Items</color> from road debris
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_StoryResist={0} Candle of Hope chance at Resistance Encounters 
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_StoryCultist={0} Candle of Hope chance at Oblivion's Ingresses
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_Dungeon={0} Candle of Hope chance at Lairs
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_CreatureDen={0} Candle of Hope chance at Creature Dens
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_GauntChirurgeon={0} Candle of Hope chance at Chirurgeon's Tables
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_StoryAssist={0} Candle of Hope chance at Assistance Encounters
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_StoryCosmic={0} Candle of Hope chance at Academic's Studies
+actor_stat_type_formatted_map_generation_node_execute_loot_chance_Oasis={0} Candle of Hope chance at Oases
+actor_stat_type_formatted_map_generation_node_execute_loot_chance={0} Candle of Hope chance at Locations
+
+actor_stat_type_formatted_overstress_chance_modifier_meltdown={0} <color=#{harmful}>Meltdown</color> Chance
+actor_stat_type_formatted_overstress_chance_modifier_resolute={0} <color=#{notable}>Resolute</color> Chance
+actor_stat_type_formatted_stage_coach_wheels_max_value={0} Max <sprite name={q}icon_currency_wheel{q}>
+actor_stat_type_formatted_stage_coach_armor_max_value={0} Max <sprite name={q}icon_currency_armor{q}>
+effect_tooltip_condition_item_tag_amount=If <color=#{notable}>{0}</color> in inventory {1}{2}: {3}
+effect_tooltip_condition_item_tag_amount_greater_equal_two={3} per <color=#{notable}>{2} {0}</color> items in inventory
+effect_tooltip_condition_item_equipped_tag=If <color=#{notable}>{0}</color> item is equipped: {1}
+effect_tooltip_condition_item_equipped_tag_multiple={1} per <color=#{notable}>{0}</color> item equipped
+effect_tooltip_token_remove_all_tag=Remove All {0} Tokens
+effect_tooltip_condition_actor_stat_value=If {0} {1}{2}: {3}
+effect_tooltip_condition_first_initiative=If First in Turn Order: {0}
+effect_tooltip_condition_last_initiative=If Last in Turn Order: {0}
+effect_tooltip_actor_type_monsters=Enemy
+effect_tooltip_condition_token_amount_nonzero_conditionactor_monsters=If any {0} has {1}: {2}
+effect_tooltip_condition_token_amount_nonzero_conditionactor=If {0} has {1}: {2}
+effect_tooltip_condition_token_amount_zero_conditionactor=If {0} has no {1}: {2}
+effect_tooltip_condition_token_tag_amount_multiple={1} per {0}
+effect_tooltip_condition_quirk_tag_amount=If {0}: {1}
+effect_tooltip_condition_token_amount_zero_conditionactor=If {0} has no {1}: {2}
+effect_tooltip_condition_doom_reset_count_multiple=Loathing: {0}
+actor_trigger_target_type_friendly_team_1=Random Ally:
+actor_trigger_target_type_friendly_team_2=2 Random Allies:
+actor_trigger_target_type_friendly_team_3=3 Random Allies:
+actor_trigger_target_type_friendly_team_4=Each Ally:
+actor_trigger_target_type_enemy_team_1=Random Enemy:
+actor_trigger_target_type_enemy_team_2=2 Random Enemies:
+actor_trigger_target_type_enemy_team_3=3 Random Enemies:
+actor_trigger_target_type_enemy_team_4=Each Enemy:
+effect_tooltip_condition_tag_inverse={1} per Missing {0}
+effect_tooltip_skill_effect_on_resist=Gain On Resist:
+effect_tooltip_skill_effect_on_resist_bundled=<color=#{notable}>Gain On {0} Resist:</color> {1}
+effect_tooltip_condition_resist_tag={0}: {1}
+effect_tooltip_condition_resist={0}: {1}
+resist_tag_bleed=<sprite name={q}icon_bleed{q}>
+resist_tag_blight=<sprite name={q}icon_blight{q}>
+resist_tag_burn=<sprite name={q}icon_burn{q}>
+resist_tag_move=<sprite name={q}icon_move{q}>
+resist_tag_stun=<sprite name={q}icon_stun{q}>
+resist_tag_daze=<sprite name={q}token_daze_gold{q}>
+#
+effect_tooltip_skill_effect_turn_start_friendly_team_1=Random Ally on Turn Start:
+effect_tooltip_skill_effect_turn_start_friendly_team_4=Each Hero on Turn Start:
+effect_tooltip_skill_effect_turn_end_friendly_team_1=Random Ally on Turn End:
+effect_tooltip_skill_effect_turn_end_friendly_team_4=Each Hero on Turn End:
+effect_tooltip_skill_effect_round_start_friendly_team_1=Random Ally on Round Start:
+effect_tooltip_skill_effect_round_start_friendly_team_4=Each Hero on Round Start:
+effect_tooltip_skill_effect_round_end_friendly_team_1=Random Ally on Round End:
+effect_tooltip_skill_effect_round_end_friendly_team_4=Each Hero on Round End:
+effect_tooltip_skill_effect_combat_start_friendly_team_1=Random Ally on Combat Start:
+effect_tooltip_skill_effect_combat_start_friendly_team_4=Each Hero on Combat Start:
+effect_tooltip_skill_effect_turn_start_enemy_team_1=Random Enemy on Turn Start:
+effect_tooltip_skill_effect_turn_start_enemy_team_4=Each Enemy on Turn Start:
+effect_tooltip_skill_effect_turn_end_enemy_team_1=Random Enemy on Turn End:
+effect_tooltip_skill_effect_turn_end_enemy_team_4=Each Enemy on Turn End:
+effect_tooltip_skill_effect_round_start_enemy_team_1=Random Enemy on Round Start:
+effect_tooltip_skill_effect_round_start_enemy_team_4=Each Enemy on Round Start:
+effect_tooltip_skill_effect_round_end_enemy_team_1=Random Enemy on Round End:
+effect_tooltip_skill_effect_round_end_enemy_team_4=Each Enemy on Round End:
+effect_tooltip_skill_effect_combat_start_enemy_team_1=Random Enemy on Combat Start:
+effect_tooltip_skill_effect_combat_start_enemy_team_4=Each Enemy on Combat Start:
+#
+actor_stat_type_formatted_item_discard_game_score_chance_trinket_common=<color=#{notable}>{0}</color> Game Score Chance on Common Trinket Discard
+actor_stat_type_formatted_item_discard_game_score_chance_trinket_rare=<color=#{notable}>{0}</color> Game Score Chance on Rare Trinket Discard
+actor_stat_type_formatted_item_discard_game_score_chance_trinket_epic=<color=#{notable}>{0}</color> Game Score Chance on Epic Trinket Discard
+actor_stat_type_formatted_item_discard_game_score_chance_trinket_cultist=<color=#{notable}>{0}</color> Game Score Chance on Cultist Trinket Discard
+actor_stat_type_formatted_item_discard_game_score_chance_combat=<color=#{notable}>{0}</color> Game Score Chance on Combat Item Discard
+actor_stat_type_formatted_item_discard_game_score_chance_rest=<color=#{notable}>{0}</color> Game Score Chance on Rest Item Discard
+actor_stat_type_formatted_item_discard_game_score_chance_stage_coach_upgrade_common=<color=#{notable}>{0}</color> Game Score Chance on Common Stagecoach Item Discard
+actor_stat_type_formatted_item_discard_game_score_chance_stage_coach_upgrade_rare=<color=#{notable}>{0}</color> Game Score Chance on Rare Stagecoach Item Discard
+effect_tooltip_skill_effect_node_execute_started=On Entry:
+effect_tooltip_skill_effect_node_after=After Each Location:
+effect_tooltip_skill_effect_node_after_party_1=Random Hero After Each Location:
+effect_tooltip_skill_effect_node_before=Before Each Location:
+effect_tooltip_condition_node=If {0}: {1}
+store_title=Hoarder
+effect_tooltip_condition_actor_count_value={0} {1} {2} {3}
+candle_bonus_tooltip=<sprite name={q}icon_candle_glyph{q}><color=#{stat_buff}>+{0}:</color>\n
+candle_icon=<sprite name={q}icon_candle_glyph{q}>
+lock_icon=<sprite name={q}icon_lock{q}>
+skill_effect_duration_label={0} <color=#{neutral}>({1})</color>
+pop_text_token_class_boss_brain_lock_ranged_source=Added
+actor_resolve_is_tested_label={0}'s resolve is tested...
+effect_tooltip_stage_coach_wheels_change={0} <sprite name={q}icon_currency_wheel{q}>
+effect_tooltip_stage_coach_armor_change={0} <sprite name={q}icon_currency_armor{q}>
+comma_seperator=, 
+buff_combat_end_single_duration_label= <color=#{neutral}>(1 Battle)</color>
+effect_tooltip_condition_quirk=If {0}: {1}
+effect_tooltip_condition_path=If {0}: {1}
+effect_tooltip_condition_path_tag_amount=If {0}{1}{2}: {3}
+effect_tooltip_condition_biome_typical_count=If {0}{1}{2}: {3}
+effect_tooltip_condition_profile_value=If {0}{1}{2}: {3}
+effect_tooltip_condition_profile_value=If {0} Unlocked: {1}
+effect_tooltip_condition_roster_status=If {0}: {1}
+effect_tooltip_condition_profile_run_end_streak_victory=If Expedition Victory Streak: {0}
+effect_tooltip_condition_profile_run_end_streak_failure=If Expedition Failure Streak: {0}
+actor_stat_type_bundled_dot_extra_duration_dealt={0} Duration Dealt
+duration_display_type_round=1 Round
+duration_display_type_round+plural={0} Rounds
+duration_display_type_round+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+duration_display_type_round+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+duration_display_type_round+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+duration_display_type_round+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+overstress_condition_meltdown=On <color=#{harmful}>Meltdown</color>:
+overstress_condition_resolute=On <color=#{notable}>Resolute</color>:
+battling_against_label=vs {0}
+actor_stat_type_formatted_score_bonus_multiplier=Candles of Hope: {0}
+actor_stat_type_formatted_score_penalty_multiplier=Candles of Hope: {0}
+combat_immune_resist_label=IMM
+token_tag_positive+plural=<color=#{buff}>Positive</color>
+token_tag_positive+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+token_tag_positive+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+token_tag_positive+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+token_tag_positive+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+token_tag_negative+plural=<color=#{debuff}>Negative</color>
+token_tag_negative+plural+ru=Russian Plural special case for if a number is 2, 3 or 4
+token_tag_negative+plural+ukr=Ukrainian Plural special case for if a number is 2, 3 or 4
+token_tag_negative+plural+cz=Czech Plural special case for if a number is 2, 3 or 4
+token_tag_negative+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20

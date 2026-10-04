@@ -1,0 +1,21 @@
+﻿hospital_title=Field Hospital:
+hospital_tab_treatment=Triage
+hospital_tab_pharmacy=Pharmacy
+hospital_tab_therapy=Wellness
+hospital_treatment_title=Healing
+hospital_treatment_drag_slot=DRAG HERO
+hospital_treatment_heal_minor=+{0} HP
+hospital_treatment_heal_full=+MAX
+hospital_treatment_cost=<sprite name={q}icon_relic{q}> {0}
+hospital_treatment_buy_button=Buy
+hospital_treatment_no_diseases=No Diseases
+hospital_therapy_no_quirks=No Treatable Quirks
+out_of_stock_label=Out of Stock!
+store_screen_title=The Hoarder
+store_screen_done_button=Leave
+store_item_cost=<sprite name={q}cost_{1}{q}> {0}
+store_item_gold_cost=<sprite name={q}icon_relic{q}> {0}
+store_item_gold_sale_cost=<sprite name={q}icon_relic{q}> <size=90%><color=#{item_discardline}><s>{1}</s></color></size> {0}
+store_item_cost_concatenate= + 
+insufficient_funds_label=Insufficient Funds
+store_item_sale_cost=<sprite name={q}cost_{1}{q}> <size=90%><color=#{item_discardline}><s>{2}</s></color></size> {0}

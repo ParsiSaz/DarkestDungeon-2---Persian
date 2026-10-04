@@ -1,0 +1,332 @@
+tutorial_t100_title=The Stagecoach
+tutorial_t100_description=The Stagecoach is your carriage, coffin, and confessional.\n\nPress <color=#{notable}>[@{Move:positive}]</color> once to order the Stagecoach forward. Press <color=#{notable}>[@{Move:negative}]</color>to halt it.\n\nThe Stagecoach will steer automatically. You can fine-tune its path with <color=#{notable}>[@{Steering:negative}/@{Steering:positive}]</color>.
+
+tutorial_t102_title=Stagecoach View
+tutorial_t102_description=Press <color=#{notable}>[@{StageCoach}]</color> to bring up the Stagecoach View. This shows what items are currently installed on the Stagecoach as well as current <color=#{notable}>armor</color> <sprite name={q}icon_currency_armor{q}> and <color=#{notable}>wheels</color> <sprite name={q}icon_currency_wheel{q}> points.\n\nStagecoach items can only be changed at the <color=#{notable}>Wainwright</color>, who is present at each <color=#{notable}>Inn</color>. The Wainwright also can repair <sprite name={q}icon_currency_armor{q}> and <sprite name={q}icon_currency_wheel{q}>, for a fee.
+
+tutorial_t103_title=Travel Healing
+tutorial_t103_description=As the Stagecoach drives, <color=#{notable}>heroes will slowly heal HP</color>. This healing rate can be improved with some Stagecoach items.\n\nIf heroes are badly wounded, try to avoid location fights and drive for a while to heal back up.
+
+tutorial_t200_title=The Party
+tutorial_t200_description=Four heroes will join together on this expedition. Your salvation rides with them.
+
+tutorial_t201_title=Party Creation
+tutorial_t201_description=<sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> or <color=#{notable}>[DOUBLE <sprite name={q}icon-mouse-left{q}>]</color> hero portraits to assemble your party of four heroes. The hero in the rightmost position of your roster will be first in the combat line.
+
+tutorial_t202_title=Roster Arrangement
+tutorial_t202_description=To rearrange your party order while driving, <sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> their portraits.\n\nParty order determines what position each hero is in when battle starts. The furthest hero to the right begins at the front line of combat.
+
+tutorial_t203_title=Hero Paths
+tutorial_t203_description=Each class of hero has multiple potential <color=#{notable}>paths</color>, which are specializations. The different paths can have wildly different strengths and weaknesses which influence how you may wish to use that hero.\n\nPaths are unlocked for use at the <color=#{notable}>Altar of Hope</color>. Once unlocked, they can be assigned at <color=#{notable}>The Crossroads</color> when you assemble your party.
+
+tutorial_t300_title=Heroes
+tutorial_t300_description=The hero sheet holds critical information. Open it with <color=#{notable}>[@{CharacterSheet}]</color> or by <sprite name={q}icon-mouse-right{q}> on any hero portrait.
+
+tutorial_t301_title=Hero Sheet
+tutorial_t301_description=The hero sheet is where you can view stats, relationships, view and equip combat skills, see the hero's quirks and diseases, equip trinkets, and more.
+
+tutorial_t302_title=Hero Sheet II
+tutorial_t302_description=Regardless of which tab you're on, you can always see the hero's stats, quirks, diseases, and trinkets.\n\n<color=#{notable}>[MOUSE OVER]</color> any stat to view a tooltip that shows any active <color=#{notable}>buffs</color> or <color=#{notable}>debuffs</color>.
+
+tutorial_t303_title=Relationships Tab
+tutorial_t303_description=This tab shows you the hero's current <color=#{notable}>affinity</color> or <color=#{notable}>relationship</color> with each other hero.\n\nLots of affinity pips means that the heroes are on <color=#{notable}>friendly</color> terms. Few pips means the heroes are <color=#{notable}>unfriendly</color>.\n\nThis determines the chance of relationships forming at the next Inn.
+
+tutorial_t304_title=Quirks
+tutorial_t304_description=<color=#{notable}>Quirks</color> are positive or negative personality traits. Quirks with <sprite name={q}icon_rare_quirk{q}> are rare.\n\nNegative quirks can be treated (removed) at the <color=#{notable}>Field Hospital</color>. Positive quirks can be reinforced (locked in place) there as well.
+
+tutorial_t305_title=Combat Skills
+tutorial_t305_description=This tab shows the hero's combat skills. You may equip <color=#{notable}>5 skills</color> at a time, plus there is a dedicated <color=#{notable}>6th slot</color> for combat items.\n\nEach hero has <color=#{notable}>11 skills</color> that may eventually be unlocked.
+
+tutorial_t306_title=Equipping Skills
+tutorial_t306_description=To change which combat skills are equipped, <sprite name={q}icon-mouse-left{q}> on each skill to toggle it <color=#{notable}>on</color> or <color=#{notable}>off</color>. You can have five skills equipped at one time.\n\nIf the hero only has five skills available, you must visit <color=#{notable}>Shrines of Reflection</color> to unlock more skills.
+
+tutorial_t307_title=Hero Conditions
+tutorial_t307_description=This tab shows any <color=#{notable}>conditions</color> present on the hero.\n\nConditions are usually long term buffs or debuffs that result from <color=#{notable}>Inn item</color> use.
+
+tutorial_t400_title=The Map
+tutorial_t400_description=Outside of the Valley, the road becomes more complex.\n\nTo see what lies ahead, open the <color=#{notable}>minimap</color> with <color=#{notable}>[@{Minimap}]</color>.
+
+tutorial_t401_title=Map Details
+tutorial_t401_description=The <color=#{notable}>minimap</color> shows you the road ahead, as best you know it.\n\nLocations that you can visit are shown by icons. If the location is <color=#{notable}>scouted</color> (known), the icon will tell you exactly what is there. <color=#{notable}>unscouted</color> locations are shown by '?'
+
+tutorial_t403_title=Scouting
+tutorial_t403_description=Your party has a base chance to scout each location when you enter a new region. Different <color=#{notable}>Stagecoach items</color> can help you scout more reliably.\n\nAlso look out for <color=#{notable}>Watchtowers</color> which will reveal all remaining unscouted locations in that region.
+
+tutorial_t404_title=Road Objects
+tutorial_t404_description=Even road detritus can sometimes yield useful supplies. Crash through debris to find loot.\n\nFear not--the Stagecoach is built of strong stuff.
+
+tutorial_t405_title=Info View 
+tutorial_t405_description=<color=#{notable}>[HOLD @{ShowTorch}]</color> while driving to quickly see the Flame level, buffs/debuffs, and loathing effects.
+
+tutorial_t500_title=Route Choices
+tutorial_t500_description=Forks in the road will give two or three potential destinations as shown by icons above the road. If the way ahead is <color=#{notable}>scouted</color>, these icons will be revealed.\n\nTo choose, <color=#{notable}>[HOLD the direction key]</color> corresponding to left / straight / right or <sprite name={q}icon-mouse-left{q}><color=#{notable}>[HOLD]</color> over the desired route icon.\n\nHeroes may voice their own preferences for the route, shown by corresponding icons above their portrait heads. <color=#{notable}>Beware:</color> choosing a destination different than what a hero wants will cause them <sprite name={q}token_stress{q}>.
+
+tutorial_t501_title=Route Types
+tutorial_t501_description=Each route also has a type: <color=#{notable}>safe</color>, <color=#{notable}>barricade (combat)</color>, <color=#{notable}>hazard</color>, <color=#{notable}>rough patch</color>, or <color=#{notable}>oblivion tear</color> <sprite name={q}icon_doom{q}>.\n\nScouting abilities reveal route types in addition to destinations. This can be very important for picking a safe path.
+
+tutorial_t502_title=Hazardous Routes
+tutorial_t502_description=Driving on a <color=#{notable}>hazard</color> will damage one point of armor <sprite name={q}icon_currency_armor{q}> on the Stagecoach.\n\nIf the Stagecoach has no <sprite name={q}icon_currency_armor{q}> to deduct, then the party will be ambushed and an <color=#{notable}>urgent repair</color> battle will ensue.
+
+tutorial_t503_title=Rough Routes
+tutorial_t503_description=Driving on a <color=#{notable}>rough patch</color> will result in one point of wheels <sprite name={q}icon_currency_wheel{q}> damage to the Stagecoach.\n\nIf the Stagecoach has no <sprite name={q}icon_currency_wheel{q}> to deduct, then the party will be ambushed and an <color=#{notable}>urgent repair</color> battle will ensue.
+
+tutorial_t504_title=Oblivion Tears
+tutorial_t504_description=Driving through an oblivion tear will increase loathing <sprite name={q}icon_doom{q}> by one point.
+
+tutorial_t505_title=Urgent Repairs
+tutorial_t505_description=When the Stagecoach is ambushed due to depleted <sprite name={q}icon_currency_wheel{q}> or <sprite name={q}icon_currency_armor{q}>, the party must fight off a group of opportunistic enemies while at a disadvantage.\n\nEach combat round, one hero will be randomly chosen to assist in <color=#{notable}>repairing</color> the Stagecoach and won't be able to act normally.\n\nAdditional negative effects may apply, based upon whether <sprite name={q}icon_currency_wheel{q}> or <sprite name={q}icon_currency_armor{q}> was exhausted.
+
+tutorial_t600_title=Inventory
+tutorial_t600_description=Your Stagecoach is limited in how many items it can carry. Press <color=#{notable}>[@{Inventory}]</color> to open the inventory.
+
+tutorial_t601_title=Inventory Stacking
+tutorial_t601_description=Your shared inventory is split between all item types. Some items stack well, whereas others take an entire slot.\n\nUse the inventory <color=#{notable}>tab filters</color> to easily see each item type.\n\nSome Stagecoach items increases stacking limits.
+
+tutorial_t602_title=Full Inventory
+tutorial_t602_description=If the Stagecoach becomes full, you may wish to discard less important items. <sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> the item off of the inventory window. Alternatively you can <color=#{notable}>[SHIFT-<sprite name={q}icon-mouse-left{q}>]</color> on the item.\n\nItems cannot be sold anywhere, so throw away what you don't need.
+
+tutorial_t700_title=Treasures
+tutorial_t700_description=Trinkets, combat items, Inn items, and Stagecoach items will all help you on your quest.\n\nYou will also find relics <sprite name={q}icon_relic{q}>, baubles <sprite name={q}icon_factioncurrency{q}>, and mastery <sprite name={q}icon_heropoints{q}>, which can be used to purchase supplies from vendors or upgrade your heroes' skills.
+
+tutorial_t701_title=Trinkets
+tutorial_t701_description=Each hero may equip up to <color=#{notable}>2 trinkets</color> at a time. Trinkets confer bonuses or special abilities and can drastically improve a hero.\n\nTrinkets may be removed or swapped when outside of combat.
+
+tutorial_t702_title=Equipping Trinkets
+tutorial_t702_description=Open Inventory with <color=#{notable}>[@{Inventory}]</color> and select the <color=#{notable}>trinket</color> filter to see only trinkets. Then <sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> a trinket from inventory to an empty hero slot to equip it. Alternatively, you can <color=#{notable}>[DOUBLE-<sprite name={q}icon-mouse-left{q}>]</color> on the trinket.
+
+tutorial_t703_title=Combat Items
+tutorial_t703_description=Combat items are equipped into a dedicated <color=#{notable}>skill slot</color> on each hero. To equip one, <sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> the combat item from inventory into the combat item skill slot.\n\nEquipping a combat item allows it to be used during combat.\n\nCombat items are <color=#{notable}>free actions</color>. One item may be used each hero turn, right before they use their normal skill.
+
+tutorial_t704_title=Mastery Points
+tutorial_t704_description=Mastery points <sprite name={q}icon_heropoints{q}> are earned mostly through combat victories. Each <sprite name={q}icon_heropoints{q}> will upgrade one <color=#{notable}>hero skill</color> when you reach the Inn.
+
+tutorial_t705_title=Relics
+tutorial_t705_description=Relics <sprite name={q}icon_relic{q}> are the main currency of the land, used to buy most supplies. You find relics mostly as spoils of battle.
+
+tutorial_t706_title=Baubles
+tutorial_t706_description=Baubles <sprite name={q}icon_factioncurrency{q}> are used to purchase trinkets, Stagecoach items, and repair the Stagecoach.\n\nBaubles come in different forms for each region. All bauble types are worth the same, but take up different stacks in your inventory.
+
+tutorial_t707_title=Stagecoach items
+tutorial_t707_description=Stagecoach items are essentially trinkets for your Stagecoach and provide valuable powers and bonuses. They can only be mounted or removed at the <color=#{notable}>Wainwright</color>, who is at each Inn.\n\nYour Stagecoach only has a limited number of slots for equipment, but more can be unlocked at the <color=#{notable}>Altar of Hope</color>.
+
+tutorial_t800_title=Encounters
+tutorial_t800_description=During encounters such as this one, you must pick one of the choices by <sprite name={q}icon-mouse-left{q}><color=#{notable}>[HOLDING] on one of your heroes.</color>\n\nThe results will be previewed at the bottom of the screen.
+
+tutorial_t801_title=Affinity Changes
+tutorial_t801_description=Heroes often have vastly different opinions about how a given encounter should be resolved.\n\nWhen you choose a hero's response, any heroes that agree with the acting hero will have their mutual affinity increased. <color=#{notable}>(GOLD GLOW)</color>\n\nAny heroes that disagree strongly with the acting hero will have their mutual affinity decreased. <color=#{harmful}>(BLUE GLOW)</color>
+
+tutorial_t802_title=Resistance Encounters
+tutorial_t802_description=Each region is overwhelmed with local evil. <color=#{notable}>Resistance encounters</color> are battles with these enemies.\n\nWinning resistance encounters is the primary way in which you can gain <color=#{notable}>mastery</color> <sprite name={q}icon_heropoints{q}> and earn treasures that will make the heroes more powerful. It also reduces <color=#{notable}>loathing</color> <sprite name={q}icon_doom{q}>.\n\nBattling evil is not without risk, but if you avoid all resistance encounters, you will find your party ill-prepared to tackle the <color=#{notable}>Mountain</color>.
+
+tutorial_t803_title=Assistance Encounters
+tutorial_t803_description=<color=#{notable}>Assistance encounters</color> bring the heroes face to face with the downtrodden local populace. These forlorn creatures are in need of help, and often have valuable supplies to offer to the heroes in return.\n\nHelping the locals is the best way to restore <color=#{notable}>the Flame</color>.
+
+tutorial_t804_title=Academic's Study
+tutorial_t804_description=<color=#{notable}>Academic's Studies</color> are deserted laboratories.\n\nThe wyrd items and other boons within are valuable.
+
+tutorial_t805_title=Cultists
+tutorial_t805_description=Cultists emanate from the great evil at the Mountain. They appear at <color=#{notable}>Oblivion's Ingress</color> and <color=#{notable}>Oblivion's Rampart</color> locations. The last location before an Inn is always an Oblivion's Rampart.\n\nCultists are always a tough fight, but the rewards are equally valuable. Defeating them reduces <color=#{notable}>loathing</color> <sprite name={q}icon_doom{q}>.
+
+tutorial_t806_title=Creature Dens
+tutorial_t806_description=Beasts make their refuge in <color=#{notable}>Creature Dens</color> throughout the corrupted regions. They put up a fierce defense, but rare animal parts fetch attractive rewards from <color=#{notable}>Innkeepers</color> desperate for delicacies and wyrd ingredients.
+
+tutorial_t900_title=Other Locations
+tutorial_t900_description=There are many other locations to visit along your expedition. In time you will learn the advantages of each.
+
+tutorial_t901_title=Shrines
+tutorial_t901_description=<color=#{notable}>Shrines of Reflection</color> are where heroes can revisit their memories. By confronting their past, they unlock new skills.\n\nAt each shrine, choose a single hero to advance their story. If the story is completed successfully, the new skill unlocks. These unlocks are <color=#{notable}>permanent</color>. Whenever you use this hero in future expeditions, they will have these unlocked skills.
+
+tutorial_t902_title=Field Hospital
+tutorial_t902_description=The <color=#{notable}>Field Hospital</color> is the only place where you may <color=#{notable}>cure</color> diseases, <color=#{notable}>remove</color> negative quirks, or <color=#{notable}>reinforce</color> (lock) positive quirks. Only one quirk per hero can be reinforced, so choose wisely!\n\nThe hospital also sells some curative items.
+
+tutorial_t903_title=Hoarder
+tutorial_t903_description=The <color=#{notable}>Hoarder</color> carries a wide variety of valuable goods. Some can only be found here.
+
+tutorial_t904_title=Watchtower
+tutorial_t904_description=The <color=#{notable}>Watchtower</color> scouts (reveals) every location in this region. It's usually well worth the detour, especially early in a region.
+
+tutorial_t905_title=Lairs
+tutorial_t905_description=<color=#{notable}>Lairs</color> are where the <color=#{notable}>region bosses</color> dwell. To reach the boss, you must first win your way through two sentry battles.\n\nYou may retreat from the lair after each battle, but the further you delve the more loot you'll retrieve.\n\nBosses have rare treasures and they are <color=#{notable}>the only source of trophies.</color> Trophies act as a key to the Mountain.
+
+tutorial_t906_title=The Oasis
+tutorial_t906_description=The <color=#{notable}>Oasis</color> is a much needed sanctuary along roads fraught with peril. <sprite name={q}token_stress{q}> relief and related items are the primary benefit.
+
+tutorial_t1100_title=Affinity System
+tutorial_t1100_description=To survive your expedition, you'll need to pay attention to how heroes feel about each other.\n\nA harmonious team is an effective team.\n\nA team full of infighting, envy, and hatred is unlikely to overcome the immense obstacles ahead.
+
+tutorial_t1101_title=Affinity
+tutorial_t1101_description=Each hero pair has an <color=#{notable}>affinity</color> value which describes how friendly or unfriendly they feel towards one another. This directly determines the chances of that pair forming a <color=#{notable}>relationship</color> at the next Inn.\n\n To view affinities, open any hero's <color=#{notable}>hero sheet</color> <color=#{notable}>[@{CharacterSheet}]</color> and look at the <color=#{notable}>relationships tab</color>.
+
+tutorial_t1102_title=Affinity Changes
+tutorial_t1102_description=Affinity changes come from a variety of sources.\n\nIn <color=#{notable}>combat</color>, some actions will cause affinity change between two heroes. This will be <color=#{notable}>telegraphed via an icon</color> present on the hero who will respond to the action.\n\nMany <color=#{notable}>Inn items</color> can be used directly to improve affinity between heroes.\n\n<color=#{notable}>Story choices</color> will cause affinity changes between heroes based upon whether they agree or disagree with the choice.\n\nFinally, the rigors of the journey itself can improve or worsen how heroes feel about each other. <color=#{notable}>Quirks</color> greatly influence these interactions.
+
+tutorial_t1150_title=Forming Relationships
+tutorial_t1150_description=Whenever resting at an Inn, there is a chance that <color=#{notable}>relationships</color> will form between heroes. Relationships can be positive or negative.\n\nThe chance of a relationship forming is determined by the heroes' shared <color=#{notable}>affinity</color>.
+
+tutorial_t1151_title=Relationships
+tutorial_t1151_description=Relationships infuse hero combat skills with <color=#{notable}>blessings</color> or <color=#{notable}>curses</color>.\n\nEven more important, heroes will sometimes act on their own to help or hinder their relationship partner.
+
+tutorial_t1152_title=Blessed Skills
+tutorial_t1152_description=Positive relationships grant each involved hero a <color=#{notable}>blessed</color> skill. When used, this skill will benefit the relationship partner.
+
+tutorial_t1153_title=Cursed Skills
+tutorial_t1153_description=Negative relationships <color=#{notable}>curse</color> one skill on each hero. When used, cursed skills negatively affect the relationship partner.\n\nCursed skills are also <color=#{notable}>locked</color> onto the heroes' equipped skill bars, reducing that hero's tactical flexibility.
+
+tutorial_t1200_title=Stress
+tutorial_t1200_description=In addition to HP, heroes also have <color=#{notable}>stress</color> <sprite name={q}token_stress{q}>. Heroes begin the expedition at zero <sprite name={q}token_stress{q}>, but gain <sprite name={q}token_stress{q}> through a wide variety of game events.\n\n<sprite name={q}token_stress{q}> can be lowered in a variety of ways: combat items, Inn items, hero skills, and more.
+
+tutorial_t1201_title=High Stress
+tutorial_t1201_description=As <sprite name={q}token_stress{q}> mounts, a hero will become more irate and this increases the chances of <color=#{notable}>negative affinity</color> changes with other heroes.\n\nTry to keep <sprite name={q}token_stress{q}> low in order to promote a harmonious party. <sprite name={q}token_stress{q}> can be treated via combat items (e.g. laudanum), Inn items, combat skills, and more.
+
+tutorial_t1202_title=Meltdowns
+tutorial_t1202_description=If a hero's <sprite name={q}token_stress{q}> bar fills up completely, that hero will suffer a <color=#{notable}>meltdown</color>. The hero suffers immediate <color=#{notable}>affinity</color> loss with all other heroes, and then the hero also drops to low HP.\n\nAn ill-timed meltdown can ruin an expedition.
+
+tutorial_t1300_title=Combat
+tutorial_t1300_description=Combat is turn-based and proceeds until one side is defeated. \n\nOnce in a battle, there is <color=#{notable}>no retreat</color>.
+
+tutorial_t1301_title=Turn Order
+tutorial_t1301_description=Each hero or enemy rolls <color=#{notable}>initiative</color> at the beginning of each round, and this is modified by their <color=#{notable}>speed</color>.\n\nThe turn order is shown by the <color=#{notable}>portraits</color> in the top right of the screen.\n\nOnly a partial turn order is shown. You can plan ahead a little, but not completely.
+
+tutorial_t1302_title=Actions
+tutorial_t1302_description=On a hero's turn, you may first use a <color=#{notable}>combat item</color>, if they have one equipped. This is a <color=#{notable}>free action</color>.\n\nThen you may use a hero skill normally.\n\nEither way, <sprite name={q}icon-mouse-left{q}> on the item/skill in the displayed skill bar. You may also use the number key <color=#{notable}>[1-7]</color> corresponding to the skill slot.
+
+tutorial_t1303_title=Skills
+tutorial_t1303_description=Skills can only be used if the hero is in the correct <color=#{notable}>launch rank</color>. They also can only be used against valid enemies in the correct <color=#{notable}>target rank</color>.\n\nTo see what ranks a skill can target, look at the tooltip of the skill. The circular <color=#{notable}>pips</color> tell you this information. A solid pip means the skill is valid in that rank. An empty pip means it is not.\n\nSome skills can target multiple enemies at a time, which is shown by pips joined together. These are "area of effect" (<color=#{notable}>AOE</color>) skills.
+
+tutorial_t1304_title=Skills II
+tutorial_t1304_description=In addition to doing damage, skills can cause a variety of effects. Most of those effects are shown by <color=#{notable}>tokens</color>.\n\nTo see what each token means, <color=#{notable}>[MOUSE OVER]</color> it.
+
+tutorial_t1305_title=Token Glossary
+tutorial_t1305_description=<color=#{notable}>[HOLD @{TokenReferenceView}]</color> to view the <color=#{notable}>token glossary</color>. To see what each token means, <color=#{notable}>[MOUSE OVER]</color> it.
+
+tutorial_t1306_title=Academic View
+tutorial_t1306_description=During combat, <color=#{notable}>[HOLD @{AcademicView_Hold}]</color> or <sprite name={q}icon-mouse-middle{q}></color> while <color=#{notable}>[MOUSING OVER]</color> heroes or enemies to see the <color=#{notable}>Academic View</color>.\n\nThis valuable screen shows full details on any <color=#{notable}>tokens</color> the combatant has.\n\nThe view also shows details about what <color=#{notable}>combat skills</color> enemies have. Skills start hidden, but as you observe the enemy use them in combat, the <color=#{notable}>details will be revealed</color>.
+
+tutorial_t1307_title=DOTs
+tutorial_t1307_description=Some attacks inflict a <color=#{notable}>DOT</color> (damage over time). Bleed <sprite name={q}icon_bleed{q}>, blight <sprite name={q}icon_blight{q}>, and burn <sprite name={q}icon_burn{q}> are all DOTs.\n\nDOTs cause damage at the beginning of the combatant's turn until they expire or are cured.\n\nMany <color=#{notable}>combat skills</color> or <color=#{notable}>combat items</color> can cure DOTs.
+
+tutorial_t1308_title=Death's Door
+tutorial_t1308_description=When a hero is reduced to 0 HP, they are on <color=#{deathdoor}>Death's Door</color>. Any further damage has a chance to kill the hero depending on their deathblow resistance <sprite name={q}icon_death_outline{q}>!\n\nUse a helpful <color=#{notable}>combat item</color> or a <color=#{notable}>healing skill</color> to restore some of the hero's HP before they are slain!
+
+tutorial_t1309_title=Passing to Heal
+tutorial_t1309_description=If the hero is on Death's Door, they will regain some health if you choose to <color=#{notable}>pass</color> their turn.\n\nThis is a good way to quickly get a hero out of the death threat, especially if you have no healing items or heroes with healing skills.
+
+tutorial_t1310_title=Enemy Deathblows
+tutorial_t1310_description=Some enemies have deathblow resistance <sprite name={q}icon_death_outline{q}> just like heroes do. When an enemy is on <color=#{deathdoor}>Death's Door</color>, each further blow has a chance to slay it.\n\nSome skills and trinkets can increase the chance of <color=#{notable}>executing</color> the enemy outright.\n\nRepeated blows to the enemy while it's on Death's Door will also reduce its deathblow resistance.
+
+tutorial_t1311_title=Combo Token
+tutorial_t1311_description=<color=#{notable}>Combo tokens</color> <sprite name={q}token_combo{q}> are special compared to other tokens. Many hero and enemy skills have special effects that only happen if the target has a combo token on them.\n\nIn <color=#{notable}>all</color> cases, <sprite name={q}token_combo{q}> is <color=#{notable}>bad</color> for its recipient--having it means that the actor is vulnerable to some very damaging and disruptive enemy skills.\n\nCombo tokens are best used as 1-2 punches. Use one hero to place a combo token and then use another hero to take advantage of it.
+
+tutorial_t1320_title=CRITs
+tutorial_t1320_description=When a <color=#{notable}>CRIT</color> is struck, this does several things:\n\nNormal Attacks: <color=#{notable}>max damage x 150%</color>\n<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> attacks: <color=#{notable}>duration +2 rounds</color>\n<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> attacks: <color=#{notable}>ignore 20% resistance</color>\nHeals <sprite name={q}icon_healthup{q}>: <color=#{notable}>150%</color>
+
+tutorial_t1321_title=Battle Advantages
+tutorial_t1321_description=In some battles, the entire enemy party will benefit from a <color=#{notable}>battle advantage</color>. When present, you'll see the advantage icon in the top left of the screen. <color=#{notable}>[MOUSE OVER]</color> it to see what it does.\n\nLow Flame makes battle advantages more likely, so beware!
+
+tutorial_t1400_title=The Flame
+tutorial_t1400_description=<color=#{notable}>Do not let the Flame expire.</color>\n\nThe Stagecoach carries the <color=#{notable}>Flame</color>, which is the last hope for the world. It will gradually diminish as you drive, but helping local populace in <color=#{notable}>Assistance Encounters</color> can refill it. The lower it gets, the harder things will be for the party.\n\n<color=#{notable}>[HOLD @{ShowTorch}]</color> to see the Flame level and effects.
+
+tutorial_t1401_title=Low Flame
+tutorial_t1401_description=When the Flame gets below 40, things get significantly more dangerous for the heroes.\n\n<color=#{notable}>[MOUSE OVER]</color> the Flame to see the effects as the level changes. <color=#{notable}>These effects vary by Confession.</color>\n\nFind an <color=#{notable}>Assistance Encounter</color> or buy some <color=#{notable}>Glimmers of Hope</color> before the Flame is extinguished.
+
+tutorial_t1402_title=Flame Extinguished
+tutorial_t1402_description=When the <color=#{notable}>Flame reaches 0</color>, the heroes will soon be ambushed by cultists.\n\nIf the heroes survive the fight, then the expedition will continue with a flicker of Flame still alive.
+
+tutorial_t1500_title=Loathing
+tutorial_t1500_description=Evil is overtaking the world, as shown by the <color=#{notable}>loathing</color> <sprite name={q}icon_doom{q}> <color=#{notable}>meter</color>. Higher loathing results in tougher conditions for the party.
+
+tutorial_t1501_title=Increasing Loathing
+tutorial_t1501_description=<color=#{notable}>Loathing</color> <sprite name={q}icon_doom{q}> increases when traveling on <color=#{notable}>oblivion tear</color> routes and when crossing <sprite name={q}icon_doom{q}> locations.
+
+tutorial_t1502_title=Reducing Loathing
+tutorial_t1502_description=Loathing <sprite name={q}icon_doom{q}> is reduced by winning fights at <color=#{notable}>locations</color>. Road battles don't count. \n\nChoose <color=#{notable}>resist</color>, <color=#{notable}>lair</color>, or <color=#{notable}>Oblivion's Ingress</color> locations to keep your loathing in check.
+
+tutorial_t1503_title=Maximum Loathing
+tutorial_t1503_description=If the loathing <sprite name={q}icon_doom{q}> meter fills completely, beware!\n\nThe <color=#{notable}>Confession Boss</color> will stir on the Mountain and dire consequences will result.\n\nIn addition to an immediate negative effect that is different for each Confession, the Boss will also gain a HP buff that will make them tougher to defeat should you reach the Mountain.\n\n<color=#{notable}>Seek out fights</color> to reduce Loathing before this happens!
+
+tutorial_t1600_title=The Inn
+tutorial_t1600_description=The <color=#{notable}>Inn</color> is where heroes can rest and recover between regions.
+
+tutorial_t1601_title=Inn Items
+tutorial_t1601_description=<color=#{notable}>Inn items</color> can only be used at the Inn. They can heal <sprite name={q}token_stress{q}>, bestow buffs, and perhaps most importantly: <color=#{notable}>change the affinity between heroes</color>.\n\nUse Inn items to help build up <color=#{notable}>positive relationships</color>.
+
+tutorial_t1602_title=Using Inn Items
+tutorial_t1602_description=To view <color=#{notable}>Inn items</color> in your party's possession, at the top of your inventory select the Inn items filter.\n\nTo use an Inn item, <sprite name={q}icon-mouse-left{q}> the item in the inventory, then <sprite name={q}icon-mouse-left{q}> on the target hero. Items may affect 1, 2, or even all 4 heroes at once.
+
+tutorial_t1603_title=Provisioner
+tutorial_t1603_description=The <color=#{notable}>Provisioner</color> offers a limited amount of supplies that can be purchased for relics <sprite name={q}icon_relic{q}> or baubles <sprite name={q}icon_factioncurrency{q}>. <sprite name={q}icon-mouse-left{q}> to purchase an item.\n\nThe Provisioner's selection varies each time you reach an Inn.
+
+tutorial_t1604_title=Wainwright
+tutorial_t1604_description=The <color=#{notable}>Wainwright</color> is the only place where you can install or remove <color=#{notable}>Stagecoach items</color>. <sprite name={q}icon-mouse-left{q}><color=#{notable}>[DRAG]</color> from inventory to install. Alternatively, you can <color=#{notable}>[DOUBLE-<sprite name={q}icon-mouse-left{q}>]</color> on the item.\n\nThe Wainwright can also repair your <sprite name={q}icon_currency_armor{q}> and <sprite name={q}icon_currency_wheel{q}>.
+
+tutorial_t1605_title=Region Choice
+tutorial_t1605_description=Before <color=#{notable}>embarking</color> from the Inn, you must select which <color=#{notable}>region</color> to enter next.\n\nEach region has different enemies and challenges and your party may be better equipped to deal with one over another.
+
+tutorial_t1606_title=Regions Choice II
+tutorial_t1606_description=Regions have a <color=#{notable}>condition</color> and <color=#{notable}>goal</color>. The condition tells what special game effects are in place for that time only. The goal gives you an optional accomplishment to aim for.\n\nIf you successfully complete the goal, then you will be given the <color=#{notable}>reward</color> shown once you arrive at the next Inn.
+
+tutorial_t1608_title=Mastery Trainer
+tutorial_t1608_description=The <color=#{notable}>Mastery Trainer</color> is the only spot where you can <color=#{notable}>upgrade hero skills</color>. You earn mastery <sprite name={q}icon_heropoints{q}> as loot, mostly from fights.
+
+tutorial_t1609_title=Mastered Skills
+tutorial_t1609_description=Each <color=#{notable}>hero skill</color> has one upgrade level. To upgrade, <sprite name={q}icon-mouse-left{q}><color=#{notable}>[HOLD]</color> on the skill. This costs one mastery <sprite name={q}icon_heropoints{q}>.\n\nMastered skills can yield dramatic results. Spend your points wisely--they are <color=#{notable}>shared amongst the entire party</color>.
+
+tutorial_t1800_title=Trophies / Mountain
+tutorial_t1800_description=On the <color=#{notable}>Denial Confession</color> you do not require a trophy to enter the <color=#{notable}>Mountain</color>. But for all other <color=#{notable}>Confessions</color>, you must collect at least one trophy by defeating a <color=#{notable}>region boss</color>. Bosses live in <color=#{notable}>lairs</color>.\n\nYou may attack a boss early in the expedition or later on. But remember: if you reach the gates to the Mountain without a trophy in your possession, <color=#{notable}>the expedition will be over.</color>\n\nEven though the journey will be ended, you'll still score <color=#{notable}>Candles of Hope</color=> for whatever you have accomplished.
+
+tutorial_t1900_title=Choosing Confession
+tutorial_t1900_description=Which <color=#{notable}>Confession</color> you choose determines which final boss you must face in the Mountain. It also changes:\n\n+How long the expedition is\n+Which buffs enemies can get via <color=#{notable}>Ordainment</color>\n+Flame effects\n+And more.
+
+tutorial_t1901_title=Ordainment
+tutorial_t1901_description=The closer you get to the Mountain, the greater the chance that enemies you encounter will be <color=#{notable}>Ordained.</color=> Ordainment gives that enemy extra power.\n\nThe exact effects of Ordainment are different depending on which <color=#{notable}>Confession</color=> you are attempting.
+
+tutorial_t2050_title=Expedition End
+tutorial_t2050_description=<color=#{notable}>The Prologue quest is complete</color>. For this first venture through the Valley, there is nothing left to do, so <sprite name={q}icon-mouse-left{q}> <color=#{notable}>End Expedition</color> at the lower left of the Inn screen.\n\nNormally, the expedition can end in three ways: victory, defeat (all heroes dead), or abandoning.
+
+tutorial_t2051_title=Candles of Hope
+tutorial_t2051_description=When the journey ends, you are awarded <color=#{notable}>Candles of Hope</color> based upon how well you did. Candles are used to unlock and upgrade heroes, items, and more at the <color=#{notable}>Altar of Hope</color>.\n\nEven when an expedition is surely lost, it's worth pressing on to get more Candles. Those Candles can make the next journey easier.
+
+tutorial_t2052_title=Ending Early
+tutorial_t2052_description=At any point, you can end the expedition and collect your <color=#{notable}>Candles of Hope</color=>. During normal expeditions, making it to the next <color=#{notable}>Inn</color=> is usually worth the effort because it will award significant additional Candles.
+
+tutorial_t2075_title=Hero Death
+tutorial_t2075_description=Dead heroes remain dead for this entire expedition but will be available for use again on your next expedition.
+
+tutorial_t2076_title=Hero Replacement
+tutorial_t2076_description=If heroes have died but you have unlocked additional hero classes on your profile, <color=#{notable}>replacement heroes</color> will await you <color=#{notable}>at the next Inn</color>.\n\nThese replacements will be randomly chosen from classes not selected at the start of this expedition. New heroes have no mastered skills.\n\nEach unlocked class can only replace once per expedition. If enough heroes die (or you haven't unlocked any more), you may not be able to fill your party.
+
+tutorial_t2077_title=Hero Remains
+tutorial_t2077_description=When a hero perishes, you have the option to carry their <color=#{notable}>remains</color> (an inventory item) to the next <color=#{notable}>Inn</color>. This honors their sacrifice, and in return you will receive <color=#{notable}>Candles of Hope</color>.
+
+tutorial_t2100_title=The Altar of Hope
+tutorial_t2100_description=Each expedition you earn <color=#{notable}>Candles of Hope</color>.\n\nThe <color=#{notable}>Altar</color> is where you spend those Candles to unlock new classes, items, pets, and more.\n\nFor this first visit, you must visit <color=#{notable}>The Working Fields</color>.
+
+tutorial_t2101_title=The Working Fields
+tutorial_t2101_description=Here is where you unlock more trinkets, combat items, Inn items, and Stagecoach upgrades for future expeditions. It is vital to continue unlocking items, so <color=#{notable}>spend some Candles here whenever you can</color>.\n\nEach item unlocked at this Altar is also <color=#{notable}>immediately granted into your inventory</color> for this current expedition.
+
+tutorial_t2102_title=The Intrepid Coast
+tutorial_t2102_description=Here is where you can invest in <color=#{notable}>boons</color> that will assist your journey now and in future expeditions.\n\nYou can also unlock pets, Stagecoach cosmetics, and Infernal Flames.
+
+tutorial_t2103_title=The Living City
+tutorial_t2103_description=Here, you can unlock and improve <color=#{notable}>heroes</color>.
+
+tutorial_t2104_title=The Timeless Wood
+tutorial_t2104_description=Here, you can unlock the ability to imbue heroes with <color=#{notable}>memories</color>.\n\nEach memory will remain with that hero as long as they are successful in their expedition OR if you abandon an expedition while at an Inn. Then the hero can be used again in the next expedition, and <color=#{notable}>they keep their quirks.</color> Path can be kept or changed.</color>\n\nFurthermore, every time a hero is victorious in a new, unique Confession, they can have <color=#{notable}>another memory</color> invested in them, up to a maximum of <color=#{notable}>five memories</color>.\n\nFallen heroes, heroes on unsuccessful expeditions, or heroes from expeditions that are abandoned in between Inns will <color=#{notable}>forget</color> their memories.
+
+tutorial_t2105_title=The Towering Mountain
+tutorial_t2105_description=Here, you unlock <color=#{notable}>cosmetic alterations</color> to each character class.\n\nNone of these rewards affect gameplay.
+
+tutorial_t2106_title=The Recollection
+tutorial_t2106_description=All of the items you have unlocked or found are displayed here. You can review them to plan strategies.
+
+tutorial_t3000_title=The Radiant Flame
+tutorial_t3000_description=The Radiant Flame <color=#{notable}>awaits you at every Valley Inn</color> and it provides a vital helping hand.\n\nThe Flame confers numerous bonuses that will propel you towards victory, and <color=#{notable}>it gets stronger after each successive expedition failure</color>.\n\nThe Radiant Flame will cost you a <color=#{notable}>small Candles penalty</color> when the expedition is scored.
+
+tutorial_t3001_title=Equipping Radiant Flame
+tutorial_t3001_description=The Radiant Flame is mounted into the <color=#{notable}>designated Flame slot</color> on the Stagecoach.\n\nIt can be <color=#{notable}>equipped at any Inn</color> during the expedition, but once equipped it cannot be removed until it's over.
+
+tutorial_t3100_title=Infernal Flames
+tutorial_t3100_description=Each Infernal Flame provides a <color=#{notable}>different challenge</color> by applying <color=#{notable}>unique modifiers</color> and <color=#{notable}>replacing all effects applied at each Flame level.</color>
+
+tutorial_t3101_title=Equipping Infernal Flames
+tutorial_t3101_description=Each Infernal Flame is <color=#{notable}>mounted into the designated Flame slot</color> on the Stagecoach.\n\nIt must be equipped <color=#{notable}>before leaving the Valley Inn</color>.\n\nOnly one Infernal Flame can be equipped at a time.

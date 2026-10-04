@@ -1,0 +1,184 @@
+﻿#
+# STAGECOACH ITEM NAMES
+#
+item_name_storage_trunk=Storage Trunk
+item_name_super_storage_trunk=Spacious Storage Trunk
+item_name_strongbox=Strongbox
+item_name_super_strongbox=Spacious Strongbox
+item_name_food_barrels=Food Barrels
+item_name_medicine_chest=Medicine Chest
+item_name_explosives_magazine=Explosives Magazine
+item_name_bottle_case=Bottle Case
+item_name_collectors_chandelier=Collector's Chandelier
+item_name_compress_kit=Compress Kit
+item_name_battering_ram=Battering Ram
+item_name_iron_siing=Iron Siding
+item_name_iron-banded_wheels=Iron-Banded Wheels
+item_name_window_shades=Window Shades
+item_name_medical_equipment=Medical Equipment
+item_name_chirurgeons_table=Operating Table
+item_name_iron_brazier=Iron Brazier
+item_name_windchimes=Windchime
+item_name_bullseye_lantern=Bullseye Lantern
+item_name_crows_nest=Crows Nest
+item_name_telescope=Telescope
+item_name_shrine_map=Shrine Map
+item_name_book_of_hoarders_signals=Hoarder Signal Decoder
+item_name_trackers_map=Tracker's Map
+item_name_academics_map=Academic's Map
+item_name_chirurgeons_map=Chirurgeon's Directory
+item_name_pavillion_tent=Pavillion Tent
+item_name_campaign_furniture=Campaign Furniture
+item_name_leaf_suspension=Leaf Suspension
+item_name_luxurious_berths=Luxurious Berths
+item_name_lanterns=Lanterns
+item_name_triage_kit=Triage Kit
+item_name_holy_relic=Holy Relic
+item_name_stretcher=Stretcher
+item_name_leaf_suspension=Leaf Suspension
+item_name_tea_service=Tea Service
+item_name_whiskey_still=Pot and Still
+item_name_alchemical_gear=Alembic and Retort
+item_name_worktable_loom=Worktable Loom
+item_name_mortar_and_pestle=Mortar And Pestle
+item_name_stew_pot=Stew Pot
+item_name_chirurgeons_mixing_kit=Chirurgeon's Mixing Kit
+item_name_tinkers_bench=Tinker's Bench
+item_name_trapmakers_kit=Trapmaker's Kit
+item_name_griddle=Griddle
+item_name_trinket_organizer=Trinket Organizer
+item_name_blueprint_tubes=Blueprint Tubes
+item_name_assay_gear=Assay Gear
+item_name_icebox=Icebox
+item_name_guidebook_coast=Almanac: The Shroud
+item_name_guidebook_city=Almanac: The Sprawl
+item_name_guidebook_farm=Almanac: The Foetor
+item_name_guidebook_forest=Almanac: The Tangle
+item_name_formless_bust=Formless Bust
+item_name_merchants_guild_seal=Merchants Guild Seal
+item_name_burned_effigy=Burned Effigy
+item_name_cleansed_corpse=Cleansed Corpse
+item_name_rattling_armor=Rattling Armor
+item_name_cave_tbd=Hollows Tbd
+item_name_totem_of_purity=Totem of Purity
+item_name_totem_of_vigor=Totem of Vigor
+item_name_totem_of_ascendance=Totem Of Ascendance
+item_name_black_phillips_head=Black Phillip's Head
+item_name_falcon=Falcon
+item_name_raven=Raven
+item_name_black_cat=Black Cat
+item_name_bat=Bat
+item_name_rat=Rat
+item_name_parrot=Parrot
+item_name_iron_banded_wheels=Iron-Banded Wheels
+item_name_steel_plating=Steel Plating
+item_name_carriage_lamps=Carriage Lamps
+item_name_wagon_jack=Wagon Jack
+#
+# STAGECOACH ITEM DESCRIPTIONS
+#
+effect_tooltip_loot_id_SC_WHISKEY_STILL_LOOT=Chance to produce <color=#{notable}>Whiskey</color> items
+effect_tooltip_loot_id_SC_ALCHEMICAL_GEAR_LOOT=Chance to produce <color=#{notable}>Concoction</color> and <color=#{notable}>Powder</color> items
+effect_tooltip_loot_id_SC_WORKTABLE_LOOM_LOOT=Chance to produce <color=#{notable}>Woven</color> items
+effect_tooltip_loot_id_SC_MORTAR_AND_PESTLE_LOOT=Chance to produce <color=#{notable}>Poultice</color> items
+effect_tooltip_loot_id_SC_STEW_POT_LOOT=Chance to produce <color=#{notable}>Invigorating Stew</color>
+effect_tooltip_loot_id_SC_CHIRURGEONS_KIT_LOOT=Chance to produce <color=#{notable}>Restorative</color> items
+effect_tooltip_loot_id_SC_TINKERS_BENCH_LOOT=Chance to produce <color=#{notable}>Contraption</color> items
+effect_tooltip_loot_id_SC_TRAPMAKERS_KIT_LOOT=Chance to produce <color=#{notable}>Trap</color> items \n <i>Curious is the trapmaker's art...</i>
+effect_tooltip_loot_id_SC_GRIDDLE_LOOT=Chance to produce <color=#{notable}>Flapjacks</color>\n <i>Everybody likes flapjacks.</i>
+effect_tooltip_loot_id_SC_PET_TICK_LOOT=Chance to produce <color=#{notable}>The Blood</color> (5%)
+effect_tooltip_loot_id_SC_EXPLOSIVES_MAGAZINE_LOOT=Chance to produce <color=#{notable}>Explosive</color> items
+#
+item_description_wagon_jack=Heroes gain an <color=#{notable}>extra action</color> after using the Repair skill
+item_description_icebox=<color=#{notable}>+1%</color> <sprite name={q}icon_disease{q}> RES per <color=#{notable}>Food</color> in inventory
+#
+loot_screen_title_effect_stew_pot=Stew's Ready!
+loot_screen_description_effect_stew_pot=The small stew pot simmers with aromatic fare!
+loot_screen_title_effect_chirurgeons_kit=The Heroes Open The Chirurgeon's Mixing Kit...
+loot_screen_description_effect_chirurgeons_kit=There is no shortage of wounds to tend on this journey!
+loot_screen_title_effect_whiskey_still=Moonshine!
+loot_screen_description_effect_loot_screen_title_effect_whiskey_still=Hair of the dog that bit you...
+loot_screen_title_effect_alchemical_gear=Mixture Prepared!
+loot_screen_description_effect_alchemical_gear=Precisely the right ingredients...
+loot_screen_title_effect_worktable_loom=Textiles Crafted!
+loot_screen_description_effect_worktable_loom=Useful handiwork...
+loot_screen_title_effect_mortar_and_pestle=Amalgamation!
+loot_screen_description_effect_mortar_and_pestle=Mixed and potent.
+loot_screen_title_effect_tinkers_bench=Contraption!
+loot_screen_description_effect_tinkers_bench=xxxx
+loot_screen_title_effect_trapmakers_kit=Trap Crafted!
+loot_screen_description_effect_trapmakers_kit=Curious is the trapmaker's art...
+loot_screen_title_effect_griddle=Flapjacks!
+loot_screen_description_effect_griddle=Mmmmmm...
+stagecoach_skin_wagon_skin_filth=Filthy
+stagecoach_skin_wagon_skin_stress=Stressed
+stagecoach_skin_wagon_skin_stripeyblack=Striped
+stagecoach_skin_wagon_skin_checkered=Checkered
+stagecoach_skin_wagon_skin_blood=Bloodied
+stagecoach_skin_wagon_skin_skull=Deadly
+stagecoach_skin_wagon_skin_flames=Burning
+stagecoach_skin_wagon_skin_moss=Overgrown
+stagecoach_skin_wagon_skin_barnacles=Submerged
+stagecoach_skin_wagon_skin_ironclad=Ironclad
+#
+## TROPHIES
+#
+item_name_trophy_coastal_boss_leviathan=The Beck and Call
+item_name_trophy_coastal_boss_leviathan_b=The Lashing Tides
+item_name_trophy_fanatic_librarian=The Complete Catalogue
+item_name_trophy_fanatic_librarian_b=The Unabridged Edition
+item_name_trophy_plague_eater_harvest_table=The Bumper Crop
+item_name_trophy_plague_eater_harvest_table_b=The Harvest's Bounty
+item_name_trophy_lost_battalion_dreaming_general=The General's Dream
+item_name_trophy_lost_battalion_dreaming_general_b=The Nightmare's End
+#
+## PETS
+#
+item_name_pet_wolf=Orphan Wolf Cub
+item_name_pet_snake=Pygmy Pliskin
+item_name_pet_owl=Unnatural Owlet
+item_name_pet_rabbit=Reanimated Rabbit
+item_name_pet_slime=Mucilaginous Slime
+item_name_pet_shrieker=Shrieker Chick
+item_name_pet_carrion_eater=Larval Carrion Eater
+item_name_pet_croc=Hatchling Crocodilian
+item_name_pet_tick=Crimson Tick
+item_name_pet_shambler=Shambler's Spawn
+item_description_pet_rabbit=<color=#{notable}>+1</color> Max <sprite name={q}icon_health_v2{q}> per  <color=#{notable}>4 Food</color> items in inventory</color>
+
+# RADIANT and INFERNAL
+item_name_radiant_torch_L1=The Radiant Flame I
+item_name_radiant_torch_L2=The Radiant Flame II
+item_name_radiant_torch_L3=The Radiant Flame III
+item_name_radiant_torch_L4=The Radiant Flame IV
+item_quote_radiant_torch_L1=<i>A helping hand for when all seems lost.</i>
+item_quote_radiant_torch_L2=<i>A helping hand for when all seems lost.</i>
+item_quote_radiant_torch_L3=<i>A helping hand for when all seems lost.</i>
+item_quote_radiant_torch_L4=<i>A helping hand for when all seems lost.</i>
+item_name_stagecoach_torch_slot=Radiant or Infernal Flame
+item_name_infernal_torch=The Despairing Flare
+item_name_infernal_torch_2=The Corpse Light
+item_name_infernal_torch_3=The Doom Candle
+item_name_infernal_torch_4=The Hateful Pyre
+item_name_infernal_torch_5=The Stygian Blaze
+item_quote_item_name_infernal_torch=<i>When companionship falters, who can stand?</i>
+item_quote_item_name_infernal_torch_2=<i>Sickness and fatigue can bring down the strongest.</i>
+item_quote_item_name_infernal_torch_3=<i>Darkness is inevitable. Give in.</i>
+item_quote_item_name_infernal_torch_4=<i>Clarification in combat.</i>
+item_quote_item_name_infernal_torch_5=<i>The true test. Hold fast or expire.</i>
+
+item_description_infernal_torch=<color=#{harmful}>-50%</color> Max Flame\nAt various Flame levels:\n<color=#{notable}>Heroes</color> gain <color=#{notable}>+CRIT</color> and On Meltdown: <color=#{harmful}>Gain Negative Token(s)</color>\n<color=#{harmful}>Enemies</color> gain <color=#{harmful}>+CRIT</color> and <color=#{harmful}>+Enemy Advantage Chance</color>
+
+item_description_infernal_torch_2=Enemies have Round End: <color=#{harmful}>Corpses transform into Carrion Eaters (66%)</color>\nAt various Flame levels:\n<color=#{notable}>Heroes</color> gain <color=#{notable}>+SPD</color> and <color=#{harmful}>-<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}></color>RES\n<color=#{harmful}>Enemies</color> gain <color=#{harmful}>+<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}></color>RES and On<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>Resist: <color=#{harmful}>Gain 1 Positive Token</color>
+
+item_description_infernal_torch_3=At various Flame levels:\n<color=#{notable}>Heroes</color> gain <color=#{notable}>+</color><sprite name={q}icon_debuff{q}>RES Piercing and Combat Start: <color=#{harmful}>Gain Negative Token(s)</color>\n<color=#{harmful}>Enemies</color> gain <color=#{harmful}>+</color><sprite name={q}icon_debuff{q}>RES Piercing and Combat Start: <color=#{harmful}>Gain Positive Token(s)</color>
+
+item_description_infernal_torch_4=No heal between fights in Lairs\nAt various Flame levels:\n<color=#{notable}>Heroes</color> gain <color=#{notable}>+DMG</color> and <color=#{harmful}>-Healing Received</color>\n<color=#{harmful}>Enemies</color> gain <color=#{harmful}>+DMG</color> and Apply On Hit: <color=#{harmful}>Knockback</color>
+
+item_description_infernal_torch_5=<color=#{harmful}>+25%</color> Enemy <sprite name={q}icon_death_outline{q}> RES\n<color=#{harmful}>Champion enemies</color> have increased chance to appear and will appear in all regions\nAt various Flame levels:\n<color=#{notable}>Heroes</color> gain <color=#{notable}>+looted RELICS and BAUBLES</color> and On Meltdown: <color=#{harmful}>Gain Negative Token(s)</color>\n<color=#{harmful}>Enemies</color> gain <color=#{harmful}>+DMG, +SPD,</color> and <color=#{harmful}>+Enemy Advantage Chance</color>
+
+item_quote_infernal_torch=<i>Hope, a cruel illusion.</i>
+item_quote_infernal_torch_2=<i>Touched by the grave.</i>
+item_quote_infernal_torch_3=<i>Loathing and ruin.</i>
+item_quote_infernal_torch_4=<i>Battle and bloodshed.</i>
+item_quote_infernal_torch_5=<i>Ashes to ashes.</i>

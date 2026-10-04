@@ -1,0 +1,41 @@
+hero_story_leper_chapter_title_0=Shun Them Not
+hero_story_leper_chapter_title_1=Infection
+hero_story_leper_chapter_title_2=Treason
+hero_story_leper_chapter_title_3=The Purge
+hero_story_leper_chapter_title_4=A Beautiful View
+##LEPER 1 ACTORS
+herostory_leper_combat_1_advisor=Royal Advisor
+herostory_leper_combat_1_supplicant=Supplicant
+herostory_leper_combat_1=Leper
+##LEPER 2 ACTORS
+herostory_leper_combat_2=Leper
+herostory_leper_combat_2_advisor=Traitorous Advisor
+##LEPER 1 SKILLS
+skill_name_leper_combat_1_advisor_hand_wringing=Impotent Chastening
+skill_name_leper_combat_1_advisor_occlusion=Uncouth Occlusion
+skill_name_leper_combat_1_advisor_interject=Boorish Interjection
+skill_name_leper_combat_1_supplicant_wail=Pitiful Wail
+skill_name_leper_combat_1_supplicant_riposte=The Disease Spreads
+skill_name_leper_combat_1_ministrate=Out Of My Way
+skill_name_leper_combat_1_embrace=Embrace
+skill_name_leper_combat_1_royal_admonition=Royal Rebuke
+skill_name_leper_combat_1_royal_aura=Royal Stride
+skill_name_leper_combat_1_supplicant_embrace=Fate's Embrace
+bark_herostory_lep_1_combat_start=These people need my help!
+bark_herostory_lep_1_wail=I hear you, friend!
+bark_herostory_lep_1_wail=Mine is a kingdom of compassion!
+bark_herostory_lep_1_wail=It is a sovereign's duty to care for all his subjects!
+bark_herostory_lep_1_advisor_attack=I will not abide such suffering!
+bark_herostory_lep_1_advisor_attack=Are they not still our countrymen?
+bark_herostory_lep_1_combat_end=I-I must rest...perhaps the day has taken its toll.
+##LEPER 2 SKILLS
+bark_herostory_lep_2_combat_start=A kingdom cannot be ruled by <i>snakes!</i>
+skill_name_leper_combat_2_advisor_stab_of_betrayal=Hidden Blade
+skill_name_leper_combat_2_advisor_furtive_skulking=Furtive Skulking
+skill_name_leper_combat_2_advisor_plots_whispered=Whispered Plots
+skill_name_leper_combat_2_big_hit=Executioner's Swing
+skill_name_leper_combat_2_anti_dodge=Denounce Treachery
+skill_name_leper_combat_2_heal=Calm Sea
+skill_name_leper_combat_2_power_up=Blind Fury
+battle_goal_leper_chapter_1=Foster The Sick
+battle_goal_leper_chapter_3=Survive Their Treason

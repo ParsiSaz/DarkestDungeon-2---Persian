@@ -1,0 +1,500 @@
+﻿##BEAST SKILLS (CREATURE DEN)
+skill_name_dog_rabid_bite=Rabid Rush
+skill_name_dog_rabid_fetch=Fetch
+skill_name_dog_rabid_b_bite=Jaws of the Battalion
+skill_name_dog_rabid_b_harry=Flanking Harry
+skill_name_dog_rabid_b_mournful_howl=Mournful Howl
+skill_name_dog_rabid_b_howl_buff=Rip and Tear
+skill_name_spider_webber_bite=Bite
+skill_name_spider_webber_web=Web
+skill_name_spider_spitter_bite=Bite
+skill_name_spider_spitter_spit=Spit
+skill_name_spider_spitter_combo_spit=Spit
+skill_name_carrion_eater_bite=Munch
+skill_name_carrion_eater_consume=Necrophagia
+skill_name_carrion_eater_evolve=Rampant Mutation
+skill_name_carrion_eater_mutated_bite=Munch
+skill_name_carrion_eater_mutated_consume=Necrophagia
+skill_name_carrion_eater_mutated_chomp=Pulverize
+
+## CULTIST SKILLS
+skill_name_evangelist_blood_commune=Blood Commune
+skill_name_evangelist_blood_bond=Blood Bond
+skill_name_evangelist_nocturne_commune=Nocturne Commune
+skill_name_evangelist_rush_judgement=Rush Judgement
+skill_name_evangelist_worship=Worship
+skill_name_cherub_enfeebling_miasma=Enfeebling Miasma
+skill_name_cherub_sightless_miasma=Sightless Miasma
+skill_name_cherub_horrific_miasma=Face Your Confession
+skill_name_cherub_brisk_bedevilment=Brisk Bedevilment
+skill_name_cherub_worship=Worship
+skill_name_herald_first_trumpet=First Trumpet
+skill_name_herald_clarion_call=Clarion Call
+skill_name_herald_inversion=Inversion
+skill_name_herald_harmonious_end=Disharmony
+skill_name_herald_worship=Worship
+skill_name_altar_altar_of_denial=Altar of Denial
+skill_name_altar_altar_of_rage=Altar of Resentment
+skill_name_altar_altar_of_obsession=Altar of Obsession
+skill_name_altar_altar_of_ambition=Altar of Ambition
+skill_name_altar_altar_of_cowardice=Altar of Cowardice
+skill_name_altar_azoic_end=Azoic End
+skill_name_altar_buff_1=Bone Weaving
+skill_name_altar_buff_2=Flesh Weaving
+skill_name_altar_worship=Worship
+skill_name_deacon_the_flesh_warps=The Flesh Warps
+skill_name_deacon_sundering_steel=Sundering Steel
+skill_name_deacon_weight_of_worlds=Weight of Worlds
+skill_name_deacon_flesh_from_bone=Flesh From Bone
+skill_name_deacon_exultation=Exultation
+skill_name_cardinal_exultation=Exultation
+skill_name_cardinal_hollow_vessel=Hollow Vessel
+skill_name_cardinal_the_yawning_void=The Yawning Void
+skill_name_cardinal_entropic_star=Entropic Star
+skill_name_exemplar_exultation=Exultation
+skill_name_exemplar_prelude=Prelude
+skill_name_exemplar_the_fall=The Fall
+skill_name_exemplar_rapturous_beauty=Rapturous Beauty
+skill_name_exemplar_pillar_of_sacrifice=Pillar of Sacrifice
+skill_name_exemplar_riposte=Riposte
+
+## FANATIC SKILLS
+skill_name_flayer_ignited_blade_tornado=Blade Tornado
+skill_name_flayer_ignited_burning_slash=Burning Skewer
+skill_name_flayer_ignited_eye_brand=Eye Brand
+skill_name_flayer_ignited_riposte=Riposte
+skill_name_flayer_ignite_self=Ignite!
+skill_name_flayer_ignited_move_up=Searing Lunge
+skill_name_flayer_move_up=Advance Lunge
+skill_name_flayer_riposte=Riposte
+skill_name_flayer_slash=Slash
+skill_name_flayer_stab=Stab
+skill_name_immolatist_fire_flay=Fire Flay
+skill_name_immolatist_flaming_lasso=Flaming Lasso
+skill_name_immolatist_funeral_pyre=Funeral Pyre
+skill_name_immolatist_stoke_the_furnaces=Stoke the Furnaces
+skill_name_immolatist_stoke_their_fire=The Fire Rises
+skill_name_immolatist_b_fire_flay=Fire Flense
+skill_name_immolatist_b_flaming_lasso=Chains of Agony
+skill_name_immolatist_b_funeral_pyre=Funeral Pyre
+skill_name_immolatist_b_stoke_their_fire=The Fire Rages
+skill_name_immolatist_b_combustion=Combustion
+skill_name_sacrificial_a_new_sun=A New Sun
+skill_name_sacrificial_the_flame_spreads=The Flame Spreads
+skill_name_blind_shaman_ignited_bead_shotgun=Infernal Blast
+skill_name_blind_shaman_ignited_blazing_aegis=Blazing Aegis
+skill_name_blind_shaman_ignited_burning_beads=Burning Beads
+skill_name_blind_shaman_close_your_eyes=Eyes Closed
+skill_name_blind_shaman_ignite_self=Ignite!
+skill_name_blind_shaman_ignited_riposte=Riposte
+skill_name_blind_shaman_burning_beads=Burning Beads
+skill_name_whipper_ignited_cleansing_flame=Cleansing Flame
+skill_name_whipper_ignited_flaming_whip=Infernal Taskmaster
+skill_name_whipper_ignited_whip_crack=Whip Crack
+skill_name_whipper_ignited_whip_trip=Whip Trip
+skill_name_whipper_ignite_self=Ignite!
+skill_name_whipper_smoke_em=Fiery Haze
+skill_name_whipper_whip_crack=Whip Crack
+skill_name_whipper_whip_trip=Whip Trip
+skill_name_whipper_b_flaming_whip=Infernal Taskmaster
+skill_name_whipper_b_manacle=Scorching Manacle
+skill_name_whipper_b_ligature=Ligature
+skill_name_whipper_b_full_bind=Full Bind
+skill_name_pit_fighter_punch=Pummel
+skill_name_pit_fighter_uppercut=Jawbreaker
+skill_name_pit_fighter_buff=Accelerant
+
+#FANATIC LAIR BOSSES
+skill_name_librarian_ignite_self=Ignite!
+skill_name_librarian_mandatory_reading=Mandatory Reading
+skill_name_librarian_categorize=Categorize
+skill_name_librarian_backdraft=Burnout
+skill_name_librarian_smokestack=Smokestack
+skill_name_librarian_page_burner=Page Burner
+skill_name_librarian_burning_bright=Burning Bright
+skill_name_librarian_ignited_conflagration=Burning Bright
+
+## FISHERFOLK SKILLS
+skill_name_bosun_spearfishing=Spearfishing
+skill_name_bosun_heave_ho=Heave Ho!
+skill_name_bosun_rigging=Sodden Rigging
+skill_name_bosun_b_spearfishing=Spearfishing
+skill_name_bosun_b_heave_ho=Heave Ho!
+skill_name_bosun_b_rigging=Sodden Rigging
+skill_name_bosun_b_riptide=Riptide
+skill_name_cabin_boy_incubate=Unstable Incubation
+skill_name_cabin_boy_hatch=Spawning Ground
+skill_name_captain_melee_1=Coral Grief
+skill_name_captain_melee_2=Keelhaul
+skill_name_captain_all_hands_on_deck=All Hands On Deck!
+skill_name_captain_b_melee_1=Coral Grief
+skill_name_captain_b_melee_2=Keelhaul
+skill_name_captain_b_all_hands_on_deck=All Hands On Deck!
+skill_name_captain_b_prepare_to_board=Prepare to Board!
+skill_name_docker_melee_1=Hull Breaker
+skill_name_docker_melee_2=Brine Bucket
+skill_name_docker_make_way=Make Way
+skill_name_fish_monger_retreat=Fish Guts
+skill_name_fish_monger_flense=Flense
+skill_name_fish_monger_debone=Debone
+skill_name_fish_monger_whetstone=Whetstone
+skill_name_wharf_rat_sucker_punch=Sucker Punch
+skill_name_wharf_rat_briny_spray=Briny Spray
+
+## FISHERFOLK LAIR BOSSES
+skill_name_leviathan_fog=Breath of the Sea
+skill_name_leviathan_remove_fog=Deep Rising
+skill_name_leviathan_gaze=Eyes of the Storm
+skill_name_leviathan_gaze_b=Eyes of the Storm
+skill_name_leviathan_gaze_c=Eye of the Storm
+skill_name_leviathan_stress_wave=Tidal Surge
+skill_name_leviathan_hand_strike=Batter
+skill_name_leviathan_hand_to_the_depths=Undertow
+
+## GAUNT & "OTHERS" SKILLS
+skill_name_gaunt_woodsman_fell_the_tree=Fell the Tree
+skill_name_gaunt_woodsman_carve_the_toy=Carve the Toy
+skill_name_gaunt_woodsman_protect_the_child=Protect the Child
+skill_name_gaunt_lost_soul_scrabble=Filthy Morsel
+skill_name_gaunt_lost_soul_gibbering_chomp=Chomp
+skill_name_gaunt_urchin_dont_hurt_me=Skulking Step
+skill_name_gaunt_urchin_we_have_to_hide=Song of Shadows
+skill_name_gaunt_urchin_where_are_you=Haunting Melody
+skill_name_gaunt_widow_look_at_me=Desperate Grab
+skill_name_gaunt_widow_i_was_pretty=Gruesome Reflection
+skill_name_gaunt_widow_dont_look=Don't Look!
+skill_name_ghoul_claw=Rend
+skill_name_ghoul_throw=Skull Toss
+skill_name_ghoul_howl=Howl
+
+## LOST BATTALION SKILLS
+skill_name_foot_soldier_atrophic_cut=Atrophic Cut
+skill_name_foot_soldier_atrophic_cut_break=Atrophic Cut
+skill_name_foot_soldier_shambling_thrust=Shambling Thrust
+skill_name_foot_soldier_with_my_life=Life on the Line
+skill_name_drummer_marching_orders=Marching Orders
+skill_name_drummer_focus_fire=Focus Fire
+skill_name_drummer_focus_fire_weak=Focus Fire
+skill_name_drummer_sound_and_fury=Sound and Fury
+skill_name_drummer_death_before_dishonor=Death Before Dishonor
+skill_name_drummer_order_defend_us=Order: Defensive Formation
+skill_name_drummer_order_volley=Order: Volley
+skill_name_drummer_order_slay_the_wounded=Order: Slay the Wounded
+skill_name_arbalist_hip_shot=Hip Shot
+skill_name_arbalist_piercing_bolt=Piercing Bolt
+skill_name_arbalist_piercing_bolt_volley=Piercing Bolt Volley
+skill_name_arbalist_serrated_bolt=Serrated Bolt
+skill_name_arbalist_serrated_bolt_volley=Serrated Bolt Volley
+skill_name_arbalist_b_marked_for_death=Chosen Target
+skill_name_arbalist_b_marked_for_death_b=Chosen Target
+skill_name_arbalist_b_hip_shot=Hip Shot
+skill_name_arbalist_b_piercing_bolt=Piercing Bolt
+skill_name_arbalist_b_piercing_bolt_b=Piercing Bolt
+skill_name_arbalist_b_piercing_bolt_volley=Piercing Bolt Volley
+skill_name_arbalist_b_serrated_bolt=Serrated Bolt
+skill_name_arbalist_b_serrated_bolt_b=Serrated Bolt
+skill_name_arbalist_b_serrated_bolt_volley=Serrated Bolt Volley
+skill_name_knight_biting_blade=Biting Blade
+skill_name_knight_flashing_blade=Flashing Blade
+skill_name_knight_en_garde=En Garde
+skill_name_knight_have_at_you=Have At You
+skill_name_knight_riposte=Riposte
+skill_name_knight_b_biting_blade=Biting Blade
+skill_name_knight_b_flashing_blade=Flashing Blade
+skill_name_knight_b_en_garde=En Garde
+skill_name_knight_b_have_at_you=Have At You
+skill_name_knight_b_riposte=Riposte
+skill_name_bishop_smite=Smite
+skill_name_bishop_strike=Strike
+skill_name_bishop_penance=Penance
+skill_name_bishop_purge_the_unworthy=Purge The Unworthy
+skill_name_bishop_serve_once_more=Serve Once More
+
+## LOST BATTALION LAIR BOSSES
+skill_name_dreaming_general_whisper=Unsettling Whispers
+skill_name_dreaming_general_waking_dead=The Waking Dead
+skill_name_dreaming_general_nightmare=Nightmare
+skill_name_taproot_growth=Creeping Growth
+skill_name_taproot_start_growth=Creeping Growth
+skill_name_taproot_assign_targets=The Soil Stirs
+skill_name_taproot_retreating_growth=The Growth Recedes
+skill_name_taproot_tangle_c=Whispering Darkness
+
+## PILLAGER SKILLS
+skill_name_pillager_ranged_crack_shot=Blister Shot
+skill_name_pillager_ranged_shell_shock=Shell Shock
+skill_name_pillager_ranged_front_mortar=Front Mortar
+skill_name_pillager_ranged_frantic_retreat=Frantic Retreat
+skill_name_pillager_melee_low_blow=Low Blow
+skill_name_pillager_melee_sever=Finishing Blow
+skill_name_pillager_melee_wild_swing=Wild Swing
+skill_name_pillager_antiquarian_protect_me=Protect Me
+skill_name_pillager_antiquarian_vapor_attack_1=Festering Vapours
+skill_name_pillager_antiquarian_vapor_attack_2=Flashpowder
+skill_name_pillager_antiquarian_vapor_buff=Invigorating Vapours
+skill_name_pillager_antiquarian_knife=Nervous Stab
+skill_name_pillager_artillery_boom=BOOOOOOOM!
+skill_name_pillager_artillery_misfire=MISFIRE!
+skill_name_pillager_artillery_loading=Load Shot
+skill_name_pillager_artillery_boom_temp_1=BOOOOOOOM!
+skill_name_pillager_artillery_boom_temp_2=BOOOOOOOM!
+skill_name_pillager_mongrel_bite=Gnash
+skill_name_pillager_mongrel_howl=Watchdog
+skill_name_pillager_mongrel_riposte=Riposte
+skill_name_pillager_firemouth_breathe_fire=Breath of Fire
+skill_name_pillager_firemouth_breathe_flame=Flash Fire
+skill_name_pillager_firemouth_melee=Flint Strike
+
+## PLAGUE EATER SKILLS
+skill_name_lord_tongue_lashing=Tongue Lashing
+skill_name_lord_baneful_breath=Baneful Breath
+skill_name_lord_fleshy_backhand=Fleshy Backhand
+skill_name_lord_bilious_cannon=Bilious Cannon
+skill_name_lord_inhuman_appetites=Inhuman Appetites
+skill_name_lord_feed_me=Feeding Time
+skill_name_lady_mothers_embrace=Mother's Embrace
+skill_name_lady_be_our_guest=Be Our Guest
+skill_name_lady_mulch=Mulch
+skill_name_lady_bilious_wail=Bilious Wail
+skill_name_lady_inhuman_appetites=Inhuman Appetites
+skill_name_lady_feed_me=Feeding Time
+skill_name_maid_larval_slop=Larval Slop
+skill_name_maid_backsplash=Backsplash
+skill_name_maid_rams_feast=Ram's Feast
+skill_name_maid_tend_the_flock=Tend the Flock
+skill_name_livestock_kick=Headbutt
+skill_name_livestock_beast_of_burden=Beast of Burden
+skill_name_livestock_battering_ram=Battering Ram
+skill_name_livestock_invasive_species=Invasive Species
+skill_name_livestock_riposte=Riposte
+skill_name_livestock_b_king_of_all=King of All
+skill_name_livestock_b_kick=Headbutt
+skill_name_livestock_b_beast_of_burden=Beast of Burden
+skill_name_livestock_b_battering_ram=Battering Ram
+skill_name_livestock_b_riposte=Riposte
+skill_name_butcher_vile_feast=Vile Feast
+skill_name_butcher_carve_the_flesh=Carve
+skill_name_butcher_hook_the_meat=Meat Hook
+skill_name_butcher_hack=Hack
+skill_name_butcher_b_vile_feast=Vile Feast
+skill_name_butcher_b_cleave=Cleave
+skill_name_butcher_b_hook_the_meat=Boning Hook
+skill_name_butcher_b_hack=Hack
+skill_name_dinner_cart_barf=Regurgitate
+skill_name_dinner_cart_cleaver=Excoriate
+skill_name_dinner_cart_ranged_attack=Bilious Mortar
+skill_name_dinner_cart_ranged_debuff=Sickly Sweet
+skill_name_dinner_cart_inhuman_appetites=Inhuman Appetites
+
+## PLAGUE EATER LAIR BOSSES
+skill_name_harvest_table_cruel_harvest=Maws of Life
+skill_name_harvest_table_sapid_drippings=Sapid Drippings
+skill_name_harvest_table_tantalizing_tidbit=Tantalizing Tidbit
+skill_name_harvest_fetid_meat_temptation=Tempting Aroma
+skill_name_harvest_putrid_meat_temptation=Mouthwatering Aroma
+skill_name_harvest_hunger=Feed The Hunger
+
+## SWINE SKILLS
+skill_name_swine_brute_mallet=Smash
+skill_name_swine_brute_headbutt=Gore
+skill_name_swine_brute_squeal=Squeal
+skill_name_swine_skulker_melee_1=Pigsticker
+skill_name_swine_skulker_melee_2=Ragged Hook
+skill_name_swine_skulker_puke=Fouled Shank
+skill_name_swine_skulker_stealth=Skitter
+skill_name_swine_skulker_end_this_one=End This One
+skill_name_swine_brute_b_obliterate_body=Obliterate Body
+skill_name_swine_brute_b_obliterate_masses=Obliterate Masses
+skill_name_swine_brute_b_savage_gore=Savage Gore
+skill_name_swine_brute_b_shattering_squeal=Shattering Squeal
+skill_name_swine_skiver_retreat=Goring Flight
+skill_name_swine_skiver_throw_1=Spit To Roast
+skill_name_swine_skiver_throw_2=Cripple Them
+skill_name_swine_skiver_b_retreat=Goring Flight
+skill_name_swine_skiver_b_throw_1=Spit To Roast
+skill_name_swine_skiver_b_throw_2=Cripple Them
+skill_name_swine_skiver_b_skewer=Skewer
+
+## MINIBOSS: SHAMBLER
+skill_name_shambler_shamble_fwd=Obdurous Advancement
+skill_name_shambler_shamble_back=Undulating Withdrawal
+skill_name_shambler_howl=Stentorious Lament
+skill_name_shambler_tentacle_slap=Clapperclaw
+skill_name_shambler_tentacle_combo_slap=Wriggling Feast
+
+## MINIBOSS: DEATH
+skill_name_death_memento_mori=Memento Mori
+skill_name_death_shadow_of_death=Shadow of Death
+skill_name_death_shadow_of_death_flag=Shadow of Death
+skill_name_death_soul_reaver=Soul Reaver
+skill_name_death_combo_soul_reaver=Soul Reaver
+skill_name_death_waning_crescent=Waning Crescent
+skill_name_death_trample=Trample
+
+## MINIBOSS: COLLECTOR
+skill_name_collector_life_steal=Life Steal
+skill_name_collector_collect_call=Collect Call
+skill_desc_collector_collect_call=<color=#{notable}>Summon Collected Heads</color>
+skill_name_collector_show_collection=Show Collection
+skill_name_head_hwy_attack_melee=Headhunt
+skill_name_head_hwy_attack_ranged=Headshot
+skill_name_head_maa_attack=Head Knocker
+skill_name_head_maa_buff=Head Games
+skill_name_head_maa_guard=Head Guard
+skill_name_head_ves_attack=Head Rush
+skill_name_head_ves_debuff=Headache
+skill_name_head_ves_heal=Headstrong
+
+## MINIBOSS: CHIRURGEON & PATIENT
+skill_name_lost_soul_chirurgeon_bone_saw=Bone Saw
+skill_name_lost_soul_chirurgeon_bloodletting=Bloodletting
+skill_desc_lost_soul_chirurgeon_bloodletting=<color=#{harmful}>Remove</color> <sprite name={q}icon_disease{q}>
+skill_name_lost_soul_chirurgeon_trephination=Trephination
+skill_desc_lost_soul_chirurgeon_trephination=Remove <color=#{harmful}>Negative</color> tokens\nDeal damage per <color=#{harmful}>Negative</color> token
+skill_name_lost_soul_chirurgeon_trephination_b=Trepanation
+skill_desc_lost_soul_chirurgeon_trephination_b=Remove <color=#{harmful}>Negative</color> tokens\nDeal damage per <color=#{harmful}>Negative</color> token
+skill_name_lost_soul_chirurgeon_leucotomy=Leucotomy
+skill_desc_lost_soul_chirurgeon_leucotomy=<color=#{notable}>Allies:</color> <color=#{heal}>Heal 33%</color>, <color=#{notable}>add unique buff</color>
+skill_name_lost_soul_patient_scrabble=Sterile Morsel
+skill_name_lost_soul_patient_gibbering_chomp=Chomp
+
+## END BOSSES
+
+##SHACKLES OF DENIAL
+skill_name_brain_lock_melee_activate=Denial of Arms
+skill_name_brain_lock_melee_unique=Ruptured Vessel
+skill_name_brain_lock_melee_doubt=Crippling Doubt
+skill_name_brain_lock_melee_fear=Paralyzing Fear
+skill_name_brain_lock_ranged_activate=Denial of Reach
+skill_name_brain_lock_ranged_unique=Mental Lashes
+skill_name_brain_lock_ranged_doubt=Crippling Doubt
+skill_name_brain_lock_ranged_fear=Paralyzing Fear
+skill_name_brain_lock_health_activate=Denial of Fortitude
+skill_name_brain_lock_health_unique=Cerebral Falter
+skill_name_brain_lock_health_doubt=Crippling Doubt
+skill_name_brain_lock_health_fear=Paralyzing Fear
+skill_name_brain_lock_stress_activate=Denial of Reason
+skill_name_brain_lock_stress_unique=Overwhelming Anguish
+skill_name_brain_lock_stress_doubt=Crippling Doubt
+skill_name_brain_lock_stress_fear=Paralyzing Fear
+
+## SEETHING SIGH
+skill_name_lungs_core_inflate_front=Shallow Breath
+skill_name_lungs_core_inflate_back=Shallow Breath
+skill_name_lungs_core_inflate_both=Deep Breath
+skill_name_lungs_core_exhale=Sundering Exhalation
+skill_name_lungs_core_miasma=Wrath and Rancor
+skill_name_lungs_core_miasma_b=Wrath and Rancor
+skill_name_lungs_core_blind_rage=Blind Rage
+skill_name_lungs_core_hysteria=Hysteria
+skill_name_lungs_core_hysteria_b=Hysteria
+skill_name_lungs_core_dying_light=Dying Light
+
+## FOCUSED FAULT
+#EYE STALK SMALL
+skill_name_eyes_stalk_s_seek=Observe
+skill_name_eyes_stalk_s_seek_mirror=Observe
+skill_desc_eyes_stalk_s_seek_mirror=Ignores <sprite name={q}token_blind-line{q}>
+skill_name_eyes_stalk_s_seek_grow1=Observe
+skill_name_eyes_stalk_s_seek_grow2=Observe
+skill_name_eyes_stalk_s_basic_attack=Gaze
+skill_name_eyes_stalk_s_attack_grow1=Gaze
+skill_desc_eyes_stalk_s_attack_grow1=Ignores <sprite name={q}token_blind-line{q}><sprite name={q}token_stealth{q}>\nRequires Target has <sprite name={q}token_eyes_focus_hero_2{q}>\n<color=#{notable}>Self:</color> Grow to Bifurcated Eye, Remove<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+skill_name_eyes_stalk_s_attack_grow2=Gaze
+#EYE STALK MED
+skill_name_eyes_stalk_m_seek=Detect
+skill_name_eyes_stalk_m_seek_initial=Detect
+skill_desc_eyes_stalk_m_seek_initial=Ignores <sprite name={q}token_blind-line{q}>
+skill_name_eyes_stalk_m_attack_grow=Glare
+skill_desc_eyes_stalk_m_attack_grow=Ignores <sprite name={q}token_blind-line{q}><sprite name={q}token_stealth{q}>\nRequires Target has <sprite name={q}token_eyes_focus_hero_2{q}>\n<color=#{notable}>Self:</color> Grow to Cluster of Eyes, Remove<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+#EYE STALK LARGE
+skill_name_eyes_stalk_l_seek=Evince
+skill_name_eyes_stalk_l_seek_initial=Evince
+skill_desc_eyes_stalk_l_seek_initial=Ignores <sprite name={q}token_blind-line{q}>
+skill_name_eyes_stalk_l_attack=Glower
+skill_desc_eyes_stalk_l_attack=Ignores <sprite name={q}token_blind-line{q}><sprite name={q}token_stealth{q}>\nRequires Target has <sprite name={q}token_eyes_focus_hero_2{q}>
+#EYE MASS
+skill_name_eyes_seek=Behold
+skill_name_eyes_seek_initial=Behold
+skill_name_eyes_suppress=Suppress
+skill_name_eyes_nuke=Limerence
+skill_desc_eyes_seek_initial=<color=#{notable}>On Hit:</color> Copy All <color=#{notable}>Positive</color> Tokens\nIgnores <sprite name={q}token_blind-line{q}>
+skill_desc_eyes_suppress=Ignores <sprite name={q}token_blind-line{q}>\nRequires Hero Party has 2+ <sprite name={q}token_combo{q}>
+skill_desc_eyes_nuke=Ignores <sprite name={q}token_blind-line{q}><sprite name={q}token_stealth{q}>\nRequires Target has <sprite name={q}token_eyes_focus_hero_2{q}>\n<color=#{buff}>+25% DMG</color> per <sprite name={q}token_eyes_focus_hero_2{q}> on Target
+
+## RAVENOUS Reach
+skill_name_arms_phase1_mark=Ideation
+skill_desc_arms_phase1_mark=<color=#{notable}>Random Adjacent Hero:</color><sprite name={q}token_combo{q}>
+skill_name_arms_phase1_blam=Setback
+skill_desc_arms_phase1_blam=When target <sprite name={q}token_combo{q}>: Ignores <sprite name={q}token_dodge{q}>, +100% DMG, <sprite name={q}token_stun{q}>
+skill_name_arms_phase2_mark_back=Precise Intent
+skill_desc_arms_phase2_mark_back=When target <sprite name={q}token_combo{q}>: Ignores <sprite name={q}token_dodge{q}>, <sprite name={q}token_immoblize{q}>
+skill_name_arms_phase2_mark_front=Precise Intent
+skill_desc_arms_phase2_mark_front=When target <sprite name={q}token_combo{q}>: Ignores <sprite name={q}token_dodge{q}>, <sprite name={q}token_immoblize{q}>
+skill_name_arms_phase2_blam=Teardown
+skill_name_arms_phase3_mark=Rumination
+skill_name_arms_phase3_blam=Last Grasp
+skill_name_arms_phase3_riposte=Riposte
+skill_desc_arms_phase3_blam=Deals 100% of remaining <sprite name={q}icon_bleed{q}> on Target as DMG\nWhen target <sprite name={q}token_combo{q}>: <color=#{heal}>Heal 5%</color>, Remove All <color=#{notable}>Positive</color> Tokens
+
+## FINAL BOSS - PHASE 1
+skill_name_stomach_gastric_juices_a=Gastric Juices
+skill_name_stomach_gastric_juices_b=Gastric Juices
+skill_name_stomach_trammel=Trammel
+skill_name_stomach_acid_reflux=Acid Reflux
+skill_name_stomach_catabolize=Catabolize
+
+## FINAL BOSS - PHASE 2
+skill_name_torso_glare=Glare
+skill_name_torso_haymaker=Haymaker
+skill_name_torso_haymaker_weak=Wild Haymaker
+skill_name_torso_covetous_glance=Covetous Glance
+skill_name_torso_hammer=Hammer
+skill_name_torso_trammel=Trammel
+skill_name_torso_riposte=Riposte
+
+## FINAL BOSS - PHASE 3
+skill_name_god_face_your_failure=Face Your Failure
+skill_name_god_samsara=Samsara
+skill_name_god_samsara_exception=Samsara
+skill_name_god_samsara_timeout=Samsara
+skill_name_god_samsara_post=Samsara
+skill_name_god_shackles=Shackles of the Past
+skill_name_god_spreading_stain=Spreading Stain
+skill_name_god_strange_axis=Strange Axis
+skill_name_god_futility=Futility
+skill_name_god_frailty=Frailty
+skill_name_god_quote=<color=#{path_verbose}>"Pity those who glimpse\nthe mind of God."</color>
+
+## FINAL BOSS - CHERUBS
+skill_name_god_cherub_edge_of_oblivion=Edge of Oblivion
+skill_name_god_cherub_fading_ember=Fading Ember
+skill_name_god_cherub_empty_vessel=Empty Vessel
+skill_name_god_cherub_stars_align=Stars Align
+skill_name_god_cherub_worship=Worship
+
+## FINAL BOSS - FAILURES
+skill_name_failure_flg_attack=Regression
+skill_name_failure_gr_attack=Regression
+skill_name_failure_hel_attack=Regression
+skill_name_failure_hwm_attack=Regression
+skill_name_failure_jes_attack=Regression
+skill_name_failure_lep_attack=Regression
+skill_name_failure_maa_attack=Regression
+skill_name_failure_occ_attack=Regression
+skill_name_failure_pd_attack=Regression
+skill_name_failure_run_attack=Regression
+skill_name_failure_ves_attack=Regression
+
+## FINAL BOSS - HERO ULTS
+skill_name_failure_ult_flg=Exultation
+skill_name_failure_ult_gr=Exultation
+skill_name_failure_ult_hel=Exultation
+skill_name_failure_ult_hwm=Exultation
+skill_name_failure_ult_jes=Exultation
+skill_name_failure_ult_lep=Exultation
+skill_name_failure_ult_maa=Exultation
+skill_name_failure_ult_occ=Exultation
+skill_name_failure_ult_pd=Exultation
+skill_name_failure_ult_run=Exultation
+skill_name_failure_ult_ves=Exultation

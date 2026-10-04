@@ -1,0 +1,88 @@
+##VESTAL CHAPTERS
+hero_story_vestal_chapter_title_0=Want Not
+hero_story_vestal_chapter_title_1=A Momentary Lapse
+hero_story_vestal_chapter_title_2=No God but Men
+hero_story_vestal_chapter_title_3=Divine Intervention
+hero_story_vestal_chapter_title_4=Wrath
+#
+#VESTAL HERO STORY GOALS
+#
+battle_goal_vestal_combat_1=Satisfy Your Curiosity 3 Times
+battle_goal_vestal_combat_2=Defeat The Torturer!
+#
+##VESTAL HERO STORY 1 STRINGS
+#
+#NAMES
+herostory_ves_1=Vestal
+herostory_ves_1_flame=The Sacred Flame
+herostory_ves_1_window=Courtyard Window
+herostory_ves_1_window_lit=Courtyard Window
+herostory_ves_1_wood_pile=Kindling
+herostory_ves_1_space= 
+#
+#SKILLS
+skill_name_ves_1_move=Move
+skill_name_ves_1_collect_kindling=Collect Kindling
+skill_name_ves_1_kindle_flame=Kindle Flame
+skill_name_ves_1_satisfy_curiosity=Satisfy Curiosity
+skill_name_ves_1_flame_burn_down=Burn Down
+skill_name_ves_1_flame_flame_roars=The Flame Roars
+#
+#BARKS
+bark_herostory_ves_1_flame_kindled=Damn this ceaseless labour.
+bark_herostory_ves_1_flame_kindled=*sigh* Another log upon the fire...
+bark_herostory_ves_1_flame_kindled=The Abbot will be pleased, I suppose.
+#
+bark_herostory_ves_1_window_active=Voices at the window...someone is outside!
+bark_herostory_ves_1_window_active=I see shapes in the glass - who could it be?
+#
+bark_herostory_ves_1_window_used_1=A couple...alone in the garden...
+bark_herostory_ves_1_window_used_2=T-they were so close to each other...
+bark_herostory_ves_1_window_used_3=His hands...her lips...divine!
+#
+bark_herostory_ves_1_window_missed=Curses, I've missed my chance!
+#
+bark_herostory_ves_1_collect_kindling=Day after day, the drudgery continues...
+bark_herostory_ves_1_collect_kindling=My arms burn hotter than the flame itself!
+bark_herostory_ves_1_collect_kindling=Surely there is more to life than this...
+#
+#
+##VESTAL HERO STORY 2 STRINGS
+#
+#NAMES
+herostory_ves_2=Vestal
+herostory_ves_2_torturer=Torturer
+herostory_ves_2_chair=Chair
+herostory_ves_2_cage=Cage
+herostory_ves_2_pillory=Pillory
+herostory_ves_2_iron_maiden=Iron Maiden
+#
+#SKILLS
+skill_name_ves_2_fend=Fend Off
+skill_name_ves_2_brace=Brace
+skill_name_ves_2_judgement=Judgement
+skill_name_ves_2_ministrations=Ministrations
+skill_name_ves_2_move=Move
+skill_name_ves_2_torturer_punish=Punish
+skill_name_ves_2_torturer_rain_of_sorrows=Rain of Sorrows
+skill_name_ves_2_torturer_exsanguinate=Exsanguinate
+skill_name_ves_2_torturer_more_more=More! MORE!
+#
+#BARKS
+bark_herostory_ves_2_light_shines=T-the light has not abandoned me!
+bark_herostory_ves_2_light_shines=Gold in the gloom, calling to me!
+bark_herostory_ves_2_light_shines=It is a sign - I am not forsaken!
+#
+bark_herostory_ves_2_use_judgement=IT IS YOU WHO SHALL BE JUDGED!
+bark_herostory_ves_2_use_judgement=MY DESIRES WILL NOT BE IMPUGNED!
+bark_herostory_ves_2_use_judgement=I AM BLESSED - BODY AND SOUL!
+#
+bark_herostory_ves_2_torturer_defense=H-he thirsts for injury!?
+bark_herostory_ves_2_torturer_defense=He covets harm!
+bark_herostory_ves_2_torturer_defense=Praying for wounds? Appalling!
+#
+bark_herostory_ves_2_gain_conviction=Such power - coursing through me!
+bark_herostory_ves_2_gain_conviction=To love is natural - I am guilty of nothing!
+bark_herostory_ves_2_gain_conviction=The light affirms me!
+#
+bark_herostory_ves_2_win=I must share this revelation with my sisters!

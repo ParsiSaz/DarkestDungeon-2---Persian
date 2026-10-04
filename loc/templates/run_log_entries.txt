@@ -1,0 +1,6 @@
+﻿run_log_quirk=${hero_name} gained ${quirk_id}
+run_log_actor_label=${hero_name} gained
+run_log_quirk_label=${quirk_id}
+run_log_source_label=From ${source_id}
+run_log_quirk_generic=${hero_name} gained a Quirk!
+run_log_generic_test=A rat howl pierces the night air

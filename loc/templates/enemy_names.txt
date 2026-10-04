@@ -1,0 +1,223 @@
+﻿## FANATICS
+fanatic_flayer_corpse=Corpse
+fanatic_blind_shaman_corpse=Corpse
+fanatic_immolatist_corpse=Corpse
+fanatic_immolatist_b_corpse=Corpse
+fanatic_spearing_reaver_corpse=Corpse
+fanatic_whipper_corpse=Corpse
+fanatic_sacrificial_corpse=Corpse
+fanatic_blind_shaman=Shaman
+fanatic_blind_shaman_ignited=<color=#{ignited}>Shaman</color>
+fanatic_flayer=Flayer
+fanatic_flayer_ignited=<color=#{ignited}>Flayer</color>
+fanatic_immolatist=Immolatist
+fanatic_immolatist_b=Her Ladyship
+fanatic_pit_figher=Pit Fighter
+fanatic_sacrificial=Sacrificial
+fanatic_whipper=Whipper
+fanatic_whipper_ignited=<color=#{ignited}>Whipper</color>
+fanatic_whipper_b=Masterful Kinred
+fanatic_whipper_b_corpse=Corpse
+fanatic_pit_fighter=Pit Fighter
+fanatic_pit_fighter_corpse=Corpse
+
+## PLAGUE EATERS
+plague_eater_lord=Lord
+plague_eater_lord_corpse=Corpse
+plague_eater_lady=Lady
+plague_eater_lady_corpse=Corpse
+plague_eater_butcher=Butcher
+plague_eater_butcher_corpse=Corpse
+plague_eater_maid=Maid
+plague_eater_maid_corpse=Corpse
+plague_eater_livestock=Livestock
+plague_eater_livestock_corpse=Corpse
+plague_eater_dinner_cart=Dinner Cart
+plague_eater_dinner_cart_corpse=Corpse
+plague_eater_corpse=Corpse
+plague_eater_livestock_b=Black Phillip
+plague_eater_livestock_b_corpse=Corpse
+plague_eater_butcher_b=Tohno the Carver
+plague_eater_butcher_b_corpse=Corpse
+
+## LOST BATTALION
+lost_battalion_foot_soldier=Foot Soldier
+lost_battalion_drummer=Drummer
+lost_battalion_foot_soldier_corpse=Corpse
+lost_battalion_drummer_corpse=Corpse
+lost_battalion_arbalist=Arbalist
+lost_battalion_arbalist_b=Bullseye Barrett
+lost_battalion_arbalist_b_corpse=Corpse
+lost_battalion_arbalist_corpse=Corpse
+lost_battalion_knight=Knight
+lost_battalion_knight_corpse=Corpse
+lost_battalion_knight_b=Fallen Templar
+lost_battalion_knight_b_corpse=Corpse
+lost_battalion_bishop=Bishop
+lost_battalion_bishop_corpse=Corpse
+lost_battalion_boss_dreaming_general=Dreaming General
+lost_battalion_boss_taproot=Tap Root
+
+## BEASTS (CREATURE DEN)
+shared_carrion_eater_corpse=Corpse
+shared_carrion_eater_mutated_corpse=Corpse
+shared_spider_spitter_corpse=Corpse
+shared_spider_webber_corpse=Corpse
+shared_dog_rabid_corpse=Corpse
+shared_dog_rabid_b_corpse=Corpse
+shared_pillager_melee=Pillager Hatchetman
+shared_pillager_melee_corpse=Corpse
+shared_pillager_ranged=Pillager Crackshot
+shared_pillager_ranged_corpse=Corpse
+shared_lost_soul_yeoman=Woodsman
+shared_lost_soul_yeoman_corpse=Corpse
+shared_lost_soul=Lost Soul
+shared_lost_soul_corpse=Corpse
+shared_lost_soul_urchin=Urchin
+shared_lost_soul_urchin_corpse=Corpse
+shared_lost_soul_widow=Widow
+shared_lost_soul_widow_corpse=Corpse
+shared_lost_soul_leper=Leper
+shared_lost_soul_leper_corpse=Corpse
+shared_lost_soul_chirurgeon=Chirurgeon
+shared_lost_soul_chirurgeon_corpse=Corpse
+shared_lost_soul_patient=Patient
+shared_lost_soul_patient_corpse=Corpse
+plague_eater_harvest_table=Harvest Child
+plague_eater_harvest_fetid_meat=Fetid Meat
+plague_eater_harvest_putrid_meat=Putrid Meat
+plague_eater_harvest_fetid_meat_corpse=Meat Pile
+plague_eater_harvest_putrid_meat_corpse=Meat Pile
+plague_eater_harvest_table_corpse=Corpse
+fanatic_librarian=Librarian
+fanatic_librarian_corpse=Corpse
+fanatic_librarian_ignited=<color=#{ignited}>Librarian</color>
+fanatic_librarian_stack_l=Books
+fanatic_librarian_stack_m=Damaged Books
+fanatic_librarian_stack_s=Scorched Books
+shared_ghoul=Ghoul
+shared_ghoul_corpse=Corpse
+shared_pillager_artillery=Implication
+shared_pillager_artillery_corpse=Corpse
+shared_pillager_antiquarian=Antiquarian
+shared_pillager_mongrel=Mongrel
+shared_pillager_mongrel_corpse=Corpse
+shared_pillager_firemouth=Firemouth
+shared_pillager_firemouth_corpse=Corpse
+#
+##COASTALS
+coastal_bosun=Bosun
+coastal_bosun_corpse=Corpse
+coastal_bosun_b=The Hull Keeper
+coastal_bosun_b_corpse=Corpse
+coastal_cabin_boy=Cabin Boy
+coastal_captain=Captain
+coastal_captain_corpse=Corpse
+coastal_captain_b=Admiral Marsh
+coastal_captain_b_corpse=Corpse
+coastal_docker=Docker
+coastal_docker_corpse=Corpse
+coastal_fish_monger=Fish Monger
+coastal_fish_monger_corpse=Corpse
+coastal_wharf_rat=Wharf Rat
+coastal_wharf_rat_corpse=Corpse
+coastal_boss_leviathan=Leviathan
+coastal_boss_leviathan_hand=Leviathan's Hand
+
+# SWINE
+cave_swine_skulker=Swine Skulker
+cave_swine_skulker_corpse=Corpse
+cave_swine_brute_b=Wilbur
+cave_swine_brute_b_corpse=Corpse
+cave_swine_brute=Swine Brute
+cave_swine_brute_corpse=Corpse
+cave_swine_skiver=Swine Skiver
+cave_swine_skiver_corpse=Corpse
+cave_swine_skiver_b=Fulgore
+cave_swine_skiver_b_corpse=Corpse
+#
+##CULTISTS
+cultist_cherub=Cherub
+cultist_cherub_corpse=Corpse
+cultist_evangelist=Evangelist
+cultist_evangelist_corpse=Corpse
+cultist_herald=Herald
+cultist_herald_corpse=Corpse
+cultist_altar=Altar
+cultist_altar_corpse=Corpse
+cultist_deacon=Deacon
+cultist_deacon_corpse=Corpse
+cultist_cardinal=Cardinal
+cultist_cardinal_corpse=Corpse
+cultist_exemplar=Exemplar
+cultist_exemplar_corpse=Corpse
+#
+#MINIBOSS: SHAMBLER
+shared_shambler=Shambler
+shared_shambler_corpse=Corpse
+shared_shambler_tentacle=Shambler Tentacle
+
+#MINIBOSS: DEATH
+shared_death=Death
+shared_death_headstone=Headstone
+
+#MINIBOSS: COLLECTOR
+shared_collector=The Collector
+shared_collector_head_hwy=Collected Highwayman
+shared_collector_head_maa=Collected Man-at-Arms
+shared_collector_head_ves=Collected Vestal
+
+#
+##CREATURE DEN MONSTERS
+shared_dog_rabid=Rabid Gnasher
+shared_dog_rabid_b=Gander
+shared_spider_webber=Webber
+shared_spider_spitter=Spitter
+shared_carrion_eater=Carrion Eater
+shared_carrion_eater_mutated=Carrion Devourer
+#
+##SHACKLES OF DENIAL
+boss_brain_lock_melee=Latch of Regret
+boss_brain_lock_ranged=Bolt of Lamentation
+boss_brain_lock_health=Padlock of Wasting
+boss_brain_lock_stress=Shackle of Despair
+boss_brain_core=Shackles of Denial
+#
+##SEETHING SIGH
+boss_lungs_front=Lung
+boss_lungs_front_corpse=Damaged Lung
+boss_lungs_core=Seething Sigh
+boss_lungs_back=Lung
+boss_lungs_back_corpse=Damaged Lung
+#
+##FOCUSED FAULT
+boss_eyes=Focused Fault
+boss_eyes_core=Focused Fault
+boss_eyes_stalk_s_corpse=Collapsed Eye
+boss_eyes_stalk_s=Cloistered Eye
+boss_eyes_stalk_m=Bifurcated Eye
+boss_eyes_stalk_l=Cluster of Eyes
+
+##RAVENOUS REACH
+boss_arms_core=Ravenous Reach
+boss_arms_phase1=Ravenous Reach
+boss_arms_phase2=Ravenous Reach
+boss_arms_phase3=Ravenous Reach
+
+##FINAL BOSS
+boss_body_core=The Body of Work
+boss_body_phase1=Body of Work
+boss_body_phase2=Body of Work
+boss_body_phase3=Body of Work
+boss_body_cherub=Proclaimer
+boss_body_failure_flg=Spectre
+boss_body_failure_gr=Spectre
+boss_body_failure_hel=Spectre
+boss_body_failure_hwm=Spectre
+boss_body_failure_jes=Spectre
+boss_body_failure_lep=Spectre
+boss_body_failure_maa=Spectre
+boss_body_failure_occ=Spectre
+boss_body_failure_pd=Spectre
+boss_body_failure_run=Spectre
+boss_body_failure_ves=Spectre

@@ -1,0 +1,460 @@
+###FORMATTING FOR OVERRIDES
+#
+#See IC-8431 for additional details
+#
+#ENTIRE Effect List - effect_skill_[ActorDataSkill ID]_[ActorDataEffectType]_override=TEXT
+#
+#Effect - effect_skill_[EffectDefinition ID]_override=TEXT
+#
+#Effect Condition - effect_skill_condition_[Effect ID]_[Condition ID]_override=TEXT
+####E.G. effect_skill_condition_runaway_combo_fire_spread_target_is_combo_primed_override=If OVERRIDE <sprite name={q}token_combo{q}>: {0}
+#
+#Skill Condition - effect_condition_[Condition ID]_override=TEXT
+#
+#Buff - buff_desc_[BUFF ID]_override=TEXT
+#
+#Ignore - token_ignore_desc_[TOKEN IGNORE DEF ID]_override=TEXT
+#
+#Performer Buff - performer_buff_desc_BUFFID_override=TEXT
+#
+#Target Buff - target_buff_desc_BUFFID_override=TEXT
+#
+#Path Seal Data - buff_desc_path_descriptor_PATH_override=\nDESCRIPTOR\n\n<color=#{debuff}>BUFF AND DEBUFF TEXT</color><color=#{buff}>\n\nAffected Skills:</color>\nSKILL 1\nSKILL 2 ETC
+#
+#TEST EXAMPLES - COMMENTED OUT
+#effect_skill_gr_pick_to_the_face_u_target_override=<color=#{buff}>+50% CRIT</color> when Target <sprite name={q}token_combo{q}>
+#effect_skill_condition_combo_crit_50pct_target_is_combo_primed_override=Target <sprite name={q}token_combo{q}>
+#effect_skill_gr_repartee_performer_override=<sprite name={q}token_dodge{q}><sprite name={q}token_dodge{q}><sprite name={q}token_dodge{q}>\n<sprite name={q}token_taunt{q}><sprite name={q}token_taunt{q}><sprite name={q}token_taunt{q}>
+#
+##GLOBAL OVERRIDES OF SHARED EFFECTS AND/OR CONDITIONS -- !! CAUTION !!
+#
+#
+#Performer Buff - combo_crit_50pct
+performer_buff_desc_combo_crit_50pct_override=<color=#{buff}>+50% CRIT</color> when Target <sprite name={q}token_combo{q}>
+#
+#Performer Buff - combo_damage_boost_100pct
+performer_buff_desc_combo_damage_boost_100pct_override=<color=#{buff}>+100% DMG</color> when Target <sprite name={q}token_combo{q}>
+#
+#Performer Buff - combo_damage_boost_200pct
+performer_buff_desc_combo_damage_boost_200pct_override=<color=#{buff}>+200% DMG</color> when Target <sprite name={q}token_combo{q}>
+#
+#Target Buff - combo_ignore_30pct_bleed_resist
+target_buff_desc_combo_ignore_30pct_bleed_resist_override=<color=#{buff}>+30%<sprite name={q}icon_bleed{q}> RES Piercing</color> when Target <sprite name={q}token_combo{q}>
+#
+#Target Buff - combo_ignore_30pct_blight_resist
+target_buff_desc_combo_ignore_30pct_blight_resist_override=<color=#{buff}>+30%<sprite name={q}icon_blight{q}> RES Piercing</color> when Target <sprite name={q}token_combo{q}>
+#
+#Target Buff - ignore_deaths_door
+target_buff_desc_ignore_deaths_door_override=<color=#{buff}>Ignores<sprite name={q}icon_death_outline{q}></color>
+#
+#Target Buff - ignore_debuff_resist_10pct
+target_buff_desc_ignore_debuff_resist_10pct_override=<color=#{buff}>+10%<sprite name={q}icon_debuff{q}>RES Piercing</color>
+#
+#Target Buff - ignore_debuff_resist_20pct
+target_buff_desc_ignore_debuff_resist_20pct_override=<color=#{buff}>+20%<sprite name={q}icon_debuff{q}> RES Piercing</color>
+#
+#Effect - clear_corpse
+effect_skill_condition_clear_corpse_target_is_corpse_override=<color=#{deathdoor}>Clear Corpse</color>
+effect_skill_condition_clear_corpse_target_is_not_prop_override= 
+#
+#Effect - combo_add_1_daze
+effect_skill_condition_combo_add_1_daze_target_is_combo_primed_override=<sprite name={q}token_daze{q}> when Target <sprite name={q}token_combo{q}>
+#
+#Effect - combo_add_1_stun
+effect_skill_condition_combo_add_1_stun_target_is_combo_primed_override=<sprite name={q}token_stun{q}> when Target <sprite name={q}token_combo{q}>
+#
+#Effect - combo_add_1_riposte
+effect_skill_condition_combo_add_1_riposte_target_is_combo_primed_override=<sprite name={q}token_riposte{q}> when Target <sprite name={q}token_combo{q}>
+#
+#Effect - combo_add_1_unchecked_power
+effect_skill_condition_combo_add_1_unchecked_power_target_is_combo_primed_override=<sprite name={q}token_uc_power{q}> when Target <sprite name={q}token_combo{q}>
+#
+#Effect - occ_unchecked_power_stun
+effect_skill_condition_occ_unchecked_power_stun_performer_has_2_plus_unchecked_power_override=<sprite name={q}token_stun{q}> when Self <sprite name={q}token_uc_power{q}>x2
+#
+#Effect - combo_add_1_block
+effect_skill_condition_combo_add_1_block_target_is_combo_primed_override=<sprite name={q}token_block{q}> when Target <sprite name={q}token_combo{q}>
+#
+#Effect - remove_all_stun_type_tokens
+effect_skill_remove_all_stun_type_tokens_override=Remove <sprite name={q}token_daze{q}><sprite name={q}token_stun{q}>
+
+#Effect - Steal Combo (by Tag) -- so it doesn't say "steal all [Combo Icon] tokens"
+effect_skill_steal_combo_override=Steal <sprite name={q}token_combo{q}>
+
+#
+#Effect Condition - stress_heal_1_performer_at_threshold
+effect_skill_condition_stress_heal_1_performer_at_threshold_performer_at_stress_heal_threshold_override=Stress 5+: <color=#{notable}>-1</color> <sprite name={q}token_stress{q}>
+#
+#Effect Condition - stress_heal_1_target_at_threshold
+effect_skill_condition_stress_heal_1_target_at_threshold_target_at_stress_heal_threshold_override=Stress 5+: <color=#{notable}>-1</color> <sprite name={q}token_stress{q}>
+#
+#Effect Condition - stress_heal_2_performer_at_threshold
+effect_skill_condition_stress_heal_2_performer_at_threshold_performer_at_stress_heal_threshold_override=Stress 5+: <color=#{notable}>-2</color> <sprite name={q}token_stress{q}>
+#
+#Effect Condition - stress_heal_2_target_at_threshold
+effect_skill_condition_stress_heal_2_target_at_threshold_target_at_stress_heal_threshold_override=Stress 5+: <color=#{notable}>-2</color> <sprite name={q}token_stress{q}>
+#
+#Effect Condition - stress_heal_3_performer_at_threshold
+effect_skill_condition_stress_heal_3_performer_at_threshold_performer_at_stress_heal_threshold_override=Stress 5+: <color=#{notable}>-3</color> <sprite name={q}token_stress{q}>
+#
+#Skill Condition - target_stress_over_50pct
+effect_condition_target_stress_over_50pct_override=<color=#{notable}>Requires Target Stress 6+ </color>
+#
+#Skill Condition - target_stress_over_40pct
+effect_condition_target_stress_over_40pct_override=<color=#{notable}>Requires Target Stress 5+ </color>
+
+# ANTI DODGE "DEBUFF" -- Skill and Debuff Hover Text
+#Override the Debuff part of the tool tip
+buff_desc_anti_dodge_debuff_override=<color=#{debuff}>Cannot Gain <sprite name={q}token_dodge{q}></color> <color=#{neutral}>(2 Rounds)</color>
+
+#Overrides the Debuff that's placed ON the target, not anything on the actual Skill tool tip
+buff_tooltip_anti_dodge_debuff_override=Cannot Gain <sprite name={q}token_dodge{q}>
+
+# ANTI BLOCK "DEBUFF" -- Skill and Debuff Hover Text
+#Override the Debuff part of the tool tip
+buff_desc_anti_block_debuff_override=<color=#{debuff}>Cannot Gain <sprite name={q}token_block{q}></color> <color=#{neutral}>(2 Rounds)</color>
+
+#Overrides the Debuff that's placed ON the target, not anything on the actual Skill tool tip
+buff_tooltip_anti_block_debuff_override=Cannot Gain <sprite name={q}token_block{q}>
+
+# ANTI STEALTH "DEBUFF" -- Skill and Debuff Hover Text
+#Override the Debuff part of the tool tip
+buff_desc_anti_stealth_debuff_override=<color=#{debuff}>Cannot Gain <sprite name={q}token_stealth{q}></color> <color=#{neutral}>(2 Rounds)</color>
+
+#Overrides the Debuff that's placed ON the target, not anything on the actual Skill tool tip
+buff_tooltip_anti_stealth_debuff_override=Cannot Gain <sprite name={q}token_stealth{q}>
+
+
+#
+##BOUNTY HUNTER
+#OVERRIDE FOR "CLASS BUFF"
+effect_condition_skill_is_combo_skill_override=50% chance to re-apply <sprite name={q}token_combo{q}> when triggering it
+#effect_skill_bh_reprime_combo_chance_override=
+#HURLBAT
+#Clarifies DMG bonus
+performer_buff_desc_bh_target_burn_dmg_boost_override=Deals<color=#{buff}> +50% DMG</color> <color=#{neutral}>when Target </color><sprite name={q}icon_burn{q}>
+#
+#Clarifies awkward Ignore line
+token_ignore_desc_til_combo_unavoidable_override=Ignores <sprite name={q}token_dodge{q}> when Target <sprite name={q}token_combo{q}>
+#
+#FINISH HIM
+#Clarifies DMG bonus
+performer_buff_desc_bh_target_stun_dmg_boost_override=Deals<color=#{buff}> +75% DMG</color> <color=#{neutral}>when Target </color><sprite name={q}token_stun{q}> or <sprite name={q}token_daze{q}>\n
+
+## FLAGELLANT
+#FESTER
+#Clarifies how the skill works instead of just implying that it Blights a corpse -- I don't think AETs work in skill tool tips
+effect_skill_flg_fester_target_override=<color=#{debuff}>Target:</color> <color=#{deathdoor}>Clear Corpse</color>\n<color=#{debuff}>Adjacent Enemies:</color> <sprite name={q}icon_blight{q}><color=#{blight}>3</color>
+
+#FESTER+
+#Clarifies how the skill works instead of just implying that it Blights a corpse -- I don't think AETs work in skill tool tips
+effect_skill_flg_fester_u_target_override=<color=#{debuff}>Target:</color> <color=#{deathdoor}>Clear Corpse</color>\n<color=#{debuff}>Adjacent Enemies:</color> <sprite name={q}icon_blight{q}><color=#{blight}>5</color>
+
+#SUFFER+
+#Clarifies the timing of the follow-up DOT removal
+effect_skill_flg_suffer_u_performer_override=<color=#{buff}>Self: +10%</color> <sprite name={q}icon_death_outline{q}> RES (3 Turns)\n<color=#{buff}>Self: End of Next Turn:</color> Remove<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}></color><sprite name={q}icon_burn{q}>
+
+## FLAGELLANT - MANIAC
+buff_desc_path_descriptor_flg_maniac_override=\nSacrifices Blight potency in favor of\nflexible positioning, debuffs, and disruption.<color=#{buff}>\n\nAffected Skills:</color>\nPunish\nAcid Rain\nSepsis\nLash's Gift
+
+# MANIAC - SEPSIS
+# Accounts for AETs not appearing in skill tool tips at all
+effect_skill_flg_sepsis_p1_target_override=\n<color=#{debuff}>Target:</color> Transfer All <color=#{debuff}>Negative</color> Tokens
+
+# MANIAC - SEPSIS+
+# Accounts for AETs not appearing in skill tool tips at all
+effect_skill_flg_sepsis_p1_u_target_override=\n<color=#{debuff}>Target:</color> Transfer All <color=#{debuff}>Negative</color> Tokens and <sprite name={q}token_combo{q}>
+
+## FLAGELLANT - EXANIMATE
+buff_desc_path_descriptor_flg_exanimate_override=\nLow health grants great potency\nto Blight and buff alike.<color=#{buff}>\n\nAffected Skills:</color>\nPunish\nAcid Rain\nSepsis\nLash's Gift
+
+# EXANIMATE - Bonus Blight Buff
+# This is actually just a regular string, rather than an override, but storing it here because it's very unique to the Exanimate
+buff_flg_exanimate_bonus_blight=<color=#{buff}>+2<sprite name={q}icon_blight{q}> Dealt</color>
+
+# EXANIMATE - SEPSIS
+# DOT bombs aren't handled well by the tool tip system
+effect_skill_flg_sepsis_p2_target_override=\n<color=#{debuff}>Target:</color> Deals 75% of remaining <sprite name={q}icon_blight{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_blight{q}>
+
+# EXANIMATE - SEPSIS+
+# DOT bombs aren't handled well by the tool tip system
+effect_skill_flg_sepsis_p2_u_target_override=\n<color=#{debuff}>Target:</color> Deals 100% of remaining <sprite name={q}icon_blight{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_blight{q}>
+
+## FLAGELLANT - SCOURGE
+buff_desc_path_descriptor_flg_scourge_override=\nA role that revels in divesting\nothers of their burdens.\nToxic state gains new effects.<color=#{buff}>\n\nAffected Skills:</color>\nSepsis\nDeathless\nSuffer\nLash's Gift
+
+# LASH'S GIFT+ P3 SCOURGE
+#Reduces clutter by using a single line to describe the RES bonuses
+effect_skill_flg_lash_gift_p3_u_performer_override=<color=#{buff}>Self: </color> <sprite name={q}token_horror{q}> 1, Remove<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>\n<color=#{buff}>+20% RES</color> per DOT type removed
+
+# SEPSIS P3 SCOURGE
+# DOT bombs aren't handled well by the tool tip system
+effect_skill_flg_sepsis_p3_target_override=\n<color=#{debuff}>Target:</color> Deals 50% of remaining <sprite name={q}icon_blight{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_blight{q}> unless Target <sprite name={q}token_combo{q}>
+
+# SEPSIS+ PS3 SCOURGE
+# DOT bombs aren't handled well by the tool tip system
+effect_skill_flg_sepsis_p3_u_target_override=\n<color=#{debuff}>Target:</color> Deals 100% of remaining <sprite name={q}icon_blight{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_blight{q}> unless Target <sprite name={q}token_combo{q}>
+
+#SUFFER+ P3 SCOURGE
+#Clarifies the timing of the follow-up DOT removal
+effect_skill_flg_suffer_p3_u_performer_override=<color=#{buff}>Self: +10%</color> <sprite name={q}icon_death_outline{q}> RES (3 Turns)\n<color=#{buff}>Self: End of Next Turn:</color> Remove<sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+
+###GRAVE ROBBER
+#THROWN DAGGER/THROWN DAGGER+
+#Clarify "If [Stealth] : [Dodge]" text; extremely unclear when paired with other Ignore data on the Skill
+token_ignore_desc_til_ignore_dodge_if_performer_stealth_vis_override=\nIgnores <sprite name={q}token_dodge{q}> when Self <sprite name={q}token_stealth{q}>
+#
+#LUNGE+
+#Clarify If [Stealth] : [Block] [Dodge] text
+token_ignore_desc_til_unstoppable_if_performer_stealth_vis_override=Ignores <sprite name={q}token_block{q}><sprite name={q}token_dodge{q}> when Self <sprite name={q}token_stealth{q}>
+#
+#GLINT IN THE DARK+
+#Fix awkward If [Stealth] : Ignore Death's Door
+target_buff_desc_stealth_ignore_deaths_door_override=<color=#{buff}>+20% <sprite name={q}icon_death_outline{q}>RES Piercing</color>\n<color=#{buff}>Ignores</color> <color=#{deathdoor}>Death's Door</color> when Self <sprite name={q}token_stealth{q}>
+
+
+## GRAVE ROBBER - DEADEYE
+buff_desc_path_descriptor_gr_deadeye_override=\nImproves DMG and CRIT of ranged skills\nat the expense of melee.\n\n<color=#{debuff}>-33%</color><sprite name={q}icon_move{q}>RES<color=#{buff}>\n\nAffected Skills:</color>\nThrown Dagger\nFlashing Daggers\nPoison Dart\nGlint in the Dark\nPirouette\nPick to the Face\nLunge
+
+## GRAVE ROBBER - NIGHTSWORN
+buff_desc_path_descriptor_gr_nightsworn_override=\nStealth-oriented role with \npotent movement skills.\n\n<color=#{buff}>+50%</color> DMG when Self<sprite name={q}token_stealth{q}> \n<color=#{debuff}>-20%</color> Max<sprite name={q}icon_health_v2{q}>\n\n<color=#{buff}>Affected Skills:</color>\nLunge\nPirouette
+
+## GRAVE ROBBER - VENOMDROP
+buff_desc_path_descriptor_gr_venomdrop_override=\nRank-flexible role that sacrifices\nranged DMG for Blight and mobility.\n\n<color=#{buff}>+2<sprite name={q}icon_blight{q}></color>Dealt when Self<sprite name={q}token_stealth{q}>\n<color=#{debuff}>-3<sprite name={q}icon_speed{q}></color>\n\n<color=#{buff}>Affected Skills:</color>\nLunge\nPirouette\nShadow Fade\nFlashing Daggers\nThrown Dagger\nPoison Dart\nGlint in the Dark
+buff_desc_path_buff_grv_venomdrop_stealth_blight_override=<color=#{buff}>+2<sprite name={q}icon_blight{q}> Dealt</color> when Self <sprite name={q}token_stealth{q}>
+#
+#
+#HIGHWAYMAN
+#DOUBLE TAP
+#Override Performer Buff (+30% HP if Target has low HP) -- originally read as though the Highwayman's HP had to be low
+performer_buff_desc_hwm_double_tap_damage_buff_override=Deals<color=#{buff}> +30% DMG</color> <color=#{neutral}>when Target HP < 30%</color>\n
+#
+#DOUBLE TAP+
+#Override Performer Buff (+50% HP if Target has low HP) -- originally read as though the Highwayman's HP had to be low
+performer_buff_desc_hwm_double_tap_damage_buff_u_override=Deals<color=#{buff}> +30% DMG</color> <color=#{neutral}>when Target HP < 50%</color>\n
+
+#OPEN VEIN
+effect_skill_hwm_open_vein_target_override=<color=#{debuff}>Target:</color> <sprite name={q}icon_bleed{q}><color=#{bleed}>2</color> or <sprite name={q}icon_bleed{q}><color=#{bleed}>4</color> when Target <sprite name={q}token_combo{q}>
+#
+#OPEN VEIN+
+effect_skill_hwm_open_vein_u_target_override=<color=#{debuff}>Target:</color> <sprite name={q}icon_bleed{q}><color=#{bleed}>3</color> or <sprite name={q}icon_bleed{q}><color=#{bleed}>6</color> when Target <sprite name={q}token_combo{q}>
+#
+##HELLION
+#ADRENALINE RUSH
+effect_skill_hel_adrenaline_rush_performer_override=<color=#{buff}>Self:</color> <color=#{heal}>Heal 20%</color>, Remove <sprite name={q}icon_bleed{q}><sprite name={q}token_winded{q}>\n<color=#{buff}>Self: Gain On Attack:</color> <color=#{heal}>Heal 20%</color> (3 Turns)
+effect_skill_hel_adrenaline_rush_u_performer_override=<color=#{buff}>Self:</color> <color=#{heal}>Heal 25%</color>, Remove <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}><sprite name={q}token_winded{q}>\n<color=#{buff}>Self: Gain On Attack:</color> <color=#{heal}>Heal 20%</color> (3 Turns)
+#
+#RAUCOUS REVELRY
+effect_skill_hel_raucous_revelry_performer_override=<color=#{buff}>Self:</color> <sprite name={q}token_winded{q}>, Remove <sprite name={q}token_horror{q}>\n<color=#{buff}>Self:</color> Stress 5+: <color=#{buff}>-2 </color><sprite name={q}token_stress{q}>, If HP < 33%: <color=#{heal}>Heal 20%</color>
+effect_skill_hel_raucous_revelry_u_performer_override=<color=#{buff}>Self:</color> <sprite name={q}token_winded{q}>, Remove <sprite name={q}token_horror{q}>, <color=#{buff}>+10%</color> <sprite name={q}icon_death_outline{q}> RES (3 Turns)\n<color=#{buff}>Self:</color> Stress 5+: <color=#{buff}>-3 </color><sprite name={q}token_stress{q}>, If HP < 33%: <color=#{heal}>Heal 25%</color>
+
+#
+#BLOODLUST
+#Clarify the +20% damage vs. Bleeding Targets buff
+#effect_skill_hel_bloodlust_performer_override=<color=#{buff}>Self:</color> Remove <sprite name={q}token_winded{q}>\n<color=#{buff}>Self: +20% DMG</color> when Target <sprite name={q}icon_bleed{q}> (3 Turns)
+#
+#BLOODLUST+
+#Clarify the +30% damage vs. Bleeding Targets buff
+#effect_skill_hel_bloodlust_u_performer_override=<color=#{buff}>Self:</color> Remove <sprite name={q}token_winded{q}>\n<color=#{buff}>Self: +30% DMG</color> when Target <sprite name={q}icon_bleed{q}> (3 Turns)
+#
+#WICKED HACK
+#Override Performer Buff (+50% HP if Target has Combo)
+performer_buff_desc_combo_damage_boost_50pct_override=Deals<color=#{buff}> +50% DMG</color> <color=#{neutral}>when Target <sprite name={q}token_combo{q}>
+#
+#PATH: CARCASS
+#Clarify the 75% chance per Winded bonus for Block
+effect_skill_condition_path_buff_hel_carcass_winded_blocks_1_performer_has_1_or_more_winded_override=Per <sprite name={q}token_winded{q}> : <sprite name={q}token_block{q}> (75%)
+#
+#
+##JESTER
+#VERSE
+#effect_skill_jes_combat_1_verse_target_override=INSERT TEXT HERE AND REMOVE # FROM LINE START
+#
+#BRIDGE
+#effect_skill_jes_combat_1_bridge_target_override=INSERT TEXT HERE AND REMOVE # FROM LINE START
+#
+#SOLO
+#effect_skill_jes_combat_1_solo_target_override=INSERT TEXT HERE AND REMOVE # FROM LINE START
+#
+#CHORUS
+#effect_skill_jes_combat_1_chorus_target_override=INSERT TEXT HERE AND REMOVE # FROM LINE START
+#
+#FINALE
+#effect_skill_jes_combat_1_finale_target_override=INSERT TEXT HERE AND REMOVE # FROM LINE START
+#
+#
+##LEPER
+#TOKEN IGNORE: COMBO BLIND
+#Better readability to match style used with Grave Robber
+token_ignore_desc_til_combo_ignore_blind_override=\nIgnores <sprite name={q}token_blind-line{q}> when Target <sprite name={q}token_combo{q}>
+#
+#WITHSTAND
+effect_skill_lep_withstand_performer_override=<color=#{buff}>Self:</color> <sprite name={q}token_block{q}> x2, <sprite name={q}token_taunt{q}> x2\n<color=#{buff}>Self: Turn Start:</color> <sprite name={q}token_block{q}> (3 Turns)\n<color=#{buff}>Self:</color> <color=#{buff}>+15%</color><sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}><sprite name={q}icon_move{q}> RES (3 Turns)
+effect_skill_lep_withstand_u_performer_override=<color=#{buff}>Self:</color> <sprite name={q}token_deflect{q}> x2, <sprite name={q}token_taunt{q}> x2\n<color=#{buff}>Self: Turn Start:</color> <sprite name={q}token_block{q}> (3 Turns)\n<color=#{buff}>Self:</color> <color=#{buff}>+25%</color><sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}><sprite name={q}icon_move{q}> RES (3 Turns)
+#
+#RUIN
+effect_skill_lep_ruin_performer_override=<color=#{buff}>Self: When Damaged: +20% DMG (3 Turns)</color>
+effect_skill_lep_ruin_u_performer_override=<color=#{buff}>Self:</color> <sprite name={q}icon_bleed{q}><color=#{bleed}>2</color>\n<color=#{buff}>Self: When Damaged: +20% DMG (3 Turns)</color>
+#
+#
+##MAN-AT-ARMS
+#REMINDER: maa_courageous_abandon_block_plus_buff was set to be invisible on Tool Tips
+#COURAGEOUS ABANDON
+#Stack the Block and Block Plus buffs as one box
+performer_buff_desc_maa_courageous_abandon_block_buff_override=<color=#{buff}>+100% DMG</color> when Self <sprite name={q}token_block{q}>\n<color=#{buff}>+100% DMG</color> when Self <sprite name={q}token_deflect{q}>
+#
+#STRATEGIC WITHDRAWAL
+effect_skill_maa_strategic_withdrawal_u_performer_override=<color=#{buff}>Self:</color> <color=#{move}>Back</color> 1, <sprite name={q}token_speed{q}>\n<color=#{buff}>Self:</color> <color=#{heal}>Heal 33%</color>, <sprite name={q}token_deflect{q}> while on <color=#{deathdoor}>Death's Door</color>
+#
+#CRUSH
+effect_skill_maa_crush_performer_override=<color=#{buff}>Self:</color> <color=#{heal}>Heal 10%</color> when Target <sprite name={q}token_combo{q}>
+effect_skill_maa_crush_u_performer_override=<color=#{buff}>Self:</color> <color=#{heal}>Heal 20%</color> when Target <sprite name={q}token_combo{q}>
+#
+#
+##OCCULTIST
+#WYRD RECONSTRUCTION
+#Provides fake text about the Critical Healing component
+performer_buff_desc_occ_unchecked_power_heal_crit_text_override=<color=#{buff}>+100% CRIT HEAL</color> when <sprite name={q}token_uc_power{q}>>=2 </color>
+#effect_skill_occ_unchecked_power_heal_crit_text_e_override=<sprite name={q}token_uc_power{q}> >= 2: <color=#{buff}>+100% Crit Heal</color>
+#BINDING SHADOWS
+effect_skill_occ_binding_shadows_performer_override=<color=#{buff}>Self:</color> <color=#{move}>Forward</color> 1, <sprite name={q}token_uc_power{q}> when Target <sprite name={q}token_combo{q}>
+effect_skill_occ_binding_shadows_u_performer_override=<color=#{buff}>Self:</color> <color=#{move}>Forward</color> 1, <sprite name={q}token_uc_power{q}> when Target <sprite name={q}token_combo{q}>, <sprite name={q}token_uc_power{q}> (50%)
+#
+#MALEDICTION
+#Just cleans up ugly order -- COMMENTED OUT FOR NOW since overrides break  mouseover text and this one isn't too terrible
+#buff_desc_occ_malediction_debuff_override=Gain When Hit:\n<sprite name={q}icon_bleed{q}><color=#{bleed}>1</color><color=#{neutral}>or</color><sprite name={q}icon_blight{q}><color=#{blight}>1</color> <color=#{neutral}>or</color> <sprite name={q}icon_burn{q}><color=#{burn}>1</color> 
+#
+#Indicate that the DOTs are non-resistable -- COMMENTED OUT - Are we using this?
+#buff_desc_occ_malediction_debuff_fake_tooltip_override=<sprite name={q}icon_blind-line{q}>Ignores <sprite name={q}token_blind-line{q}> when Target <sprite name={q}token_combo{q}>
+#
+#CHAOTIC OFFERING
+#Better text placement for the "Random Side Effects"
+effect_skill_fake_occultist_chaotic_offering_tool_tip_override=<color=#{debuff}>Random Side Effect</color>
+#
+#
+##PLAGUE DOCTOR
+#CAUSE OF DEATH
+#Override the terrible damage calculation tool tip (similar to Backdraft)
+#effect_skill_fake_plague_doctor_cause_of_death_tool_tip_override=</color>Deals 75% of remaining <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> on Target as DMG
+effect_skill_pd_cause_of_death_target_override=<color=#{debuff}>Target:</color> Deals 75% of remaining <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+#
+#CAUSE OF DEATH+
+#Override the terrible damage calculation tool tip (similar to Backdraft)
+#effect_skill_fake_plague_doctor_cause_of_death_u_tool_tip_override=</color>Deals 100% of remaining <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> on Target as DMG
+effect_skill_pd_cause_of_death_u_target_override=<color=#{debuff}>Target:</color> <sprite name={q}token_combo{q}>\n<color=#{debuff}>Target:</color> Deals 100% of remaining <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}> on Target as DMG\n<color=#{debuff}>Target:</color> Remove <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}>
+#
+#INDISCRIMINATE SCIENCE
+#NOTE: A bunch of things were made invisible to do this!  BE AWARE IF CHANGING EFFECTS.  DANGER, WILL ROBINSON, DANGER.
+#Overrides pd_indiscriminate_science_pos_bonus
+#target_buff_desc_pd_indiscriminate_science_pos_bonus_override=<color=#{buff}>+10%</color> Healed per <color=#{buff}>Positive</color> Token<color=#{buff}>\nTarget:</color> <color=#{heal}>Heal 10%</color>\nRemove All <color=#{buff}>Positive</color> Tokens
+effect_skill_pd_indiscriminate_science_target_override=<color=#{buff}>Target:</color> <color=#{heal}>Heal 10%</color>\n<color=#{buff}>+10%</color> Healed per <color=#{buff}>Positive</color> Token\nRemove All <color=#{buff}>Positive</color> Tokens
+#
+#INDISCRIMINATE SCIENCE+
+#NOTE: A bunch of things were made invisible to do this!  BE AWARE IF CHANGING EFFECTS.  DANGER, WILL ROBINSON, DANGER.
+#Overrides pd_indiscriminate_science_neg_bonus
+#target_buff_desc_pd_indiscriminate_science_neg_bonus_override=<color=#{buff}>+10%</color> Healed per <color=#{buff}>Positive</color> Token\n<color=#{buff}>+5%</color> Healed per <color=#{debuff}>Negative</color> Token<color=#{buff}>\nTarget:</color> <color=#{heal}>Heal 10%</color>\nRemove All <color=#{buff}>Positive</color> and <color=#{debuff}>Negative</color> Tokens
+effect_skill_pd_indiscriminate_science_u_target_override=<color=#{buff}>Target:</color> <color=#{heal}>Heal 10%</color>\n<color=#{buff}>+10%</color> Healed per <color=#{buff}>Positive</color> Token\n<color=#{buff}>+5%</color> Healed per <color=#{debuff}>Negative</color> Token\nRemove All <color=#{buff}>Positive</color> and <color=#{debuff}>Negative</color> Tokens
+#
+#
+##RUNAWAY
+#EFFECT: COMBO FIRE SPREAD
+#Clarify that the Combo is on Target, inflicts Burn
+effect_skill_condition_runaway_combo_fire_spread_target_is_combo_primed_override={0} when Target <sprite name={q}token_combo{q}>
+#
+#BACKDRAFT
+#Clarifies terrible damage listing; totally fake effect
+effect_skill_fake_runaway_backdraft_tool_tip_override=Deals 50% of remaining <sprite name={q}icon_burn{q}> on Enemy in Front as DMG to Target
+#
+#BACKDRAFT+
+#Clarifies terrible damage listing; totally fake effect
+effect_skill_fake_runaway_backdraft_u_tool_tip_override=Deals 100% of remaining <sprite name={q}icon_burn{q}> on Enemy in Front as DMG to Target
+#
+#SEARING STRIKE5
+effect_skill_run_searing_strike_target_override=<color=#{debuff}>Target:</color> <sprite name={q}icon_burn{q}><color=#{burn}>2</color> or <sprite name={q}icon_burn{q}><color=#{burn}>4</color> when Target <sprite name={q}token_combo{q}>
+#
+#SEARING STRIKE+
+effect_skill_run_searing_strike_u_target_override=<color=#{debuff}>Target:</color> <sprite name={q}icon_burn{q}><color=#{burn}>3</color> or <sprite name={q}icon_burn{q}><color=#{burn}>6</color> when Target <sprite name={q}token_combo{q}>
+
+
+## VESTAL
+# MACE BASH
+#Condenses the lengthy Ignore and performer buff data into a simple, MTG-esque format
+performer_buff_desc_ves_mace_bash_conviction_dmg_bonus_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Ignores <sprite name={q}token_block{q}><sprite name={q}token_dodge{q}><sprite name={q}token_guard{q}>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals<color=#{buff}> +100% DMG</color>
+#
+# JUDGEMENT
+#Condenses the lengthy Ignore and performer buff data into a simple, MTG-esque format
+performer_buff_desc_ves_judgement_conviction_dmg_bonus_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals<color=#{buff}> +100% DMG</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals <sprite name={q}icon_burn{q}><color=#{burn}>3</color>
+#
+# JUDGMENT+
+#Condenses the lengthy Ignore and performer buff data into a simple, MTG-esque format
+performer_buff_desc_ves_judgement_u_conviction_dmg_bonus_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals<color=#{buff}> +100% DMG</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals <sprite name={q}icon_burn{q}><color=#{burn}>4</color>
+#
+# MINISTRATIONS
+#Reduces clutter by using a single line to describe the RES bonuses
+effect_skill_ves_ministrations_target_override=<color=#{buff}>Target:</color> Remove <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}><sprite name={q}token_daze{q}><sprite name={q}token_stun{q}>
+#
+# MINISTRATIONS+
+#Reduces clutter by using a single line to describe the RES bonuses
+effect_skill_ves_ministrations_u_target_override=<color=#{buff}>Target:</color> Remove <sprite name={q}icon_bleed{q}><sprite name={q}icon_blight{q}><sprite name={q}icon_burn{q}><sprite name={q}token_daze{q}><sprite name={q}token_stun{q}>\n<color=#{buff}>+30% RES</color> per token type removed
+#
+# MANTRA+
+#Reduces massive tool tip to something legible
+effect_skill_ves_mantra_u_target_override=<color=#{buff}>Target:</color> <color=#{heal}>Heal 10%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{heal}>Heal 20%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Triggers the effect of any Consecration
+
+# DIVINE GRACE
+# Condenses Conviction tooltip into something legible
+effect_skill_ves_divine_grace_target_override=<color=#{buff}>Target:</color> <color=#{heal}>Heal 25%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{buff}>+10%</color> Healed\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{buff}>+10%</color> Healed
+
+# DIVINE GRACE+
+# Condenses Conviction tooltip into something legible
+effect_skill_ves_divine_grace_u_target_override=<color=#{buff}>Target:</color> <color=#{heal}>Heal 30%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{buff}>+10%</color> Healed\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{buff}>+10%</color> Healed
+
+## VESTAL - CHAPLAIN P1
+# Adds descriptor text to the Chaplain Seal
+buff_desc_ves_chaplain_conviction_manager_override=\nRank-flexible role focused on party defense.\n\n<color=#{buff}>Gain <sprite name={q}token_conviction{q}>When Hit\n<sprite name={q}token_conviction{q}>Enhances Stun and Move Resist\n\nAffected Skills:</color>\nHand of Light\nMantra\nSanctuary
+#
+# MANTRA+ P1 CHAPLAIN
+#Reduces massive tool tip to something legible
+effect_skill_ves_mantra_p1_heal_u_override=<color=#{heal}>Heal 15%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{heal}>Self Heal 25%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{buff}>-1</color> <sprite name={q}token_stress{q}>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Self: <color=#{buff}>-2</color> <sprite name={q}token_stress{q}>  
+#
+## VESTAL - SERAPH P2
+# Adds descriptor text to the Seraph seal
+buff_desc_ves_seraph_conviction_manager_fake_tool_tip_override=\nBack rank support role that\nspecializes in Consecrations.\n\n<color=#{buff}>Gain <sprite name={q}token_conviction{q}> When a Consecration Activates\nConsecrations Last 5 Rounds\n\nAffected Skills:</color>\nConsecration of Fortitude\nConsecration of Light\nMantra
+#
+## VESTAL - CONFESSOR P3
+# Adds descriptor text to the Confessor seal
+buff_desc_ves_confessor_conviction_manager_override=\nRank-flexible role that specializes\nin debuffs and token removal.\n\n<color=#{buff}>Turn Start: <sprite name={q}token_conviction{q}>\n<sprite name={q}token_conviction{q}>Increases Debuff Chance\n\nAffected Skills:</color>\nHand of Light\nIllumination\nJudgement\nMantra
+#
+# MANTRA+ P3 CONFESSOR
+# Fixes extremely messy Conviction-use tool tip
+effect_skill_ves_mantra_p3_heal_u_override=<color=#{heal}>Heal 10%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{heal}>Heal 20%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Remove All <color=#{debuff}>Negative</color> Tokens
+#
+# JUDGEMENT P3 CONFESSOR
+# Fixes extremely messy Conviction-use tool tip
+effect_skill_ves_judgement_p3_weak_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <sprite name={q}token_weak{q}>\n<color=#{debuff}>Target:</color> <sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <sprite name={q}token_vulnerable{q}>
+#
+#
+# JUDGEMENT+ P3 CONFESSOR
+# Fixes extremely messy Conviction-use tool tip
+effect_skill_ves_judgement_p3_weak_u_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <sprite name={q}token_weak{q}>x2\n<color=#{debuff}>Target:</color> <sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <sprite name={q}token_vulnerable{q}>x2
+#
+#
+## VESTAL HERO STORY 2
+#JUDGEMENT
+#Condenses the lengthy Performer buff data into a simple, MTG-esque format
+performer_buff_desc_ves2_vestal_judgement_dmg_buff_override=<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: <color=#{heal}>Heal 30%</color>\n<sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}><sprite name={q}token_conviction{q}>: Deals<color=#{buff}> +100% DMG</color>
+
+
+## MONSTERS
+
+# CULTIST ALTAR
+effect_skill_fake_altar_of_ambition_buff_tooltip_override=<color=#{buff}>Random Ally:</color>Extra Turn (50%)
+
+# GOD
+effect_skill_add_1_god_lock_melee_override=Change Lock Type
+
+
+## ITEMS
+
+#Sickening Silence
+buff_desc_151_trinket_cultist_sickening_silence_02_override=If not <sprite name={q}icon_disease{q}>: <color=#{debuff}>-200%</color> <sprite name={q}icon_disease{q}> RES

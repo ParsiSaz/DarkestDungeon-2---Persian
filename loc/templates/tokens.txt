@@ -1,0 +1,695 @@
+##FORMAT INFORMATION WHEN ADDING TOKENS
+## Remove any square brackets and replace with appropriate contents
+#
+##ICON - this is what shows on Tool Tips and points directly to the Art Icon.  Invisible Tokens do not require this.
+#token_[token_id]=<sprite name={q}[icon_id]{q}>
+#
+##NAME - this is the text name and should be colored according to the type of Token.  Common ones are buff, debuff, notable.  Should be filled in even if invisible, for debug purposes.
+#token_name_[token_id]=<color=#{notable}>Token Display Name</color>
+#
+##DESCRIPTION - this is the text shown when the cursor mouses over it.  It is also shown as text in the ALT View.  Should be filled in even if invisible, for debug purposes.  See: Logic_A description.
+#token_[token_id]_description=This is the thing that I do.  Accepts <color> tag formatting or can be left blank for default.
+#
+#
+###STANDARD TOKENS###
+#BLIND
+token_blind=<sprite name={q}token_blind-line{q}>
+token_name_blind=<color=#{debuff}>Blind</color>
+token_blind_description=50% chance to miss next attack
+#
+#BLOCK
+token_block=<sprite name={q}token_block{q}>
+token_name_block=<color=#{buff}>Block</color>
+token_block_description=Takes -50% DMG from next hit
+#
+#BLOCK PLUS
+token_block_plus=<sprite name={q}token_deflect{q}>
+token_name_block_plus=<color=#{buff}>Block+</color>
+token_block_plus_description=Takes -75% DMG from next hit
+#
+#CRIT
+token_crit=<sprite name={q}token_crit{q}>
+token_name_crit=<color=#{buff}>Crit</color>
+token_crit_description=Next Skill has 100% CRIT and ignores 20% RES
+#
+#COMBO
+token_name_combo=<color=#{notable}>Combo</color>
+token_combo=<sprite name={q}token_combo{q}>
+token_combo_description=Triggers additional Skill effects when targeted
+#
+#DAZE
+token_daze=<sprite name={q}token_daze{q}>
+token_name_daze=<color=#{debuff}>Daze</color>
+token_daze_description=Next Turn will be delayed to the end of the Round.\nConverts to<sprite name={q}token_stun{q}>when stacked.
+#
+#DODGE
+token_dodge=<sprite name={q}token_dodge{q}>
+token_name_dodge=<color=#{buff}>Dodge</color>
+token_dodge_description=50% chance to dodge next attack
+#
+#DODGE PLUS
+token_dodge_plus=<sprite name={q}token_dodge+{q}>
+token_name_dodge_plus=<color=#{buff}>Dodge+</color>
+token_dodge_plus_description=75% chance to dodge next attack
+#
+#GUARD
+token_guard=<sprite name={q}token_guard{q}>
+token_name_guard=<color=#{buff}>Guarded</color>
+token_guard_description=Protected by {0}
+token_guard_description_unsourced=Protected by an Ally Unit
+#
+#IMMOBILIZE
+token_immobilize=<sprite name={q}token_immoblize{q}>
+token_name_immobilize=<color=#{debuff}>Immobilize</color>
+token_immobilize_description=Cannot move or be moved
+#
+#RIPOSTE
+token_riposte=<sprite name={q}token_riposte{q}>
+token_name_riposte=<color=#{buff}>Riposte</color>
+token_riposte_description=Counter-attacks the next damaging attack
+#
+#SPEED
+token_speed=<sprite name={q}token_speed{q}>
+token_name_speed=<color=#{buff}>Speed</color>
+token_speed_description=Acts faster next Round
+#
+#STEALTH
+token_stealth=<sprite name={q}token_stealth{q}>
+token_name_stealth=<color=#{stealth}>Stealth</color>
+token_stealth_description=Cannot be directly targeted by most\nenemy skills if other targets are available
+#
+#STRENGTH
+token_strength=<sprite name={q}token_strength{q}>
+token_name_strength=<color=#{buff}>Strength</color>
+token_strength_description=Next attack deals +50% DMG
+#
+#STUN
+token_stun=<sprite name={q}token_stun{q}>
+token_name_stun=<color=#{debuff}>Stun</color>
+token_stun_description=Loses next action
+token_name_stunres=<color=#{buff}>Stun Resist</color>
+#
+#TAUNT
+token_taunt=<sprite name={q}token_taunt{q}>
+token_name_taunt=<color=#{debuff}>Taunt</color>
+token_taunt_description=Enemies are forced to attack this target if able
+# Also defining the type to match the token
+forced_target=<sprite name={q}token_taunt{q}>
+#
+#VULNERABLE
+token_vulnerable=<sprite name={q}token_vulnerable{q}>
+token_name_vulnerable=<color=#{debuff}>Vulnerable</color>
+token_vulnerable_description=Takes +50% DMG from next hit
+#
+#WEAK
+token_weak=<sprite name={q}token_weak{q}>
+token_name_weak=<color=#{debuff}>Weak</color>
+token_weak_description=Next attack deals -50% DMG
+#
+#
+#ANTI-DODGE
+#token_anti_dodge=<sprite name={q}token_TBD{q}>
+#token_name_anti_dodge=<color=#{debuff}>Weak</color>
+#token_weak_description=Next attack deals -50% DMG
+#
+###SPECIAL TOKENS###
+#
+#BENEDICTION
+token_benediction=<sprite name={q}token_benediction{q}>
+token_name_benediction=<color=#{notable}>Benediction</color>
+token_benediction_description=Enables the use of several powerful Skills
+#
+# BLESSING OF FORTITUDE
+token_blessing_of_fortitude=<sprite name={q}token_blessing_of_fortitude{q}>
+token_name_blessing_of_fortitude=<color=#{notable}>Consecration of Fortitude</color>
+token_blessing_of_fortitude_description=Grants <sprite name={q}token_block{q}>(50%) or <sprite name={q}token_dodge{q}>(50%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF FORTITUDE+
+token_blessing_of_fortitude_u=<sprite name={q}token_blessing_of_fortitude_u{q}>
+token_name_blessing_of_fortitude_u=<color=#{notable}>Consecration of Fortitude<sprite name={q}icon_upgraded_skill{q}></color>
+token_name_blessing_of_fortitude_u_sheet=<color=#{notable}>Consecration of Fortitude+ </color>
+token_blessing_of_fortitude_u_description=Grants <sprite name={q}token_deflect{q}>(50%) or <sprite name={q}token_dodge+{q}>(50%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF FORTITUDE P2 SERAPH
+token_blessing_of_fortitude_p2=<sprite name={q}token_blessing_of_fortitude{q}>
+token_name_blessing_of_fortitude_p2=<color=#{notable}>Consecration of Fortitude</color>
+token_blessing_of_fortitude_p2_description=Grants <sprite name={q}token_block{q}>(50%) or <sprite name={q}token_dodge{q}>(50%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF FORTITUDE+ P2 SERAPH
+token_blessing_of_fortitude_p2_u=<sprite name={q}token_blessing_of_fortitude_u{q}>
+token_name_blessing_of_fortitude_p2_u=<color=#{notable}>Consecration of Fortitude<sprite name={q}icon_upgraded_skill{q}></color>
+token_blessing_of_fortitude_p2_u_description=Grants <sprite name={q}token_deflect{q}>(50%) or <sprite name={q}token_dodge+{q}>(50%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF LIGHT
+token_blessing_of_light=<sprite name={q}token_blessing_of_light{q}>
+token_name_blessing_of_light=<color=#{notable}>Consecration of Light</color>
+token_blessing_of_light_description=Grants <sprite name={q}token_strength{q}>\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF LIGHT+
+token_blessing_of_light_u=<sprite name={q}token_blessing_of_light_u{q}>
+token_name_blessing_of_light_u=<color=#{notable}>Consecration of Light<sprite name={q}icon_upgraded_skill{q}></color>
+token_name_blessing_of_light_u_sheet=<color=#{notable}>Consecration of Light+ </color>
+token_blessing_of_light_u_description=Grants <sprite name={q}token_strength{q}>(75%) or <sprite name={q}token_crit{q}>(25%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF LIGHT P2 SERAPH
+token_blessing_of_light_p2=<sprite name={q}token_blessing_of_light{q}>
+token_name_blessing_of_light_p2=<color=#{notable}>Consecration of Light</color>
+token_blessing_of_light_p2_description=Grants <sprite name={q}token_strength{q}>\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# BLESSING OF LIGHT+ P2 SERAPH
+token_blessing_of_light_p2_u=<sprite name={q}token_blessing_of_light_u{q}>
+token_name_blessing_of_light_p2_u=<color=#{notable}>Consecration of Light<sprite name={q}icon_upgraded_skill{q}></color>
+token_blessing_of_light_p2_u_description=Grants <sprite name={q}token_strength{q}>(75%) or <sprite name={q}token_crit{q}>(25%)\n to the Hero in this rank on <color=#{notable}>Turn Start</color>\nDoes not stack with other <color=#{notable}>Consecrations</color>
+#
+# CONTROLLED BURN
+token_controlled_burn=<sprite name={q}token_controlled_burn{q}>
+token_name_controlled_burn=<color=#{notable}>Controlled Burn</color>
+token_controlled_burn_description=Inflicts <sprite name={q}icon_burn{q}><color=#{burn}>2</color> on enemies in this rank on <color=#{notable}>Turn Start</color>
+#
+# CONTROLLED BURN+
+token_controlled_burn_u=<sprite name={q}token_controlled_burn_u{q}>
+token_name_controlled_burn_u=<color=#{notable}>Controlled Burn</color><sprite name={q}icon_upgraded_skill{q}>
+token_name_controlled_burn_u_sheet=<color=#{notable}>Controlled Burn+ </color>
+token_controlled_burn_u_description=Inflicts <sprite name={q}icon_burn{q}><color=#{burn}>3</color> on enemies in this rank on <color=#{notable}>Turn Start</color>
+#
+# CONVICTION
+token_conviction=<sprite name={q}token_conviction{q}>
+token_name_conviction=<color=#{notable}>Conviction</color>
+token_conviction_description=Empowers certain Skills
+
+# CONVICTION P1 AKA CHAPLAIN CONVICTION
+token_conviction_p1=<sprite name={q}token_conviction{q}>
+token_name_conviction_p1=<color=#{notable}>Conviction</color>
+token_conviction_p1_description=Empowers certain Skills\n+10% <sprite name={q}icon_move{q}><sprite name={q}icon_stun{q}> RES per <color=#{notable}>Conviction</color>
+
+# CONVICTION P3 AKA CONFESSOR CONVICTION
+token_conviction_p3=<sprite name={q}token_conviction{q}>
+token_name_conviction_p3=<color=#{notable}>Conviction</color>
+token_conviction_p3_description=Empowers certain Skills.\n+5%<sprite name={q}icon_debuff{q}>chance per <color=#{notable}>Conviction</color>
+
+
+# FLAGELLANT - MORE MORE
+token_flagellant_more_more=<sprite name={q}token_more_more{q}>
+token_name_flagellant_more_more=<color=#{notable}>More! MORE!</color>
+token_flagellant_more_more_description=Receive <sprite name={q}token_flagellant_pain_heal{q}> when <color=#{notable}>Hit
+
+# FLAGELLANT - MORE MORE+
+token_flagellant_more_more_u=<sprite name={q}token_more_more{q}>
+token_name_flagellant_more_more_u=<color=#{notable}>More! MORE!</color><sprite name={q}icon_upgraded_skill{q}>
+token_flagellant_more_more_u_description=Receive <sprite name={q}token_flagellant_pain_heal_u{q}> when <color=#{notable}>Hit</color>
+
+# FLAGELLANT - PAIN HEAL
+token_flagellant_pain_heal=<sprite name={q}token_pain_heal{q}>
+token_name_flagellant_pain_heal=<color=#{notable}>Pain</color>
+token_flagellant_pain_heal_description=<color=#{heal}>Heal 10%</color> at the end of the next <color=#{notable}>Turn</color> 
+
+# FLAGELLANT - PAIN HEAL+
+token_flagellant_pain_heal_u=<sprite name={q}token_flagellant_pain_heal_u{q}>
+token_name_flagellant_pain_heal_u=<color=#{notable}>Pain</color><sprite name={q}icon_upgraded_skill{q}>
+token_name_flagellant_pain_heal_u_sheet=<color=#{notable}>Pain+</color>
+token_flagellant_pain_heal_u_description=<color=#{heal}>Heal 15%</color> at the end of the next <color=#{notable}>Turn</color> 
+
+# FLAGELLANT - VIRULENT BLIGHT (AKA TOXIC)
+token_virulent_blight=<sprite name={q}token_winded{q}>
+token_name_virulent_blight=<color=#{blight}>Toxic</color>
+token_virulent_blight_description=Apply <sprite name={q}icon_blight{q}><color=#{blight}>2</color> to attackers when hit per <color=#{blight}>Toxic</color> Token.\nLasts until end of combat.
+
+#
+#CORPULENT
+token_corpulent=<sprite name={q}token_corpulent{q}>
+token_name_corpulent=<color=#{notable}>Corpulent</color>
+token_corpulent_description=Enables a powerful Skill
+#
+#FODDER
+token_food=<sprite name={q}token_food{q}>
+token_name_food=<color=#{notable}>Fodder</color>
+token_food_description=Consumable by other Plague Eaters
+#
+#LOST BATTALION ORDER
+token_lost_battalion_order=<sprite name={q}token_crit{q}>
+token_name_lost_battalion_order=<color=#{notable}>Order</color>
+token_lost_battalion_order_description=Preparing to use a powerful Skill
+#
+#MARKED FOR DEATH (renamed: CHOSEN TARGET)
+token_marked_for_death=<sprite name={q}token_marked_for_death{q}>
+token_name_marked_for_death=<color=#{debuff}>Chosen Target</color>
+token_marked_for_death_description=Takes +30% DMG from Bullseye Barrett's attacks
+#
+#UNCHECKED POWER
+token_unchecked_power=<sprite name={q}token_uc_power{q}>
+token_name_unchecked_power=<color=#{notable}>Unchecked Power</color>
+token_unchecked_power_description=Empowers certain Skills.  \n33% chance per Token of <sprite name={q}icon_burn{q}> at the start of each Round.
+#
+#WINDED
+token_hellion_winded=<sprite name={q}token_winded{q}>
+token_name_hellion_winded=<color=#{debuff}>Winded</color>
+token_hellion_winded_description=-33% DMG and -3 SPD per <color=#{debuff}>Winded</color> Token.\nPersists until end of combat.
+#
+#WORSHIP
+token_worship=<sprite name={q}token_worship{q}>
+token_name_worship=<color=#{notable}>Worship</color>
+token_worship_description=Exulting unspeakable Cosmic forces
+#
+#IMMOBILIZE PERMANENT
+token_immobilize_permanent=<sprite name={q}token_immoblize_permanent{q}>
+token_name_immobilize_permanent=<color=#{notable}>Immobilize</color>
+token_immobilize_permanent_description=Cannot move or be moved. Persists until end of combat.
+#
+#BARNACLE
+token_barnacle=<sprite name={q}token_barnacle{q}>
+token_name_barnacle=<color=#{notable}>Barnacles</color>
+token_barnacle_description=Inflicts <sprite name={q}icon_bleed{q}><color=#{bleed}>1</color> when moving
+#
+#NEWBORN MUTATION
+token_newborn_mutation=<sprite name={q}token_newborn_mutation{q}>
+token_name_newborn_mutation=<color=#{notable}>Newborn Mutation</color>
+token_newborn_mutation_description=Grants <color=#{buff}>+25% DMG</color>, <color=#{buff}>+2 SPD</color>, and a 33% chance to receive <sprite name={q}token_block{q}>On Hit
+#
+#
+###BOSS UNIQUE TOKENS##
+#HARVEST HUNGER
+token_harvest_hunger=<sprite name={q}token_hunger{q}>
+token_name_harvest_hunger=<color=#{debuff}>Harvest Hunger</color>
+token_harvest_hunger_description=The hunger overwhelms all reason
+#
+#HEALTH LOCK
+token_lock_health=<sprite name={q}token_lock_health{q}>
+token_name_lock_health=<color=#{debuff}>Health Lock</color>
+token_lock_health_description=Cannot use Healing Skills or Items
+#
+#MELEE LOCK
+token_lock_melee=<sprite name={q}token_lock_melee{q}>
+token_name_lock_melee=<color=#{debuff}>Melee Lock</color>
+token_lock_melee_description=Cannot use Melee Skills
+#
+#RANGED LOCK
+token_lock_ranged=<sprite name={q}token_lock_ranged{q}>
+token_name_lock_ranged=<color=#{debuff}>Ranged Lock</color>
+token_lock_ranged_description=Cannot use Ranged Skills or Items
+#
+#STRESS LOCK
+token_lock_stress=<sprite name={q}token_lock_stress{q}>
+token_name_lock_stress=<color=#{debuff}>Stress Lock</color>
+token_lock_stress_description=Cannot use Stress Heal Skills or Items
+#
+#TAPROOT
+token_taproot=<sprite name={q}token_taproot{q}>
+token_name_taproot=<color=#{notable}>Tap Root</color>
+token_taproot_description=It is reacting to attacks
+#
+#TAPROOT TANGLE A
+token_taproot_tangle_a=<sprite name={q}token_taproot_tangle_a{q}>
+token_name_taproot_tangle_a=<color=#{notable}>Tangled Growth I</color>
+token_taproot_tangle_a_description=Ominous vines encroach from above
+#
+#TAPROOT TANGLE B
+token_taproot_tangle_b=<sprite name={q}token_taproot_tangle_b{q}>
+token_name_taproot_tangle_b=<color=#{notable}>Tangled Growth II</color>
+token_taproot_tangle_b_description=Vines hamper movement\n<color=#{debuff}>-2 SPD</color>
+#
+#TAPROOT TANGLE C
+token_taproot_tangle_c=<sprite name={q}token_taproot_tangle_c{q}>
+token_name_taproot_tangle_c=<color=#{notable}>Tangled Growth III</color>
+token_taproot_tangle_c_description=Vines constrict both body and mind
+#
+#TAPROOT TARGET
+token_taproot_target=<sprite name={q}token_taproot_target{q}>
+token_name_taproot_target=<color=#{notable}>Stirring Soil</color>
+token_taproot_target_description=Something moves beneath the ground
+#
+#CALL OF THE DEEP
+token_call_of_the_deep=<sprite name={q}token_call_of_the_deep{q}>
+token_name_call_of_the_deep=<color=#{notable}>Call of the Deep</color>
+token_call_of_the_deep_description=Leviathan's baleful gaze rests upon you
+#
+#LUNG INFLATE (BREATH)
+token_lung_inflate=<sprite name={q}token_lung_inflate{q}>
+token_name_lung_inflate=<color=#{notable}>Breath</color>
+token_lung_inflate_description=Increases <color=#{buff}>DMG</color> and <sprite name={q}token_stress{q}> dealt by <color=#{harmful}>Sundering Exhalation</color>.\nRemoved if sufficient damage is taken.
+#
+#EYE FOCUS TOKENS
+token_eyes_focus_hero=<sprite name={q}token_eyes_focus_hero_0{q}>
+token_name_eyes_focus_hero=<color=#{notable}>Seen</color>
+token_eyes_focus_hero_description=Enemies will focus this hero (1 Round)
+token_eyes_focus_hero_linked_description=<color=#{notable}>Focus</color>: Enemy is fixated on its target
+token_eyes_focus=<sprite name={q}token_eyes_focus_hero_2{q}>
+token_name_eyes_focus=<color=#{notable}>Seen</color>
+token_eyes_focus_description=Enemies will focus this hero (1 Battle)
+
+# GASTRIC JUICE
+token_gastric_juice=<sprite name={q}token_gastric_juice{q}>
+token_name_gastric_juice=Gastric Juice
+token_gastric_juice_description=<color=#{buff}>Turn End: </color><sprite name={q}icon_blight{q}><color=#{blight}>3</color>
+
+# TORSO TARGET
+token_torso_target=<sprite name={q}token_torso_target{q}>
+token_name_torso_target=<color=#{notable}>Contempt</color>
+token_torso_target_description=You're next
+#token_name_torso_target=<color=#{notable}>Glare</color>
+#token_torso_target_description=Targeted for destruction
+
+# TORSO WINDUP
+token_torso_windup=<sprite name={q}token_torso_windup{q}>
+token_name_torso_windup=<color=#{notable}>Windup</color>
+token_torso_windup_description=Preparing to deliver a powerful, unavoidable blow
+
+# GOD LOCK MELEE
+token_god_lock_melee=<sprite name={q}token_lock_melee{q}>
+token_name_god_lock_melee=<color=#{debuff}>Melee Lock</color>
+token_god_lock_melee_description=Cannot use Melee Skills
+
+# GOD LOCK RANGED
+token_god_lock_ranged=<sprite name={q}token_lock_ranged{q}>
+token_name_god_lock_ranged=<color=#{debuff}>Ranged Lock</color>
+token_god_lock_ranged_description=Cannot use Ranged Skills
+
+# GOD LOCK STRESS
+token_god_lock_stress=<sprite name={q}token_lock_stress{q}>
+token_name_god_lock_stress=<color=#{debuff}>Stress Lock</color>
+token_god_lock_stress_description=Cannot use Stress Heal Skills or Items
+
+# GOD LOCK HEALTH
+token_god_lock_health=<sprite name={q}token_lock_health{q}>
+token_name_god_lock_health=<color=#{debuff}>Health Lock</color>
+token_god_lock_health_description=Cannot use Healing Skills or Items
+
+###HERO STORY TOKENS###
+#COUGHING FIT
+token_coughing_fit=<sprite name={q}token_coughing_fit{q}>
+token_name_coughing_fit=<color=#{debuff}>Coughing Fit</color>
+token_coughing_fit_description=Symptoms of terminal illness
+#
+#FLAMING
+token_flaming=<sprite name={q}token_flaming{q}>
+token_name_flaming=<color=#{notable}>Flaming</color>
+token_flaming_description=Flames leap dangerously
+#
+#FLAMING FURNITURE RIPOSTE
+token_flaming_furniture_riposte=Fire
+token_name_flaming_furniture_riposte=Flaming Furniture Riposte
+token_flaming_furniture_riposte_description=If you see me, please file a bug
+#
+#HELLION RANGED DODGE
+token_hellion_ranged_dodge=<sprite name={q}token_hellion_ranged_dodge{q}>
+token_name_hellion_ranged_dodge=<color=#{buff}>Cowering Defense</color>
+token_hellion_ranged_dodge_description=100% chance to dodge next thrown object
+
+#HELLION CHAPTER 4
+token_herostory_hel_rotten_veg=<color=#{notable}>Rotten Vegetable</color>
+token_herostory_hel_rotten_veg_description=Dripping with grief...
+token_herostory_hel_blame=<color=#{notable}>Distressed</color>
+token_herostory_hel_blame_description=Seething anguish!
+
+#INHALE
+token_inhale=<sprite name={q}token_inhale{q}>
+token_name_inhale=<color=#{notable}>Inhaling</color>
+token_inhale_description=Ready to sound an <color=#{buff}>unavoidable</color> alarm!
+
+# ABSOLUTE PITCH
+token_herostory_jes_tuned=<sprite_name={q}token_tune{q}>
+token_name_herostory_jes_tuned=<color=#{notable}>Tuned</color>
+token_herostory_jes_tuned_description=In perfect pitch
+
+#
+#MARK LOCATION
+token_mark_location=<sprite name={q}token_mark_location{q}>
+token_name_mark_location=<color=#{notable}>Marked Location</color>
+token_mark_location_description=This Rank will be searched
+#
+#MULTI-GUARD
+#[Icon issue?]
+token_multi_guard=<sprite name={q}token_multi_guard{q}>
+token_name_multi_guard=<color=#{buff}>Watched!</color>
+token_multi_guard_description=Protected by {0}
+token_multi_guard_description_unsourced=Protected by Ally Unit
+#
+#POISONED DRINK
+token_poisoned_drink=<sprite name={q}token_poisoned_drink{q}>
+token_name_poisoned_drink=<color=#{notable}>Poisoned Drink</color>
+token_poisoned_drink_description=Drinking from this inflicts <sprite name={q}icon_blight{q}>
+#
+#RIPOSTE INVISIBLE
+token_name_riposte_invisible=Riposte (Invisible)
+token_riposte_invisible_description=Counters a non-damaging attack; if you can see me, file a bug
+#
+#RIPOSTE INVISIBLE INFINITE
+token_riposte_invisible_infinite=Riposte (Invisible, Infinite)
+token_name_riposte_invisible_infinite=Riposte (Invisible, Infinite)
+token_riposte_invisible_infinite_description=Counters a non-damaging attack; if you can see me, file a bug
+#
+#RUNAWAY KEY
+token_runaway_combat_1_key=<sprite name={q}token_runaway_combat_1_key{q}>
+token_name_runaway_combat_1_key=<color=#{notable}>Gate Key</color>
+token_runaway_combat_1_key_description=Key to one of several locks on the Orphanage door
+#
+#SMOULDERING
+token_smouldering=<sprite name={q}token_smouldering{q}>
+token_name_smouldering=<color=#{notable}>Smouldering</color>
+token_smouldering_description=The flame slowly burns down
+#
+#THREATEN
+token_threat=<sprite name={q}token_threatening{q}>
+token_name_threat=<color=#{notable}>Threatening</color>
+token_threat_description=Next attack deals additional <sprite name={q}token_stress{q}>
+#
+#TREASURE
+token_treasure=<sprite name={q}token_treasure{q}>
+token_name_treasure=<color=#{notable}>Treasure</color>
+token_treasure_description=Trinkets and baubles
+#
+#UNLIT
+token_name_unlit=Unlit
+token_unlit_description=It Is Unlit; if you can see me, file a bug
+#
+#
+#
+# TESTING OUT FOR JES CH 2
+#
+#
+#VIOLINIST RIPOSTE: BRIDGE
+token_name_violinist_riposte_bridge=<color=#{notable}>Last Played</color>
+token_violinist_riposte_bridge_description=Break
+#
+#VIOLINIST RIPOSTE: CHORUS
+token_name_violinist_riposte_chorus=<color=#{notable}>Last Played</color>
+token_violinist_riposte_chorus_description=Verse
+#
+#VIOLINIST RIPOSTE: FINALE
+token_name_violinist_riposte_finale=<color=#{notable}>Last Played</color>
+token_violinist_riposte_finale_description=Solo
+#
+#VIOLINIST RIPOSTE: SOLO
+token_name_violinist_riposte_solo=<color=#{notable}>Last Played</color>
+token_violinist_riposte_solo_description=Finale
+#
+#VIOLINIST RIPOSTE: VERSE
+token_name_violinist_riposte_verse=<color=#{notable}>Last Played</color>
+token_violinist_riposte_verse_description=Chorus
+#
+#
+# TESTING OUT FOR JES CH 2
+#
+#
+# ------------- UNCOMMENT OR DELETE AFTER TEST
+#VIOLINIST RIPOSTE: BRIDGE
+#token_name_violinist_riposte_bridge=Riposte: Bridge
+#token_violinist_riposte_bridge_description=Counters all but Bridge; if you see me, please file a bug
+#
+#VIOLINIST RIPOSTE: CHORUS
+#token_name_violinist_riposte_chorus=Riposte: Chorus
+#token_violinist_riposte_chorus_description=Counters all but Chorus; if you see me, please file a bug
+#
+#VIOLINIST RIPOSTE: FINALE
+#token_name_violinist_riposte_finale=Riposte: Finale
+#token_violinist_riposte_finale_description=Counters all but Finale; if you see me, please file a bug
+#
+#VIOLINIST RIPOSTE: SOLO
+#token_name_violinist_riposte_solo=Riposte: Solo
+#token_violinist_riposte_solo_description=Counters all but Solo; if you see me, please file a bug
+#
+#VIOLINIST RIPOSTE: VERSE
+#token_name_violinist_riposte_verse=Riposte: Verse
+#token_violinist_riposte_verse_description=Counters all but Verse; if you see me, please file a bug
+# ------------- UNCOMMENT OR DELETE AFTER TEST
+#MORE! MORE!
+token_more_more=<sprite name={q}token_more_more{q}>
+token_name_more_more=<color=#{notable}>More! MORE!</color>
+token_more_more_description=The Torturer delights in pain, including his own
+#
+#PAIN HEAL
+token_pain_heal=<sprite name={q}token_pain_heal{q}>
+token_name_pain_heal=<color=#{notable}>Pain</color>
+token_pain_heal_description=Heals the Torturer at the end of the <color=#{notable}>Round</color>
+#
+#GLIMMER
+token_glimmer=<sprite name={q}token_glimmer{q}>
+token_name_glimmer=<color=#{notable}>Glimmer of Light</color>
+token_glimmer_description=A ray of light penetrates the darkness
+#
+#VESTAL WINDOW
+token_vestal_window=<sprite name={q}token_vestal_window_2{q}>
+token_name_vestal_window=<color=#{notable}>Curious Activity</color>
+token_vestal_window_description=Is something happening in the courtyard..?
+#
+#VESTAL FLAME A
+token_vestal_flame_a=Vestal Flame A [Not Shown]
+token_name_vestal_flame_a=<color=#{debuff}>Guttering Flame</color>
+token_vestal_flame_a_description=The Sacred Flame is about to go out!
+#
+#VESTAL FLAME B
+token_vestal_flame_b=Vestal Flame B [Not Shown]
+token_name_vestal_flame_b=<color=#{debuff}>Flickering Flame</color>
+token_vestal_flame_b_description=The Sacred Flame flickers and wanes
+#
+#VESTAL FLAME C
+token_vestal_flame_c=Vestal Flame C [Not Shown]
+token_name_vestal_flame_c=<color=#{notable}>Flame</color>
+token_vestal_flame_c_description=The Sacred Flame maintains a steady light
+#
+#VESTAL FLAME D
+token_vestal_flame_d=Vestal Flame D [Not Shown]
+token_name_vestal_flame_d=<color=#{notable}>Blazing Flame</color>
+token_vestal_flame_d_description=The Sacred Flame burns brightly
+#
+#VESTAL KINDLING
+token_vestal_kindling=<sprite name={q}token_vestal_kindling{q}>
+token_name_vestal_kindling=<color=#{notable}>Kindling</color>
+token_vestal_kindling_description=Wood with which to stoke the Sacred Flame
+#
+#VESTAL CURIOSITY
+token_vestal_curiosity=<sprite name={q}token_vestal_curiosity{q}>
+token_name_vestal_curiosity=<color=#{notable}>Curiosity</color>
+token_vestal_curiosity_description=I have seen such things...and must see more
+
+#HERO STORY FLAGELLANT MORE MORE
+token_herostory_flg_more_more=<sprite name={q}token_more_more{q}>
+token_name_herostory_flg_more_more=<color=#{notable}>More! MORE!</color>
+token_herostory_flg_more_more_description=The Flagellant delights in pain, including his own
+
+#HERO STORY FLAGELLANT PAIN HEAL
+token_herostory_flg_pain_heal=<sprite name={q}token_pain_heal{q}>
+token_name_herostory_flg_pain_heal=<color=#{notable}>Pain</color>
+token_herostory_flg_pain_heal_description=<color=#{heal}>Heal 15%</color> at the end of the <color=#{notable}>Round</color> 
+
+###LOGIC TOKENS###
+#COUNT
+token_name_count=COUNT
+token_count_description=Logic Flow Controller; if you see me, please file a bug
+#
+#LOGIC A
+token_name_logic_a=LOGIC A
+token_logic_a_description=Logic Flow Controller; if you see me, please file a bug
+#
+#LOGIC B
+token_name_logic_b=LOGIC B
+token_logic_b_description=Logic Flow Controller; if you see me, please file a bug
+#
+#LOGIC TEMPORARY
+token_name_logic_temporary=LOGIC TEMPORARY
+token_logic_temporary_description=Logic Flow Controller; if you see me, please file a bug
+#
+#
+###QUIRKS###
+#
+#PYRO BOMB - FIRE BOMB
+token_pyro_bomb=<sprite name={q}token_pyro_bomb{q}>
+token_name_pyro_bomb=<color=#{debuff}>Pyromaniac</color>
+token_pyro_bomb_description=Must spend their entire turn\nusing the <color=#{notable}>Fire Bomb</color> Skill
+#
+#FIELD SURGEON - HEALING SALVE
+token_medic_salve=<sprite name={q}token_medic_salve{q}>
+token_name_medic_salve=<color=#{notable}>Field Surgeon</color>
+token_medic_salve_description=Will use the <color=#{notable}>Healing Salve</color> Skill\nbefore taking their turn
+#
+###MISCELLANEOUS###
+#
+#STRESS
+token_stress=<color=#757575>Stress</color>
+token_stress_description=Stress
+#
+#HORROR
+token_horror=<color=#757575>Horror</color>
+token_horror_description=Adds stress to hero each round
+#
+#URGENT REPAIRS
+token_repair=<color=#{debuff}>Repair</color>
+token_name_repair=<color=#{debuff}>Repair</color>
+token_repair_description=This hero must fix the stagecoach
+#
+#DONT LEAVE ME
+token_dont_leave_me=<color=#{debuff}>Don't Leave Me</color>
+token_name_dont_leave_me=<color=#{debuff}>Don't Leave Me</color>
+token_dont_leave_me_description=This hero is afraid of being left behind.
+#
+#
+###CUT TOKENS###
+#ADRENALINE
+token_adrenaline=<sprite name={q}token_adrenaline{q}>
+token_name_adrenaline=<color=#{buff}>Adrenaline</color>
+token_adrenaline_description=Chance to heal when making an attack
+#
+#BLOCK MOVE
+token_block_move=<sprite name={q}token_blockmove{q}>
+token_name_block_move=<color=#{buff}>Steadfast</color>
+token_block_move_description=Prevents the next hostile Move effect
+#
+#BLOCK STRESS
+token_block_stress_damage=<color=#{buff}>Block Stress</color>
+token_block_stress_damage_description=Prevents next Stress Damage
+#
+#CONCUSS
+token_concuss=<color=#{combo}>Concuss</color>
+token_concuss_description=Primed for a combo effect
+#
+#CONFUSE
+token_confuse=<color=#{combo}>Confuse</color>
+token_confuse_description=Primed for a combo effect
+#
+#COUNTERACTION
+token_counteraction=<sprite name={q}token_counteraction{q}>
+token_name_counteraction=<color=#{buff}>Counter-action</color>
+token_counteraction_description=Chance to gain a free action when attacked
+#
+#COUNTER HEAL
+token_counterheal=<sprite name={q}token_counterheal{q}>
+token_name_counterheal=<color=#{buff}>Counter-heal</color>
+token_counterheal_description=Chance to heal when attacked
+#
+#CRIT BLOCK
+token_crit_block=<color=#{buff}>Block CRIT</color>
+token_crit_block_description=Next hit on this actor cannot CRIT
+#
+#CURSE
+token_curse=<color=#{combo}>Curse</color>
+token_curse_description=Primed for a combo effect
+#
+#EXECUTE
+token_execute=<color=#{buff}>Execute</color>
+token_execute_description=Chance to immediately kill the target on the next attack
+#
+#EXTRA ACTION
+token_turn=<color=#{buff}>Extra Action</color>
+token_turn_description=Take an extra action this Round
+#
+#EXTRA RANGE
+token_extra_range=<sprite name={q}token_rangeup{q}>
+token_name_extra_range=<color=#{buff}>Extra Range</color>
+token_extra_range_description=TO DO
+#
+#EXTRA TARGET
+token_extra_target=<sprite name={q}token_extratarget{q}>
+token_name_extra_target=<color=#{buff}>Extra Target</color>
+token_extra_target_description=TO DO
+#
+#PIERCE
+token_pierce=<color=#{buff}>Pierce</color>
+token_pierce_description=Next attack bypasses Block Tokens
+#
+#RESILIENCE
+token_block_dot_apply=<color=#{buff}>Resilience</color>
+token_block_dot_apply_description=Prevents the next <color=#{bleed}>Bleed</color>
+#
+#STRESS HEAL
+token_stress_heal=<color=#757575>Stress Heal</color>
+token_stress_heal_description=Heals Stress
+#

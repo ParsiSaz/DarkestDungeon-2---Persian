@@ -1,0 +1,12 @@
+bark_bark_disease_syphilis_bark=Never seen a cow jump over anything!
+bark_bark_disease_syphilis_bark=What are these spots before my eyes?!
+bark_bark_disease_syphilis_bark=Agh, my head throbs...!
+bark_bark_disease_syphilis_bark=Fetch me a wet rag, mother...!
+bark_bark_disease_smallpox_itchy=This itching is going to drive me mad!
+bark_bark_disease_smallpox_itchy=*furious scratching*
+bark_bark_disease_smallpox_itchy=My skin, it cracks and bleeds!
+bark_bark_disease_smallpox_itchy=Will this itching never cease?!
+bark_bark_disease_coughing_fit=*desperate wheezing*
+bark_bark_disease_coughing_fit=Khkk... let me catch my breath...
+bark_bark_disease_coughing_fit=*cough cough cough*
+bark_bark_disease_coughing_fit=*dry, hacking cough*

@@ -1,0 +1,534 @@
+﻿cinematic_intro_label=I. Introduction
+boss_choice_prologue_label=Prologue
+boss_choice_brain_label=I. Denial
+boss_choice_lungs_label=II. Resentment
+boss_choice_eyes_label=III. Obsession
+boss_choice_arms_label=IV. Ambition
+boss_choice_body_label=V. Cowardice
+boss_choice_unknown_label=???
+boss_select_title_panel_label=Complete your Confession
+boss_select_button=Confirm
+character_sheet_combat_skills_launch_title=Rank
+character_sheet_combat_skills_target_title=Target
+character_sheet_resistances_title=Resistances
+character_sheet_quirks_title=Quirks
+character_sheet_tab_skills=Combat Skills
+character_sheet_tab_relationships=Relationships
+character_sheet_tab_conditions=Conditions
+character_sheet_tab_pet=Pet
+character_sheet_trinkets_title=Trinkets
+character_sheet_diseases_title=Diseases
+character_sheet_empty_combat_item_tooltip=Equip Combat Item
+character_sheet_empty_trinket_tooltip=Equip Trinket
+doom_meter_tooltip_title=LOATHING
+profile_name_limit=15
+hero_name_limit=12
+pet_name_limit=12
+story_node_title_limit=25
+tutorial_toast_title_limit=20
+inn_name_limit=35
+coach_name_limit=20
+quirk_name_limit=28
+biome_mutator_name_limit=15
+concatenated_ellipsis=...
+inventory_full_tooltip=Inventory Full
+inventory_tab_all=All Items
+inventory_tab_combat=Combat Items
+inventory_tab_currency_provision=Currency &\nProvisions
+inventory_tab_rest=Inn Items
+inventory_tab_trinket=Trinkets
+inventory_tab_stagecoach_upgrade=Stagecoach
+inventory_tab_stagecoach_torch=Flames
+inventory_tab_stagecoach_pet=Pets
+item_targets_party_label=[Party]
+item_targets_singular_label=[{0} Target]
+item_targets_label=[{0} Targets]
+loot_rewards_hero_points_label=+{0}<font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font> Mastery
+loot_rewards_torch_gain_label=<color=#{notable}>+{0}<sprite name={q}icon_torch_wagon{q} color=#{notable}> Flame
+loot_rewards_torch_lost_label=<color=#{debuff}>{0}<sprite name={q}icon_torch_wagon{q} color=#{debuff}> Flame
+loot_rewards_hero_points_textless_label=+{0}<font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+loot_rewards_stress_points_label=+{0}<sprite name={q}icon_stresspoints{q}>
+loot_onward_button=Onward
+loot_leave_items_button=Leave Items
+loot_equip_items_button=Equip Items
+loot_toast_inventory_full=Inventory Full
+loot_close_confirmation_dialog_desc_label=You will leave items behind. Still press onwards?
+loot_close_confirmation_dialog_confirm_label=Yes
+loot_close_confirmation_dialog_decline_label=No
+main_menu_combat_test=Combat Test
+main_menu_continue_game=Continue Journey
+main_menu_new_game=Begin New Journey
+main_menu_options=Options
+disclaimer_label=Darkest Dungeon is about making the most of a bad situation.\n\nYou are not expected to succeed on your first expedition. Heroes will die, failure will abound, and the world will seek to smother your flame.\n\nTake heart. Do not relent. Press forward through the encroaching gloam and face your fears. \n\nRedemption, at last, can be found deep within the icy depths of the...
+doom_meter_tooltip_title_0=<color=#{trinket_cultist}>The Loathing Abates</color>
+doom_meter_tooltip_title_1=<color=#{trinket_cultist}>The Loathing Whispers</color>
+doom_meter_tooltip_title_2=<color=#{trinket_cultist}>The Loathing Festers</color>
+doom_meter_tooltip_title_3=<color=#{trinket_cultist}>The Loathing Howls</color>
+doom_meter_tooltip_title_4=<color=#{trinket_cultist}>The Loathing Spreads</color>
+doom_meter_tooltip_title_5=<color=#{trinket_cultist}>The Loathing Consumes</color>
+driving_ui_gold_label=Relics :
+driving_ui_flame_label=Flame : 
+driving_ui_food_label=Food : 
+driving_ui_upgrade_points_label=Mastery : 
+driving_ui_distance_to_inn_label={0} league to Inn
+driving_ui_distance_to_inn_label+plural={0} leagues to Inn
+driving_ui_distance_to_inn_label+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+driving_ui_distance_to_inn_label+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+driving_ui_distance_to_inn_label+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+driving_ui_distance_to_inn_label+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+driving_ui_biome_valley_label=Region : {0}
+driving_ui_biome_mountain_label=Region : {0}
+driving_ui_biome_label= Region {2} : {0} {1}
+driving_map_button_tooltip=Map (@{Minimap})
+driving_inventory_button_tooltip=Inventory (@{Inventory})
+driving_coach_button_tooltip=Stagecoach (@{StageCoach})
+driving_character_sheet_button_tooltip=Hero Sheet (@{CharacterSheet})
+default_coach_name=The Last Hope
+game_over_title=Lost in Darkness
+game_over_reason_party_dead=You were right to fear the world...
+game_over_reason_party_insane=The mind is a fragile thing. Easily distracted from its goal.
+game_over_reason_victory=A Glimmer of Hope!
+game_over_reason_abandon=A broken will carries no hope of success.
+game_over_reason_debug=Instant gratification with a debug button.
+game_over_rewards_label=Rewards Unlocked!
+game_over_restart_label=Continue
+heropoints_description_label=Mastery Points are invested at the Inn to upgrade hero skills.
+inventory_tooltip_relics=Relics
+inventory_tooltip_heropoints=Mastery
+inventory_tooltip_food=Food
+inventory_tooltip_cave=Dirt
+inventory_tooltip_forest=Medals
+inventory_tooltip_farm=Spoons
+inventory_tooltip_city=Books
+inventory_tooltip_coast=Sea Stars
+inventory_tooltip_biome_currency=Baubles
+inventory_drag_drop_discard_title=Discard
+inventory_drag_drop_discard_desc=Discard item?
+inventory_drag_drop_discard_confirm_label=Yes
+inventory_drag_drop_discard_decline_label=No
+low_food_tooltip=<color=#{debuff}>LOW FOOD!</color>
+starving_food_tooltip=<color=#{debuff}>STARVING!</color>\nPassive HP regeneration blocked\nStress damage while driving
+extended_starving_food_tooltip=<color=#{debuff}>EXTENDED STARVING!</color>\HP damage while driving\nHigh stress damage while driving
+minimap_tooltip_boss_select=Homestead
+minimap_tooltip_cache=Cache\n<color=#{buff}>[supplies]
+minimap_tooltip_combat=Combat
+minimap_tooltip_combat_hard=Hard Combat
+minimap_tooltip_cultist_territory=Oblivion's Ingress\n<color=#{buff}>[Rewards: <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>, trinkets.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+minimap_tooltip_dungeon=Lair\n<color=#{buff}>[Boss fight, rewards a trophy.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+minimap_tooltip_guardian=Oblivion's Rampart\n<color=#{buff}>[Cultist Encounter]</color>\n<color=#{neutral}>The Inn awaits beyond this barrier.</color>
+minimap_tooltip_gate=Gate
+minimap_tooltip_hero_story=Shrine of Reflection\n<color=#{buff}>[continue a hero's story]</color>
+minimap_tooltip_hospital=Hospital\n<color=#{buff}>[a place to cure maladies]</color>
+minimap_tooltip_gaunt_chirurgeon=Chirurgeon's Table\n<color=#{buff}>[a place for unorthodox treatments]</color>
+minimap_tooltip_inn=Inn\n<color=#{buff}>[a place to rest and train]</color>
+minimap_tooltip_store=Hoarder\n<color=#{buff}>[store]</color>
+minimap_tooltip_story_assist=Assistance Encounter\n<color=#{buff}>[Rewards: flame, food, supplies]</color>
+minimap_tooltip_story_cosmic=Academic's Study\n<color=#{buff}>[Rewards: mysterious]</color>
+minimap_tooltip_story_cosmic_broken_clock_subtype_label=Academic's Study\n<color=#{harmful}>Broken Clock</color>\n<color=#{buff}>[Rewards: unique trinkets, stress heal]</color>
+minimap_tooltip_story_cosmic_caged_creature_subtype_label=Academic's Study\n<color=#{harmful}>Caged Creature</color>\n<color=#{buff}>[Rewards: unique item, unique trinkets]</color>
+minimap_tooltip_story_cosmic_faceless_facsimile_subtype_label=Academic's Study\n<color=#{harmful}>Faceless Facsimile</color>\n<color=#{buff}>[Rewards: unique trinkets, combat items]</color>
+minimap_tooltip_story_cosmic_familiar_desk_subtype_label=Academic's Study\n<color=#{harmful}>Familiar Desk</color>\n<color=#{buff}>[Rewards: books, wealth, trinkets]</color>
+minimap_tooltip_story_cosmic_formless_sculpture_subtype_label=Academic's Study\n<color=#{harmful}>Formless Sculpture</color>\n<color=#{buff}>[Rewards: unique item, quirks]</color>
+minimap_tooltip_story_cosmic_hovering_polyhedra_subtype_label=Academic's Study\n<color=#{harmful}>Hovering Polyhedron</color>\n<color=#{buff}>[Rewards: unique item, unique trinkets]</color>
+minimap_tooltip_story_cosmic_memories_of_a_dream_subtype_label=Academic's Study\n<color=#{harmful}>Memories of a Dream</color>\n<color=#{buff}>[Rewards: quirks]</color>
+minimap_tooltip_story_cosmic_scary_song_subtype_label=Academic's Study\n<color=#{harmful}>Scary Song</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+minimap_tooltip_story_cosmic_sealed_doorway_subtype_label=Academic's Study\n<color=#{harmful}>Sealed Doorway</color>\n<color=#{buff}>[Rewards: trinkets, unique item, quirks]</color>
+minimap_tooltip_story_cosmic_shamblers_altar_subtype_label=Academic's Study\n<color=#{harmful}>Shamblers Altar</color>\n<color=#{buff}>[Rewards: ???]</color>
+minimap_tooltip_story_cosmic_thing_in_corner_subtype_label=Academic's Study\n<color=#{harmful}>Thing in the Corner</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+minimap_tooltip_story_cosmic_thought_experiment_subtype_label=Academic's Study\n<color=#{harmful}>Thought Experiment</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+minimap_tooltip_story_cosmic_timeworn_volumes_subtype_label=Academic's Study\n<color=#{harmful}>Timeworn Volumes</color>\n<color=#{buff}>[Rewards: books, quirks]</color>
+minimap_tooltip_story_cosmic_unsettling_portrait_subtype_label=Academic's Study\n<color=#{harmful}>Unsettling Portrait</color>\n<color=#{buff}>[Rewards: quirks, trinkets]</color>
+minimap_tooltip_story_cosmic_vintage_collection_subtype_label=Academic's Study\n<color=#{harmful}>Vintage Collection</color>\n<color=#{buff}>[Rewards: unique liquors]</color>
+minimap_tooltip_story_hero_replacement=Hero Recruitment\n<color=#{buff}>[Rewards: flame, food, supplies]</color>
+minimap_tooltip_story_resist=Resistance Encounter\n<color=#{buff}>[Rewards: <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>, <sprite name={q}icon_relic{q}>, <sprite name={q}icon_factioncurrency{q}>, trinkets.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+minimap_tooltip_watch_tower=Watch Tower\n<color=#{buff}>[Rewards: scouting]</color>
+minimap_tooltip_unknown=Unknown\n<color=#{buff}>[Rewards: ???]</color>
+minimap_tooltip_wagon=Stagecoach
+minimap_tooltip_hero_select=The Crossroads
+minimap_tooltip_cemetery=The Cemetery
+minimap_tooltip_bridge=The Old Bridge
+minimap_tooltip_recenter=Center on Stagecoach
+minimap_tooltip_landmark=The Howling Gap
+minimap_tooltip_creature_den=Creature Den\n<color=#{buff}>[Rewards: creature parts.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+minimap_tooltip_oasis=Oasis\n<color=#{buff}>[a place to calm one's mind]</color>
+not_applicable_label=N/A
+node_interaction_oasis=An Oasis
+node_interaction_creatureden=Enter The Den
+node_interaction_gauntchirurgeon=The Chirurgeon's Table
+node_interaction_watchtower_label=The Watchtower
+node_interaction_enter_label=Enter
+node_interaction_cache_label=The Academic's Cache
+node_interaction_caves_cache_label=The Swine's Cache
+node_interaction_store_label=The Hoarder
+node_interaction_hospital_label=The Field Hospital
+node_interaction_dungeon_label=Lair
+node_interaction_dungeon_label+city=The Great Library
+node_interaction_dungeon_label+farm=The Harvest House
+node_interaction_dungeon_label+forest=The General's Keep
+node_interaction_dungeon_label+cave=THIS SHOULDN'T EXIST?
+node_interaction_dungeon_label+coast=The Sacred Pier
+node_interaction_story_resist_label=Resist Node
+node_interaction_story_resist_label+city=The Burning Pile
+node_interaction_story_resist_label+farm=The Towering Feast
+node_interaction_story_resist_label+forest=The Forgotten Outpost
+node_interaction_story_resist_label+cave=The Warren
+node_interaction_story_resist_label+coast=The Sunken Monolith
+node_interaction_story_cosmic_label=The Academic's Study
+node_interaction_story_assist_label=The Desperate Few
+node_interaction_hero_select_label=The Crossroads
+node_interaction_guardian_label=Oblivion's Rampart
+node_interaction_story_cultist_label=Oblivion's Ingress
+node_interaction_story_hero_label=Shrine of Reflection
+profile_level_label=<i>Profile Lvl {0}</i>
+results_scoring_start_biomes_cleared=Valley Completed:
+results_scoring_start_biomes_cleared_tooltip=A trivial reward for a trivial accomplishment
+
+results_scoring_academics_honorarium=Academic's Honorarium:
+results_scoring_academics_honorarium_tooltip=A contribution in recognition of your potential. Don't squander it...
+
+results_scoring_typical_biomes_cleared=Regions Completed:
+results_scoring_typical_biomes_cleared_tooltip=Bigger rewards for reaching more distant regions 
+
+results_scoring_optional_biomes_cleared=Sluice Braved: 
+results_scoring_optional_biomes_cleared_tooltip=Bonus for traversing the Sluice
+
+results_scoring_biome_bosses_cleared=Lairs Cleansed: 
+results_scoring_biome_bosses_cleared_tooltip=Bonuses for each Lair boss defeated
+
+results_scoring_faced_end_boss=Faced Your Failure:
+results_scoring_faced_end_boss_tooltip=Bonus for reaching the Confession boss
+
+results_scoring_victory=Completed Confession:
+results_scoring_victory_tooltip=Bonus for defeating the Confession boss
+
+results_scoring_first_end_boss_victory=First Victory Bonus: 
+results_scoring_first_end_boss_victory_tooltip=Bonus for first time defeating the Confession boss
+
+results_scoring_heroes_survived=Heroes Survived to End: 
+results_scoring_heroes_survived_tooltip=Bonus for each hero who survived the end battle
+
+results_scoring_inventory=Candles Found: 
+results_scoring_inventory_tooltip=All carried candles convert to Hope
+
+results_scoring_run_goals_path=Wanderer Heroes: 
+results_scoring_run_goals_path_tooltip=Wanderer path heroes selected at the Crossroads earn bonus Hope if they survive to the first Inn past the Valley
+
+results_scoring_run_goals_class=Hero Goals: 
+results_scoring_run_goals_class_tooltip=Completed hero goals
+
+results_scoring_heroes_hired=Bounty Hunter's fee: 
+results_scoring_heroes_hired_tooltip=The Bounty Hunter collects his fee, but will never make your earned Candles go negative
+
+results_scoring_inn_bonus=Fallen Heroes Honored:
+results_scoring_inn_bonus_tooltip=Bonus for returning the remains of fallen heroes
+
+actor_stat_type_formatted_score_penalty_multiplier=Candles of Hope: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_typical_biomes_cleared=Candles from Regions Completed: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_optional_biomes_cleared=Candles from Sluice Braved: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_biome_bosses_cleared=Candles from Lairs Cleansed: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_faced_end_boss=Candles from Facing Your Failure: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_victory=Candles from Victory: <color=#{notable}>{0}</color>
+actor_stat_type_formatted_score_bonus_multiplier_heroes_survived=Candles from Heroes Survived: <color=#{notable}>{0}</color>
+
+actor_stat_type_formatted_inn_quirk_generation_chance_modifier_neg_inn_normal=Neg Quirk chance at Inn {0}
+actor_stat_type_formatted_inn_quirk_generation_chance_modifier_neg_inn_rare=Neg Rare quirk chance at Inn {0}
+effect_tooltip_skill_effect_on_overstress= 
+effect_tooltip_condition_overstress={0}{1}
+
+actor_stat_type_formatted_doom_reset_value=Loathing after Reset: {0}
+actor_stat_type_formatted_doom_max_value=Loathing Max: {0}
+
+add_label=Add
+remove_label=Remove
+party_heroes_label=Heroes
+party_enemies_label=Enemies
+reward_game_score_label=Hope +{0}
+spaced_or_label= or 
+stagecoach_sheet_driving_title=The Stagecoach
+stagecoach_sheet_label=Stagecoach
+stagecoach_sheet_cargo_slots=Cargo Slots: {0}
+stagecoach_sheet_food_consumption=Food Consumption: {0} per node
+stagecoach_sheet_passive_heal=Passive Heal: {0}% per node
+stagecoach_sheet_torch_drain=Flame Drain: {0}% per node
+stagecoach_sheet_scout_node_chance=Node Scouting: {0}%
+stagecoach_sheet_scout_route_chance=Route Scouting: {0}%
+stat_source_type_class=Base
+stat_source_type_unlock=Altar
+stat_source_type_token=Token
+stat_source_type_debug=Debug
+stat_source_type_skill=Skill
+stat_source_type_combat=Battle Modifier
+stat_source_type_dot=Damage Over Time
+stat_source_type_driving=Driving
+stat_source_type_death=Death
+stat_source_type_status=Status
+stat_source_type_story=Encounter
+stat_source_type_act_out=Act Out
+stat_source_type_rest=Rest
+stat_source_type_spawn=Spawn
+stat_source_type_banter=Banter
+stat_source_type_stress=Stress
+stat_source_type_class_change=Class Change
+stat_source_type_meltdown=Melt Down
+stat_source_type_health_damage=HP Damage
+stat_source_type_food=Food
+stat_source_type_hospital=Hospital
+stat_source_type_torch=Flame
+stat_source_type_relationship=Relationship
+stat_source_type_party=Party
+stat_source_type_quirk=Quirk
+stat_source_type_trinket=Trinket
+stat_source_type_stage_coach_general=Stagecoach
+stat_source_type_stage_coach_trophy=Trophy
+stat_source_type_stage_coach_pet=Pet
+stat_source_type_stage_coach_flame=Equipped Flame
+stat_source_type_buff=Buff
+stat_source_type_debuff=Debuff
+stat_source_type_expired=Expired
+stat_source_type_store=Store
+stat_source_type_inventory=Inventory
+stat_source_type_retreat=Retreat
+stat_source_type_biome_modifier=Region Condition
+stat_source_type_path=Hero Path
+stat_source_type_boss=Ordained
+stat_source_type_memory=Memory
+stress_threshold_0_label=Tense
+stress_threshold_1_label=Irritable
+stress_threshold_2_label=Roiling
+story_title_assist=Help Us!
+story_title_assist=Assist Us!
+story_title_cosmic=Forgotten...
+story_title_cosmic=The Unknown...
+story_title_resist=Fiends!
+story_title_resist=Scoundrels!
+story_title_resist+city=Fanatics!
+story_title_resist+farm=Plague Eaters!
+story_title_resist+forest=Lost Battalion!
+story_title_resist+cave=Swine!
+story_title_resist+coast=Fisherfolk!
+story_title_cultist=Cultists!
+story_title_oasis=Soothing Waters
+story_title_creatureden=Creature Den
+story_title_gauntchirurgeon=Chirurgeon's Table
+story_info_tooltip=Hold <color=#{notable}>[@{UIAltModifier}]</color> on choices for more info
+upgrade_skills_screen_title=Mastery Trainer
+tutorial_toast_tooltip_label=<color=#{notable}>[Left Click]</color> view / <color=#{notable}>[Right Click]</color> dismiss
+relationship_test_prompt=The Relationship Is Tested
+main_menu_abandon_run_title=Abandon saved expedition?
+main_menu_abandon_run_desc=You have an existing expedition, abandon it?
+main_menu_abandon_run_confirm_btn=Yes
+main_menu_abandon_run_decline_btn=No
+quirk_rare_icon=<sprite name={q}icon_rare_quirk{q}>
+play_cinematic_tooltip=Replay Cinematic
+character_sheet_can_equip_skills_prompt_title=Skills
+character_sheet_can_equip_skills_prompt_desc=You can still equip skills! Are you sure you want to exit?
+character_sheet_can_equip_skills_prompt_yes_label=Yes
+character_sheet_can_equip_skills_prompt_no_label=No
+hero_select_can_equip_skills_prompt_desc=A party member can still equip skills! Are you sure you want to continue?
+continue_label=Continue
+inventory_overfilled_label=Overencumbered, you must equip or discard items to make room.
+options_window_mode_label=Window Mode
+options_window_mode_window=Window
+options_window_mode_fullscreen=Fullscreen Window
+options_window_mode_exclusive_fullscreen=Exclusive Fullscreen
+options_resolution_label=Resolution
+options_monitor_picker_label=Display Monitor
+options_graphics_quality_label=Graphics Quality
+main_menu_watch_cinematics_title=Watch Cinematics
+minimap_empty_caves_label= 
+minimap_empty_mountain_label= 
+biome_progress_label=Regions: {0}/{1}
+unequippable_item_equip_prompt_title=Unremoveable!
+unequippable_item_equip_prompt_desc=Once equipped, this cannot be removed during this expedition. Proceed?
+unequippable_item_equip_prompt_yes=Accept
+unequippable_item_equip_prompt_no=Decline
+item_trophy_empty_tooltip=Trophies are required to enter every Mountain except Denial\nThey are found by defeating Lair bosses.
+stage_coach_unequippable_uneditable=Cannot unequip while driving.
+stage_coach_unequippable_locked=Slot locked by item.
+mountain_embark_trophies_missing_label=You must have a trophy equipped to enter the mountain!
+stage_coach_locked_slot_tooltip_label=New Slot\nUnlock at the Altar of Hope
+stage_coach_locked_pet_slot_tooltip_label=Pet Slot\nUnlock at the Altar of Hope
+cannot_discard_last_trophy_label=You need to have a trophy equipped to have access to the Mountain.
+discard_last_trophy_prompt_label=Discarding Trophy before equipping will not grant access to the Mountain. Are you sure you want to proceed?
+last_chance_biome_trophy_label=<size=150%><font={q}NDDunkelD-Bold SDF{q}><color=#{item_nameline}>Final Region</size></font></color>\nObtain a Trophy from a\nBoss Lair to access the Mountain
+select_route_equip_trophy_label=<sprite name={q}icon-alert{q}> Trophy required to enter the Mountain!\nEquip your trophy onto the stagecoach before continuing.
+cancel_label=Cancel
+mountain_inn_no_trophy_entry_label=<size=150%><font={q}NDDunkelD-Bold SDF{q}><color=#{item_nameline}>An Impasse.</size></font></color>\n Without a trophy, the Mountain is unreachable.
+stage_coach_paint_job_tooltip_label=Change Stagecoach Livery
+discard_for_hope_label=Discard Items for Hope
+quirk_click_to_reveal_label=Click to Reveal
+sort_button_label=Sort
+upgrade_skill_tooltip_upgrade_title=<sprite name={q}icon_upgraded_skill{q}> Upgrade
+upgrade_skill_tooltip_hold_to_show_upgrade_label=<sprite name={q}icon_upgraded_skill{q}>Hold <color=#{notable}>[@{UIAltModifier}]</color> to Show Upgraded Skill 
+inn_biome_progress_label=Regions to Mountain: {0}
+hero_select_hero_path_label=<sprite name={q}icon_biome_medals{q}>{0}
+character_sheet_class_path_tooltip_label={0} Path
+loot_reward_item_text_rewarded_label='{0}' rewarded!
+update_label=Update
+vsync_on_label=ON
+vsync_off_30_label=OFF, 30 FPS
+vsync_off_60_label=OFF, 60 FPS
+quality_setting_low=Low
+quality_setting_high=High
+quality_setting_medium=Medium
+random_party_label=Random Party
+effect_tooltip_add_quirk=Add {0}
+positive_affinity_label=Adds {0} <sprite name={q}icon_affinity_up{q}>
+negative_affinity_label=Adds {0} <sprite name={q}icon_affinity_down{q}>
+positive_affinity_chance_label=<sprite name={q}icon_affinity_up{q}> ({0}%)
+negative_affinity_chance_label=<sprite name={q}icon_affinity_down{q}> ({0}%)
+quirk+negative=Negative Quirk
+quirk+positive=Positive Quirk
+positive_affinity_icon=<sprite name={q}icon_affinity_up{q}>
+negative_affinity_icon=<sprite name={q}icon_affinity_down{q}>
+blocked_by_label=<color=#{stat_reg}><i>BLOCKED BY: 
+adds_up_to_label=Gains up to 
+chance_of_label=Chance of:
+effect_type_before_node_party_member_random=Random Hero Before Each Location:
+effect_type_after_node_party_member_random=Random Hero After Each Location:
+all_hero_pairs_label=(All Hero Pairs)
+visit_shrines_to_unlock_label=Visit Shrines of Reflection to unlock
+replay_narration_label=Replay Narration
+quirk+disease=<sprite name={q}icon_disease{q}>
+options_vsync_label=VSync
+options_fps_label=Max FPS
+options_auto_fps_label=Auto
+hero_select_objective_label=<font={q}NDDunkelD-Bold SDF{q} material={q}NDDunkelD-Bold SDF Default{q}><color=#{notable}>Goal:</color></font> {0} 
+hero_objectives_title_label=Hero Goals
+node_interaction_altar_of_hope_label=Altar of Hope
+minimap_tooltip_altar_of_hope=Altar of Hope
+hunter_hire_dialog_title_label=Bounty Hunter
+hunter_hire_dialog_desc_label=The Bounty Hunter is available for hire. He will accompany you for one region.\n\nHis fee is {0} <sprite name={q}icon_candle_glyph{q}> from the total earned in this expedition.
+hunter_hire_select_hero_label=Select a hero to replace. This hero will meet you at the next inn.
+hunter_hire_decline_label=Decline
+hunter_hire_hire_label=Hire
+results_label=Results
+hero_select_tab_description=Info
+hero_select_tab_skills=Skills
+hero_select_tab_paths=Paths
+hero_select_tab_stories=Story
+hero_select_tab_quirks=Quirks
+return_to_game_label=Return to Game
+profile_summary_title_label=Profile Summary
+profile_summary_victory_label=Victories
+profile_summary_expeditions_label=Expeditions
+profile_summary_hope_collected_label=Candles Collected
+profile_summary_altar_progress_label=Altar Progress
+profile_summary_items_collected_label=Items Recollected
+profile_summary_hero_story_label=Hero Story Progress
+altar_item_trinket_button_label=Trinkets
+altar_item_combat_button_label=Combat Items
+altar_item_stagecoach_button_label=Stagecoach Items
+altar_item_rest_button_label=Inn Items
+biome_panel_region_condition_label=Region Plight
+biome_panel_region_goal_label=Region Goals
+character_sheet_memories_label=Memories
+condition_progress_label=({0}/{1})
+hero_objective_complete_label=Hero Goal Complete!
+goal_candle_reward_tooltip=<sprite name={q}icon_candle_glyph{q}><color=#{stat_buff}>+{0} reward</color>
+driving_biome_panel_button_tooltip=Goals & Conditions (@{BiomePanel})
+hero_select_path_restricted_label=<color=#{item_discardline}>This hero is bound to this path due to memories. <sprite name={q}icon_memory_outline{q} color=#B09259></color>
+embark_scene_on_embark_fail_label=Calculate all your relationships first!
+embark_continue_label=Embark
+skill_rank_position_target=<sprite name={q}icon_target_blue{q}>
+skill_rank_position_empty=<sprite name={q}icon_target_blue_empty{q}>
+skill_rank_position_launch=<sprite name={q}icon_target_gold{q}>
+main_menu_save_imported_title=Save Imported
+main_menu_save_imported_desc=Your EGS save has been imported to Steam as a one-time process. Any further play on either platform will remain independent from each other.
+main_menu_file_validation_fail_title=Bad Data Found
+main_menu_file_validation_fail_desc=Corrupted or missing game files have been detected. Please verify your game files.
+skill_rank_position_launch=<sprite name={q}icon_target_gold{q}>
+stage_coach_sheet_armor_stat_label=Armor:\n{0}/{1}
+stage_coach_sheet_wheel_stat_label=Wheel:\n{0}/{1}
+minimap_safe_route_type_tooltip_label=Safe
+minimap_rough_patch_route_type_tooltip_label=Rough Patch\n<color=#{harmful}>-1 wheel</color> <sprite name={q}icon_currency_wheel{q}>
+minimap_hazard_route_type_tooltip_label=Hazard\n<color=#{harmful}>-1 armor</color> <sprite name={q}icon_currency_armor{q}>
+minimap_combat_route_type_tooltip_label=Barricade\n<color=#{harmful}>combat</color>
+minimap_oblivion_tear_patch_route_type_tooltip_label=Oblivion Tear\n<color=#{harmful}>+1 loathing</color> <sprite name={q}icon_doom{q}>
+minimap_unknown_route_type_tooltip_label=Unknown Route\n<color=#{harmful}>???</color>
+stage_coach_armor_stat_description=<color=#{buff}>Armor</color>:\ndamaged when driving on <color=#{harmful}>hazardous</color> routes
+stage_coach_armor_stat_description_full=<color=#{buff}>Armor</color>:\ndamaged when driving on <color=#{harmful}>hazardous</color> routes\n<i>When <color=#{buff}>100%</color>: each hero starts combat with <sprite name={q}token_block{q}></i>
+stage_coach_armor_stat_description_empty=<color=#{buff}>Armor</color>:\ndamaged when driving on <color=#{harmful}>hazardous</color> routes\n<color=#{harmful}><i>DANGER!</i></color>
+stage_coach_wheel_stat_description=<color=#{buff}>Wheels</color>:\ndamaged when driving on <color=#{harmful}>rough</color> routes 
+stage_coach_wheel_stat_description_full=<color=#{buff}>Wheels</color>:\ndamaged when driving on <color=#{harmful}>rough</color> routes\n<i>When <color=#{buff}>100%</color>: each hero gains <color=#{buff}>+50%</color> travel\nhealing</i>
+stage_coach_wheel_stat_description_empty=<color=#{buff}>Wheels</color>:\ndamaged when driving on <color=#{harmful}>rough</color> routes\n<color=#{harmful}><i>DANGER!</i></color>
+character_sheet_no_pet_label=Equip a pet!
+road_indicator_cache_title=Cache
+road_indicator_cache_desc=<color=#{buff}>[supplies]
+road_indicator_cultist_territory_title=Oblivion's Ingress
+road_indicator_cultist_territory_desc=<color=#{buff}>[Rewards: <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>, trinkets.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+road_indicator_dungeon_title=Lair
+road_indicator_dungeon_desc=<color=#{buff}>[Boss fight, rewards a trophy.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+road_indicator_guardian_title=Oblivion's Rampart
+road_indicator_guardian_desc=<color=#{buff}>[Cultist Encounter]</color>\n<color=#{neutral}>The Inn awaits beyond this barrier.</color>
+road_indicator_hero_story_title=Shrine of Reflection
+road_indicator_hero_story_desc=<color=#{buff}>[continue a hero's story]</color>
+road_indicator_hospital_title=Hospital
+road_indicator_hospital_desc=<color=#{buff}>[a place to cure maladies]</color>
+road_indicator_gaunt_chirurgeon_title=Chirurgeon's Table
+road_indicator_gaunt_chirurgeon_desc=<color=#{buff}>[a place for unorthodox treatments]</color>
+road_indicator_store_title=Hoarder
+road_indicator_store_desc=<color=#{buff}>[store]</color>
+road_indicator_story_assist_title=Assistance Encounter
+road_indicator_story_assist_desc=<color=#{buff}>[Rewards: flame, food, supplies]</color>
+road_indicator_story_cosmic_title=Academic's Study
+road_indicator_story_cosmic_desc=<color=#{buff}>[Rewards: mysterious]</color>
+road_indicator_story_hero_replacement_title=Hero Recruitment
+road_indicator_story_hero_replacement_desc=<color=#{buff}>[Rewards: flame, food, supplies]</color>
+road_indicator_story_resist_title=Resistance Encounter
+road_indicator_story_resist_desc=<color=#{buff}>[Rewards: <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>, <sprite name={q}icon_relic{q}>, <sprite name={q}icon_factioncurrency{q}>, trinkets.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+road_indicator_watch_tower_title=Watch Tower
+road_indicator_watch_tower_desc=<color=#{buff}>[Rewards: scouting]</color>
+road_indicator_unknown_title=Unknown
+road_indicator_unknown_desc=<color=#{buff}>[Rewards: ???]</color>
+road_indicator_creature_den_title=Creature Den
+road_indicator_creature_den_desc=<color=#{buff}>[Rewards: creature parts.\nReduces <sprite name={q}icon_doom{q}>.]</color>
+road_indicator_oasis_title=Oasis
+road_indicator_oasis_desc=<color=#{buff}>[a place to calm one's mind]</color>
+character_sheet_no_pet_label=Equip a pet!
+altar_of_hope_no_memories_label=Heroes with memories are required
+road_indicator_oasis_desc=<color=#{buff}>[a place to calm one's mind]</color>
+road_indicator_oasis_desc=<color=#{buff}>[a place to calm one's mind]</color>
+doom_reset_screen_title=The Mountain shudders...
+doom_reset_max_hp_buff_desc=Confession Boss +{0}% Max <sprite name={q}icon_health_v2{q}>
+driving_doom_resist_label=LOATHING RESIST
+driving_torch_ambush_label=The Flame Exhausted
+altar_of_hope_memory_boss_locked=Defeat and survive this boss to unlock!
+loot_screen_armor_gain_label_positive={0} <sprite name={q}icon_currency_armor{q} color=#{notable}> Armor
+loot_screen_armor_gain_label_negative={0} <sprite name={q}icon_currency_armor{q} color=#{debuff}> Armor
+loot_screen_wheel_gain_label_positive={0} <sprite name={q}icon_currency_wheel{q} color=#{notable}> Wheels
+loot_screen_wheel_gain_label_negative={0} <sprite name={q}icon_currency_wheel{q} color=#{debuff}> Wheels
+doom_wall_minimap_tooltip=This location will increase loathing <sprite name={q}icon_doom{q}>
+candle_minimap_tooltip=This location will grant one <color=#{buff}>Candle</color>
+character_sheet_combat_item_label=Combat Item
+candle_minimap_tooltip=This location will grant one <color=#{buff}>Candle</color>
+hero_select_weapon_kit_button=Change Weapon Kit
+hero_select_palette_button=Change Hero Palette
+hero_select_roll_name=Roll random hero name
+hero_select_rename_hero=Rename hero
+hero_select_reset_memories=Reset memories
+cosmetic_altar_locked_tooltip_string=Unlock all heroes to gain access to The Mountain
+default_label=Default
+item_counter_with_max_label=({0}/{1})
+hero_palette_label=Hero Palette
+weapon_kit_label=Weapon Kit
+end_cinematic_label=II. A Complete Confession
+profile_summary_achievements_label=Achievements:
+boss_select_title_panel_label_intro=Begin your Confession
+road_indicator_story_cosmic_desc_broken_clock=<color=#{harmful}>Broken Clock</color>\n<color=#{buff}>[Rewards: unique trinkets, stress heal]</color>
+road_indicator_story_cosmic_desc_caged_creature=<color=#{harmful}>Caged Creature</color>\n<color=#{buff}>[Rewards: unique item, unique trinkets]</color>
+road_indicator_story_cosmic_desc_faceless_facsimile=<color=#{harmful}>Faceless Facsimile</color>\n<color=#{buff}>[Rewards: unique trinkets, combat items]</color>
+road_indicator_story_cosmic_desc_familiar_desk=<color=#{harmful}>Familiar Desk</color>\n<color=#{buff}>[Rewards: books, wealth, trinkets]</color>
+road_indicator_story_cosmic_desc_formless_sculpture=<color=#{harmful}>Formless Sculpture</color>\n<color=#{buff}>[Rewards: unique item, quirks]</color>
+road_indicator_story_cosmic_desc_hovering_polyhedra=<color=#{harmful}>Hovering Polyhedron</color>\n<color=#{buff}>[Rewards: unique item, unique trinkets]</color>
+road_indicator_story_cosmic_desc_memories_of_a_dream=<color=#{harmful}>Memories of a Dream</color>\n<color=#{buff}>[Rewards: quirks]</color>
+road_indicator_story_cosmic_desc_scary_song=<color=#{harmful}>Scary Song</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+road_indicator_story_cosmic_desc_sealed_doorway=<color=#{harmful}>Sealed Doorway</color>\n<color=#{buff}>[Rewards: trinkets, unique item, quirks]</color>
+road_indicator_story_cosmic_desc_shamblers_altar=<color=#{harmful}>Shamblers Altar</color>\n<color=#{buff}>[Rewards: ???]</color>
+road_indicator_story_cosmic_desc_thing_in_corner=<color=#{harmful}>Thing in the Corner</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+road_indicator_story_cosmic_desc_thought_experiment=<color=#{harmful}>Thought Experiment</color>\n<color=#{buff}>[Rewards: unique trinkets, quirks]</color>
+road_indicator_story_cosmic_desc_timeworn_volumes=<color=#{harmful}>Timeworn Volumes</color>\n<color=#{buff}>[Rewards: books, quirks]</color>
+road_indicator_story_cosmic_desc_unsettling_portrait=<color=#{harmful}>Unsettling Portrait</color>\n<color=#{buff}>[Rewards: quirks, trinkets]</color>
+road_indicator_story_cosmic_desc_vintage_collection=<color=#{harmful}>Vintage Collection</color>\n<color=#{buff}>[Rewards: unique liquors]</color>
+story_screen_click_hold_to_select_label=Click and hold hero to make a selection
+change_profile_tooltip_label=Change Profile

@@ -1,0 +1,371 @@
+﻿item_buy_value=[Buy Value: {0} Each]
+item_discard=[Shift-Click to discard]
+item_sell_value=[Sell Value: {0} Each]
+item_type_pet=Pet
+item_subtype_pet=Pet
+item_type_food=Provisions
+item_type_provision=Provision
+item_type_currency=Currency
+item_type_currency_animals=Currency
+item_type_currency_deliverable=<color=#{item_deliverable}>Deliverable</color>
+item_type_currency_faction=Currency
+item_type_currency_relics=Currency
+item_type_consumable=Consumable
+item_type_sc_upgrade=Stagecoach Item
+item_type_combat=<color=#{item_combat}>Combat Item</color>
+item_type_rest=<color=#{item_rest}>Inn Item</color>
+item_type_rest_hero=<color=#{item_rest_hero}>Signature Inn Item</color>
+item_type_faction=<color=#{item_typeline}>Trinket (Faction)</color>
+item_type_trinket=<color=#{item_typeline}>Trinket</color>
+item_type_trinket_faction=<color=#{item_typeline}>Trinket (Faction)</color>
+item_type_trinket_common=<color=#{trinket_common}>Vague Trinket</color>
+item_type_trinket_rare=<color=#{trinket_rare}>Distant Trinket</color>
+item_type_trinket_epic=<color=#{trinket_epic}>Indelible Trinket</color>
+item_type_trinket_cultist=<color=#{trinket_cultist}>Unforgettable Trinket</color>
+item_type_stage_coach_upgrade=Stagecoach Item
+item_type_stage_coach_upgrade_common=<color=#{item_coach}>Stagecoach Item</color>
+item_type_stage_coach_upgrade_rare=<color=#{item_coach}>Stagecoach Item</color>
+item_type_stage_coach_upgrade_trophy=<color=#{item_trophy}>Trophy</color>
+item_type_stage_coach_upgrade_pet=<color=#{item_pet}>Pet</color>
+item_type_stage_coach_upgrade_infernal=<color=#{item_infernal}>Infernal Flame</color>
+item_type_stage_coach_upgrade_radiant=<color=#{item_radiant}>Radiant Flame</color>
+#
+# CURRENCY
+item_name_gold=Relics
+item_name_city_books=Charred Books
+item_name_farm_spoons=Silver Spoons
+item_name_forest_medals=War Medals
+item_name_cave_dirt=Fertile Dirt
+item_name_coast_starfish=Untainted Sea Stars
+item_name_valley_baubles=Rural Riches
+#
+# ITEM NAMES
+item_name_ablative_powders=Ablative Powders
+item_name_adrenaline_tonic=Adrenaline Tonic
+item_name_antivenom=Antivenom
+item_name_armor_repair_kit=Armor Repair Kit
+item_name_bandages=Bandages
+item_name_bear_trap=Bear Trap
+item_name_blasphemous_idol=Blasphemous Idol
+item_name_bone_saw=Bone Saw
+item_name_book_bawdy_tales=Book of Bawdy Tales
+item_name_book_desert=My Time in the Desert
+item_name_book_insults=Book of Creative Insults
+item_name_book_poetry=Poetry
+item_name_boxing_gloves=Boxing Gloves
+item_name_burn_salve=Burn Salve
+item_name_calming_incense=Calming Incense
+item_name_crows_feet=Crow's Feet
+item_name_candles_and_chocolate=Candles & Chocolate
+item_name_chalk_dust=Chalk Dust
+item_name_clarifying_poultice=Clarifying Poultice
+item_name_clotting_poultice=Clotting Poultice
+item_name_clotting_powders=Clotting Powders
+item_name_dart_board=Dartboard
+item_name_death_cap_spores=Death Cap Spores
+item_name_drum=Ceremonial Drum
+item_name_fire_bomb=Incendiary Cocktail
+item_name_fire_grenade=Greek Fire Grenade
+item_name_fishermans_net=Fisherman's Net
+item_name_food_1=Slime Mold
+item_name_food_2=Stale Bread
+item_name_food_3=Apples & Cheese
+item_name_food_4=Steak & Spuds
+item_name_food_5=Flapjacks
+item_name_healing_consumable_1=Healing Salve
+item_name_healing_consumable_2=Triage Kit
+item_name_holy_beads=Holy Beads
+item_name_holy_water=Holy Water
+item_name_ichor_bomb=Ichor Bomb
+item_name_impermeable_poultice=Impermeable Poultice
+item_name_invigorating_intoxicant=Invigorating Intoxicant
+item_name_laudanum=Laudanum
+item_name_makeshift_javelin=Makeshift Javelin
+item_name_medicinal_herbs=Medicinal Herbs
+item_name_medicinal_leeches=Leeches
+item_name_meditative_totem=Meditative Totem
+item_name_mop=Mop and Bucket
+item_name_neutralizing_powders=Neutralizing Powders
+item_name_nightshade_concoction=Nightshade Concoction
+item_name_noisemaker=Noisemaker
+item_name_oil_flask=Linseed Oil Flask
+item_name_pipeweed=Pipeweed
+item_name_playing_cards=Playing Cards
+item_name_pouch_of_lye=Pouch of Lye
+item_name_pyrotechnic_dazzler=Pyrotechnic Dazzler
+item_name_rag=Milk-soaked Linen
+item_name_restorative_herbs=Restorative Herbs
+item_name_roast_pig=Roast Pig
+item_description_roast_pig=A joyous feast for all!\nCan be used in addition to normal food.
+item_name_scrap_grenade=Scrap Grenade
+item_name_shimmering_powder=Shimmering Powder
+item_name_smelling_salts=Smelling Salts
+item_name_smoke_bomb=Smoke Bomb
+item_name_songbook_amorous=Songbook of Amorous Ballads
+item_name_songbook_morose=Songbook of Touching Dirges
+item_name_songbook_rousing=Songbook of Rousing Tunes
+item_name_soothing_poultice=Soothing Poultice
+item_name_speed_bag=Speed Bag
+item_name_spiked_ball=Spiked Ball
+item_name_spring_water=Mineral-Rich Spring Water
+item_name_stew=Invigorating Stew
+item_name_tinned_preserves=Tinned Delicacies
+item_name_stimulants=Stimulants
+item_name_stimulating_poultice=Stimulating Poultice
+item_name_stitching_kit=Stitching Kit
+item_name_thunderclap_grenade=Thunderclap Grenade
+item_name_torch_consumable=A Glimmer of Hope
+item_name_toxic_ichor=Toxic Ichor
+item_name_toxic_spores=Spore Grenade
+item_name_tug_rope=Knotted Tug Rope
+item_name_unnatural_pigment=Unnatural Pigment
+item_name_war_horn=War Horn
+item_name_wax_innoculant=Wax Inoculant
+item_name_whetstone=Whetstone
+item_name_whiskey_barrel=Whiskey Barrel
+item_name_whiskey_bottle=Whiskey Bottle
+item_name_whiskey_flask=Whiskey Flask
+item_name_whittling_tools=Whittling Tools
+item_name_wild_tea=Wild Tea
+item_name_pustule_salve=Pustule Salve
+item_name_the_blood=The Blood
+item_name_the_wine=The Wine
+item_name_otherworldly_fragment=Otherworldly Fragment
+item_name_space_dust=Ethereal Dust
+item_name_wilburs_flag=Wilbur's Flag
+item_name_shred_of_decency=Shred of Decency
+item_name_single_leech=Single Leech
+item_name_trephine_bur=Trephine Bur
+item_name_orbitoclast=Orbitoclast
+#
+# ITEM TAG NAMES USED FOR ITEM_MAX_QTY -- BE EXTRA CAREFUL WHEN ADDING THESE SO THERE'S NO OVERLAP WITH OTHER 'ITEM_NAME_EXAMPLE'
+item_name_faction=Baubles
+item_name_food=Food
+item_name_whiskey=Whiskey
+item_name_restorative=Restoratives
+item_name_concoction=Concoctions
+item_name_powder=Powders
+item_name_poultice=Poultices
+item_name_trap=Traps
+item_name_explosive=Explosives
+item_name_contraption=Contraptions
+item_name_combat=Combat Items
+#
+# ITEM TAGS
+item_tag_armor=Armor
+item_tag_faction=Baubles
+item_tag_book=Book
+item_tag_concoction=Concoction
+item_tag_contraption=Contraption
+item_tag_flammable=Flammable
+item_tag_food=Food
+item_tag_explosive=Explosive
+#
+item_tag_noxious=Noxious
+item_tag_powder=Powder
+item_tag_poultice=Poultice
+item_tag_restorative=Restorative
+item_tag_serrated=Serrated
+item_tag_stained=Stained
+item_tag_trap=Trap
+item_tag_weapon=Weapon
+item_tag_woven=Woven
+item_tag_whiskey=Whiskey
+#
+# STAGECOACH ITEM TAGS
+item_tag_food_gear=Food Gear
+item_tag_luxury_gear=Luxury Gear
+item_tag_medicine_gear=Medical Gear
+item_tag_road_gear=Road Gear
+item_tag_scouting_gear=Scouting Gear
+item_tag_tinkers_gear=Tinker's Gear
+#
+# ANIMAL PART NAMES
+item_name_spider_gland=Bulbous Venom Gland
+item_name_spider_appendage=Chitinous Appendage
+item_name_worm_slime=Congealed Slime
+item_name_dog_teeth=Impressive Incisors
+item_name_worm_secretion=Peculiar Secretion
+item_name_dog_blood=Rabid Blood Extract
+#
+# DELIVERABLE ITEM NAMES
+item_name_locked_strongbox=Locked Strongbox
+item_name_hero_bones_01=Hero Remains
+item_name_hero_bones_02=Hero Remains
+item_name_hero_bones_03=Hero Remains
+item_name_puzzling_trapezohedron=Puzzling Trapezohedron
+item_name_physicians_guild_seal=Physicians' Guild Seal
+#
+# SIGNATURE INN ITEM NAMES
+item_name_oddly_tuned_lute=Oddly-Tuned Lute
+item_name_morbid_joke=Morbid Joke
+item_name_improvised_strategy=Improvised Strategy
+item_name_experimental_remedy=Experimental Remedy
+item_name_precious_collection=Precious Collection
+item_name_tar_filled_colambre=Tar-Filled Colambre
+item_name_guided_meditation=Guided Meditation
+item_name_the_very_best=The Very Best
+item_name_war_paint=War Paint
+item_name_holy_hymnal=Holy Hymnal
+item_name_pain_box=Pain Box
+#
+# COMBAT ITEM DESCRIPTIONS
+item_description_ablative_powders=<color=#{notable}>+66%</color> <sprite name={q}icon_burn{q}> RES (3 Turns)\nGain On <sprite name={q}icon_burn{q}> Resist: <color=#{notable}>-1</color> <sprite name={q}token_stress{q}> (3 Turns)
+item_description_adrenaline_tonic=<color=#{heal}>Heal 50%</color>\n<color=#{debuff}>+1</color> <sprite name={q}token_stress{q}>
+item_description_antivenom=Remove <sprite name={q}icon_blight{q}>\n<color=#{heal}>Heal 10%</color>
+item_description_bandages=Remove <sprite name={q}icon_bleed{q}>\n<color=#{heal}>Heal 10%</color>
+item_description_bear_trap=<sprite name={q}icon_bleed{q}> <color=#{bleed}>3</color> (3 Turns)\nAdd <sprite name={q}token_immoblize{q}>
+item_description_bone_saw=<sprite name={q}icon_bleed{q}> <color=#{bleed}>5</color> (3 Turns)
+item_description_burn_salve=Remove <sprite name={q}icon_burn{q}>\n<color=#{heal}>Heal 10%</color>
+item_description_crows_feet=<sprite name={q}icon_bleed{q}> <color=#{bleed}>1</color> (3 Turns)\n<color=#{debuff}>-20%</color> <sprite name={q}icon_move{q}> RES (3 Turns)\n<color=#{debuff}>-2</color> <sprite name={q}icon_speed{q}> (3 Turns)
+item_description_chalk_dust=Remove <sprite name={q}token_stealth{q}>\n<color=#{debuff}>Cannot Gain</color> <sprite name={q}token_stealth{q}> (2 Rounds)
+item_description_clotting_powders=<color=#{notable}>+66%</color> <sprite name={q}icon_bleed{q}> RES (3 Turns)\nGain On <sprite name={q}icon_bleed{q}> Resist: <color=#{notable}>-1</color> <sprite name={q}token_stress{q}> (3 Turns)
+item_description_death_cap_spores=<color=#{debuff}>-33%</color> <sprite name={q}icon_death_outline{q}> RES (3 Turns)\n<color=#{debuff}>-33%</color> <sprite name={q}icon_blight{q}> RES (3 Turns)
+item_description_fire_bomb=<sprite name={q}icon_burn{q}> <color=#{burn}>5</color> (3 Turns)
+item_description_fire_grenade=<sprite name={q}icon_burn{q}> <color=#{burn}>3</color> (3 Turns)
+item_description_fishermans_net=Add <sprite name={q}token_immoblize{q}> x2\n<color=#{debuff}>-5</color> <sprite name={q}icon_speed{q}> (3 Turns)\n<color=#{debuff}>-33%</color> <sprite name={q}icon_bleed{q}> RES (3 Turns)
+item_description_holy_water=Remove <sprite name={q}token_combo{q}> and All <color=#{debuff}>Negative</color> Tokens
+item_description_ichor_bomb=<sprite name={q}icon_blight{q}> <color=#{blight}>5</color> (3 Turns)
+item_description_invigorating_intoxicant=<color=#{notable}>+25%</color> <sprite name={q}icon_death_outline{q}>RES (3 Turns)\n<color=#{notable}>+6</color> <sprite name={q}icon_speed{q}> while on <color=#{deathdoor}>Death's Door</color> (3 Turns)\n<color=#{notable}>+10%</color> CRIT while on <color=#{deathdoor}>Death's Door</color> (3 Turns)
+item_description_laudanum=Remove <sprite name={q}token_horror{q}>\n<color=#{notable}>-1</color> <sprite name={q}token_stress{q}>
+item_description_medicinal_herbs=Remove <sprite name={q}icon_bleed{q}> <sprite name={q}icon_blight{q}> <sprite name={q}icon_burn{q}>
+item_description_makeshift_javelin=<color=#{move}>Knockback</color> 3 \n Add <sprite name={q}token_immoblize{q}>
+item_description_neutralizing_powders=<color=#{notable}>+66%</color> <sprite name={q}icon_blight{q}> RES (3 Turns)\nGain On <sprite name={q}icon_blight{q}> Resist: <color=#{notable}>-1</color> <sprite name={q}token_stress{q}> (3 Turns)
+item_description_noisemaker=Add <sprite name={q}token_taunt{q}> x2\nAdd <sprite name={q}token_block{q}>
+item_description_oil_flask=<color=#{debuff}>-40%</color> <sprite name={q}icon_move{q}> RES (3 Turns)\n<color=#{debuff}>-33%</color> <sprite name={q}icon_burn{q}> RES (3 Turns)\nAdd <sprite name={q}token_daze{q}> (20%)
+item_description_pouch_of_lye=Clear all corpses
+item_description_pyrotechnic_dazzler=Add 2 at random\n<sprite name={q}token_blind-line{q}> or <sprite name={q}token_daze{q}> or <sprite name={q}token_stun{q}> or <sprite name={q}token_vulnerable{q}> or <color=#{debuff}>-4</color> <sprite name={q}icon_speed{q}> (3 Turns)
+item_description_rag=Remove <sprite name={q}token_blind-line{q}>
+item_description_scrap_grenade=<sprite name={q}icon_bleed{q}> <color=#{bleed}>3</color> (3 Turns)
+item_description_shimmering_powder=Add <sprite name={q}token_stealth{q}> x2\n<color=#{notable}>+2</color> <sprite name={q}icon_speed{q}> (3 Turns)
+item_description_single_leech=Remove <sprite name={q}icon_disease{q}>\n<sprite name={q}icon_bleed{q}> <color=#{bleed}>2</color> (3 Turns)
+item_description_smelling_salts=Remove <sprite name={q}token_daze{q}> <sprite name={q}token_stun{q}>\nAdd <sprite name={q}token_dodge{q}>
+item_description_smoke_bomb=Add <sprite name={q}token_blind-line{q}> x2
+item_description_spiked_ball=<sprite name={q}icon_bleed{q}> <color=#{bleed}>5</color> (3 Turns)
+item_description_stimulants=Add <sprite name={q}token_strength{q}>\n<color=#{notable}>+5</color> <sprite name={q}icon_speed{q}> (3 Turns)
+item_description_thunderclap_grenade=<color=#{move}>Shuffle</color> enemy party\nAdd <sprite name={q}token_stun{q}> (25%)
+item_description_torch_consumable=+15 <color=#{notable}>Flame</color>
+item_description_toxic_ichor=<color=#{debuff}>-33%</color> <sprite name={q}icon_bleed{q}> <sprite name={q}icon_blight{q}> <sprite name={q}icon_burn{q}> RES (3 Turns)
+item_description_toxic_spores=<sprite name={q}icon_blight{q}> <color=#{blight}>3</color> (3 Turns)
+item_description_trephine_bur=Convert <sprite name={q}token_vulnerable{q}> to <sprite name={q}token_block{q}>, <sprite name={q}token_blind-line{q}> to <sprite name={q}token_dodge{q}>, <sprite name={q}token_weak{q}> to <sprite name={q}token_strength{q}>, <sprite name={q}token_daze{q}> to <sprite name={q}token_speed{q}>\n10% DMG
+item_description_war_horn=Add <sprite name={q}token_strength{q}> x2
+item_description_pustule_salve=Remove <sprite name={q}icon_bleed{q}> <sprite name={q}icon_blight{q}> <sprite name={q}icon_burn{q}>\n<color=#{heal}>Heal 25%</color>
+item_description_the_blood=Add <sprite name={q}token_crit{q}><sprite name={q}token_strength{q}><sprite name={q}token_speed{q}>\nAdd <sprite name={q}token_horror{q}>1 (3 Turns)
+item_description_otherworldly_fragment=<sprite name={q}icon_blight{q}> <color=#{blight}>5</color> (3 Turns)\n<sprite name={q}icon_burn{q}> <color=#{burn}>5</color> (3 Turns)
+item_description_space_dust=Clear all skill cooldowns
+item_description_healing_consumable_1=<color=#{heal}>Heal 33%</color>
+item_description_healing_consumable_2=<color=#{heal}>Heal 75%</color>
+item_description_spring_water=<color=#{notable}>-3</color> <sprite name={q}token_stress{q}>\n<color=#{heal}>Heal 10%</color>
+item_description_wilburs_flag=Add <sprite name={q}token_combo{q}> <sprite name={q}token_vulnerable{q}>
+item_description_unnatural_pigment=Copy All <color=#{notable}>Positive</color> Tokens
+item_description_shred_of_decency=Remove 1 <sprite name={q}token_worship{q}>
+#
+# INN ITEM DESCRIPTIONS
+#  actor_stat_type_resistance_stress=<sprite name={q}token_stress{q}> RES
+#  actor_stat_type_resistance_stun=<color=#{neutral}><sprite name={q}icon_stun{q}> RES</color>
+#  actor_stat_type_resistance_move=<color=#{neutral}><sprite name={q}icon_move{q}> RES</color>
+#  actor_stat_type_resistance_blight=<color=#{neutral}><sprite name={q}icon_blight{q}> RES</color>
+#  actor_stat_type_resistance_bleed=<color=#{neutral}><sprite name={q}icon_bleed{q}> RES</color>
+#  actor_stat_type_resistance_burn=<color=#{neutral}><sprite name={q}icon_burn{q}> RES</color>
+#  actor_stat_type_resistance_debuff=<color=#{neutral}><sprite name={q}icon_debuff{q}> RES</color>
+#  actor_stat_type_resistance_ignore_blight=<color=#{neutral}><sprite name={q}icon_blight{q}> RES Piercing</color>
+#  actor_stat_type_resistance_ignore_bleed=<color=#{neutral}><sprite name={q}icon_bleed{q}> RES Piercing</color>
+#  actor_stat_type_resistance_ignore_burn=<color=#{neutral}><sprite name={q}icon_burn{q}> RES Piercing</color>
+#  actor_stat_type_resistance_death=<color=#{neutral}><sprite name={q}icon_death_outline{q}> RES</color>
+#  actor_stat_type_resistance_disease=<color=#{neutral}><sprite name={q}icon_disease{q}> RES</color>
+actor_stat_type_remove_percent_driving=Traveling <color=#{notable}>Flame</color> Drain
+actor_stat_type_player_inventory_max_slots=Inventory Slots
+item_max_qty_increase_bundle_label=Increases stacking for <color=#{notable}>{0}</color> by <color=#{notable}>{1}</color> per stack
+#
+# CURRENCY DESCRIPTIONS
+item_quote_cave_dirt=<i>Innocuous loam promising a\n\n\nreturn to the growing season.</i>
+item_quote_city_books=<i>Knowledge and tales saved\n\n\nfrom flame's erasure.</i>
+item_quote_farm_spoons=<i>Hard earned trophies from\n\n\nbountiful harvests long past.</i>
+item_quote_forest_medals=<i>Tarnished awards from\n\n\ncampaigns long-forgotten.</i>
+item_quote_coast_starfish=<i>A husk of uncorrupted life. Pure. Precious.</i>
+item_quote_gold=<i>Memories and impressions\n\n\nfrom a bygone age.</i>
+item_quote_candles=<i>Faint glimmers that whisper\n\n\nof a brighter hereafter.</i>
+item_quote_valley_baubles=<i>They glitter, resplendent and wistful.</i>
+#
+# ANIMAL PART DESCRIPTIONS
+item_description_spider_gland=<color=#{notable}>Deliver to the Inn to gain:</color>\nDiscounted trinkets\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+item_description_spider_appendage=<color=#{notable}>Deliver to the Inn to gain:</color>\nDiscounted combat and Inn items\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+item_description_worm_slime=<color=#{notable}>Deliver to the Inn to gain:</color>\n<color=#{notable}>-3</color> <sprite name={q}token_stress{q}> [Party]\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+item_description_dog_teeth=<color=#{notable}>Deliver to the Inn to gain:</color>\nDiscounted Stagecoach items\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+item_description_worm_secretion=<color=#{notable}>Deliver to the Inn to gain:</color>\nRemove diseases [Party]\n+2 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+item_description_dog_blood=<color=#{notable}>Deliver to the Inn to gain:</color>\nRemove 1 negative quirk [Party]\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+#
+# DELIVERABLE ITEM DESCRIPTIONS
+item_description_locked_strongbox=<color=#{notable}>Deliver to the Inn to gain:</color>\nMixed Treasure\n +48 <sprite name={q}icon_relic{q}>
+item_description_hero_bones_01=<color=#{notable}>Deliver to the Inn to gain:</color>\n+4 <sprite name={q}icon_candle_glyph{q}>
+item_description_hero_bones_02=<color=#{notable}>Deliver to the Inn to gain:</color>\n+4 <sprite name={q}icon_candle_glyph{q}>
+item_description_hero_bones_03=<color=#{notable}>Deliver to the Inn to gain:</color>\n+4 <sprite name={q}icon_candle_glyph{q}>
+item_description_puzzling_trapezohedron=<color=#{notable}>Deliver to the Inn to gain:</color>\n+48 <sprite name={q}icon_factioncurrency{q}>
+item_description_physicians_guild_seal=<color=#{notable}>Deliver to the Inn to gain:</color>\n<color=#{notable}>Round Start:</color> <sprite name={q}icon_healthup{q}> <color=#{heal}>2</color> (5%) (1 Inn) [Party]\n<color=#{notable}>+20%</color> Healing Given (1 Inn) [Party]\n+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>
+#
+# SIGNATURE INN ITEM QUOTES
+item_quote_oddly_tuned_lute=\n<i>"hehe let's just say the mood is upon me."</i>\n
+item_quote_morbid_joke=\n<i>"Wrecked him? That it surely did."</i>\n
+item_quote_improvised_strategy=\n<i>"I've been thinking..."</i>\n
+item_quote_experimental_remedy=\n<i>"Just a little something I've been working on."</i>\n
+item_quote_precious_collection=\n<i>"A little beauty yet remains..."</i>\n
+item_quote_tar_filled_colambre=\n<i>"I'll cover myself with this... mind the fumes."</i>\n
+item_quote_guided_meditation=\n<i>"Let us empty our minds..."</i>\n
+item_quote_the_very_best=\n<i>"Oh darling, you can't get this anywhere."</i>\n
+item_quote_war_paint=\n<i>"It is time to kill. Or time to die."</i>\n
+item_quote_holy_hymnal=\n<i>"I find this canticle particularly... evocative."</i>\n
+item_quote_pain_box=\n<i>"Fear is the mind-killer..."</i>\n
+#
+# COMBAT ITEM SKILL NAMES
+skill_name_ablative_powders=Ablative Powders
+skill_name_adrenaline_tonic=Adrenaline Tonic
+skill_name_antivenom=Antivenom
+skill_name_bandages=Bandages
+skill_name_bear_trap=Bear Trap
+skill_name_bone_saw=Bone Saw
+skill_name_burn_salve=Burn Salve
+skill_name_crows_feet=Crow's Feet
+skill_name_chalk_dust=Chalk Dust
+skill_name_clotting_powders=Clotting Powders
+skill_name_death_cap_spores=Death Cap Spores
+skill_name_fire_bomb=Fire Bomb
+skill_name_fire_grenade=Fire Grenade
+skill_name_fishermans_net=Fisherman's Net
+skill_name_healing_consumable_1=Healing Salve
+skill_name_healing_consumable_2=Triage Kit
+skill_name_holy_water=Holy Water
+skill_name_ichor_bomb=Ichor Bomb
+skill_name_invigorating_intoxicant=Invigorating Intoxicant
+skill_name_laudanum=Laudanum
+skill_name_makeshift_javelin=Makeshift Javelin
+skill_name_medicinal_herbs=Medicinal Herbs
+skill_name_neutralizing_powders=Neutralizing Powders
+skill_name_noisemaker=Noisemaker
+skill_name_oil_flask=Oil Flask
+skill_name_pouch_of_lye=Pouch Of Lye
+skill_name_pyrotechnic_dazzler=Pyrotechnic Dazzler
+skill_name_rag=Milk-Soaked Linen
+skill_name_scrap_grenade=Scrap Grenade
+skill_name_shimmering_powder=Shimmering Powder
+skill_name_smelling_salts=Smelling Salts
+skill_name_smoke_bomb=Smoke Bomb
+skill_name_spiked_ball=Spiked Ball
+skill_name_stimulants=Stimulants
+skill_name_thunderclap_grenade=Thunderclap Grenade
+skill_name_torch_consumable=A Glimmer of Hope
+skill_name_toxic_ichor=Toxic Ichor
+skill_name_toxic_spores=Spore Grenade
+skill_name_war_horn=War Horn
+skill_name_otherworldly_fragment=Otherworldly Fragment
+skill_name_pustule_salve=Pustule Salve
+skill_name_the_blood=The Blood
+skill_name_space_dust=Ethereal Dust
+skill_name_spring_water=Mineral-Rich Spring Water
+skill_name_wilburs_flag=Wilbur's Flag
+skill_name_unnatural_pigment=Unnatural Pigment
+skill_name_shred_of_decency=Shred of Decency
+skill_name_single_leech=Single Leech
+skill_name_trephine_bur=Trephine Bur
+#
+#MISCELLANEOUS
+trinket_set_bonus_label=Set Bonus:

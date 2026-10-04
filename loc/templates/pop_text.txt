@@ -1,0 +1,62 @@
+﻿pop_text_affinity_change_positive=+${value}
+pop_text_affinity_change_negative=${value}
+pop_text_damage_block_format=<size=85%><color=#{neutral}><s>{0} </s></color></size>
+pop_text_crit_damage_block_format=<color=#{crit}><size=80%>Critical!</size></color>
+pop_text_damage_format=<color=#{damage}>{0}</color>
+pop_text_crit_damage_format=<size=100%><color=#{crit}>{0}</color></color>
+pop_text_damage=<color=#{damage}>${value}</color>
+pop_text_damage=<color=#{damage}>${value}</color>
+pop_text_deaths_door=<color=#{deathdoor}>Death's Door</color>
+pop_text_deaths_door_survive=<color=#{deathdoor}>Death's Door!</color>
+pop_text_dodge=Dodge
+pop_text_health_damage=<color=#{damage}>${value}</color>
+pop_text_health_damage_in_line=<color=#{damage}>${value}</color>
+pop_text_health_damage_block=Block
+pop_text_health_damage_crit=<color=#{crit}><size=50%>Critical!</size>\n${value}</color>
+pop_text_health_damage_riposte=<color=#{damage}>Riposte! ${value}</color>
+pop_text_health_heal=<color=#{heal}>${value}</color>
+pop_text_health_heal_crit=<color=#{heal}><size=50%>Critical!</size>\n${value}</color>
+pop_text_health_heal_noncombat=<color=#{heal}>${value}</color>
+pop_text_health_heal_crit_noncombat=<color=#{heal}><size=50%>Critical!</size>\n${value}</color>
+pop_text_combo_consumed=<color=#{combo_token}>COMBO!</color>\n<color=#{damage}>${value}</color>
+pop_text_kill= 
+pop_text_miss=Miss
+pop_text_stress_damage=${value}
+pop_text_stress_damage_small=${value}
+pop_text_stun=Stun!
+pop_text_daze=Daze!
+pop_text_resist_token_add= 
+pop_text_resist_buff_add= 
+pop_text_relationship_clear={0}\nCleared!
+pop_text_resist_debuff=<color=#{debuff}>Resist!</color>
+pop_text_resist_dot_add= 
+pop_text_stress_heal=${value}
+pop_text_stress_heal_small=${value}
+pop_text_dot_add=added
+pop_text_dot_applied_bleed=<color=#{bleed}>${value}</color>
+pop_text_dot_applied_blight=<color=#{blight}>${value}</color>
+pop_text_dot_applied_burn=<color=#{burn}>${value}</color>
+pop_text_dot_applied_horror=<color=#{stress}>${value}</color>
+pop_text_dot_applied_hot=<color=#{heal}>${value}</color>
+pop_text_dot_applied_taproot_strangle=<color=#{strangle}>${value}</color>
+pop_text_token=Added
+pop_text_token_plural=Added x{0}
+pop_text_token_class_hero_source=Class
+pop_text_token_class_enemy_source=Spawn
+pop_text_resist=Resist
+pop_text_dot_added_bleed=<color=#{bleed}>Bleed</color>
+pop_text_dot_added_blight=<color=#{blight}>Blight</color>
+pop_text_dot_added_burn=<color=#{burn}>Burn</color>
+pop_text_dot_added_horror=Horror
+pop_text_dot_added_hot=<color=#{heal}>Regen</color>
+pop_text_dot_added_taproot_strangle=<color=#{strangle}>Strangle</color>
+pop_text_deathblow=Deathblow!
+pop_text_debuff=Debuff!
+pop_text_buff=Buff!
+pop_text_cured=Cured!
+pop_text_locked=Locked!
+pop_text_meltdown=Meltdown!
+pop_text_resolute=Resolute!
+pop_text_rest_item_block_relationship=Blocked! (relationship)
+pop_text_item_discarded=+${value} Hope
+pop_text_immune=Immune

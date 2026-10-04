@@ -1,0 +1,36 @@
+##FLAGELLANT CHAPTERS
+hero_story_flagellant_chapter_title_0=Baptism
+hero_story_flagellant_chapter_title_1=In Service of the Divine
+hero_story_flagellant_chapter_title_2=More, more!
+hero_story_flagellant_chapter_title_3=Death's Door
+hero_story_flagellant_chapter_title_4=Behold the Man
+
+#FLAGELLANT HERO STORY GOALS
+battle_goal_flagellant_combat_1=Defy Death
+
+##FLAGELLANT HERO STORY 1 STRINGS
+#
+#NAMES
+herostory_flg_1=Flagellant
+herostory_flg_1_death=Death
+
+#SKILLS
+skill_name_flg_1_punish=Punish
+skill_name_flg_1_acid_rain=Acid Rain
+skill_name_flg_1_more_more=More! MORE!
+skill_name_flg_1_lash_kiss=Lash's Kiss
+skill_name_flg_1_sepsis=Sepsis
+skill_name_flg_1_sepsis_finisher=Sepsis
+skill_name_flg_1_death_shadow_of_death=Shadow of Death
+skill_name_flg_1_death_soul_reaver=Soul Reaver
+skill_name_flg_1_death_waning_crescent=Waning Crescent
+skill_name_flg_1_death_trample=Trample
+
+#BARKS
+
+bark_herostory_flg_1_round_1=N-no!  You shall not have me!
+bark_herostory_flg_1_round_2=T-there is too much left to taste!
+bark_overstressed_herostory_toxic=Such sweet suffering, such bitter delight!
+bark_herostory_flg_1_death_50pct=Your reputation is overstated, hm?
+bark_herostory_flg_1_death_25pct=I will endure this - and live forever!
+bark_herostory_flg_1_death_dd=Begone! Leave me to my morbid delights!

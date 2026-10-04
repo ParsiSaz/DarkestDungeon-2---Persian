@@ -1,0 +1,1 @@
+﻿debug_data_context_class_label=Class: ${character_class}

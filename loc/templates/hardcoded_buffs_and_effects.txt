@@ -1,0 +1,29 @@
+﻿buff_combo_res_pen_blight_20pct=+20% <sprite name={q}icon_blight{q}> RES Piercing
+buff_combo_res_pen_blight_30pct=+30% <sprite name={q}icon_blight{q}> RES Piercing
+buff_combo_res_pen_bleed_20pct=+20% <sprite name={q}icon_bleed{q}> RES Piercing
+buff_combo_res_pen_bleed_30pct=+30% <sprite name={q}icon_bleed{q}> RES Piercing
+buff_item_deathblow_resist_debuff=<color=#{debuff}>-20% Deathblow RES</color>
+buff_item_basic_bleed_resist_debuff=<color=#{bleed}>-25% Bleed RES</color>
+buff_item_basic_blight_resist_debuff=<color=#{blight}>-25% Blight RES</color>
+buff_item_basic_burn_resist_debuff=<color=#{burn}>-25% Burn RES</color>
+buff_item_basic_burn_resist=+25% <color=#{burn}>Burn</color> RES
+buff_item_basic_blight_resist=+25% <color=#{blight}>Blight</color> RES
+buff_item_basic_bleed_resist=+25% <color=#{bleed}>Bleed</color> RES
+buff_pd_ounce_of_prevention_dot_res_buff=+15% <color=#{buff}><sprite name={q}icon_bleed{q}> <sprite name={q}icon_blight{q}> <sprite name={q}icon_burn{q}> RES</color>
+buff_pd_ounce_of_prevention_disease_res_buff=+25% <color=#{buff}><sprite name={q}icon_disease{q}> RES</color>
+buff_pd_ounce_of_prevention_dot_res_buff_u=+25%<sprite name={q}icon_bleed{q}> <sprite name={q}icon_blight{q}> <sprite name={q}icon_burn{q}>RES
+buff_pd_ounce_of_prevention_disease_res_buff_u=+50%<sprite name={q}icon_disease{q}>RES
+buff_jes_echoing_march_pull=<color=#{move}>Pull 1 </color>on Turn Start
+buff_jes_echoing_march_pull_u=<color=#{move}>Pull 1 </color>on Turn Start
+buff_leper_revenge_strength=Turn Start: <sprite name={q}token_strength{q}>
+buff_leper_revenge_crit=<color=#{buff}>Turn Start:</color> <sprite name={q}token_crit{q}> (15%)
+buff_leper_withstand_block=<color=#{buff}>Turn Start:</color> <sprite name={q}token_deflect{q}>
+buff_leper_ruin_damage_buff_manager=<color=#{buff}>When damaged, raise own DMG +20%</color>
+buff_leper_reflection_debuff_res_buff=+20% <color=#{buff}><sprite name={q}icon_debuff{q}> RES</color>
+buff_test_hs_jester_fake_tooltip=<color=#{neutral}>"Play like your life depends on it..."</color>
+buff_fake_tt_jester_cambiata_description=<color=#{neutral}>Changes Note</color>
+buff_ignore_deathblow_resist_small=+10% <sprite name={q}icon_death_outline{q}> RES Piercing
+buff_ignore_deathblow_resist_medium=+20% <sprite name={q}icon_death_outline{q}> RES Piercing
+buff_ignore_deathblow_resist_large=+30% <sprite name={q}icon_death_outline{q}> RES Piercing
+buff_ignore_deathblow_resist_massive=+50% <sprite name={q}icon_death_outline{q}> RES Piercing
+buff_stealth_ignore_deaths_door=Ignore <color=#{deathdoor}>Death's Door</color>

@@ -1,0 +1,117 @@
+
+gamepad_movie_screen_skip_prompt=Hold @{SkipCinematic} to skip
+gamepad_item_discard=Hold @{Discard} to Discard
+gamepad_credits_hold_exit_label=Hold any button to exit
+
+gamepad_story_screen_click_hold_to_select_label=Use @{leftStick} to make a selection, hold @{Submit} to confirm selection.
+
+gamepad_driving_map_button_tooltip=Map @{CycleLeftPanel}
+gamepad_driving_biome_panel_button_tooltip=Goals & Conditions @{CycleLeftPanel}
+gamepad_driving_inventory_button_tooltip=Inventory @{CycleRightPanel}
+gamepad_driving_coach_button_tooltip=Stagecoach @{CycleRightPanel}
+gamepad_driving_character_sheet_button_tooltip=Hero Sheet
+
+gamepad_options_menu_controls_hold_to_drive_label=Hold @{Move:positive} to Drive
+
+gamepad_tutorial_toast_tooltip_label=Press <color=#{notable}>@{OpenToast}</color> to view / Hold <color=#{notable}>@{DismissAllToasts}</color> to dismiss all notifications
+
+#100
+gamepad_tutorial_t100_description=The Stagecoach is your carriage, coffin, and confessional.\n\nPress <color=#{notable}>@{Move:positive}</color> or @{leftStick} up once to order the Stagecoach forward. Press <color=#{notable}>@{Move:negative}</color> or @{leftStick} down to halt it.\n\nThe Stagecoach will steer automatically. You can fine-tune its path with <color=#{notable}>@{leftStick}</color> left/right.
+
+gamepad_tutorial_t102_description=Press @{NextActor} to bring up the Stagecoach View. This shows what upgrades are currently installed on the coach as well as current <color=#{notable}>armor</color> <sprite name={q}icon_currency_armor{q}> and <color=#{notable}>wheel</color> <sprite name={q}icon_currency_wheel{q}> points.\n\nStagecoach items can only be changed at the <color=#{notable}>Wainwright</color>, who is present at each <color=#{notable}>Inn</color>. The Wainwright also can repair <sprite name={q}icon_currency_armor{q}> and <sprite name={q}icon_currency_wheel{q}>, for a fee.
+
+#200
+gamepad_tutorial_t201_description= Cycle through heroes with @{CycleLeftPanel} and @{CycleRightPanel}. Press @{Submit} while selecting hero portraits to assemble your party of four heroes. Press @{Submit} again to confirm their position in the roster. \n\nThe hero in the rightmost position of your roster will be first in the combat line.
+
+gamepad_tutorial_t202_description=To rearrange your party order while driving, press @{CycleLeftPanel} and @{CycleRightPanel} to select a hero on the bottom roster. Hold @{Submit} to begin position select.\n\nPress @{CycleLeftPanel} and @{CycleRightPanel} or @{PrevActor} and @{NextActor} or use @{leftStick} to select a new position and then press @{Submit} to confirm their new position in the roster. \n\nParty order determines what position each hero is in when battle starts. The furthest hero to the right begins at the front line of combat.
+
+#300
+gamepad_tutorial_t300_description=The hero sheet holds critical information. Open it by selecting a hero with @{CycleLeftPanel} and @{CycleRightPanel} and pressing @{Submit}.
+
+gamepad_tutorial_t302_description=Regardless of which tab you're on, you can always see the hero's stats, quirks, diseases, and trinkets.\n\nPress @{MoreInfo} to go into ALT view and use @{PrevStat} or @{NextStat} to cycle through any stat and to view tooltips that shows any active <color=#{notable}>buffs</color> or <color=#{notable}>debuffs</color>.
+
+gamepad_tutorial_t306_description=To change which combat skills are equipped, press @{Submit} on each skill to toggle the skill <color=#{notable}>on</color> or <color=#{notable}>off</color>. You can have five skills equipped at one time.\n\nIf the hero only has five skills available, you must visit <color=#{notable}>Shrines of Reflection</color> to unlock more skills.
+
+#400
+gamepad_tutorial_t400_description=Outside of the Valley, the road becomes more complex.\n\nTo see what lies ahead, open the <color=#{notable}>minimap</color> with @{Minimap}
+
+gamepad_tutorial_t401_description=The <color=#{notable}>minimap</color> shows you the road ahead, as best you know it.\n\nLocations that you can visit are shown by icons. If the location is <color=#{notable}>scouted</color> (known), the icon will tell you exactly what is there. <color=#{notable}>unscouted</color> locations are shown by '?'.\n\nUse <color=#{notable}>@{rightStick}</color> to navigate between the minimap nodes.
+
+gamepad_tutorial_t405_description=Press @{MoreInfo} while driving to quickly see the Flame level, buffs/debuffs, and loathing effects.
+
+#500
+gamepad_tutorial_t500_description=Forks in the road will give two or three potential destinations as shown by icons above the road. If the way ahead is <color=#{notable}>scouted</color>, these icons will be revealed.\n\nTo choose, hold @{leftStick} in the direction you would like to go.\n\nHeroes may voice their own preferences for the route, shown by corresponding icons above their portrait heads. <color=#{notable}>Beware:</color> choosing a destination different than what a hero wants will cause them <sprite name={q}token_stress{q}>.
+
+#600
+gamepad_tutorial_t600_description=Your Stagecoach is limited in how many items it can carry. Press <color=#{notable}>@{Inventory}</color> to open the inventory.
+
+gamepad_tutorial_t601_description=Your shared inventory is split between all item types. Some items stack well, whereas others take an entire slot.\n\nPress @{PrevTab} or @{NextTab} to cycle between <color=#{notable}>tab filters</color> to easily see each item type.\n\nSome Stagecoach items increases stacking limits.
+
+gamepad_tutorial_t602_description=If the Stagecoach becomes full, you may wish to discard less important items. Hold @{Discard} on the selected item to discard.\n\nItems cannot be sold anywhere, so throw away what you don't need.
+
+#700
+gamepad_tutorial_t702_description=Open Inventory with @{Inventory} and press @{PrevTab} or @{NextTab} to cycle to the <color=#{notable}>trinket</color> filter to see only trinkets.\n\nOpen the <color=#{notable}>Hero Sheet</color> by pressing @{CycleLeftPanel} and @{CycleRightPanel} to select a hero then press @{Submit}.\n\nPress @{Submit} to select a trinket from inventory and then press @{Submit} to equip it to the hero.
+
+gamepad_tutorial_t703_description=Combat items are equipped into a dedicated <color=#{notable}>skill slot</color> on each hero. To equip one, press @{Submit} on the combat slot in the <color=#{notable}>Hero Sheet</color> and then press @{Submit} on the selected combat item from the <color=#{notable}>Inventory</color>.\n\nEquipping a combat item allows it to be used during combat.\n\nCombat items are <color=#{notable}>free actions</color>. One item may be used each hero turn, right before they use their normal skill.
+
+#800
+gamepad_tutorial_t800_description=During encounters such as this one, you must pick one of the choices by holding @{Submit} on one of your heroes. The results will be previewed at the bottom of the screen.
+
+#1100
+gamepad_tutorial_t1101_description=Each hero pair has an <color=#{notable}>affinity</color> value which describes how friendly or unfriendly they feel towards one another. This directly determines the chances of that pair forming a <color=#{notable}>relationship</color> at the next Inn.\n\n To view <color=#{notable}>affinities</color>, open any hero's <color=#{notable}>Hero Sheet</color> and look at the <color=#{notable}>relationships tab</color>.\n\nWhile on the road, open the <color=#{notable}>Hero Sheet</color> by pressing @{CycleLeftPanel} and @{CycleRightPanel} to select a hero then press @{Submit}.
+
+#1300
+gamepad_tutorial_t1301_description=Each hero or enemy rolls <color=#{notable}>initiative</color> at the beginning of each round, and this is modified by their <color=#{notable}>speed</color>.\n\nThe turn order is shown by the <color=#{notable}>portraits</color> in the top right of the screen.\n\nPress @{MoreInfo} to allow navigation between all heroes and enemies and to see who is next in the turn order.\n\nOnly a partial turn order is shown. You can plan ahead a little, but not completely.
+
+gamepad_tutorial_t1302_description=On a hero's turn, you may first use a <color=#{notable}>combat item</color>, if they have one equipped. This is a <color=#{notable}>free action</color>.\n\nThen you may use a hero <color=#{notable}>skill</color> normally.\n\nTo use a <color=#{notable}>combat item</color>, press @{Submit} on the item in the displayed skill bar.
+
+gamepad_tutorial_t1304_description=In addition to doing damage, skills can cause a variety of effects. Most of those effects are shown by <color=#{notable}>tokens</color>.
+
+gamepad_tutorial_t1305_description=In combat, hold @{NextStat} to view the <color=#{notable}>Token Glossary</color>.\n\nYou can view the <color=#{notable}>Token Glossary</color> any time in the pause menu. Press @{PauseMenu} to access the pause menu, navigate to the <color=#{notable}>Token Glossary</color> option, and press @{Submit}.
+
+#ALL OF THE ABOVE IS UPDATED - START HERE:
+
+gamepad_tutorial_t1306_description=During combat, hold @{AcademicView_Hold} or press @{AcademicView_Toggle} on the selected hero or enemy to see the <color=#{notable}>Academic View</color>.\n\nPress @{MoreInfo} to allow navigation between all heroes and enemies so you can enter Academic view on any character.\n\nThis valuable screen shows full details on any <color=#{notable}>tokens</color> the combatant has.\n\nPerhaps even more valuable, the view shows details about what <color=#{notable}>combat skills</color> enemies have. Skills start hidden, but as you observe the enemy use them in combat, the <color=#{notable}>details will be revealed</color>.
+
+gamepad_tutorial_t1321_description=In some battles, the entire enemy party will benefit from a <color=#{notable}>battle advantage</color>. When present, you'll see the advantage icon in the top left of the screen. Press @{MoreInfo} it to see what the <color=#{notable}>battle advantage</color> does.\n\nLow Flame makes battle advantages more likely, so beware!
+
+#1400
+gamepad_tutorial_t1400_description=<color=#{notable}>Do not let the Flame expire.</color>\n\nThe Stagecoach carries the <color=#{notable}>Flame</color>, which is the last hope for the world. It will gradually diminish as you drive, but helping local populace in <color=#{notable}>Assistance Encounters</color> can refill it. The lower it gets, the harder things will be for the party.\n\nPress @{MoreInfo} to see the Flame level and effects.
+
+gamepad_tutorial_t1401_description=When the <color=#{notable}>Flame</color> gets below 40, things start to get significantly more dangerous for the heroes.\n\nPress @{MoreInfo} to view the Flame tooltip to see the effects as the level changes. <color=#{notable}>These effects vary by Confession.</color>\n\nFind an <color=#{notable}>Assistance Encounter</color> or buy some <color=#{notable}>Glimmers of Hope</color> before the Flame is extinguished.
+
+#1600
+gamepad_tutorial_t1602_description=To view <color=#{notable}>Inn items</color> in your party's possession, select your inventory and press @{PrevTab} or @{NextTab} to cycle to the Inn items filter.\n\nTo use Inn items, press @{Submit} on an inn item in the inventory, then press @{Submit} on the target hero. Items may affect 1, 2, or even all 4 heroes at once.
+
+gamepad_tutorial_t1603_description=The <color=#{notable}>Provisioner</color> offers a limited amount of supplies that can be purchased for relics <sprite name={q}icon_relic{q}> or baubles <sprite name={q}icon_factioncurrency{q}>. Press @{Submit} to purchase an item. While The Provisioner is selected, press @{PrevTab} or @{NextTab} to cycle the item type filter.\n\nThe Provisioner's selection varies each time you reach an Inn.
+
+gamepad_tutorial_t1604_description=The <color=#{notable}>Wainwright</color> is the only place where you can install or remove <color=#{notable}>stagecoach items</color>. Press @{Submit} on a stagecoach item in the inventory, then press @{Submit} on an empty stagecoach item slot.\n\nTo view <color=#{notable}>stagecoach items</color> in your party's possession, select your inventory and press @{PrevTab} or @{NextTab} to cycle to the stagecoach items filter.\n\nThe Wainwright can also repair your <sprite name={q}icon_currency_armor{q}> and <sprite name={q}icon_currency_wheel{q}>.
+
+gamepad_tutorial_t1606_description=Regions have a <color=#{notable}>condition</color> and a <color=#{notable}>goal</color> which change each time you encounter them. The condition tells what special game effects are in place for that time only. The goal gives you an optional accomplishment to aim for.\n\nIf you successfully complete the goal, then you will be given the <color=#{notable}>reward</color> shown once you arrive at the next Inn.\n\n Press @{PrevStat} or @{NextStat} to cycle between the region rewards and modifiers on the selected region.
+
+gamepad_tutorial_t1609_description=Each <color=#{notable}>hero skill</color> has one upgrade level. To upgrade, hold @{Submit} on the skill. This costs one mastery <sprite name={q}icon_heropoints{q}>. Cycle through heroes with @{PrevActor} and @{NextActor}.\n\nMastered skills can yield dramatic results. Spend your points wisely--they are <color=#{notable}>shared amongst the entire party</color>.
+
+#2000
+gamepad_tutorial_t2050_description=<color=#{notable}>The Prologue quest is complete</color>. For this first venture through the Valley, there is nothing left to do, so press @{Embark} on the <color=#{notable}>End Expedition</color=> screen at the <color=#{notable}>Inn</color=>.\n\nNormally, the expedition can end in three ways: victory, defeat (all heroes dead), or abandoning.
+
+gamepad_story_info_tooltip=Press @{MoreInfo} for more information on choices
+
+gamepad_upgrade_skill_tooltip_hold_to_show_upgrade_label=<sprite name={q}icon_upgraded_skill{q}>Press @{UpgradedSkillInfo} to Show Upgraded Skill 
+
+
+
+gamepad_legend_confirm=Select
+gamepad_legend_cancel=Cancel
+gamepad_legend_altar_cancel=Cancel/Exit Screen
+gamepad_legend_switch_hero=Change Hero
+gamepad_legend_hospital_select=Select/Purchase
+gamepad_legend_store_select=Purchase
+gamepad_legend_exit=Hold to Exit
+gamepad_legend_navigate=Navigate
+gamepad_legend_character_sheet_more_info=More Info
+gamepad_legend_toggle_hero=Cycle Hero
+gamepad_legend_academic_view=Academic View
+
+gamepad_driving_submit_hold_hero_ribbon_label=Press @{Submit} to view hero sheet\nHold @{Submit} to swap positions
+
+gamepad_candle_overflow_tooltip_desc=Press @{Submit} to convert excess candles to your total score

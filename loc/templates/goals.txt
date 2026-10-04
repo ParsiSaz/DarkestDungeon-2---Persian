@@ -1,0 +1,398 @@
+﻿#
+## REGION MODIFIERS
+#
+biome_mutator_true_evil=TRUE EVIL
+biome_mutator_untouched=UNTOUCHED
+biome_mutator_thick_mud=THICK MUD
+biome_mutator_to_the_end=TO THE END
+biome_mutator_pestilent=PESTILENT
+biome_mutator_corrupting=CORRUPTING
+biome_mutator_blood_moon=BLOOD MOON
+biome_mutator_heat_wave=HEAT WAVE
+biome_mutator_grave_calling=GRAVE CALLING
+biome_mutator_praise_the_sun=PRAISE SUN
+biome_mutator_malaise=MALAISE
+biome_mutator_trench_run=TRENCH RUN
+biome_mutator_maze=MAZE
+biome_mutator_junkyard=TRADE ROUTE
+biome_mutator_healthcare=HEALING WAYS
+biome_mutator_no_time_to_bleed=BLOOD RUN
+biome_mutator_bat_country=BAT COUNTRY
+biome_mutator_light_the_way=WAY IS LIT
+biome_mutator_curious=CURIOUS
+biome_mutator_the_gauntlet=GAUNTLET
+biome_mutator_booty=BOOTY
+biome_mutator_candles_and_war=BLOOD & HOPE
+biome_mutator_candles_and_peace=PEACE & HOPE
+biome_mutator_strategic_plan=STRATEGIC PLAN
+biome_mutator_deluge=DELUGE
+biome_mutator_haze=HAZE
+biome_mutator_recession=RECESSION
+biome_mutator_drought=DROUGHT
+biome_mutator_heavy_winds=HEAVY WINDS
+biome_mutator_devious_plans=DEVIOUS PLANS
+biome_mutator_civilization=CIVILIZATION
+biome_mutator_outpost=OUTPOST
+biome_mutator_big_game=BIG GAME
+biome_mutator_foreboding=FOREBODING
+biome_mutator_treacherous=TREACHEROUS
+biome_mutator_loathsome=LOATHSOME
+biome_mutator_marked_roads=MARKED ROADS
+biome_mutator_crisp_air=CRISP AIR
+biome_mutator_foul_air=FOUL AIR
+#
+## REGION GOALS
+#
+biome_goal_naked_stage_coach=Naked and Afraid
+biome_goal_keep_torch_high=In the Light
+biome_goal_visit_story_assist_3=Helping Hand
+biome_goal_visit_story_cosmic_3=Cosmic Curiosity
+biome_goal_win_story_resist_3=Resist!
+biome_goal_story_resist_not_2=Discretion, not Valor
+biome_goal_visit_cultist_2=Confront!
+biome_goal_win_dungeon=Spelunk
+biome_goal_win_roadfights_6=Patrol
+biome_goal_avoid_watchtower=Fog of War
+biome_goal_avoid_hospital=No Time to Bleed
+biome_goal_avoid_hoarder=Anti-Commerce
+biome_goal_road_fights_not_4=Secret, Safe
+biome_goal_road_fights_low=Secret, Safe
+biome_goal_visit_creature_den=Exterminate!
+biome_goal_visit_oasis=A Moment's Peace
+biome_goal_description_naked_stage_coach=Complete this region with no stagecoach items equipped
+biome_goal_description_keep_torch_high=Keep the Flame at 40+
+biome_goal_description_visit_story_assist_3=Visit 3+ Assistance Encounters
+biome_goal_description_visit_story_cosmic_3=Visit 3+ Academic's Studies
+biome_goal_description_win_story_resist_3=Win 3+ Resistance Encounter Battles
+biome_goal_description_story_resist_not_2=Fight 1 or less Resistance Encounters
+biome_goal_description_visit_cultist_2=Visit 2+ Oblivion's Ingresses
+biome_goal_description_win_dungeon=Clear out the Lair
+biome_goal_description_win_roadfights_6=Win 4+ Road Battles
+biome_goal_description_avoid_watchtower=Avoid the Watchtower
+biome_goal_description_avoid_hospital=Avoid the Field Hospital
+biome_goal_description_avoid_hoarder=Avoid the Hoarder
+biome_goal_description_road_fights_not_4=Fight 3 or less Road Battles
+biome_goal_description_road_fights_low=Fight 6 or less Road Battles
+biome_goal_description_visit_creature_den=Visit a Creature Den
+biome_goal_description_visit_oasis=Visit an Oasis
+inn_biome_goal_reward_label=Reward:
+#
+## RUN GOALS
+#
+# Visit region / nodes - Hero Select Screen
+#
+actor_count_type_inn_visit=Reach Inn
+effect_condition_performer_visit_inn_1_override=Reach Valley Inn
+effect_condition_performer_visit_inn_2_override=Reach the 2nd Inn
+effect_condition_performer_visit_store_2_override=Visit the <color=#{notable}>Hoarder</color> 2+ times
+effect_condition_performer_visit_storyassist_2_override=Visit 2+ <color=#{notable}>Assistance Encounters</color>
+effect_condition_performer_visit_cave_1_override=Enter the <color=#{notable}>Sluice</color>
+effect_condition_performer_visit_city_1_override=Enter the <color=#{notable}>Sprawl</color>
+effect_condition_performer_visit_coast_1_override=Enter the <color=#{notable}>Shroud</color>
+effect_condition_performer_visit_farm_1_override=Enter the <color=#{notable}>Foetor</color>
+effect_condition_performer_visit_forest_1_override=Enter the <color=#{notable}>Tangle</color>
+effect_condition_performer_visit_watchtower_1_override=Scout a region with a <color=#{notable}>Watchtower</color>
+effect_condition_performer_visit_hospital_1_override=Visit a <color=#{notable}>Field Hospital</color>
+effect_condition_performer_visit_storyhero_1_override=Visit a <color=#{notable}>Shrine of Reflection</color>
+effect_condition_performer_visit_storycosmic_2_override=Visit the <color=#{notable}>Academic's Study</color> 2+ times
+effect_condition_performer_visit_oasis_2_override=Visit an <color=#{notable}>Oasis</color> 2+ times
+effect_condition_performer_visit_creatureden_1_override=Visit a <color=#{notable}>Creature Den</color>
+effect_condition_performer_visit_creatureden_2_override=Visit a <color=#{notable}>Creature Den</color> 2+ times
+effect_condition_performer_visit_gauntchirurgeon_1_override=Visit the <color=#{notable}>Chirurgeon's Table</color>
+effect_condition_performer_visit_storycosmic_4_override=Visit the <color=#{notable}>Academic's Study</color> 4+ times
+#
+# Visit region / nodes - Road Panel
+#
+run_goal_progress_t_visit_shop_label=Visit the <color=#{notable}>Hoarder</color>
+run_goal_progress_t_visit_storyassist_label=Visit <color=#{notable}>Assistance Encounters</color>
+run_goal_progress_e_visit_storycosmic_label=Visit the <color=#{notable}>Academic's Study</color>
+run_goal_progress_e_visit_oasis_label=Visit the <color=#{notable}>Oasis</color>
+run_goal_progress_m_visit_ceatureden_label=Visit the <color=#{notable}>Creature Den</color>
+run_goal_progress_h_visit_storycosmic_label=Visit the <color=#{notable}>Academic's Study</color>
+#
+# Kill Enemies - Hero Select Screen
+#
+effect_condition_performer_kill_gaunt_2_override=Land the killing blow on 2+ <color=#{notable}>Gaunt</color>
+effect_condition_performer_kill_pillager_2_override=Land the killing blow on 2+ <color=#{notable}>Pillagers</color>
+effect_condition_performer_kill_animal_2_override=Land the killing blow on 2+ <color=#{notable}>Creatures</color>
+effect_condition_performer_kill_cadaver_2_override=Land the killing blow on 2+ <color=#{notable}>Cadavers</color>
+effect_condition_performer_kill_cosmic_2_override=Land the killing blow on 2+ <color=#{notable}>Cosmic Beings</color>
+effect_condition_performer_kill_fanatic_2_override=Land the killing blow on 2+ <color=#{notable}>Fanatics</color>
+effect_condition_performer_kill_coastal_2_override=Land the killing blow on 2+ <color=#{notable}>Fisherfolk</color>
+effect_condition_performer_kill_gentry_2_override=Land the killing blow on 2+ <color=#{notable}>Gentry</color>
+effect_condition_performer_kill_swine_2_override=Land the killing blow on 2+ <color=#{notable}>Swine</color>
+effect_condition_performer_kill_gaunt_4_override=Land the killing blow on 4+ <color=#{notable}>Gaunt</color>
+effect_condition_performer_kill_pillager_4_override=Land the killing blow on 4+ <color=#{notable}>Pillagers</color>
+effect_condition_performer_kill_animal_4_override=Land the killing blow on 4+ <color=#{notable}>Creatures</color>
+effect_condition_performer_kill_cadaver_4_override=Land the killing blow on 4+ <color=#{notable}>Cadavers</color>
+effect_condition_performer_kill_cosmic_4_override=Land the killing blow on 4+ <color=#{notable}>Cosmic Beings</color>
+effect_condition_performer_kill_fanatic_4_override=Land the killing blow on 4+ <color=#{notable}>Fanatics</color>
+effect_condition_performer_kill_coastal_4_override=Land the killing blow on 4+ <color=#{notable}>Fisherfolk</color>
+effect_condition_performer_kill_gentry_4_override=Land the killing blow on 4+ <color=#{notable}>Gentry</color>
+effect_condition_performer_kill_swine_4_override=Land the killing blow on 4+ <color=#{notable}>Swine</color>
+effect_condition_performer_kill_gaunt_8_override=Land the killing blow on 8+ <color=#{notable}>Gaunt</color>
+effect_condition_performer_kill_pillager_8_override=Land the killing blow on 8+ <color=#{notable}>Pillagers</color>
+effect_condition_performer_kill_animal_8_override=Land the killing blow on 8+ <color=#{notable}>Creatures</color>
+effect_condition_performer_kill_cadaver_8_override=Land the killing blow on 8+ <color=#{notable}>Cadavers</color>
+effect_condition_performer_kill_cosmic_8_override=Land the killing blow on 8+ <color=#{notable}>Cosmic Beings</color>
+effect_condition_performer_kill_fanatic_8_override=Land the killing blow on 8+ <color=#{notable}>Fanatics</color>
+effect_condition_performer_kill_coastal_8_override=Land the killing blow on 8+ <color=#{notable}>Fisherfolk</color>
+effect_condition_performer_kill_gentry_8_override=Land the killing blow on 8+ <color=#{notable}>Gentry</color>
+effect_condition_performer_kill_swine_8_override=Land the killing blow on 8+ <color=#{notable}>Swine</color>
+effect_condition_performer_kill_lair_boss_any_1_override=Land the killing blow on a <color=#{notable}>Lair Boss</color>
+effect_condition_performer_kill_lair_boss_city_1_override=Land the killing blow on the <color=#{notable}>Lair Boss</color> in The Sprawl
+effect_condition_performer_kill_lair_boss_coast_1_override=Land the killing blow on the <color=#{notable}>Lair Boss</color> in The Shroud
+effect_condition_performer_kill_lair_boss_farm_1_override=Land the killing blow on the <color=#{notable}>Lair Boss</color> in The Foetor
+effect_condition_performer_kill_lair_boss_forest_1_override=Land the killing blow on the <color=#{notable}>Lair Boss</color> in The Tangle
+#
+# Kill Enemies - Road Panel
+#
+run_goal_progress_t_kill_guant_label=Land the killing blow on <color=#{notable}>Gaunt</color>
+run_goal_progress_t_kill_pillager_label=Land the killing blow on <color=#{notable}>Pillagers</color>
+run_goal_progress_e_kill_animals_label=Land the killing blow on <color=#{notable}>Creatures</color>
+run_goal_progress_e_kill_cadavers_label=Land the killing blow on <color=#{notable}>Cadavers</color>
+run_goal_progress_e_kill_cosmic_label=Land the killing blow on <color=#{notable}>Cosmic Beings</color>
+run_goal_progress_e_kill_fanatic_label=Land the killing blow on <color=#{notable}>Fanatics</color>
+run_goal_progress_e_kill_coastal_label=Land the killing blow on <color=#{notable}>Fisherfolk</color>
+run_goal_progress_e_kill_gentry_label=Land the killing blow on <color=#{notable}>Gentry</color>
+run_goal_progress_e_kill_swine_label=Land the killing blow on <color=#{notable}>Swine</color>
+run_goal_progress_m_kill_animal_label=Land the killing blow on <color=#{notable}>Creatures</color>
+run_goal_progress_m_kill_cadaver_label=Land the killing blow on <color=#{notable}>Cadavers</color>
+run_goal_progress_m_kill_cosmic_label=Land the killing blow on <color=#{notable}>Cosmic Beings</color>
+run_goal_progress_m_kill_fanatic_label=Land the killing blow on <color=#{notable}>Fanatics</color>
+run_goal_progress_m_kill_coastal_label=Land the killing blow on <color=#{notable}>Fisherfolk</color>
+run_goal_progress_m_kill_guant_label=Land the killing blow on <color=#{notable}>Gaunt</color>
+run_goal_progress_m_kill_gentry_label=Land the killing blow on <color=#{notable}>Gentry</color>
+run_goal_progress_m_kill_pillager_label=Land the killing blow on <color=#{notable}>Pillagers</color>
+run_goal_progress_m_kill_swine_label=Land the killing blow on <color=#{notable}>Swine</color>
+run_goal_progress_m_kill_lair_boss_label=Land the killing blow on a <color=#{notable}>Lair Boss</color>
+run_goal_progress_h_kill_animal_label=Land the killing blow on <color=#{notable}>Creatures</color>
+run_goal_progress_h_kill_cadaver_label=Land the killing blow on <color=#{notable}>Cadavers</color>
+run_goal_progress_h_kill_cosmic_label=Land the killing blow on <color=#{notable}>Cosmic Beings</color>
+run_goal_progress_h_kill_fanatic_label=Land the killing blow on <color=#{notable}>Fanatics</color>
+run_goal_progress_h_kill_coastal_label=Land the killing blow on <color=#{notable}>Fisherfolk</color>
+run_goal_progress_h_kill_guant_label=Land the killing blow on <color=#{notable}>Gaunt</color>
+run_goal_progress_h_kill_gentry_label=Land the killing blow on <color=#{notable}>Gentry</color>
+run_goal_progress_h_kill_pillager_label=Land the killing blow on <color=#{notable}>Pillagers</color>
+run_goal_progress_h_kill_swine_label=Land the killing blow on <color=#{notable}>Swine</color>
+#
+# Item Use - Hero Select Screen
+#
+effect_condition_performer_item_use_noisemaker_4_override=Use a <color=#{notable}>Noisemaker</color> 4+ times
+effect_condition_performer_item_use_smoke_bomb_4_override=Use a <color=#{notable}>Smoke Bomb</color> 4+ times
+effect_condition_performer_item_use_medicinal_herbs_4_override=Use <color=#{notable}>Medicinal Herbs</color> 4+ times
+effect_condition_performer_item_use_bear_trap_4_override=Use a <color=#{notable}>Bear Trap</color> 4+ times
+effect_condition_performer_item_use_pouch_of_lye_4_override=Use <color=#{notable}>Pouch of Lye</color> 4+ times
+effect_condition_performer_item_use_torch_consumable_2_override=Use <color=#{notable}>A Glimmer of Hope</color> 2+ times
+effect_condition_performer_item_use_antivenom_4_override=Use <color=#{notable}>Antivenom</color> 4+ times
+effect_condition_performer_item_use_bandages_4_override=Use <color=#{notable}>Bandages</color> 4+ times
+effect_condition_performer_item_use_burn_salve_4_override=Use <color=#{notable}>Burn Salve</color> 4+ times
+effect_condition_performer_item_use_spring_water_3_override=Use <color=#{notable}>Mineral-Rich Spring Water</color> 3+ times
+effect_condition_performer_item_use_the_blood_2_override=Use <color=#{notable}>The Blood</color> 2+ times
+effect_condition_performer_item_use_otherworldly_fragment_2_override=Use <color=#{notable}>Otherworldly Fragment</color> 2+ times
+effect_condition_performer_item_use_pustule_salve_2_override=Use <color=#{notable}>Pustule Salve</color> 2+ times
+#
+# Item Use - Road Panel
+#
+run_goal_progress_t_item_use_torch_consumable_label=Use <color=#{notable}>A Glimmer of Hope</color>
+run_goal_progress_e_item_use_noisemaker_label=Use <color=#{notable}>Noisemaker</color>
+run_goal_progress_e_item_use_smoke_bomb_label=Use <color=#{notable}>Smoke Bomb</color>
+run_goal_progress_e_item_use_medicinal_herbs_label=Use <color=#{notable}>Medicinal Herbs</color>
+run_goal_progress_e_item_use_bear_trap_label=Use <color=#{notable}>Bear Trap</color>
+run_goal_progress_e_item_use_pouch_of_lye_label=Use <color=#{notable}>Pouch of Lye</color>
+run_goal_progress_m_item_use_antivenom_label=Use <color=#{notable}>Antivenom</color>
+run_goal_progress_m_item_use_bandages_label=Use <color=#{notable}>Bandage</color>
+run_goal_progress_m_item_use_burn_salve_label=Use <color=#{notable}>Burn Salve</color>
+run_goal_progress_m_item_use_spring_water_label=Use <color=#{notable}>Mineral-Rich Spring Water</color>
+run_goal_progress_h_item_use_the_blood_label=Use <color=#{notable}>The Blood</color>
+run_goal_progress_h_item_use_otherworldly_fragment_label=Use <color=#{notable}>Otherworldy Fragment</color>
+run_goal_progress_h_item_use_pustule_salve_label=Use <color=#{notable}>Pustule Salve</color>
+#
+# Skill History Amount (Use in a single fight) - Hero Select Screen
+# Easy
+effect_condition_performer_skill_hist_pd_noxious_blast_override=Use <color=#{notable}>Noxious Blast</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_blinding_gas_override=Use <color=#{notable}>Blinding Gas</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_battlefield_medicine_override=Use <color=#{notable}>Battlefield Medicine</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_pick_to_the_face_override=Use <color=#{notable}>Pick to the Face</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_thrown_dagger_override=Use <color=#{notable}>Thrown Dagger</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_poison_dart_override=Use <color=#{notable}>Poison Dart</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_wicked_slice_override=Use <color=#{notable}>Wicked Slice</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_pistol_shot_override=Use <color=#{notable}>Pistol Shot</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_take_aim_override=Use <color=#{notable}>Take Aim</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_crush_override=Use <color=#{notable}>Crush</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_defender_override=Use <color=#{notable}>Defender</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_bolster_override=Use <color=#{notable}>Bolster</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_wicked_hack_override=Use <color=#{notable}>Wicked Hack</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_iron_swan_override=Use <color=#{notable}>Iron Swan</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_toe_to_toe_override=Use <color=#{notable}>Toe to Toe</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_searing_strike_override=Use <color=#{notable}>Searing Strike</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_firefly_override=Use <color=#{notable}>Firefly</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_smokescreen_override=Use <color=#{notable}>Smokescreen</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_razors_wit_override=Use <color=#{notable}>Razor's Wit</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_fade_to_black_override=Use <color=#{notable}>Fade to Black</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_inspiring_tune_override=Use <color=#{notable}>Inspiring Tune</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_chop_override=Use <color=#{notable}>Chop</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_withstand_override=Use <color=#{notable}>Withstand</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_solemnity_override=Use <color=#{notable}>Solemnity</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_sacrificial_stab_override=Use <color=#{notable}>Sacrificial Stab</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_wyrd_reconstruction_override=Use <color=#{notable}>Wyrd Reconstruction</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_daemons_pull_override=Use <color=#{notable}>Daemon's Pull</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_hand_of_light_override=Use <color=#{notable}>Hand of Light</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_judgement_override=Use <color=#{notable}>Judgement</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_divine_grace_override=Use <color=#{notable}>Divine Grace</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_incision_override=Use <color=#{notable}>Incision</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_pd_ounce_of_prevention_override=Use <color=#{notable}>Ounce of Prevention</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_flashing_daggers_override=Use <color=#{notable}>Flashing Daggers</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_gr_artemisia_override=Use <color=#{notable}>Absinthe</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hwm_duelists_advance_override=Use <color=#{notable}>Duelist's Advance</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hwm_tracking_shot_override=Use <color=#{notable}>Tracking Shot</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_maa_rampart_override=Use <color=#{notable}>Rampart</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_maa_hold_the_line_override=Use <color=#{notable}>Hold the Line</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hel_barbaric_yawp_override=Use <color=#{notable}>Barbaric YAWP!</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hel_if_it_bleeds_override=Use <color=#{notable}>If It Bleeds</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_run_run_and_hide_override=Use <color=#{notable}>Run and Hide</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_hearthlight_override=Use <color=#{notable}>Hearthlight</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_jes_slice_off_override=Use <color=#{notable}>Slice Off</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_jes_battle_ballad_override=Use <color=#{notable}>Battle Ballad</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_lep_purge_override=Use <color=#{notable}>Purge</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_lep_reflection_override=Use <color=#{notable}>Reflection</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_occ_abyssal_artillery_override=Use <color=#{notable}>Abyssal Artillery</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_occ_weakening_curse_override=Use <color=#{notable}>Weakening Curse</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_ves_illumination_override=Use <color=#{notable}>Illumination</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_ves_blessing_of_fortitude_override=Use <color=#{notable}>Consecration of Fortitude</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_magnesium_rain_override=Use <color=#{notable}>Magnesium Rain</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_gr_shadow_fade_override=Use <color=#{notable}>Shadow Fade</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hwm_double_cross_override=Use <color=#{notable}>Double Cross</color> 6+ times in a single fight
+effect_condition_performer_skill_hist_maa_strategic_withdrawal_override=Use <color=#{notable}>Strategic Withdrawal</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_hel_howling_end_override=Use <color=#{notable}>Howling End</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_backdraft_override=Use <color=#{notable}>Backdraft</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_jes_echoing_march_override=Use <color=#{notable}>Echoing March</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_lep_stagger_override=Use <color=#{notable}>Bash</color> 6+ times in a single fight
+effect_condition_performer_skill_hist_occ_chaotic_offering_override=Use <color=#{notable}>Chaotic Offering</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_mantra_override=Use <color=#{notable}>Mantra+</color> 3+ times in a single fight
+effect_condition_performer_skill_hist_gr_dead_of_night_override=Use <color=#{notable}>Dead of Night</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_repartee_override=Use <color=#{notable}>Repartee</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_lunge_override=Use <color=#{notable}>Lunge</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_pirouette_override=Use <color=#{notable}>Pirouette</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_gr_glint_in_the_dark_override=Use <color=#{notable}>Glint in the Dark</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_bleed_out_override=Use <color=#{notable}>Bleed Out</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_bloodlust_override=Use <color=#{notable}>Bloodlust</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_raucous_revelry_override=Use <color=#{notable}>Raucous Revelry</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_breakthrough_override=Use <color=#{notable}>Breakthrough</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hel_adrenaline_rush_override=Use <color=#{notable}>Adrenaline Rush</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_point_blank_shot_override=Use <color=#{notable}>Point Blank Shot</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_open_vein_override=Use <color=#{notable}>Open Vein</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_highway_robbery_override=Use <color=#{notable}>Highway Robbery</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_grapeshot_blast_override=Use <color=#{notable}>Grapeshot Blast</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_hwm_double_tap_override=Use <color=#{notable}>Double Tap</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_play_me_out_override=Use <color=#{notable}>Play Out</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_harvest_override=Use <color=#{notable}>Harvest</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_finale_override=Use <color=#{notable}>Finale</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_solo_override=Use <color=#{notable}>Solo</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_jes_encore_override=Use <color=#{notable}>Encore</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_break_override=Use <color=#{notable}>Break</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_revenge_override=Use <color=#{notable}>Revenge</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_intimidate_override=Use <color=#{notable}>Intimidate</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_hew_override=Use <color=#{notable}>Hew</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_lep_ruin_override=Use <color=#{notable}>Ruin</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_bellow_override=Use <color=#{notable}>Bellow</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_stand_fast_override=Use <color=#{notable}>Stand Fast</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_retribution_override=Use <color=#{notable}>Retribution</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_courageous_abandon_override=Use <color=#{notable}>Courageous Abandon</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_maa_command_override=Use <color=#{notable}>Command</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_vulnerability_hex_override=Use <color=#{notable}>Vulnerability Hex</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_binding_shadows_override=Use <color=#{notable}>Binding Shadows</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_withering_malediction_override=Use <color=#{notable}>Malediction</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_burning_stars_override=Use <color=#{notable}>The Burning Stars</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_occ_anamnesis_override=Use <color=#{notable}>Anamnesis</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_emboldening_vapours_override=Use <color=#{notable}>Emboldening Vapours</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_plague_grenade_override=Use <color=#{notable}>Plague Grenade</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_indiscriminate_science_override=Use <color=#{notable}>Indiscriminate Science</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_cause_of_death_override=Use <color=#{notable}>Cause of Death</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_pd_disorienting_blast_override=Use <color=#{notable}>Disorienting Blast</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_ransack_override=Use <color=#{notable}>Ransack</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_cauterize_override=Use <color=#{notable}>Cauterize</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_controlled_burn_override=Use <color=#{notable}>Controlled Burn</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_dragonfly_override=Use <color=#{notable}>Dragonfly</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_run_firestarter_override=Use <color=#{notable}>Firestarter</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_ministrations_override=Use <color=#{notable}>Ministrations</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_mace_bash_override=Use <color=#{notable}>Mace Bash</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_sanctuary_override=Use <color=#{notable}>Sanctuary</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_blessing_of_light_override=Use <color=#{notable}>Consecration of Light</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_ves_divine_comfort_override=Use <color=#{notable}>Divine Comfort</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_punish_override=Use <color=#{notable}>Punish</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_deathless_override=Use <color=#{notable}>Deathless</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_endure_override=Use <color=#{notable}>Endure</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_fester_override=Use <color=#{notable}>Fester</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_lash_gift_override=Use <color=#{notable}>Lash's Gift</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_rain_of_sorrows_override=Use <color=#{notable}>Acid Rain</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_more_more_override=Use <color=#{notable}>More! MORE!</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_suffer_override=Use <color=#{notable}>Suffer</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_exsanguinate_override=Use <color=#{notable}>Sepsis</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_reclaim_override=Use <color=#{notable}>Undying</color> 2+ times in a single fight
+effect_condition_performer_skill_hist_flg_necrosis_override=Use <color=#{notable}>Necrosis</color> 2+ times in a single fight
+#
+# Skill History Amount (Use in a single fight) - Road Panel
+# Easy
+run_goal_progress_e_skill_hist_gr_pick_to_the_face_label=Use <color=#{notable}>Pick to the Face</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_gr_thrown_dagger_label=Use <color=#{notable}>Thrown Dagger</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_gr_poison_dart_label=Use <color=#{notable}>Poison Dart</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_pd_noxious_blast_label=Use <color=#{notable}>Noxious Blast</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_pd_blinding_gas_label=Use <color=#{notable}>Blinding Gas</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_pd_battlefield_medicine_label=Use <color=#{notable}>Battlefield Medicine</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hwm_wicked_slice_label=Use <color=#{notable}>Wicked Slice</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hwm_pistol_shot_label=Use <color=#{notable}>Pistol Shot</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hwm_take_aim_label=Use <color=#{notable}>Take Aim</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_maa_crush_label=Use <color=#{notable}>Crush</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_maa_defender_label=Use <color=#{notable}>Defender</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_maa_bolster_label=Use <color=#{notable}>Bolster</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hel_wicked_hack_label=Use <color=#{notable}>Wicked Hack</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hel_iron_swan_label=Use <color=#{notable}>Iron Swan</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_hel_toe_to_toe_label=Use <color=#{notable}>Toe to Toe</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_run_searing_strike_label=Use <color=#{notable}>Searing Strike</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_run_firefly_label=Use <color=#{notable}>Firefly</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_run_smokescreen_label=Use <color=#{notable}>Smokescreen</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_jes_razors_wit_label=Use <color=#{notable}>Razor's Wit</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_jes_fade_to_black_label=Use <color=#{notable}>Fade to Black</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_jes_inspiring_tune_label=Use <color=#{notable}>Inspiring Tune</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_lep_chop_label=Use <color=#{notable}>Chop</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_lep_withstand_label=Use <color=#{notable}>Withstand</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_lep_solemnity_label=Use <color=#{notable}>Solemnity</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_occ_sacrificial_stab_label=Use <color=#{notable}>Sacrificial Stab</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_occ_wyrd_reconstruction_label=Use <color=#{notable}>Wyrd Reconstruction</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_occ_daemons_pull_label=Use <color=#{notable}>Daemon's Pull</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_ves_hand_of_light_label=Use <color=#{notable}>Hand of Light</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_ves_judgement_label=Use <color=#{notable}>Judgement</color> 2+ times in a single fight
+run_goal_progress_e_skill_hist_ves_divine_grace_label=Use <color=#{notable}>Divine Grace</color> 2+ times in a single fight
+# Med
+run_goal_progress_m_skill_hist_gr_flashing_daggers_label=Use <color=#{notable}>Flashing Daggers</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_gr_artemisia_label=Use <color=#{notable}>Absinthe</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_pd_incision_label=Use <color=#{notable}>Incision</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_pd_ounce_of_prevention_label=Use <color=#{notable}>Ounce of Prevention</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_hwm_duelists_advance_label=Use <color=#{notable}>Duelist's Advance</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_hwm_tracking_shot_label=Use <color=#{notable}>Tracking Shot</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_maa_rampart_label=Use <color=#{notable}>Rampart</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_maa_hold_the_line_label=Use <color=#{notable}>Hold the Line</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_hel_barbaric_yawp_label=Use <color=#{notable}>Barbaric YAWP!</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_hel_if_it_bleeds_label=Use <color=#{notable}>If It Bleeds</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_run_run_and_hide_label=Use <color=#{notable}>Run and Hide</color> 2+ times in a single fight
+run_goal_progress_m_skill_hist_run_hearthlight_label=Use <color=#{notable}>Hearthlight</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_jes_slice_off_label=Use <color=#{notable}>Slice Off</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_jes_battle_ballad_label=Use <color=#{notable}>Battle Ballad</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_lep_purge_label=Use <color=#{notable}>Purge</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_lep_reflection_label=Use <color=#{notable}>Reflection</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_occ_abyssal_artillery_label=Use <color=#{notable}>Abyssal Artillery</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_occ_weakening_curse_label=Use <color=#{notable}>Weakening Curse</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_ves_illumination_label=Use <color=#{notable}>Illumination</color> 3+ times in a single fight
+run_goal_progress_m_skill_hist_ves_blessing_of_fortitude_label=Use <color=#{notable}>Consecration of Fortitude</color> 2+ times in a single fight
+# Hard
+run_goal_progress_h_skill_hist_gr_dead_of_night_u_label=Use <color=#{notable}>Dead of Night+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_hwm_point_blank_shot_u_label=Use <color=#{notable}>Point Blank Shot+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_maa_bellow_u_label=Use <color=#{notable}>Bellow+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_hel_adrenaline_rush_u_label=Use <color=#{notable}>Adrenaline Rush+</color> 2+ times in a single fight
+run_goal_progress_h_skill_hist_run_ransack_u_label=Use <color=#{notable}>Ransack+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_jes_harvest_u_label=Use <color=#{notable}>Harvest+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_lep_hew_u_label=Use <color=#{notable}>Hew+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_occ_vulnerability_hex_u_label=Use <color=#{notable}>Vulnerability Hex+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_pd_plague_grenade_u_label=Use <color=#{notable}>Plague Grenade+</color> 3+ times in a single fight
+run_goal_progress_h_skill_hist_ves_ministrations_u_label=Use <color=#{notable}>Ministrations+</color> 3+ times in a single fight

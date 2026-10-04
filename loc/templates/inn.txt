@@ -1,0 +1,334 @@
+﻿inn_log_entry_biome_goal_complete='{0}' Complete!
+inn_log_entry_biome_goal_incomplete='{0}' incomplete!
+inn_screen_name_rest=Rest
+inn_screen_name_store=The Provisioner
+inn_screen_name_biome_results=Travelogue
+inn_screen_name_biome_select=Select Route
+inn_screen_name_stage_coach=The Wainwright
+inn_screen_name_upgrade_skills=Mastery Trainer
+inn_select_route_label=Select a Route
+inn_embark_button=Rest
+inn_results_screen_title=Travelogue
+inn_store_title=The Provisioner
+inn_post_results_screen_title=THIS SCREEN WILL BE GOING AWAY! SEE JIRA IC-3813
+inn_rest_item_blocked=Blocked!({0})
+inn_rest_item_condition_blocked=Item Condition
+inn_rest_target_select_single_target=Select a recipient!
+inn_rest_target_select_multi_target=Select two recipients!
+inn_rest_target_select_party_target=Select any hero!
+rest_item_blocked_label=BLOCKED!
+inn_title_test=The TEST INN
+inn_title_default=The Torch & Crown
+inn_title_valley_intro=The Torch & Crown
+inn_title_valley=The Torch & Crown
+inn_title_goodquirk=The Keening Well
+inn_title_badquirk=The Limping Mule
+inn_title_quirkcentral=The Vestal's Secret
+inn_title_superheal=The Butcher's Feast
+inn_title_stressheal=The River's Song
+inn_title_trinketshop=The Nomad's Wagon
+inn_title_scupgradeshop=The Station House
+inn_title_supplyshop=The Miller's Bounty
+inn_title_antipillager=The Rusty Blade
+inn_title_antigaunt=The Stumbling Corpse
+inn_title_anticultist=The Mountain's Shadow
+inn_title_scoutbuff=The Summit View
+inn_title_helpscouted=The Curious Nag
+inn_title_mysteryscouted=The Shambler's Altar
+inn_title_fightscouted=The Lute & Dagger
+inn_title_stressfulrest=The Tempting Goblet
+inn_title_freestuff=The Winking Thief
+inn_title_thegoodplace=The Roaring Hearth
+inn_title_thebadplace=The Hag's Cauldron
+inn_title_threeroads=The Greased Swine
+inn_title_upgradecity=The Olde Guild Hall
+inn_title_critcity=The Crossed Swords
+inn_title_behealedchild=The Good Doctor
+inn_title_circus=The Butcher's Circus
+inn_title_physicians_guild_seal=Physicians' Guild Seal
+inn_tooltip_test=PLACEHOLDER INN DESCRIPTION blah blah blah!!
+inn_tooltip_default=A glimmer of hope in the quickening dark.
+inn_tooltip_valley=A glimmer of hope in the quickening dark.
+inn_tooltip_goodquirk=The wailing is melancholic, but oddly soothing.
+inn_tooltip_badquirk=You're laughing. My mule don't like people laughing...
+inn_tooltip_quirkcentral=The reading material here is questionable and...undeniably compelling.
+inn_tooltip_superheal=The table is set; the roast beast glistens invitingly.
+inn_tooltip_stressheal=...the banks of the beautiful river Wah-Hoo
+inn_tooltip_trinketshop=A grand bazaar of blasphemous offerings.
+inn_tooltip_scupgradeshop=We're ridin' out tonight to case the promised land.
+inn_tooltip_supplyshop=Quality goods at discount prices!
+inn_tooltip_antipillager=Who commands the lawless pillagers and profiteers?
+inn_tooltip_antigaunt=They can be felled, they can be beaten.
+inn_tooltip_anticultist=We are all in the shadow of the End.
+inn_tooltip_scoutbuff=A breathtaking vista of unchecked villainy.
+inn_tooltip_helpscouted=The scout's news is dire; preparation is in order.
+inn_tooltip_mysteryscouted=There is no horror greater than the unknown abyss of night.
+inn_tooltip_fightscouted=Sing a song of sixpence, a pocket full of death.
+inn_tooltip_stressfulrest=Try the wine.
+inn_tooltip_freestuff=Remote, yet remarkably well provisioned...
+inn_tooltip_thegoodplace=Stay a while, and listen.
+inn_tooltip_thebadplace=You'll find no rest in a Hag's Cauldron.
+inn_tooltip_threeroads=Demoniac squeals echo in troubling unison from the nearby caves.
+inn_tooltip_upgradecity=There is only practice and pain.  Rest comes after death.
+inn_tooltip_critcity=They dueled feverishly, much to her wicked delight.
+inn_tooltip_behealedchild=Be cleansed, and ready once more for the dirt.
+inn_tooltip_circus=The Butcher demands a show! Rest here and ready yourselves for bloodshed.
+inn_travelogue_reached_label=The party reached {0}
+inn_travelogue_relationship_ended_label={0} and {1} were no longer {2}.
+inn_travelogue_relationship_formed_label={0} and {1} became {2}.
+inn_travelogue_affinity_changed_label={0} and {1} became more {2}.
+inn_travelogue_hero_replacement_label={0} has joined the expedition.
+inn_exit_confirmation_title=Rest
+inn_exit_confirmation_description=Rest for the night and then journey onward?
+inn_exit_confirmation_hero_points_available=-You still have mastery points to spend!
+inn_exit_confirmation_sc_items_usable=-You still have unequipped Stagecoach items!
+inn_exit_confirmation_sc_repairs=-You can still afford more Stagecoach repairs!
+inn_exit_confirmation_yes_label=Yes
+inn_exit_confirmation_no_label=No
+loot_screen_title_inn_freestuff=Supplies
+loot_screen_title_inn_upgradecity=Training
+loot_screen_title_inn_default=Rewards
+loot_screen_title_inn_valley=Rewards
+loot_screen_title_inn_goodquirk=Rewards
+loot_screen_title_inn_badquirk=Rewards
+loot_screen_title_inn_quirkcentral=Rewards
+loot_screen_title_inn_superheal=Rewards
+loot_screen_title_inn_stressheal=Rewards
+loot_screen_title_inn_trinketshop=Rewards
+loot_screen_title_inn_scupgradeshop=Rewards
+loot_screen_title_inn_supplyshop=Rewards
+loot_screen_title_inn_antipillager=Rewards
+loot_screen_title_inn_antigaunt=Rewards
+loot_screen_title_inn_anticultist=Rewards
+loot_screen_title_inn_scoutbuff=Rewards
+loot_screen_title_inn_helpscouted=Rewards
+loot_screen_title_inn_mysteryscouted=Rewards
+loot_screen_title_inn_fightscouted=Rewards
+loot_screen_title_inn_stressfulrest=Rewards
+loot_screen_title_inn_thegoodplace=Rewards
+loot_screen_title_inn_thebadplace=Rewards
+loot_screen_title_inn_threeroads=Rewards
+loot_screen_title_inn_critcity=Rewards
+loot_screen_title_inn_behealedchild=Rewards
+loot_screen_description_inn_freestuff=Donations to your cause.
+loot_screen_description_inn_upgradecity=These veterans offer you all they have left: their knowledge.
+loot_screen_description_inn_default=Yours for the taking...
+loot_screen_description_inn_valley=Yours for the taking...
+loot_screen_description_inn_goodquirk=Yours for the taking...
+loot_screen_description_inn_badquirk=Yours for the taking...
+loot_screen_description_inn_quirkcentral=Yours for the taking...
+loot_screen_description_inn_superheal=Yours for the taking...
+loot_screen_description_inn_stressheal=Yours for the taking...
+loot_screen_description_inn_trinketshop=Yours for the taking...
+loot_screen_description_inn_scupgradeshop=Yours for the taking...
+loot_screen_description_inn_supplyshop=Yours for the taking...
+loot_screen_description_inn_antipillager=Yours for the taking...
+loot_screen_description_inn_antigaunt=Yours for the taking...
+loot_screen_description_inn_anticultist=Yours for the taking...
+loot_screen_description_inn_scoutbuff=Yours for the taking...
+loot_screen_description_inn_helpscouted=Yours for the taking...
+loot_screen_description_inn_mysteryscouted=Yours for the taking...
+loot_screen_description_inn_fightscouted=Yours for the taking...
+loot_screen_description_inn_stressfulrest=Yours for the taking...
+loot_screen_description_inn_thegoodplace=Yours for the taking...
+loot_screen_description_inn_thebadplace=Yours for the taking...
+loot_screen_description_inn_threeroads=Yours for the taking...
+loot_screen_description_inn_critcity=Yours for the taking...
+loot_screen_description_inn_behealedchild=Yours for the taking...
+inn_upgrade_skills_reset_label=Reset
+inn_upgrade_skills_apply_label=Apply
+inn_upgrade_skills_confirmation_title=Continue
+inn_upgrade_skills_confirmation_desc=Commit these upgrades?
+inn_upgrade_skills_confirmation_apply=Yes
+inn_upgrade_skills_confirmation_cancel=No
+inn_upgrade_skills_close_confirmation_title=Close
+inn_upgrade_skills_close_confirmation_desc=Apply points before closing?
+inn_next_biome_append_label= <color=#{neutral}>(Until Next Inn)</color>
+biome_goal_tooltip_label=<size=140%><font={q}NDDunkelD-Bold SDF{q}><color=#{notable}>GOAL</color></font></size>
+mountain_embark_equip_trophies_label=You must have a trophy equipped to embark!
+#
+# ANIMAL PART TRAVELOGUE ENTRIES
+#
+inn_bonus_spider_gland_title=Bulbous Venom Gland delivered
+inn_bonus_spider_appendage_title=Chitinous Appendage delivered
+inn_bonus_worm_slime_title=Congealed Slime delivered
+inn_bonus_dog_teeth_title=Impressive Incisors delivered
+inn_bonus_worm_secretion_title=Peculiar Secretion delivered
+inn_bonus_dog_blood_title=Rabid Blood Extract delivered
+inn_bonus_locked_strongbox_title=Locked Strongbox delivered
+inn_bonus_hero_bones_01_title=Hero Remains delivered
+inn_bonus_hero_bones_02_title=Hero Remains delivered
+inn_bonus_hero_bones_03_title=Hero Remains delivered
+inn_bonus_puzzling_trapezohedron_title=Puzzling Trapezohedron delivered
+inn_bonus_physicians_guild_seal_title=Physicians' Guild Seal delivered
+#
+inn_bonus_spider_gland_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Bulbous Venom Gland</color>.
+inn_bonus_spider_gland_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>All trinkets are discounted!
+inn_bonus_spider_appendage_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Chitinous Appendage</color>. 
+inn_bonus_spider_appendage_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>All combat and Inn items are discounted!
+inn_bonus_worm_slime_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Congealed Slime</color>. 
+inn_bonus_worm_slime_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>All heroes <color=#{notable}>-3</color> <sprite name={q}token_stress{q}>.
+inn_bonus_dog_teeth_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Impressive Incisors</color>. 
+inn_bonus_dog_teeth_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>All Stagecoach items are discounted.
+inn_bonus_worm_secretion_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Peculiar Secretion</color>. 
+inn_bonus_worm_secretion_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+2 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>All diseases are cured.
+inn_bonus_dog_blood_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Rabid Blood Extract</color>. 
+inn_bonus_dog_blood_travelogue_bonuses_label=<sprite name={q}icon_animal_part{q} color=#9D8D55><color=#379596>+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font></color>\n<sprite name={q}icon_animal_part{q} color=#9D8D55>Each hero has 1 negative quirk purged.
+inn_bonus_locked_strongbox_travelogue_delivery_label=The Provisioner opens the <color=#{notable}>Locked Strongbox</color>.
+inn_bonus_locked_strongbox_travelogue_bonuses_label=+48 <sprite name={q}icon_relic{q}>\nMixed Treasure
+inn_bonus_hero_bones_01_travelogue_delivery_label=<color=#{notable}>Hope</color> from the fallen.
+inn_bonus_hero_bones_01_travelogue_bonuses_label=+4 <sprite name={q}icon_candle_glyph{q}>
+inn_bonus_hero_bones_02_travelogue_delivery_label=<color=#{notable}>Hope</color> from the fallen.
+inn_bonus_hero_bones_02_travelogue_bonuses_label=+4 <sprite name={q}icon_candle_glyph{q}>
+inn_bonus_hero_bones_03_travelogue_delivery_label=<color=#{notable}>Hope</color> from the fallen.
+inn_bonus_hero_bones_03_travelogue_bonuses_label=+4 <sprite name={q}icon_candle_glyph{q}>
+inn_bonus_puzzling_trapezohedron_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Puzzling Trapezohedron</color>.
+inn_bonus_puzzling_trapezohedron_travelogue_bonuses_label=+48 <sprite name={q}icon_factioncurrency{q}>
+inn_bonus_physicians_guild_seal_travelogue_delivery_label=The Provisioner eagerly accepts the <color=#{notable}>Physicians' Guild Seal</color>.
+inn_bonus_physicians_guild_seal_travelogue_bonuses_label=+1 <font={q}NDDunkelD-Bold SDF{q}><sprite name={q}icon_heropoints{q}></font>\n<color=#{notable}>Round Start:</color> <sprite name={q}icon_healthup{q}> <color=#{heal}>2</color> (5%) (1 Inn) [Party]\n<color=#{notable}>+20%</color> Healing Given (1 Inn) [Party]
+inn_hero_death_travelogue_kill_label={0} was slain by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was slain by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was slain by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was slain by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was slain by {1}.
+inn_hero_death_travelogue_kill_label={0} was murdered by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was murdered by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was murdered by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was murdered by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was murdered by {1}.
+inn_hero_death_travelogue_kill_label={0} was undone by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was undone by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was undone by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was undone by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was undone by {1}.
+inn_hero_death_travelogue_kill_label={0} was dismembered by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was dismembered by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was dismembered by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was dismembered by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was dismembered by {1}.
+inn_hero_death_travelogue_kill_label={0} was decapitated by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was decapitated by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was decapitated by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was decapitated by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was decapitated by {1}.
+inn_hero_death_travelogue_kill_label={0} was crushed by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was crushed by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was crushed by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was crushed by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was crushed by {1}.
+inn_hero_death_travelogue_kill_label={0} was bested by {1}.
+inn_hero_death_travelogue_kill_label+male+female={0} was bested by {1}.
+inn_hero_death_travelogue_kill_label+female+male={0} was bested by {1}.
+inn_hero_death_travelogue_kill_label+male+male={0} was bested by {1}.
+inn_hero_death_travelogue_kill_label+female+female={0} was bested by {1}.
+inn_hero_self_death_travelogue_generic_label={0} succumbed to their wounds.
+inn_hero_self_death_travelogue_generic_label+male={0} succumbed to their wounds.
+inn_hero_self_death_travelogue_generic_label+female={0} succumbed to their wounds.
+inn_hero_self_death_travelogue_bleed_label={0} bled to death.
+inn_hero_self_death_travelogue_bleed_label+male={0} bled to death.
+inn_hero_self_death_travelogue_bleed_label+female={0} bled to death.
+inn_hero_self_death_travelogue_blight_label={0} succumbed to blight.
+inn_hero_self_death_travelogue_blight_label+male={0} succumbed to blight.
+inn_hero_self_death_travelogue_blight_label+female={0} succumbed to blight.
+inn_hero_self_death_travelogue_burn_label={0} was burned beyond recognition.
+inn_hero_self_death_travelogue_burn_label+male={0} was burned beyond recognition.
+inn_hero_self_death_travelogue_burn_label+female={0} was burned beyond recognition.
+inn_boss_kill_travelogue_generic_label={0} was slain by {1}.
+inn_boss_kill_travelogue_generic_label+male+male={0} was slain by {1}.
+inn_boss_kill_travelogue_generic_label+female+female={0} was slain by {1}.
+inn_boss_kill_travelogue_generic_label+male+female={0} was slain by {1}.
+inn_boss_kill_travelogue_generic_label+female+male={0} was slain by {1}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label=The odious Harvest Child was slain by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+female=The odious Harvest Child was slain by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+male=The odious Harvest Child was slain by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label=The abhorrent Harvest Child was destroyed by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+female=The abhorrent Harvest Child was destroyed by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+male=The abhorrent Harvest Child was destroyed by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label=The loathsome Harvest Child was ended by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+female=The loathsome Harvest Child was ended by {0}.
+inn_boss_kill_travelogue_plague_eater_harvest_table_label+male=The loathsome Harvest Child was ended by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label=The insufferable Librarian was extinguished by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label+female=The insufferable Librarian was extinguished by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label+male=The insufferable Librarian was extinguished by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label=The maddening Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label+female=The maddening Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_label+male=The maddening Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label=The insufferable Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label+female=The insufferable Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label+male=The insufferable Librarian met its maker at the hands of {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label=The anarchic Librarian was reduced to ash by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label+female=The anarchic Librarian was reduced to ash by {0}.
+inn_boss_kill_travelogue_fanatic_librarian_ignited_label+male=The anarchic Librarian was reduced to ash by {0}.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label=The inscrutable Dreaming General stood no chance against {0}.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label+female=The inscrutable Dreaming General stood no chance against {0}.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label+male=The inscrutable Dreaming General stood no chance against {0}.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label=The enigmatic Dreaming General fell to {0}'s mighty blow.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label+female=The enigmatic Dreaming General fell to {0}'s mighty blow.
+inn_boss_kill_travelogue_lost_battalion_boss_dreaming_general_label+male=The enigmatic Dreaming General fell to {0}'s mighty blow.
+inn_meltdown_travelogue_one_hero_single_label={0} was overwhelmed and had a meltdown.
+inn_meltdown_travelogue_one_hero_single_label+female={0} was overwhelmed and had a meltdown.
+inn_meltdown_travelogue_one_hero_single_label+male={0} was overwhelmed and had a meltdown.
+inn_meltdown_travelogue_one_hero_plural_label={0}, poor soul, succumbed to various meltdowns.
+inn_meltdown_travelogue_one_hero_plural_label+female={0}, poor soul, succumbed to various meltdowns.
+inn_meltdown_travelogue_one_hero_plural_label+male={0}, poor soul, succumbed to various meltdowns.
+inn_meltdown_travelogue_two_heroes_single_label={0} and {1} had a meltdown.
+inn_meltdown_travelogue_two_heroes_single_label+female+female={0} and {1} had a meltdown.
+inn_meltdown_travelogue_two_heroes_single_label+male+male={0} and {1} had a meltdown.
+inn_meltdown_travelogue_two_heroes_single_label+female+male={0} and {1} had a meltdown.
+inn_meltdown_travelogue_two_heroes_single_label+male+female={0} and {1} had a meltdown.
+inn_meltdown_travelogue_two_heroes_plural_label={0} and {1} suffered through meltdowns.
+inn_meltdown_travelogue_two_heroes_plural_label+female+female={0} and {1} suffered through meltdowns.
+inn_meltdown_travelogue_two_heroes_plural_label+male+male={0} and {1} suffered through meltdowns.
+inn_meltdown_travelogue_two_heroes_plural_label+female+male={0} and {1} suffered through meltdowns.
+inn_meltdown_travelogue_two_heroes_plural_label+male+female={0} and {1} suffered through meltdowns.
+inn_meltdown_travelogue_three_heroes_single_label={0}, {1} and {2} had a meltdown.
+inn_meltdown_travelogue_three_heroes_plural_label={0}, {1}, and {2} were burdened repeatedly by meltdowns.
+inn_meltdown_travelogue_four_heroes_single_label=All Companions were mentally vanquished and suffered meltdowns.
+inn_meltdown_travelogue_four_heroes_plural_label=The Companions struggled mightily with their minds as they succumbed to meltdown after meltdown.
+inn_travelogue_reached_hihp_lostr_label=The resolute Companions reached {0}
+inn_travelogue_reached_hihp_histr_label=The distraught Companions reached {0}
+inn_travelogue_reached_lohp_histr_label=The shattered Companions reached {0}
+inn_travelogue_reached_lohp_lostr_label=The bloodied Companions reached {0}
+inn_travelogue_reached_hihp_lostr_solo_label={0}, resolute, has arrived at {1}.
+inn_travelogue_reached_hihp_histr_solo_label={0}, distraught, has arrived at {1}.
+inn_travelogue_reached_lohp_histr_solo_label={0}, shattered, has arrived at {1}.
+inn_travelogue_reached_lohp_lostr_solo_label={0}, bloodied, has arrived at {1}.
+inn_hero_quirk_self_death_travelogue_label={0} fell prey to their own {1} ways.
+inn_hero_quirk_self_death_travelogue_label+male={0} fell prey to their own {1} ways.
+inn_hero_quirk_self_death_travelogue_label+female={0} fell prey to their own {1} ways.
+inn_hero_quirk_self_death_travelogue_label={0} succumbed to self-inflicted {1}.
+inn_hero_quirk_self_death_travelogue_label+male={0} succumbed to self-inflicted {1}.
+inn_hero_quirk_self_death_travelogue_label+female={0} succumbed to self-inflicted {1}.
+inn_hero_quirk_self_death_travelogue_label=Unsurprisingly, {1} was the end of {0}.
+inn_hero_quirk_self_death_travelogue_label+male=Unsurprisingly, {1} was the end of {0}.
+inn_hero_quirk_self_death_travelogue_label+female=Unsurprisingly, {1} was the end of {0}.
+inn_screen_name_end_run=End Expedition
+inn_screen_title_end_run=Every League, a Lesson.
+inn_end_run_screen_end_button_label=Collect Hope
+inn_end_run_screen_confirmation_dialog_title=Collect Hope?
+inn_end_run_screen_confirmation_dialog_desc=This will end your expedition. Proceed?
+inn_end_run_screen_confirmation_dialog_yes_label=Yes
+inn_end_run_screen_confirmation_dialog_no_label=No
+inn_upgrade_skills_bounty_hunter_maxed_label=The Bounty Hunter has already mastered his abilities.
+inn_bounty_hunter_death_travelogue_label={0} was slain during his mercenary service. {1} <sprite name={q}icon_candle_glyph{q}> were pledged to his estate.
+inn_bounty_hunter_biome_complete_travelogue_label={0} left the party after his mercenary service. {1} <sprite name={q}icon_candle_glyph{q}> candles will be deducted for his fee.
+inn_end_run_travelogue_entry_party_wipe=No heroes remain. This is the end of your expedition.
+inn_end_run_travelogue_entry_no_trophy=With no trophy, this is the end of your expedition.
+inn_run_goal_complete_travelogue_label={0} completed their hero objective!
+inn_run_goal_complete_travelogue_label+female={0} completed her hero objective!
+inn_run_goal_complete_travelogue_label+male={0} completed his hero objective!
+inn_disease_cured_travelogue_label={0}'s <color=#{disease_quirk}>{1}</color> has been <color=#{stat_buff}>cured by {2}</color>!
+inn_disease_cured_travelogue_label+male={0}'s <color=#{disease_quirk}>{1}</color> has been <color=#{stat_buff}>cured by {2}</color>!
+inn_disease_cured_travelogue_label+female={0}'s <color=#{disease_quirk}>{1}</color> has been <color=#{stat_buff}>cured by {2}</color>!
+sc_repair_stage_coach_armour_label=Repair Armor
+sc_repair_stage_coach_wheels_label=Repair Wheels
+inn_tooltip_discounted_stage_coach_armor=Discounted <sprite name={q}icon_currency_armor{q}> Repairs
+inn_tooltip_discounted_stage_coach_wheels=Discounted <sprite name={q}icon_currency_wheel{q}> Repairs
+inn_travelogue_biome_complete_label={0} Candle gained for reaching the Inn!
+inn_travelogue_biome_complete_label+plural={0} Candles gained for reaching the Inn!
+inn_travelogue_biome_complete_label+plural+pl=Polish Plural special case for if a number ends in 2, 3, or 4 and is less than 10 or greater than 20
+inn_travelogue_biome_complete_label+plural+cz=Czech Plural special case for if a number is 2, 3, or 4
+inn_travelogue_biome_complete_label+plural+ru=Russian Plural special case for if a number is 2, 3, or 4
+inn_travelogue_biome_complete_label+plural+ukr=Ukrainian Plural special case for if a number is 2, 3, or 4
+prologue_inn_dialog_title_label=Prologue Complete
+prologue_inn_dialog_desc_label=You have found your fortitude at last.\nCollect what hope you can, and end your expedition here.

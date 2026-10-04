@@ -1,0 +1,2 @@
+story_bubble_title=Echoes Of The Past
+effect_tooltip_actor_type_monsters=Enemy
