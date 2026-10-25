@@ -1,0 +1,10 @@
+name: Translation Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    uses: ParsiSaz/.github/.github/workflows/reusable-package-mod.yml@main
