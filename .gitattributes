@@ -1,0 +1,18 @@
+* text=auto eol=lf
+
+# Localization text catalogs
+*.po text
+*.pot text
+*.csv text
+*.xml text
+*.json text
+
+# Game assets & binaries
+*.pak binary
+*.bin binary
+*.dat binary
+*.zip binary
+*.dds binary
+*.png binary
+*.ttf binary
+*.otf binary
