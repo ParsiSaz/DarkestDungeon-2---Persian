@@ -16,3 +16,13 @@ Desktop.ini
 *.log
 Cache/
 Temp/
+
+# Generated .NET runtime configs & local AI scaffolding
+*.runtimeconfig.json
+.ai/
+.claude/
+.cursor/
+.gemini/
+.agents/
+AGENTS.md
+GEMINI.md
